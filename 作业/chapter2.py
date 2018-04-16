@@ -53,7 +53,7 @@ current_layer = menu
 last_layer = []
 
 while True:
-    for i in  current_layer:   # menu[北京]
+    for i in current_layer:   # menu[北京]
         print(i)
 
     choice = input("请输入要进入的区域:").strip()
