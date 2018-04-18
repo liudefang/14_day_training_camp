@@ -46,25 +46,33 @@ accounts = {}
 # 定义购物车
 shopping_cart = []
 
-f = open("user_list", "r", encoding="utf-8")
+f = open("user_info", "r", encoding="utf-8")
 for line in f:  # 循环文件
-    u,p = line.split(',')
+    u, p = line.split(',')
     accounts[u] = p.strip()
 
 print(accounts)
 f.close()
 
-username = input("请输入你的用户名:").strip()
-password = input("请输入你的密码:").strip()
+while True:
+    username = input("请输入你的用户名:").strip()
+    password = input("请输入你的密码:").strip()
 
-if username in accounts:
-    if accounts[username] == password:  # 输入的密码和字典的密码是否一致
-        print("登录成功", username)
+    if username in accounts:
+        if accounts[username] == password:  # 输入的密码和字典的密码是否一致
+            print("登录成功", username)
+            break
+        else:
+            print("用户名或密码错误，请重新输入!")
     else:
-        print("用户名或密码错误，请重新输入!")
-else:
-    print("用户名不存在!")
-pay = int(input("请输入你的工资:"))
+        print("用户名不存在!")
+while True:
+    pay = input("请输入你的工资:")
+    if pay.isdigit():
+        pay = int(pay)
+        break
+    else:
+        print("工资只能为数字!")
 print("--------商品列表如下:-------")
 for index, item in enumerate(goods):  # 从序号1打印商品列表信息
     print("%s. %s" % (index, item))
@@ -79,7 +87,7 @@ while not exit_flag:
             if goods[choice]['price'] <= pay:
                 pay = pay - goods[choice]['price']
                 shopping_cart.append(goods[choice])
-                print("\033[1;31;1m 添加商品%s到购物车成功\033[1;31;0m, \033[1;31;1m 当前余额为%s\033[1;31;0m" % (goods[choice], pay))
+                print("\033[31;1m添加商品%s到购物车成功\033[0m, \033[31;1m当前余额为%s\033[0m" % (goods[choice], pay))
             else:
                 print("你的余额不足，不能购买该商品")
                 continue

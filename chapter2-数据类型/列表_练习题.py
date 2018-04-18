@@ -106,8 +106,8 @@ shopping_cat = []
 
 exit_flag = False
 while not exit_flag:
-    for index,p in enumerate(products):
-        print("%s. %s   %s"  %(index,p[0],p[1]))
+    for index, p in enumerate(products):
+        print("%s. %s   %s" % (index, p[0], p[1]))
 
     choice = input("请输入商品的编号:")
     if choice.isdigit():

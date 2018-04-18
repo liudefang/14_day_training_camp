@@ -1,0 +1,136 @@
+
+
+编程语言
+
+低级语言
+汇编  0101
+
+01010   move
+
+
+高级语言
+
+编译
+    先编译，再执行
+    c,c++,c#,go,delphi
+
+    运行速度快， 编译成了可执行代码
+
+解释
+    解释器
+    python, php,js,ruby
+    java
+
+
+
+JIT just in time
+    混合型
+
+
+
+变量命名规范
+    PEP 8
+    驼峰 式
+    AgeOfOldboy
+    age_of_oldboy
+
+    常量 ： 程序中不会修改的变量
+
+缩进
+    4个空格
+    vim
+
+
+数据类型
+    数字
+        整数，浮点（小数）
+    字符串
+        name = 'luffy' #加上是字符串
+        name = luffy #代表luffy是另外一个变量
+        age = 22
+        age = '22'
+
+        a = 1
+        b = a
+
+        a = 4
+
+
+    布尔
+        True  False
+
+程序交互
+
+   py3  input
+   py2  raw_input
+
+
+流程控制
+
+    if ..else
+
+    while
+
+    break
+        完全跳出
+
+    continue 中止本次循环，
+for循环vs while
+
+for i in range(10):#必须有边界
+
+count = 0
+while count < 10 : #可以搞成死循环
+    count += 1
+
+
+
+n = [a,b,c]
+     0 1 2
+     n[1]
+
+dict
+
+    k:v  # 字典的key 必须唯一
+    n2 = {k1:v1,
+          k2:v2,
+          k3:[a,b,c]
+          k2:[c,b,d]
+        }
+
+    jerkoff  190
+
+    xxx
+
+    jerkoff 200
+
+
+
+
+input --> output -- > correction
+
+
+# 文件操作
+
+1. 找到文件，打开  open(filename)
+2. 操作内容    read,write
+3. 保存关闭    close
+
+
+alex
+
+jack
+rain
+
+flag 小旗子  竖起来True
+
+
+alex
+alex   小旗子 倒下了
+alex
+
+if flag == True
+
+程序开始，
+1. 记住第一次输入的用户名。
+2. 没输入一次，检查跟上一次是否相等？
