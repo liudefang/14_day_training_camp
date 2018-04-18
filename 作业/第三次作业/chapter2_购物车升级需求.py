@@ -18,7 +18,7 @@ goods = [
     {"name": "飞机", "price": 9999}
 ]
 
-#定义一个用户字典
+# 定义一个用户字典
 user_dict = {}
 
 # 定义购物车
@@ -34,17 +34,18 @@ for line in user_shop_cart.readlines():
     value_interm = useriterm.split(',')
     value_username = value_interm[0]
     value_goodsname = value_interm[1]
+    value_price = value_interm[2]
 
     shopping_cart[value_username] = {
         "username": value_username,
-        "goodsname": value_goodsname
+        "goodsname": value_goodsname,
+        "price": value_price
 
     }
 user_shop_cart.close()
 
 # 加载用户列表信息
 f = open("user_list", "r", encoding="utf-8")   # 读取用户列表信息
-
 for line in f.readlines():
     print("line:", line)
     useriterm = line.strip()
@@ -59,7 +60,7 @@ for line in f.readlines():
         "salary": value_pay
     }
 f.close()
-
+salary = 0
 while True:
     username = input("请输入你的用户名:").strip()
     password = input("请输入你的密码:").strip()
@@ -94,16 +95,21 @@ for index, item in enumerate(goods):  # 从序号1打印商品列表信息
 exit_flag = False
 while not exit_flag:
 
-    choice = input("请输入商品编号:")
+    print("------请输入如下类型:------\n"
+          "1.上面的商品编号:\n"
+          "2.输入q退出购物:\n"
+          "3.输入h查看历史消费清单:\n")
+    choice = input("请选择输入:")
     if choice.isdigit():  # 校验是否为整数
         choice = int(choice)
         if choice >= 0 and choice < len(goods):
-            if goods[choice]['price'] <= pay:
-                salary = pay - goods[choice]['price']
-                #shopping_cart.append(goods[choice])
+            total_salary = salary + pay
+            if goods[choice]['price'] <= total_salary:
+                salary = total_salary - goods[choice]['price']
+                # shopping_cart.append(goods[choice])
 
                 f = open("user_shop_cart", 'a', encoding="utf-8")
-                f.write("%s,%s\n" % (username, goods[choice]['name']))
+                f.write("%s, %s, %s\n" % (username, goods[choice]['name'], goods[choice]['price']))
                 f.close()
                 user_dict[username]["salary"] = salary
                 f1 = open("user_list", "w+", encoding="utf-8")
@@ -113,7 +119,7 @@ while not exit_flag:
                     user = ",".join(user)
                     f1.write(user + "\n")
                     f1.close()
-                print("\033[31;1m添加商品'%s'到购物车成功\033[0m, \033[31;1m当前余额为%s\033[0m" % (goods[choice]['name'], salary))
+                print("\033[31;1m添加商品:%s 到购物车成功'\033[0m, \033[31;1m价格为:%s\033[0m, \033[31;1m当前余额为: %s元\033[0m" % (goods[choice]['name'],goods[choice]['price'], salary))
 
             else:
                 print("你的余额不足，不能购买该商品")
@@ -122,92 +128,13 @@ while not exit_flag:
             print("该商品编号不存在！")
 
     elif choice == 'q':
-        #if len(user_shop_cart) > 0:
         print("----您已经购买的商品如下----")
-
-        for index,item in enumerate(shopping_cart):
-            if shopping_cart[username]["username"] == username:
-                print("商品名称:", shopping_cart[username]["goodsname"])
-        index += 1
-
-
+        print("商品名称:", shopping_cart[username]["goodsname"])
         print("----您所剩余额为----")
-        print("余额:", pay)
+        print("\033[31;1m余额%元\033[0m:" % salary)
+        break
+
+    elif choice == 'h':
+        print("----您的消费记录如下----")
+        print("\033[31;1m商品名称:%s\033[0m, \033[31;1m价格:%s元\033[0m" % (shopping_cart[username]["goodsname"], shopping_cart[username]["price"]))
         exit_flag = True
-
-
-
-# name = input("输入姓名：")
-# password = input("输入密码：")
-# while True:
-#     if name in data:            #用户在档案中
-#         if password in data[name]:          #密码和用户名对应，校验正确，登录。
-#             salary = float(data[name][password])
-#             print('''\033[32;1m欢迎登录，当前余额为%s\033[0m'''%salary)
-#             break
-#         else:           #否则密码错误，请重新输入
-#             password = input("密码错误，请重新输入：")
-#             continue
-#     else:           #否则判断为首次登录，将用户名，密码，工资存到用户信息文件中
-#         password_salary = {}
-#         salary_str = input("欢迎首次登录，请输入你的工资：")
-#         salary = float(salary_str)
-#         password_salary[password] = salary          #工资对应到密码
-#         data[name] = password_salary            #将密码-工资对应到用户名
-#         file.seek(0)
-#         file.write(str(data))
-#         file.tell()
-#         break
-#
-# list = [#购物清单
-#     ["iphone",5800],
-#     ["sifei",800],
-#     ["macbook",17500],
-#     ["book",75],
-#     ["apple",5]
-# ]
-#
-# file_list_r = open("历史购物信息.txt","r+",encoding="utf-8")
-# file_list_r = str(file_list_r.read())
-# shoppinglist_dict = eval(file_list_r)
-# if name not in shoppinglist_dict:
-#     shoppinglist_dict[name] = []
-# shoppinglist = shoppinglist_dict[name]
-# shoppinglist_dict_now = []
-# choose = input("\n是否需要查询历史购物记录(y/n)：")
-# if choose == 'y':
-#     print("\n\n---------->历史购物记录<----------")
-#     print(shoppinglist)
-#     print("---------->结束<----------")
-#
-# while not set:      #购物车开始
-#     print("---------->商品清单<----------")
-#     for index,item in enumerate(list,1):
-#         print(index,item)
-#     print("---------->结束<----------")
-#     number = input("请输入想购买商品编号：")
-#     if number == "q":
-#         set = True
-#         data[name][password] = str(salary)
-#         file.seek(0)
-#         file.write(str(data))
-#         file.tell()
-#         print("---------->购物清单<----------")
-#         print(shoppinglist)
-#         print("您的余额：",salary)
-#         print("---------->结束<----------")
-#         shoppinglist.extend(shoppinglist)
-#         shoppinglist_dict[name] = shoppinglist
-#     elif number.isdigit() == False:
-#         print("\033[31;1m输入不是编号内容，请重新输入\033[0m")
-#     elif int(number)>int(len(list)) or int(number)<= 0:         #输入值不在清单中，报错
-#         print("\033[31;1m您所购买的商品不在清单中\033[0m")
-#     else:
-#         number_buy = int(number)-1
-#         if list[number_buy][1]<(salary):            #如果余额足够，提示购买成功并显示余额。
-#             salary = salary - int(list[number_buy][1])
-#             msg = '\033[32;1m您已经将%s加入购物车中，余额为%d\033[0m'%(list[number_buy][0],salary)
-#             print(msg)
-#             shoppinglist.append(list[number_buy])           #将本次购物信息加到购买记录中
-#         else:
-#             print("\033[31;1m余额不足，无法购买!\033[0m")            #提示余额不足
