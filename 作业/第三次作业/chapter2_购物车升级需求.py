@@ -70,7 +70,7 @@ while True:
 
             if user_dict[username]["password"] == password:  # 输入的密码和字典的密码是否一致
                 salary = float(user_dict[username]["salary"])
-                print("\033[32;1m登录成功:%s,您的余额为:%s\033[0m" %(username, salary))
+                print("\033[32;1m登录成功:%s,您的余额为:%s元\033[0m" % (username, salary))
                 break
             else:
 
@@ -99,10 +99,10 @@ while not exit_flag:
           "1.上面的商品编号:\n"
           "2.输入q退出购物:\n"
           "3.输入h查看历史消费清单:\n")
-    choice = input("请选择输入:")
+    choice = input("请选择输入:").strip()
     if choice.isdigit():  # 校验是否为整数
         choice = int(choice)
-        if choice >= 0 and choice < len(goods):
+        if 0 <= choice < len(goods):
             total_salary = salary + pay
             if goods[choice]['price'] <= total_salary:
                 salary = total_salary - goods[choice]['price']
@@ -119,7 +119,7 @@ while not exit_flag:
                     user = ",".join(user)
                     f1.write(user + "\n")
                     f1.close()
-                print("\033[31;1m添加商品:%s 到购物车成功'\033[0m, \033[31;1m价格为:%s\033[0m, \033[31;1m当前余额为: %s元\033[0m" % (goods[choice]['name'],goods[choice]['price'], salary))
+                print("\033[31;1m添加商品:%s 到购物车成功'\033[0m, \033[31;1m价格为:%s元\033[0m, \033[31;1m当前余额为: %s元\033[0m" % (goods[choice]['name'],goods[choice]['price'], salary))
 
             else:
                 print("你的余额不足，不能购买该商品")
@@ -129,12 +129,15 @@ while not exit_flag:
 
     elif choice == 'q':
         print("----您已经购买的商品如下----")
-        print("商品名称:", shopping_cart[username]["goodsname"])
+        goods_name = shopping_cart[username]["goodsname"]
+        print("商品名称:", goods_name)
         print("----您所剩余额为----")
-        print("\033[31;1m余额%元\033[0m:" % salary)
+        print("\033[31;1m余额:%s元\033[0m:" % salary)
         break
 
     elif choice == 'h':
         print("----您的消费记录如下----")
-        print("\033[31;1m商品名称:%s\033[0m, \033[31;1m价格:%s元\033[0m" % (shopping_cart[username]["goodsname"], shopping_cart[username]["price"]))
+        goods_name = shopping_cart[username]["goodsname"]
+        price = float(shopping_cart[username]["price"])
+        print("\033[31;1m商品名称:%s\033[0m, \033[31;1m价格:%s元\033[0m" % (goods_name, price))
         exit_flag = True

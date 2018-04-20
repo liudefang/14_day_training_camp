@@ -23,6 +23,15 @@
 
 #print(goods[].values())
 
-shop_cart = {{"name": "电脑", "price": 1999}}
-shop_cart.append({"username":"tom"})
-print(shop_cart)
+# shop_cart = {{"name": "电脑", "price": 1999}}
+# shop_cart.append({"username":"tom"})
+# print(shop_cart)
+# staff_info = open('staff_table.txt', 'r+', encoding='utf-8')
+# staff = staff_info.readlines()
+#
+# staff_list = []
+# for i in staff:
+#     staff_list.append(str(i).split(','))
+#     print(staff_list)
+
+print(8999-19800*0.09/2)
