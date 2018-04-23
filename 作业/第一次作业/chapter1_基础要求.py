@@ -9,7 +9,7 @@
 # 认证成功后显示欢迎信息
 # 输错三次后退出程序
 
-#while循环实现
+# while循环实现
 
 '''count = 0
 while count < 3:
@@ -22,16 +22,17 @@ while count < 3:
         print("输入的用户名或密码错误，请重新输入！")
     count += 1'''
 
-#for 循环实现
+# for 循环实现
 for count in range(3):
     username = input("请输入你的姓名：")
     password = input("请输入你的密码：")
     if username == 'mike':
         if username == 'mike' and password == '123':
-          print("恭喜你,登录成功！")
-          break
+            print("恭喜你,登录成功！")
+            break
+
         else:
-          print("输入的用户名或密码错误，请重新输入！")
+            print("输入的用户名或密码错误，请重新输入！")
     else:
         print("用户名不存在！")
     count += 1

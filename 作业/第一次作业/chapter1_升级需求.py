@@ -5,84 +5,88 @@
 # @File    : chapter1_升级需求.py
 # 升级需求：
 # 可以支持多个用户登录 (提示，通过列表存多个账户信息)
-import time
+'''
+user_name_list = {'mike': '123', 'tom': '456', 'jack': '789'}
 
-'''user_name_list = ['mike','tom','jack']
 
-for count in range(3):
-    username = input("请输入你的姓名：")
-    password = input("请输入你的密码：")
-    if username in user_name_list:
-        if username in user_name_list and password == '123':
-          print("恭喜你,登录成功！")
-          break
+def user_login():
+    count = 0
+    while count < 3:
+        username = input("请输入你的用户名:").strip()
+        password = input("请输入你的密码:").strip()
+        if username in user_name_list:
+            if password == user_name_list[username]:
+                print("欢迎登录", username)
+                break
+            else:
+                print("密码错误,请重新输入!")
         else:
-          print("输入的用户名或密码错误，请重新输入！")
-    else:
-        print("用户名不存在！")
-    count += 1'''
+            print("用户名不存在!")
+        count += 1
+
+
+if __name__ == '__main__':
+    user_login()
+'''
 
 
 # 用户3次认证失败后，退出程序，再次启动程序尝试登录时，还是锁定状态（提示:需把用户锁定的状态存到文件里）
 
-#定义一个用户字典
+# 定义一个用户字典
 user_dict = {}
-#定义一个用户列表
-user_list = []
-
-f = open("user.txt",'r')
-#帐号的锁定信息：0表示正常，1表示锁定
-for line in f.readlines():
-    print("line:", line)
-    useriterm = line.strip()
-
-    value_interm = useriterm.split(',')
-    value_username = value_interm[0]
-    value_password = value_interm[1]
-    value_lock = value_interm[2]
-    user_dict[value_username] = {
-        "name":value_username,
-        "password":value_password,
-        "lock":value_lock
-    }
+f = open('account_db', 'r', encoding='utf-8')
+for line in f:
+    u, p = line.split(',')
+    user_dict[u] = p.strip()
 f.close()
+print(user_dict)
 
-#定义count_num计算用户输入错误用户的次数
-count_num =0
-#用于跳出多层循环
-flag = True
-while flag:
-    if count_num == 3:
-        print("登录失败3次，请1分钟之后再试")
-        time.sleep(600)
-    user_name = input("请输入你的姓名：")
-    if user_name in user_dict.keys():
-        #判断用户是否被锁定
-        if int(user_dict[user_name]["lock"]) == 0:
-            for i in range(3):
-                password = input("请输入你的密码：")
-                #判断密码是否正确
-                if password == user_dict[user_name]["password"]:
-                    print("登录成功！")
-                    flag = False
-                    break
-                else:
-                    print("密码输入错误！")
-            else:
-                #用户输入密码错误三次后锁定
-                user_dict[user_name]["lock"] ="1"
-                f = open("user.txt","w+")
-                #将字典转换成列表，将改变的信息写入到文件中
-                for value in user_dict.values():
-                    user_list = [value["name"],value["password"],value["lock"]]
-                    user_list = ",".join(user_list)
-                    f.write(user_list+"\n")
-                print("你输入的密码错误了三次，用户已经被锁定!")
-                break
+# 加载锁定的用户
+lock_file = open('lock_file', 'r', encoding='utf-8')
+lock_user = []
+for line in lock_file:
+    lock_user.append(line.strip())
+
+count = 0
+fist_input_val = None  # 空，占位符 ，为了生成一个变量
+same_to_first_input = True   # 存储每次输入的用户名是否一致的状态
+
+while count < 3:
+    username = input("请输入你的用户名:").strip()
+    password = input("请输入你的密码:").strip()
+    # 判断用户是否被锁定
+    if username in lock_user:
+        print("该用户已经被锁定,请联系管理员!")
+        exit()
+        # 第一次循环
+    if count == 0:
+        fist_input_val == username
+    # 第二次循环
+    if fist_input_val != username:   # 表示第一次输入的用户名和第二次输入的用户名不一致
+        # 记下对比的状态
+        same_to_first_input = False
+        print('开始登录'.center(20, '-'))
+    if username in user_dict:
+        if password == user_dict[username]:
+            print("登录成功", username)
+            break
         else:
-            print("用户已经被锁定!")
+            print("用户名或密码错误,请重新输入!")
     else:
-        print("用户不存在!")
-        count_num +=1
+        print("用户名不存在")
+    count += 1
+else:
+    print("输入错误信息太多,请稍后再试!")
+
+    if same_to_first_input:
+        # 输入错误次数为三次了，要锁定该用户
+        f = open('lock_file', 'a', encoding='utf-8')
+        f.write("\n%s" % username)
+        f.close()
+        print("该用户的密码输入错误3次，用户已经被锁定!")
+
+
+
+
 
 

@@ -54,7 +54,7 @@ else:
     print("输入错误信息太多，请稍后重试!")
 
     if same_to_first_input:  # 代表三次输入的用户名一致
-        #要锁定这个用户
+        # 要锁定这个用户
         f = open("lock_file", 'a')
         f.write("%s\n" % username)
         f.close()
