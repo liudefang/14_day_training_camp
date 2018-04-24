@@ -47,10 +47,11 @@ lock_user = []
 for line in lock_file:
     lock_user.append(line.strip())
 
+lock_file.close()
 count = 0
 fist_input_val = None  # 空，占位符 ，为了生成一个变量
 same_to_first_input = True   # 存储每次输入的用户名是否一致的状态
-
+username = None
 while count < 3:
     username = input("请输入你的用户名:").strip()
     password = input("请输入你的密码:").strip()
@@ -58,9 +59,9 @@ while count < 3:
     if username in lock_user:
         print("该用户已经被锁定,请联系管理员!")
         exit()
-        # 第一次循环
+    # 第一次循环
     if count == 0:
-        fist_input_val == username
+        fist_input_val = username
     # 第二次循环
     if fist_input_val != username:   # 表示第一次输入的用户名和第二次输入的用户名不一致
         # 记下对比的状态
@@ -80,13 +81,9 @@ else:
 
     if same_to_first_input:
         # 输入错误次数为三次了，要锁定该用户
+        print("开始写入文件".center(20, '-'))
         f = open('lock_file', 'a', encoding='utf-8')
-        f.write("\n%s" % username)
+        f.write("%s\n" % username)
         f.close()
         print("该用户的密码输入错误3次，用户已经被锁定!")
-
-
-
-
-
 

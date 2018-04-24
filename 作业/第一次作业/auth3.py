@@ -27,17 +27,17 @@ same_to_first_input = True   # 存储每次输入的用户名是否一致的状�
 while count < 3:
     username = input("请输入用户名:").strip()
     password = input("请输入密码:").strip()
-    #判断用户是否被锁定
+    # 判断用户是否被锁定
     if username in lock_users:
         print("该用户已锁定,请联系管理员")
         exit()
 
-    if count == 0 :  # 第一次循环
+    if count == 0:  # 第一次循环
         fist_input_val = username
 
     # 第二次循环
-    if fist_input_val != username: # 代表第一次和第二次输入的用户名不一样
-        #记下对比的状态
+    if fist_input_val != username:  # 代表第一次和第二次输入的用户名不一样
+        # 记下对比的状态
         same_to_first_input = False
         print("-----------------")
     if username in accounts:  # 判断用户是否在字典中存在

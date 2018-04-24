@@ -13,8 +13,8 @@
 
 '''count = 0
 while count < 3:
-    username = input("请输入你的姓名：")
-    password = input("请输入你的密码：")
+    username = input("请输入你的姓名:").strip()
+    password = input("请输入你的密码:").strip()
     if username == 'mike' and password == '123':
         print("恭喜你,登录成功！")
         break
@@ -24,8 +24,8 @@ while count < 3:
 
 # for 循环实现
 for count in range(3):
-    username = input("请输入你的姓名：")
-    password = input("请输入你的密码：")
+    username = input("请输入你的姓名:").strip()
+    password = input("请输入你的密码:").strip()
     if username == 'mike':
         if username == 'mike' and password == '123':
             print("恭喜你,登录成功！")
