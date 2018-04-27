@@ -7,9 +7,9 @@
 # li1 = li[0]+"_"+li[1]+"_"+li[2]
 # print(li1)
 # 2、查找列表中元素，移除每个元素的空格，并查找以a和A开头并且以c结尾的所有元素
-li = ["alec", " aric", "Alex", "Tony", "rain"]
-tu = ("alec", " aric", "Alex", "Tony", "rain")
-dic = {'k1': "alex", 'k2': ' aric', "k3": "Alex", "k4": "Tony"}
+# li = ["alec", " aric", "Alex", "Tony", "rain"]
+# tu = ("alec", " aric", "Alex", "Tony", "rain")
+# dic = {'k1': "alex", 'k2': ' aric', "k3": "Alex", "k4": "Tony"}
 
 # 列表
 # for index, item in enumerate(li, 0):
@@ -166,5 +166,40 @@ dic =  {'k1': "v1", "k2": "v2", "k3": [11,22,33]}
 #     print('%s. %s' % (index, item))
 
 # 请在字典中添加一个键值对，“K4”：“V4”，输出添加后的字典
-dic['k4'] = 'V4'
-print(dic)
+# dic['k4'] = 'V4'
+# print(dic)
+
+# 修改字典中“k1”对应的值为“Alex"，输出修改后的字典
+# dic['k1'] = 'alex'
+# print(dic)
+
+# 请在k3对应的值中追加一个元素44，输出修改后的字典
+# dic['k3'].append(44)
+# print(dic)
+
+# 请在k3对应的值的第1个位置插入个元素18，输出修改后的字典
+# dic['k3'].insert(0,18)
+# print(dic)
+
+# 8、转换
+# 将字符串s="Alex"转换成列表
+# s = "alex"
+#
+# print(s.split())     # split:字符串转换成列表
+
+# 将字符串s="alex"转换成元组
+# s = 'Alex'
+# print(tuple(eval("(s)")))
+# # 将列表li = ["alex","seven"]转成元组
+# li = ["alex","seven"]
+# print(tuple(li))
+# 将元组tu=（'alex','seven')转换成列表
+# tu=('alex','seven')
+# print(list(tu))
+
+# 将列表li=['alex','seven']转成字典且字典的key按照10开始向后递增
+li=['alex','seven']
+li_dict = {}
+for index, item in enumerate(li,10):
+    li_dict[index] = item.strip()
+print(li_dict)
