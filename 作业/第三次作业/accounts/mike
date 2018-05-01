@@ -1,0 +1,1 @@
+{'account': {'password': '123', 'user': 'mike', 'balance': 13766}, 'shop_list': {'电脑': {'count': 2, 'price': 3998}, '游艇': {'count': 3, 'price': 60}, '美女': {'count': 2, 'price': 1996}, '飞机': {'count': 2, 'price': 19998}}}
