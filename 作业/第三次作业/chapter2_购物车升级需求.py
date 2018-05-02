@@ -35,6 +35,7 @@ while True:
     if os.path.isfile(f_path):
         f_obj = open(f_path, encoding='gbk')
         user_list = eval(f_obj.read())    # 把账号数据加载到内存中
+        f_obj.close()
         print(user_list['account'])
         if username in user_list['account']['user']:
             if password == user_list['account']['password']:
@@ -46,7 +47,7 @@ while True:
         exit('用户名不存在!')
 
 while True:
-    pay = input("请输入你的工资:")
+    pay = input("请输入你的工资:").strip()
     if pay.isdigit():
         pay = int(pay)
         break
