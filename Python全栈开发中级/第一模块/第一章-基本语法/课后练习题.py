@@ -68,7 +68,7 @@
 year = 0
 
 mony = 10000
-while mony < 20000:
+while mony <= 20000:
     year += 1
     mony = mony * (1+0.0325)
     print(year, mony)

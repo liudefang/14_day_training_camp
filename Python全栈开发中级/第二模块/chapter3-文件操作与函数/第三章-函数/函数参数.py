@@ -66,18 +66,61 @@
 # print("在外面看看name改了吗？", name)
 
 # 嵌套函数
-name = "张三"
+# name = "张三"
+#
+# def change_name():
+#     name = "张三丰"
+#
+#     def change_name2():
+#         name = "张山峰"
+#         print("张山峰打印:", name)
+#
+#     change_name2()    # 调用内层函数
+#     print("第二层打印:", name)
+#
+#
+# change_name()
+# print("最外层打印:", name)
 
-def change_name():
-    name = "张三丰"
+# 匿名函数
+# calc = lambda x,y:x**y
+# print(calc(2, 5))
+#
+# res = map(lambda x:x**2, (1, 5, 7, 4, 8))
+# for i in res:
+#     print(i)
 
-    def change_name2():
-        name = "张山峰"
-        print("张山峰打印:", name)
+# 高阶函数
+# def add(x, y, f):
+#     return f(x) + f(y)
+#
+# res = add(3, -6, abs)
+# print(res)
 
-    change_name2()    # 调用内层函数
-    print("第二层打印:", name)
+# 递归函数
+# def calc(n):
+#     print(n)
+#     if int(n/2) == 0:
+#         return n
+#     return calc(int(n/2))
+#
+# calc(10)
 
-
-change_name()
-print("最外层打印:", name)
+# 练习题
+#
+# 修改个人信息程序
+#
+# 在一个文件里存多个人的个人信息，如以下
+#
+# username password  age position department
+# alex     abc123    24   Engineer   IT
+# rain     df2@432    25   Teacher   Teching
+# ....
+# 1.输入用户名密码，正确后登录系统 ，打印
+#
+# 1. 修改个人信息
+# 2. 打印个人信息
+# 3. 修改密码
+# 2.每个选项写一个方法
+#
+# 3.登录时输错3次退出程序
