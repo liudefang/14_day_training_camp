@@ -124,3 +124,34 @@
 # 2.每个选项写一个方法
 #
 # 3.登录时输错3次退出程序
+
+user_file = "user_list"
+f = open(user_file, 'r+', encoding='utf-8')
+raw_data = f.readlines()
+users = {}
+# 把账户数据从文件里读出来，变成dict
+for line in raw_data:
+    line = line.strip()
+    if not line.startswith('#'):
+        item = line.split(',')
+        users[item[0]] = item
+        print(item)
+
+menu = '''
+1.打印个人信息
+2.修改个人信息
+3.修改密码
+'''
+
+count = 0
+while count < 3:
+    username = input("请输入用户名:").strip()
+    password = input("请输入密码:").strip()
+    if username in users:
+        if password == users[username][1]:
+            print(users[username])
+            print("欢迎登录成功 %s".center(20, '-') % username)
+        else:
+            print("用户名或密码输入错误，请重新输入!")
+    else:
+        print("用户名不存在!")
