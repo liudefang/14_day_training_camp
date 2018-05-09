@@ -34,4 +34,4 @@
 #     staff_list.append(str(i).split(','))
 #     print(staff_list)
 
-print(8999-19800*0.09/2)
+print(3000*0.0049*10000)

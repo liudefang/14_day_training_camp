@@ -24,11 +24,20 @@
 import os
 
 staff_db = 'staff_table.txt'
+columns = ['id', 'name', 'age', 'phone', 'dept', 'enrolled_date']
+
+
+def print_log(msg, log_type="info"):
+    if log_type == 'info':
+        print('\033[32;1m%s\033[0m" %msg')
+    elif log_type == 'error':
+        print('\033[32;1m%s\033[0m" %msg')
+
 
 # 表信息函数方法
 
 
-def staff_info():
+def load_db(staff_db):
     staff_info = open('staff_table.txt', 'r+', encoding='utf-8')
     staff = staff_info.readlines()
 
