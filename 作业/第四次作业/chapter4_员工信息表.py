@@ -23,7 +23,7 @@
 # 员工数据表格
 import os
 
-from tabulate import tabulate
+
 
 staff_db = 'staff_table.txt'
 columns = ['id', 'name', 'age', 'phone', 'dept', 'enrolled_date']
@@ -70,8 +70,75 @@ def save_db():
 
     os.replace("%s.new" % staff_db, staff_db)
 
+
 STAFF_DATA = load_db(staff_db)
 
+
+def op_gt(column, condtion_val):
+    matched_records = []
+    for index, val in enumerate(STAFF_DATA[column]):
+        if float(val) > float(condtion_val):    # 匹配上了
+            record = []
+            for col in columns:
+                record.append(STAFF_DATA[col][index])
+            matched_records.append(record)
+    return matched_records
+
+
+def op_lt(column, condtion_val):
+    matched_records = []
+    for index, val in enumerate(STAFF_DATA[column]):
+        if float(val) < float(condtion_val):
+            record = []
+            for col in columns:
+                record.append(STAFF_DATA[col][index])
+            matched_records.append(record)
+
+    return matched_records
+
+
+def op_eq(column, condtion_val):
+
+    matched_records = []
+    for index, val in enumerate(STAFF_DATA[column]):
+        if val == condtion_val:      # 匹配上了
+            record = []
+            for col in columns:
+                record.append(STAFF_DATA[col][index])
+            matched_records.append(record)
+    return matched_records
+
+
+def op_like(column, condtion_val):
+
+    mathed_records = []
+    for index, val in enumerate(STAFF_DATA[column]):
+        if condtion_val in val:     # 匹配上了
+
+            record = []
+            for col in columns:
+                record.append(STAFF_DATA[col][index])
+            mathed_records.append(record)
+    return mathed_records
+
+
+def syntax_where(clause):
+    # 解析where条件，并过滤数据
+    operators = {
+        '>': op_gt,
+        '<': op_lt,
+        '=': op_eq,
+        'like': op_like,
+    }
+    for op_key, op_func in operators.items():
+        if op_key in clause:
+            column, val = clause.split(op_key)
+            matched_data = op_func(column.strip(), val.strip())  # 查询数据
+            return matched_data
+    else:
+        # 只有在for执行完成，且中间被break的情况下，才执行
+        # 没匹配上任何的条件公式
+        print_log('语法错误:where条件只能支持[>,<,=,like]', 'error')
 
 # 查找函数方法
 
@@ -81,7 +148,7 @@ def staff_find(data_set, query_clause):
     filter_cols_tmp = query_clause.split('from')[0][4:].split(',')
     filter_cols = [i.strip() for i in filter_cols_tmp]
     if '*' in filter_cols[0]:
-        print(tabulate(data_set, headers = columns, tablefmt='grid'))
+        print(tabulate(data_set, headers=columns, tablefmt='grid'))
     else:
         reformat_data_set = []
         for row in data_set:
@@ -90,7 +157,7 @@ def staff_find(data_set, query_clause):
                 col_index = columns.index(col)   # 拿到列的索引，依次取出每条记录里对应索引的值
                 filtered_vals.append(row[col_index])
             reformat_data_set.append(filtered_vals)
-        print(tabulate(reformat_data_set, headers = filter_cols, tablefmt='grid'))
+        print(tabulate(reformat_data_set, headers=filter_cols, tablefmt='grid'))
     print_log('匹配到%s条数据!' % len(data_set))
 
 
@@ -208,6 +275,35 @@ def staff_find(data_set, query_clause):
 #
 #     else:
 #         print("您输入的格式不正确！")
+def syntax_parser(cmd):
+    # 解析数据
+
+    syntax_list = {
+        'find': staff_find,
+        # 'del': staff_delete,
+        # 'update': syntax_update,
+        # 'add': syntax_add,
+    }
+
+    if cmd.split()[0] in ('find'):
+        if 'where' in cmd:
+            query_clause, where_clause = cmd.split('where')
+            matched_records = syntax_where(where_clause)
+        else:
+            matched_records = []
+            for index, staff_id in enumerate(STAFF_DATA['id']):
+                record = []
+                for col in columns:
+                    record.append(STAFF_DATA[col][index])
+                matched_records.append(record)
+            query_clause = cmd
+        cmd_action = cmd.split()[0]
+        if cmd_action in syntax_list:
+            syntax_list[cmd_action](matched_records, query_clause)
+    else:
+        print_log('语法错误:\n[find\\add\del\\update] [column1,..] from [staff_table] [where] [column][>,..]'
+                  '[condtion]\n', 'error')
+
 
 def main():
 
@@ -226,30 +322,35 @@ def main():
                            UPDATE staff_table SET age=25 WHERE name = "Alex Li" )
     ******************************************************************************
         ''')
-        choice = input('请选择要进入的功能：').strip()
-        if choice.isdigit():
-            choice = int(choice)
-            if choice == 1:
-                print('成功进入查询功能'.center(20, '-'))
-                staff_find()
-                break
-            # elif choice == 2:
-            #     print('成功进入新增功能'.center(20, '-'))
-            #     staff_add()
-            #     break
-            # elif choice == 3:
-            #     print('成功进入删除功能'.center(20, '-'))
-            #     staff_delete()
-            #     break
-            # elif choice == 4:
-            #     print('成功进入修改功能'.center(20, '-'))
-            #     staff_update()
-            #     break
-            else:
-                # choice > 4 or choice < 1:
-                print("查询功能不存在,请重新输入!")
-        else:
-            print("只能输入1-4的整数!")
+        # choice = input('请选择要进入的功能：').strip()
+        # if choice.isdigit():
+        #     choice = int(choice)
+        #     if choice == 1:
+        #         print('成功进入查询功能'.center(20, '-'))
+        #         staff_find()
+        #         break
+        #     # elif choice == 2:
+        #     #     print('成功进入新增功能'.center(20, '-'))
+        #     #     staff_add()
+        #     #     break
+        #     # elif choice == 3:
+        #     #     print('成功进入删除功能'.center(20, '-'))
+        #     #     staff_delete()
+        #     #     break
+        #     # elif choice == 4:
+        #     #     print('成功进入修改功能'.center(20, '-'))
+        #     #     staff_update()
+        #     #     break
+        #     else:
+        #         # choice > 4 or choice < 1:
+        #         print("查询功能不存在,请重新输入!")
+        # else:
+        #     print("只能输入1-4的整数!")
+        cmd = input("[staff_db]:").strip()
+        if not cmd:
+            continue
+
+        syntax_parser(cmd.strip())
 
 
 
