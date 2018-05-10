@@ -19,14 +19,14 @@
 # UPDATE staff_table SET dept="Market" WHERE  dept = "IT" 把所有dept=IT的纪录的dept改成Market
 # UPDATE staff_table SET age=25 WHERE  name = "Alex Li"  把name=Alex Li的纪录的年龄改成25
 # 5.以上每条语名执行完毕后，要显示这条语句影响了多少条纪录。 比如查询语句 就显示 查询出了多少条、修改语句就显示修改了多少条等。
-
+# http://www.51testing.com/html/08/n-3725208.html
 # 员工数据表格
 import os
 
-
+from tabulate import tabulate
 
 staff_db = 'staff_table.txt'
-columns = ['id', 'name', 'age', 'phone', 'dept', 'enrolled_date']
+columns = ['id', 'name', 'age', 'phone', 'dept', 'enroll_date']
 
 
 def print_log(msg, log_type="info"):
@@ -39,21 +39,21 @@ def print_log(msg, log_type="info"):
 # 表信息函数方法
 
 
-def load_db(staff_db):
+def load_db(file_db):
     # 加载员工信息表，并转成指定的格式
     staff_data = {}
     for item in columns:
         staff_data[item] = []
 
-    staff_info = open(staff_db, 'r')
+    staff_info = open(file_db, 'r', encoding='utf-8')
     for line in staff_info:
-        staff_id, name, age, phone, dept, enrolled_data = line.split(",")
+        staff_id, name, age, phone, dept, enroll_date = line.split(",")
         staff_data['id'].append(staff_id)
         staff_data['name'].append(name)
         staff_data['age'].append(age)
         staff_data['phone'].append(phone)
         staff_data['dept'].append(dept)
-        staff_data['enrolled_data'].append(enrolled_data)
+        staff_data['enroll_date'].append(enroll_date)
     print_log(staff_data)
     return staff_data
 
@@ -65,13 +65,13 @@ def save_db():
         row = []
         for col in columns:
             row.append(STAFF_DATA[col][index])
-        f.write(",".join(row))
+        f.write("\n,".join(row))
     f.close()
 
     os.replace("%s.new" % staff_db, staff_db)
 
 
-STAFF_DATA = load_db(staff_db)
+
 
 
 def op_gt(column, condtion_val):
@@ -161,34 +161,30 @@ def staff_find(data_set, query_clause):
     print_log('匹配到%s条数据!' % len(data_set))
 
 
-# # 增加函数方法
-#
-#
-# def staff_add():
-#     staff_value = staff_info()
-#
-#     input_add = input("请输入新增语句:")
-#     input_cut = input_add[16:]
-#     input_list = list(input_cut.split(','))
-#
-#     phone_list = []
-#     for i in staff_value:
-#         phone = i[3]
-#         phone_list.append(phone)
-#
-#     if input_list[2] in phone_list:
-#         print("手机号码已存在!")
-#         exit()
-#     else:
-#         staff_count = (len(staff_value)+1)
-#         input_list.insert(0, str(staff_count))
-#         input_list_str = ','.join(input_list)
-#
-#         staff_file = open(staff_db, 'a+', encoding='utf-8')
-#         staff_file.write("\n%s" % input_list_str)
-#         staff_file.close()
-#
-#         print("新增1条数据成功!")
+# 增加函数方法
+
+
+def staff_add(data_set, query_clause):
+    column_vals = [col.strip() for col in query_clause.split('staff_table')[1].split(',')]
+    print('column_vals:', column_vals)
+    if len(column_vals) == len(columns[1:]):  # 不包含id，id是自增的
+        init_staff_id = 0
+        for i in STAFF_DATA['id']:
+            if int(i) > init_staff_id:
+                init_staff_id = int(i)
+
+        init_staff_id += 1
+        STAFF_DATA['id'].append(str(init_staff_id))
+        for index, col in enumerate(columns[1:]):
+            STAFF_DATA[col].append(column_vals[index])
+
+    else:
+        print_log('输入的新增语句字段不足，必须字段%s' % columns[1:], 'error')
+
+    print(tabulate(STAFF_DATA, headers=columns))
+    save_db()
+    print_log('成功添加1条记录!')
+
 #
 # # 删除函数方法
 #
@@ -220,72 +216,38 @@ def staff_find(data_set, query_clause):
 #         print("您输入的格式不正确！")
 #
 # # 修改函数方法
-#
-#
-# def staff_update():
-#     staff_value = staff_info()
-#
-#     input_update = input('请输入修改语句：')
-#     if input_update[:22] == "UPDATE staff_table SET":
-#         num1 = input_update[:35][29:]                               # 截取dept="Market"
-#         num2 = input_update[:29][27:]                               # 截取age=25
-#
-#         data_file1 = open('update_data', 'a+', encoding='utf-8')
-#         if input_update[:28] == "UPDATE staff_table SET dept=":
-#             count = 0
-#             for i in staff_value:
-#                 if i[4] == 'IT':
-#                     i[4] = num1
-#                     count += 1
-#
-#             for i in staff_value:
-#                 str_i = ','.join(i).replace("\n", "")
-#                 data_file1.write(str_i)
-#                 data_file1.write("\n")
-#
-#             data_file1.flush()
-#             data_file1.close()
-#
-#             os.remove(staff_db)
-#             os.rename("update_data", staff_db)
-#
-#             print("修改了%s条数据" % count)
-#
-#         elif input_update[:27] == "UPDATE staff_table SET age=":
-#             count = 0
-#             for i in staff_value:
-#                 if i[1] == 'Alex Li':
-#                     i[2] = num2
-#                     count += 1
-#
-#             for i in staff_value:
-#                 str_i = ','.join(i).replace("\n", "")
-#                 data_file1.write(str_i)
-#                 data_file1.write("\n")
-#
-#             data_file1.flush()
-#             data_file1.close()
-#
-#             os.remove(staff_db)
-#             os.rename("update_data", staff_db)
-#
-#             print("修改了%s条数据" % count)
-#         else:
-#             print("您输入的格式不正确！")
-#
-#     else:
-#         print("您输入的格式不正确！")
+
+
+def staff_update(data_set, query_clause):
+    # UPDATE staff_table SET age=25
+
+    formula_raw = query_clause.split('SET')
+    if len(formula_raw) > 1:   # 有set关键字
+        col_name, new_val = formula_raw[1].strip().split('=')
+        for matched_row in data_set:
+            staff_id = matched_row[0]
+            staff_id_index = STAFF_DATA['id'].index(staff_id)
+            STAFF_DATA[col_name][staff_id_index] = new_val
+        print(STAFF_DATA)
+
+        save_db()    # 修改后的数据保存到硬盘上
+        print_log('成功修改了%s条数据!' % len(data_set))
+    else:
+        print_log('语法错误:未找到set关键词!', 'error')
+
+
+
 def syntax_parser(cmd):
     # 解析数据
 
     syntax_list = {
         'find': staff_find,
         # 'del': staff_delete,
-        # 'update': syntax_update,
-        # 'add': syntax_add,
+        'update': staff_update,
+        'add': staff_add,
     }
 
-    if cmd.split()[0] in ('find'):
+    if cmd.split()[0] in ('find', 'add', 'update'):
         if 'where' in cmd:
             query_clause, where_clause = cmd.split('where')
             matched_records = syntax_where(where_clause)
@@ -322,39 +284,48 @@ def main():
                            UPDATE staff_table SET age=25 WHERE name = "Alex Li" )
     ******************************************************************************
         ''')
-        # choice = input('请选择要进入的功能：').strip()
-        # if choice.isdigit():
-        #     choice = int(choice)
-        #     if choice == 1:
-        #         print('成功进入查询功能'.center(20, '-'))
-        #         staff_find()
-        #         break
-        #     # elif choice == 2:
-        #     #     print('成功进入新增功能'.center(20, '-'))
-        #     #     staff_add()
-        #     #     break
+        choice = input('请选择要进入的功能：').strip()
+        if choice.isdigit():
+            choice = int(choice)
+            if choice == 1:
+                print('成功进入查询功能'.center(20, '-'))
+                cmd = input("请输入查询条件:").strip()
+                if not cmd:
+                    continue
+
+                syntax_parser(cmd.strip())
+
+            elif choice == 2:
+                print('成功进入新增功能'.center(20, '-'))
+                cmd = input("请输入新增语句:").strip()
+                if not cmd:
+                    continue
+
+                syntax_parser(cmd.strip())
+                break
         #     # elif choice == 3:
         #     #     print('成功进入删除功能'.center(20, '-'))
         #     #     staff_delete()
         #     #     break
-        #     # elif choice == 4:
-        #     #     print('成功进入修改功能'.center(20, '-'))
-        #     #     staff_update()
-        #     #     break
+            elif choice == 4:
+                print('成功进入修改功能'.center(20, '-'))
+                cmd = input("请输入修改语句:").strip()
+                if not cmd:
+                    continue
+
+                syntax_parser(cmd.strip())
+
         #     else:
         #         # choice > 4 or choice < 1:
         #         print("查询功能不存在,请重新输入!")
         # else:
         #     print("只能输入1-4的整数!")
-        cmd = input("[staff_db]:").strip()
-        if not cmd:
-            continue
-
-        syntax_parser(cmd.strip())
 
 
 
-
+if __name__ == '__main__':
+    STAFF_DATA = load_db(staff_db)
+    main()
 
 
 

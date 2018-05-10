@@ -25,7 +25,7 @@ def load_db(db_file):
     for i in COLUMNS:
         data[i] = []
 
-    f = open(db_file,"r")
+    f = open(db_file,"r", encoding='utf-8')
     for line in f:
         staff_id,name,age,phone,dept,enrolled_date  = line.split(",")
         data['id'].append(staff_id)
