@@ -34,4 +34,36 @@
 #     staff_list.append(str(i).split(','))
 #     print(staff_list)
 
-print(3000*0.0049*10000)
+# print(3000*0.0049*10000)
+#
+
+# query_clause = 'update staff_table set age=25 where name="Alex Li"'
+# formula_str = query_clause.split("set")
+# col_name, new_val = formula_str[-1].strip().split('=')
+# print(col_name, new_val)
+query_clause = 'update staff_table set age=25 where name="Alex Li" '
+
+if "set" in query_clause:
+
+
+    formula_str = query_clause.split("set")
+    where = formula_str[1].split('where')
+    col_name, new_val = where[0].split('=')
+print('formula_str:',formula_str)
+print('where:', where)
+print('col_name:', col_name)
+print('new_val:', new_val)
+# STAFF_INFO[col_name]
+# if new_val.find("'") == 0:
+#     new_val = new_val.replace("'", "")
+# elif new_val.find("\"") == 0:
+#     new_val = new_val.replace("\"", "")
+# for row in dataset:
+#     staff_id = row[0]  # 得到id值
+#     staff_index = STAFF_INFO['id'].index(staff_id)  # 得到id值在STAFF_INFO[id]的索引
+#     STAFF_INFO[col_name][staff_index] = new_val  # 修改col_name值
+# # print_log(STAFF_INFO)
+#     save_db()
+#     print("成功修改了%s条数据!" % len(dataset))
+# else:
+#     print("语法错误，未检测到set", "error")
