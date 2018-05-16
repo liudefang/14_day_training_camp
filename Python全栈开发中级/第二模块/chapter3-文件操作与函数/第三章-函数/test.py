@@ -8,12 +8,16 @@
 import json
 
 # Python 字典类型转换为 JSON 对象
-data = {
-    'no' : 1,
-    'name' : 'Runoob',
-    'url' : 'http://www.runoob.com'
-}
+# data = {
+#     'no' : 1,
+#     'name' : 'Runoob',
+#     'url' : 'http://www.runoob.com'
+# }
+#
+# json_str = json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))
+# print ("Python 原始数据：", repr(data))
+# print ("JSON 对象：", json_str)
 
-json_str = json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))
-print ("Python 原始数据：", repr(data))
-print ("JSON 对象：", json_str)
+# for x in range(-30, 30):
+#     print(x)
+print(eval('{"name":"egon","password":"123"}'))

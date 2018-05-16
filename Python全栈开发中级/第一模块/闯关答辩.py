@@ -46,7 +46,7 @@ d = {
 # print(d)
 # # #    4, 查询： "UI":"UI小仙女"
 # d.get('UI')
-# print(d['UI'])
+print(d['UI'])
 
 # count = 0
 # for i in range(101):
@@ -72,15 +72,15 @@ d = {
 # 1、先看视频,做客户练习
 # 2、做作业
 # 3、然后整理成博客
-
-str.
-# 常用的
-str.isdigit()
-str.find()
-str.join()
-str.replace()
-str.count()
-str.strip()
-str.center()
-str.split()
-str.format()
+#
+# str.
+# # 常用的
+# str.isdigit()
+# str.find()
+# str.join()
+# str.replace()
+# str.count()
+# str.strip()
+# str.center()
+# str.split()
+# str.format()
