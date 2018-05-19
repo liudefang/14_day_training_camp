@@ -1,119 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fe59dc9-fa37-49b0-a517-15767a38ec86" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/14天集训营.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/14天集训营.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf_test.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf_test2.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf_test_new.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/configparser模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/example.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/logger模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/mysql.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/log_console_and_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/log_test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/log_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/web.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/web.log.2017-10-19_22-07-38" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mods/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mods/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mods/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/crm/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/crm/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/crm/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/crm/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/proj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/proj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/proj/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/proj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/proj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/proj/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/proj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/proj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/proj/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/mysql.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/proj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/proj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/proj/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/ziptmp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/ziptmp/mysql.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/ziptmp/re模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/ziptmp/shutil模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/configparser_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/data.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/example.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/game_status" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/i.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/json mod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/json_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/json_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/mod_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/my_module2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/mysql.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/pickle mod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/re模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/run_forever.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/shelve mod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/shelve_test.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/sheve_read.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/sheve_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/sheve_test_new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/subprocess模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/test.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/test2.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/time模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/tkinter模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/traceback模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/build_out.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/xml test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/xml_handler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/xml_handler2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/xmlbuild.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/兼职白领学生空姐模特护士联系方式.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/序列化.py" beforeDir="false" />
-    </list>
+    <list default="true" id="5fe59dc9-fa37-49b0-a517-15767a38ec86" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +45,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="390">
               <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -425,14 +313,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47793326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47793326" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -625,7 +512,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="390">
           <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
