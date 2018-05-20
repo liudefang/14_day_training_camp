@@ -17,7 +17,7 @@ def load_current_balance(account_id):
     # account_file = "%s/%s.json" %(db_path,account_id)
     #
     db_api = db_handler.db_handler()
-    data = db_api("select * from accounts where account=%s" % account_id)
+    data = db_api("select * from account where account=%s" % account_id)
 
     return data
 
@@ -31,7 +31,7 @@ def dump_account(account_data):
     :return:
     '''
     db_api = db_handler.db_handler()
-    data = db_api("update accounts where account=%s" % account_data['id'],account_data=account_data)
+    data = db_api("update account where account=%s" % account_data['id'],account_data=account_data)
 
     # db_path = db_handler.db_handler(settings.DATABASE)
     # account_file = "%s/%s.json" %(db_path,account_data['id'])

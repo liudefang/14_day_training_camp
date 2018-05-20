@@ -35,7 +35,7 @@ def db_handler():
 def file_execute(sql, **kwargs):
     """
     对sql语句进行解析并执行
-    :param sql:  eg. select * from accounts where account=1344
+    :param sql:  eg. select * from account where account=1344
     :param kwargs: 
     :return: 
     """

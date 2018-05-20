@@ -49,7 +49,7 @@ for line in user_data:
         items = line.split(',')
         accounts[items[0]] = items
 f.close()
-print('accounts:', accounts)
+print('account:', accounts)
 
 
 count = 0

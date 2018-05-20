@@ -15,7 +15,7 @@ goods = [
 username = input("Username:").strip()
 password = input("Password:").strip()
 
-f_path = "accounts/%s" % username
+f_path = "account/%s" % username
 if os.path.isfile(f_path):
     f_obj = open(f_path,encoding="gbk")
     data = eval(f_obj.read() ) #把账号数据加载到内存

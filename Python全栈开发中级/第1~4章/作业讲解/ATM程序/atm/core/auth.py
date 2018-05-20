@@ -57,7 +57,7 @@ def acc_auth2(account, password):
 
     '''
     db_api = db_handler.db_handler()
-    data = db_api("select * from accounts where account=%s" % account)
+    data = db_api("select * from account where account=%s" % account)
 
     if data['password'] == password:
         exp_time_stamp = time.mktime(time.strptime(data['expire_date'], "%Y-%m-%d"))

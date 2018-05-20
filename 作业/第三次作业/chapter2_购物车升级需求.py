@@ -31,7 +31,7 @@ while True:
     username = input("请输入你的用户名:").strip()
     password = input("请输入你的密码:").strip()
 
-    f_path = "accounts/%s" % username
+    f_path = "account/%s" % username
     if os.path.isfile(f_path):
         f_obj = open(f_path, encoding='gbk')
         user_list = eval(f_obj.read())    # 把账号数据加载到内存中

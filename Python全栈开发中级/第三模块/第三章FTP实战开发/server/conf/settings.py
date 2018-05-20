@@ -7,6 +7,6 @@ PORT = 9999
 
 USER_HOME_DIR = os.path.join(BASE_DIR,'home')
 
-ACCOUNT_FILE = "%s/conf/accounts.ini" % BASE_DIR
+ACCOUNT_FILE = "%s/conf/account.ini" % BASE_DIR
 
 MAX_SOCKET_LISTEN = 5
