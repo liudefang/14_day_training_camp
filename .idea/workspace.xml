@@ -1,130 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="5fe59dc9-fa37-49b0-a517-15767a38ec86" name="Default" comment="" />
-=======
-    <list default="true" id="5fe59dc9-fa37-49b0-a517-15767a38ec86" name="Default" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/作用域.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/闭包.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
+    <list default="true" id="01a0bd5d-d9af-429a-a638-77681ec6ede1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/14天集训营.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/14天集训营.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf_test.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf_test2.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/conf_test_new.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/configparser模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/example.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/logger模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/mysql.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logger/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/log_console_and_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/log_test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/log_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/web.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging mod/web.log.2017-10-19_22-07-38" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mods/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mods/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mods/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/crm/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/crm/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/crm/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/crm/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/proj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/proj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/p3/my_proj/proj/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/crm/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/proj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/proj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/pack2/my_proj/proj/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/crm/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/proj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/proj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/packages/my_proj/proj/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/mysql.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/crm/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/proj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/proj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/proj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test2/pack5/my_proj/proj/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/ziptmp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/ziptmp/mysql.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/ziptmp/re模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/ziptmp/shutil模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/configparser_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/data.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/example.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/game_status" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/i.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/json mod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/json_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/json_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/mod_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/my_module2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/mysql.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/pickle mod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/re模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/run_forever.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/shelve mod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/shelve_test.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/sheve_read.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/sheve_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/sheve_test_new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/subprocess模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/test.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/test2.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/time模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/tkinter模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/traceback模块.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/build_out.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/xml test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/xml_handler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/xml_handler2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/xml模块/xmlbuild.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/兼职白领学生空姐模特护士联系方式.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/课堂练习/序列化.py" beforeDir="false" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/log.tar" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/log.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mysql.log" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mysql.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/atm/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五次作业/ATM/atm/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/creditcard_dict" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五次作业/ATM/db/creditcard_dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/shopping_car" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五次作业/ATM/db/shopping_car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/shopping_record" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五次作业/ATM/db/shopping_record" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/users_dict" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五次作业/ATM/db/users_dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/admincenter.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/admincenter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/creditcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/creditcard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/shopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/shopping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" afterDir="false" />
     </list>
->>>>>>> 48792d84ea9130929d92b3f5296419b7bc46ad32
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,129 +31,95 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/14_day_training_camp$views.coverage" NAME="views Coverage Results" MODIFIED="1526311172748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$django_admin.coverage" NAME="django-admin Coverage Results" MODIFIED="1526309761412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/soft/Django-1.10.6/django/bin" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$manage.coverage" NAME="manage Coverage Results" MODIFIED="1526310868145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj" />
-  </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/test.py">
+      <file leaf-file-name="test_getSellData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="240">
-              <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-=======
-            <state relative-caret-position="1080">
-              <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
+            <state relative-caret-position="528">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chapter1_升级需求.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第一次作业/chapter1_升级需求.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="chapter4_员工信息表.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="130" column="16" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="chapter4_员工信息表.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2616">
-              <caret line="127" column="16" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="16" />
-=======
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="装饰器.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="作用域.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/作用域.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="24" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="闭包.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/闭包.py">
+      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="3" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="返回值.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/返回值.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数练习题/main.py">
+      <file leaf-file-name="test_getToken.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-415" />
+            <state relative-caret-position="624">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#106#117#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="高阶函数.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/高阶函数.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="http_request.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/globalpz/http_request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="57" column="54" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="57" selection-end-column="54" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="staff.db" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/员工信息表/标准答案/staff.db">
+      <file leaf-file-name="test_new_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="120">
-=======
-            <state relative-caret-position="150">
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
-              <caret line="5" column="30" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="432">
+              <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
+              <folding>
+                <element signature="e#107#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logging模块.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="59" column="26" lean-forward="true" selection-start-line="28" selection-end-line="59" selection-end-column="26" />
+              <folding>
+                <element signature="e#104#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="re模块.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mysql.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        </entry>
+      </file>
+      <file leaf-file-name="access.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/access.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        </entry>
+      </file>
+      <file leaf-file-name="example.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/example.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state>
+              <caret selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -264,6 +129,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -274,47 +140,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/作业/test.py" />
-        <option value="$PROJECT_DIR$/作业/第四次作业/staff_table.txt" />
-        <option value="$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/作用域.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/闭包.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器.py" />
+        <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_login.py" />
+        <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py" />
+        <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.ipynb" />
+        <option value="$PROJECT_DIR$/../interface_erpapi_automation/globalpz/http_request.py" />
+        <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" />
+        <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py" />
       </list>
     </option>
   </component>
-=======
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/manage.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/views.py" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1080" />
-    <option name="y" value="25" />
-    <option name="width" value="1920" />
-    <option name="height" value="1055" />
+    <option name="x" value="1444" />
+    <option name="y" value="110" />
+    <option name="width" value="886" />
+    <option name="height" value="500" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,49 +189,23 @@
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
               <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
               <item name="第二模块" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="chapter3-文件操作与函数" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="chapter4-常用模块" type="462c0819:PsiDirectoryNode" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
-            </path>
-            <path>
-              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第二模块" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="chapter3-文件操作与函数" type="462c0819:PsiDirectoryNode" />
-              <item name="第三章-函数" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="chapter4-常用模块" type="462c0819:PsiDirectoryNode" />
-              <item name="my_proj" type="462c0819:PsiDirectoryNode" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
-            </path>
-            <path>
-              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="作业" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第二模块" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter4-常用模块" type="462c0819:PsiDirectoryNode" />
-              <item name="my_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../interface_erpapi_automation" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块" />
+      <recent name="$PROJECT_DIR$/../interface_erpapi_automation/testCase" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -394,9 +219,8 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Python.装饰器">
-    <configuration name="作用域" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.re模块">
+    <configuration name="logging模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="14天集训营" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,17 +228,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/作用域.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="闭包" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="re模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="14天集训营" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,158 +246,173 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/闭包.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14天集训营" />
+    <configuration name="test_getToken" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="interface_erpapi_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../interface_erpapi_automation/testCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-=======
-  <component name="RunManager" selected="Python.views">
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
-    <configuration name="chapter4_员工信息表" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14天集训营" />
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="interface_erpapi_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/第四次作业" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="django-admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14天集训营" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/soft/Django-1.10.6/django/bin" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/soft/Django-1.10.6/django/bin/django-admin.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14天集训营" />
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="interface_erpapi_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14天集训营" />
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="interface_erpapi_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
     </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14天集训营" />
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="interface_erpapi_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="interface_erpapi_automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="interface_erpapi_automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="interface_erpapi_automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_new_login.My_login_case.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="interface_erpapi_automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../interface_erpapi_automation/testCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/views.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_new_login.My_login_case.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_new_login.My_login_case.test_login1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="interface_erpapi_automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../interface_erpapi_automation/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_new_login.My_login_case.test_login1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.chapter4_员工信息表" />
-<<<<<<< HEAD
-      <item itemvalue="Python.作用域" />
-      <item itemvalue="Python.闭包" />
-      <item itemvalue="Python.装饰器" />
+      <item itemvalue="Python.logging模块" />
+      <item itemvalue="Python tests.Unittests for test_new_login.My_login_case.test_login1" />
+      <item itemvalue="Python tests.Unittests for test_new_login.My_login_case.test_login" />
+      <item itemvalue="Python.test_getToken" />
+      <item itemvalue="Python.re模块" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.装饰器" />
-        <item itemvalue="Python.闭包" />
-        <item itemvalue="Python.作用域" />
-=======
-      <item itemvalue="Python.django-admin" />
-      <item itemvalue="Python.manage" />
-      <item itemvalue="Python.views" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.views" />
-        <item itemvalue="Python.manage" />
-        <item itemvalue="Python.django-admin" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
-        <item itemvalue="Python.chapter4_员工信息表" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.re模块" />
+        <item itemvalue="Python.logging模块" />
+        <item itemvalue="Python tests.Unittests for test_new_login.My_login_case.test_login" />
+        <item itemvalue="Python.test_getToken" />
+        <item itemvalue="Python tests.Unittests for test_new_login.My_login_case.test_login1" />
       </list>
     </recent_temporary>
   </component>
@@ -582,297 +421,186 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5fe59dc9-fa37-49b0-a517-15767a38ec86" name="Default" comment="" />
-      <created>1523236627544</created>
+      <changelist id="01a0bd5d-d9af-429a-a638-77681ec6ede1" name="Default" comment="" />
+      <created>1527078342949</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523236627544</updated>
+      <updated>1527078342949</updated>
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_getSellData_MyTestCase_test_getSellData_SiMu_Day - 2018.05.24 at 09h 29m 34s.xml">
+      <configuration name="Unittests for test_getSellData.MyTestCase.test_getSellData_SiMu_Day" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_getSellData_MyTestCase_test_getSellData_SiMu_Day - 2018.05.24 at 10h 23m 34s.xml">
+      <configuration name="Unittests for test_getSellData.MyTestCase.test_getSellData_SiMu_Day" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_new_login_My_login_case_test_login1 - 2018.05.25 at 10h 22m 44s.xml">
+      <configuration name="Unittests for test_new_login.My_login_case.test_login1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_new_login_My_login_case_test_login - 2018.05.25 at 16h 16m 12s.xml">
+      <configuration name="Unittests for test_new_login.My_login_case.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_new_login_My_login_case_test_login - 2018.05.25 at 17h 14m 39s.xml">
+      <configuration name="Unittests for test_new_login.My_login_case.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_new_login_My_login_case_test_login - 2018.05.25 at 17h 15m 34s.xml">
+      <configuration name="Unittests for test_new_login.My_login_case.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_new_login_My_login_case_test_login - 2018.05.25 at 17h 16m 28s.xml">
+      <configuration name="Unittests for test_new_login.My_login_case.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_new_login_My_login_case_test_login - 2018.05.25 at 17h 19m 20s.xml">
+      <configuration name="Unittests for test_new_login.My_login_case.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_new_login_My_login_case_test_login - 2018.05.25 at 17h 20m 44s.xml">
+      <configuration name="Unittests for test_new_login.My_login_case.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_new_login_My_login_case_test_login - 2018.05.25 at 17h 34m 03s.xml">
+      <configuration name="Unittests for test_new_login.My_login_case.test_login" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="1080" y="-2" width="1920" height="1082" extended-state="6" />
-=======
-    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-<<<<<<< HEAD
-=======
     <editor active="true" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
->>>>>>> 48792d84ea9130929d92b3f5296419b7bc46ad32
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18657506" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47887325" />
-=======
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47793326" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="3888">
+          <caret line="167" column="24" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第一次作业/chapter1_升级需求.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/员工信息表/标准答案/staff.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="30" lean-forward="true" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3810">
-          <caret line="127" column="16" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3576">
-          <caret line="149" column="14" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5016">
-          <caret line="211" column="11" selection-start-line="211" selection-start-column="11" selection-end-line="211" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5064">
-          <caret line="211" column="5" lean-forward="true" selection-start-line="211" selection-start-column="5" selection-end-line="211" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5016">
-          <caret line="211" column="6" lean-forward="true" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/员工信息表/标准答案/staff_query.py">
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="240">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-=======
-        <state relative-caret-position="1080">
-          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
+        <state relative-caret-position="504">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第一次作业/chapter1_升级需求.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/员工信息表/标准答案/staff.db">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="120">
-=======
-        <state relative-caret-position="150">
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
-          <caret line="5" column="30" selection-end-line="9" selection-end-column="50" />
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/example.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state>
+          <caret selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四次作业/staff_table.txt">
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="1800">
+          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding>
+            <element signature="e#107#118#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/返回值.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数练习题/main.py">
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/globalpz/http_request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/高阶函数.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/作用域.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="409">
+          <caret line="57" column="54" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="57" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/闭包.py">
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="3" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2616">
-          <caret line="127" column="16" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="16" />
-=======
-    <entry file="file://E:/soft/Django-1.10.6/django/bin/django-admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py">
+      <provider editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="130" column="16" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="624">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#22#31#0" expanded="true" />
+            <element signature="e#106#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/views.py">
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
->>>>>>> e323e6e3b8a5cb5ecd9461e72bb625816e9b84f1
+        <state relative-caret-position="432">
+          <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#107#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mysql.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/access.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/example.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state>
+          <caret selection-end-line="2" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="28" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="e#104#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

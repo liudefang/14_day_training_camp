@@ -8,12 +8,12 @@ import time
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 '''数据库文件相对路径'''
-__db_product = BASE_DIR + r"\db\product_list"
-__db_shoping_car = BASE_DIR + r"\db\shopping_car"
-__db_users_dict = BASE_DIR + r"\db\users_dict"
-__db_creditcard_dict = BASE_DIR + r"\db\creditcard_dict"
-__db_shopping_record = BASE_DIR + r"\db\shopping_record"
-__db_creditcard_record = BASE_DIR + r"\db\creditcard_record"
+__db_product = BASE_DIR + r"/db/product_list"
+__db_shoping_car = BASE_DIR + r"/db/shopping_car"
+__db_users_dict = BASE_DIR + r"/db/users_dict"
+__db_creditcard_dict = BASE_DIR + r"/db/creditcard_dict"
+__db_shopping_record = BASE_DIR + r"/db/shopping_record"
+__db_creditcard_record = BASE_DIR + r"/db/creditcard_record"
 
 
 '''购物商城'''
@@ -30,7 +30,7 @@ def Shopping_mall():
         for index, item in enumerate(pro_list):
             print("%s\t\t%s\t\t%s" % (index, item[0], item[1]))
     while True:
-            print("\033[32;0m目前商城在售的商品信息\033[0m").center(50, "-")
+            print("\033[32;0m目前商城在售的商品信息:\033[0m".center(50, '-'))
             pro_inf()
             choice_id = input("\n\033[34;0m选择要购买的商品编号 【购买 ID】/【返回 b】\033[0m：")
             if choice_id.isdigit():
@@ -85,13 +85,15 @@ def Shopping_car():
 
 
 '''购物记录'''
+
+
 def Shoppingcar_record(current_user,value):
-    with open(__db_shopping_record, "r+") as f_shoppingcar_record:
+    with open(__db_shopping_record, "r+", encoding='utf-8') as f_shoppingcar_record:
         record_dict = json.loads(f_shoppingcar_record.read())
         month = time.strftime('%Y-%m-%d', time.localtime())
         times = time.strftime("%H:%M:%S")
         if str(current_user) not in record_dict.keys():
-            record_dict[current_user]={month:{times:value}}
+            record_dict[current_user] = {month: {times: value}}
         else:
             if month not in record_dict[current_user].keys():
                 record_dict[current_user][month] = {times: value}
@@ -101,6 +103,7 @@ def Shoppingcar_record(current_user,value):
         f_shoppingcar_record.seek(0)
         f_shoppingcar_record.truncate(0)
         f_shoppingcar_record.write(dict)
+        f_shoppingcar_record.close()
 
 
 '''查看购物记录'''
@@ -152,7 +155,7 @@ def Creditcard_record(creditcard,value):
 def Auth_creditcard(creditcard):
     with open(__db_creditcard_dict, "r+", encoding='utf-8') as f_creditcard_dict:
         creditcard_dict = json.loads(f_creditcard_dict.read())
-        passwd = input("\033[34;0m当前信用卡【%s】 请输入支付密码：\033[0m:"%(creditcard))
+        passwd = input("\033[34;0m当前信用卡【%s】\n请输入支付密码：\033[0m:" % creditcard)
         if passwd == creditcard_dict[creditcard]["password"]:
             return True
         else:
@@ -165,24 +168,24 @@ def Auth_creditcard(creditcard):
 def Pay_shopping(current_user):
     while True:
         sum = 0
-        print("\033[32;0m购物结算\033[0m".center(40, "-"))
+        print("\033[32;0m购物结算\033[0m".center(50, "-"))
         with open(__db_shoping_car, "r+", encoding='utf-8') as f_shopping_car:
             list = json.loads(f_shopping_car.read())
             for item in list:
                 sum += int(item[1])
-            if_pay = input("\n\n\033[34;0m当前商品总额：%s 是否进行支付 确定【y】/返回【b】\033[0m:" % sum)
+            if_pay = input("\n\n\033[34;0m当前商品总额：%s\n是否进行支付 确定【y】/返回【b】\033[0m:" % sum)
             if if_pay == "y":
-                with open(__db_users_dict, "r+") as f_users_dict:
+                with open(__db_users_dict, "r+", encoding='utf-8') as f_users_dict:
                     users_dict = json.loads(f_users_dict.read())
-                    creditcard=users_dict[current_user]["creditcard"]
+                    creditcard = users_dict[current_user]["creditcard"]
                     if creditcard == 0:
                         print("\033[31;0m账号 %s未绑定信用卡，请到个人中心里修改信用卡绑定\033[0m\n" % current_user)
                     else:
-                        with open(__db_creditcard_dict, "r+") as f_creditcard_dict:
+                        with open(__db_creditcard_dict, "r+", encoding='utf-8') as f_creditcard_dict:
                             creditcard_dict = json.loads(f_creditcard_dict.read())
                             limit = creditcard_dict[creditcard]["limit"]
                             limit_new = limit - sum
-                            if limit_new >=0:
+                            if limit_new >= 0:
                                 res = Auth_creditcard(creditcard)
                                 if res == True:
                                     creditcard_dict[creditcard]["limit"] = limit_new
@@ -191,7 +194,7 @@ def Pay_shopping(current_user):
                                     f_creditcard_dict.truncate(0)
                                     f_creditcard_dict.write(dict)
                                     value = "购物支付 %s" % sum
-                                    print("\033[31;1m支付成功，当前余额 %s元\033[0m\n" % limit_new)
+                                    print("\033[31;1m支付成功，当前余额: %s元\033[0m\n" % limit_new)
                                     Shoppingcar_record(current_user, list)
                                     Creditcard_record(creditcard, value)
                                     Empty_shopping_car()
@@ -202,6 +205,8 @@ def Pay_shopping(current_user):
 
 
 '''信用卡绑定'''
+
+
 def Link_creditcard(current_user):
     while True:
         print("\033[32;0m修改信用卡绑定\033[0m".center(50, "-"))

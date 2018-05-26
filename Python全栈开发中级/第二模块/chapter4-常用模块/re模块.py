@@ -22,10 +22,15 @@ print(re.search('foo.$', 'fool\nfoo2\n', re.MULTILINE).group())
 # '*'     匹配*号前的字符0次或多次， re.search('a*','aaaabac')  结果'aaaa'
 print(re.search('a*','aaaabbac'))
 # '+'     匹配前一个字符1次或多次，re.findall("ab+","ab+cd+abb+bba") 结果['ab', 'abb']
+print(re.findall('ab+', 'ab+cd+abb+bba'))
 # '?'     匹配前一个字符1次或0次 ,re.search('b?','alex').group() 匹配b 0次
+print(re.search('a?', 'albebx').group())
 # '{m}'   匹配前一个字符m次 ,re.search('b{3}','alexbbbs').group()  匹配到'bbb'
+print(re.search('b{3}', 'alexbbbs').group())
 # '{n,m}' 匹配前一个字符n到m次，re.findall("ab{1,3}","abb abc abbcbbb") 结果'abb', 'ab', 'abb']
+print(re.findall("ab{1,3}", "abb abc abbcbbb"))
 # '|'     匹配|左或|右的字符，re.search("abc|ABC","ABCBabcCD").group() 结果'ABC'
+print(re.search("abc|ABC", "ABCBabcCD").group())
 # '(...)' 分组匹配， re.search("(abc){2}a(123|45)", "abcabca456c").group() 结果为'abcabca45'
 #
 #

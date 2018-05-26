@@ -44,7 +44,7 @@ while True:
                                 shopping.Pay_shopping(current_user)
                             elif choice == 4:
                                 while True:
-                                    print("\033\33;0m个人中心\033[0m".center(50, '-'),
+                                    print("\033[33;0m个人中心\033[0m".center(50, '-'),
                                           "\n1:购物历史记录\n"
                                           "2:修改登录密码\n"
                                           "3:修改个人信息\n"

@@ -8,8 +8,8 @@ import json
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 '''数据库文件相对路径'''
-__db_users_dict = BASE_DIR + r"\database\users_dict"
-__db_creditcard_dict = BASE_DIR + r"\database\creditcard_dict"
+__db_users_dict = BASE_DIR + r"/db/users_dict"
+__db_creditcard_dict = BASE_DIR + r"/db/creditcard_dict"
 
 '''创建用户'''
 

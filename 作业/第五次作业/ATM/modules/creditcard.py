@@ -176,12 +176,12 @@ def Catcard_record(current_creditcard):
                     break
                 if date in record_dict[current_creditcard].keys():
                     keys = sorted(record_dict[current_creditcard][date])
-                    print("\33[31;1m当前信用卡【%s】 交易记录-》》\33[0m" % (current_creditcard))
+                    print("\33[31;1m当前信用卡【%s】 交易记录-》》\33[0m" % current_creditcard)
                     for key in keys:
                         print("\33[31;1m时间：%s  %s\33[0m" % (key, record_dict[current_creditcard][date][key]))
                     print("")
                 else:
                     print("\33[31;0m输入的日期有误\33[0m\n")
             else:
-                print("\33[31;0m信用卡 %s 还没有进行过消费\33[0m\n" % (current_creditcard))
+                print("\33[31;0m信用卡 %s 还没有进行过消费\33[0m\n" % current_creditcard)
                 break

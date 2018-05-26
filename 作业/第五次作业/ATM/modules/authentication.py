@@ -7,8 +7,8 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 '''数据库文件相对路径'''
-__db_user_dict = BASE_DIR + r"\db\users_dict"       # 读取用户信息
-__db_creditcard_dict = BASE_DIR + r"\db\creditcard_dict"        # 读取信用卡信息
+__db_user_dict = BASE_DIR + r"/db/users_dict"       # 读取用户信息
+__db_creditcard_dict = BASE_DIR + r"/db/creditcard_dict"        # 读取信用卡信息
 
 '''认证装饰器'''
 
