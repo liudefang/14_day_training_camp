@@ -75,19 +75,19 @@ file_s('a b ct')
 #
 # 例如:min_max(2,5,7,8,4)
 # 返回:{‘max’:8,’min’:2}
-def func(*args):
-    the_max = args[0]
-    the_min = args[0]
-
-
-    for i in args:
-        if i > the_max:
-            the_max = i
-        elif i < the_min:
-            the_min = i
-    return {'max': the_max, 'min': the_min}
-
-print(func(2,5,7,8,4))
+# def func(*args):
+#     the_max = args[0]
+#     the_min = args[0]
+#
+#
+#     for i in args:
+#         if i > the_max:
+#             the_max = i
+#         elif i < the_min:
+#             the_min = i
+#     return {'max': the_max, 'min': the_min}
+#
+# print(func(2,5,7,8,4))
 
 # 写函数，专门计算图形的面积
 #
@@ -358,25 +358,43 @@ import os
 #    pizza,100001
 #    alex, 100002
 #    egon, 100003
-file = "user_info.txt"
-old_str = "100002"
-new_str = "alex li, 100002"
-file_data = ''
-with open(file, "r", encoding="utf-8") as f1:
-    for i in f1:
-        if old_str in i:
-            i = new_str
-        file_data += i
-        with open(file, "w", encoding="utf-8") as f1:
-            f1.write(file_data)
-            f1.close()
+# file = "user_info.txt"
+# old_str = "100002"
+# new_str = "alex li, 100002"
+# file_data = ''
+# with open(file, "r", encoding="utf-8") as f1:
+#     for i in f1:
+#         if old_str in i:
+#             i = new_str
+#         file_data += i
+#         with open(file, "w", encoding="utf-8") as f1:
+#             f1.write(file_data)
+#             f1.close()
 
 
 
 # 9、写一个计算每个程序执行时间的装饰器；
 #
+import time
+def timer(func):
+    def func_time():
+        start_time = time.time()
+        func()
+        end_time = time.time() - start_time
+        print('用时为:%s' % end_time)
+    return func_time
+@timer
+def login_time():
+    time.sleep(1)
+    print('hello time')
+
+login_time()
 # 10、lambda是什么？请说说你曾在什么场景下使用lambda？
-#
+# lambda函数比较轻便，即用即扔，适合完成只在一处使用的简单功能
+# 匿名函数，一般用来给filter，map这样的函数式编程服务
+# 作为回调函数，传递给某些应用，比如消息处理
+
 # 11、题目：写一个摇骰子游戏，要求用户压大小，赔率一赔一。
 #
 # 要求：三个骰子，摇大小，每次打印摇骰子数。
+
