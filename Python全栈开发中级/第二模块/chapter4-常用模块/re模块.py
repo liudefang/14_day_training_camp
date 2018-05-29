@@ -43,3 +43,11 @@ print(re.search("abc|ABC", "ABCBabcCD").group())
 # 's'     匹配空白字符、\t、\n、\r , re.search("\s+","ab\tc1\n3").group() 结果 '\t'
 #
 # '(?P<name>...)' 分组匹配 re.search("(?P<province>[0-9]{4})(?P<city>[0-9]{2})(?P<birthday>[0-9]{4})","371481199306143242").groupdict("city") 结果{'province': '3714', 'city': '81', 'birthday': '1993'}
+
+# re的匹配语法有以下几种
+# re.match 从头开始匹配
+# re.search 匹配包含
+# re.findall 把所有匹配到的字符放到以列表中的元素返回
+# re.split 以匹配到的字符当做列表分隔符
+# re.sub 匹配字符并替换
+# re.fullmatch 全部匹配

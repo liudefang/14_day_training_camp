@@ -75,19 +75,19 @@ file_s('a b ct')
 #
 # 例如:min_max(2,5,7,8,4)
 # 返回:{‘max’:8,’min’:2}
-# def func(*args):
-#     the_max = args[0]
-#     the_min = args[0]
-#
-#
-#     for i in args:
-#         if i > the_max:
-#             the_max = i
-#         elif i < the_min:
-#             the_min = i
-#     return {'max': the_max, 'min': the_min}
-#
-# print(func(2,5,7,8,4))
+def func(*args):
+    the_max = args[0]
+    the_min = args[0]
+
+
+    for i in args:
+        if i > the_max:
+            the_max = i
+        elif i < the_min:
+            the_min = i
+    return {'max': the_max, 'min': the_min}
+
+print(func(2,5,7,8,4))
 
 # 写函数，专门计算图形的面积
 #
@@ -374,27 +374,84 @@ import os
 
 
 # 9、写一个计算每个程序执行时间的装饰器；
+# import time
+# def timer(func):
+#     def wrapper(*args, **kwargs):
+#         start_time = time.time()
+#         func(*args)
+#         stop_time = time.time()
+#         print(stop_time-start_time)
+#     return  wrapper
 #
-import time
-def timer(func):
-    def func_time():
-        start_time = time.time()
-        func()
-        end_time = time.time() - start_time
-        print('用时为:%s' % end_time)
-    return func_time
-@timer
-def login_time():
-    time.sleep(1)
-    print('hello time')
-
-login_time()
+# @timer
+# def syahi():
+#     print("hello word")
+#
+# syahi()
+#
 # 10、lambda是什么？请说说你曾在什么场景下使用lambda？
-# lambda函数比较轻便，即用即扔，适合完成只在一处使用的简单功能
-# 匿名函数，一般用来给filter，map这样的函数式编程服务
-# 作为回调函数，传递给某些应用，比如消息处理
-
+# lambda 函数就是可以接受任意多个参数（包括可选参数）并且返回单个表达式值的函数
+# 好处：
+# 1、lambda函数笔记轻便，即用即扔，适合完成只在一处使用的简单功能
+# 2、匿名函数，一般用来给filter，map这样的函数式编程服务
+# 3、作为回调函数，传递给某些应用，比如消息处理
 # 11、题目：写一个摇骰子游戏，要求用户压大小，赔率一赔一。
 #
 # 要求：三个骰子，摇大小，每次打印摇骰子数。
+import random
 
+def roll_dice(numbers = 3,points=None):
+    """
+    定义骰子，循环三次
+    :param numbers:
+    :param points:
+    :return:
+    """
+    print('摇骰子'.center(20, '-'))
+    if points is None:
+        points = []
+    while numbers > 0:
+        point = random.randrange(1, 7)
+        points.append(point)
+        numbers -= 1
+    return points
+
+def roll_result(total):
+    """
+    定义大小，三个大或者一个小两个大，三个小或者两个小一个大
+    :param total:
+    :return:
+    """
+
+    is_big = 11 <= total <= 18
+    is_small = 3 <= total <= 10
+    if is_big:
+        return "大"
+    elif is_small:
+        return "小"
+
+def start_game():
+    your_money = 1000
+    while your_money > 0:
+        print('游戏开始'.center(20, '-'))
+        choices = ["大", "小"]
+        your_choice = input("请下注，大 or 小:").strip()
+        your_bet = input("下注金额:").strip()
+        if your_choice in choices:
+            points = roll_dice()
+            total = sum(points)
+            you_win = your_choice == roll_result(total)
+            if you_win:
+                your_money = your_money + int(your_bet)
+                print("骰子点数", points)
+                print("恭喜, 你赢了%s元,你现在的本金%s元" % (your_bet, your_money + int(your_bet)))
+            else:
+                your_money = your_money - int(your_bet)
+                print("骰子点数", points)
+                print("很遗憾,你输了%s元,你现在的本金%s元" % (your_bet, your_money - int(your_bet)))
+        else:
+            print("格式错误，请重新输入！")
+    else:
+        print("game over")
+
+start_game()

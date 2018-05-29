@@ -3,6 +3,7 @@
 # @Author  : mike.liu
 # @File    : 装饰器.py
 
+
 user_status = False    # 用户登录了就把这个改成True
 
 

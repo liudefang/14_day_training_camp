@@ -2,6 +2,11 @@
 # @Time    : 2018-05-13 9:23
 # @Author  : mike.liu
 # @File    : 返回值.py
+# 返回值
+# 注意
+#
+# 函数在执行过程中只要遇到return语句，就会停止执行并返回结果，so 也可以理解为 return 语句代表着函数的结束
+# 如果未在函数中指定return,那这个函数的返回值为None
 
 def stu_register(name, age, course, country='CN'):
     print('注册学生信息'.center(20, '-'))
