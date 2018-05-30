@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a0bd5d-d9af-429a-a638-77681ec6ede1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数参数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/匿名函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/匿名函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/生成器.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/生成器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/返回值.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/返回值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/迭代器.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/迭代器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/递归.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/递归.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/闭包.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/闭包.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/第三章课后练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/第三章课后练习.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" afterDir="false" />
@@ -33,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="装饰器.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="装饰器进化.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器进化.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="re模块.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="re模块.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="46" selection-start-line="46" selection-start-column="2" selection-end-line="52" selection-end-column="19" />
+            <state relative-caret-position="449">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -97,12 +77,19 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="test_new_login.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_new_login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_getSellData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-648" />
           </provider>
         </entry>
       </file>
@@ -122,7 +109,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../interface_erpapi_automation" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -188,6 +175,28 @@
           <expand>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第二模块" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第二模块" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4-常用模块" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
               <item name="interface_erpapi_automation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_new_login.My_login_case.test_login">
+  <component name="RunManager" selected="Python.re模块">
     <configuration name="第三章课后练习 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="14天集训营" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,17 +331,17 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="re模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14天集训营" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py" />
       <option name="PARAMETERS" value="" />
@@ -450,11 +459,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.re模块" />
         <item itemvalue="Python tests.Unittests for test_new_login.My_login_case.test_login" />
         <item itemvalue="Python.第三章课后练习 (1)" />
         <item itemvalue="Python.第三章课后练习" />
         <item itemvalue="Python.file_修改_替换原文件" />
-        <item itemvalue="Python.re模块" />
       </list>
     </recent_temporary>
   </component>
@@ -505,6 +514,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1080" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28065538" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -625,7 +635,6 @@
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/example.log" />
     <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" />
     <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/globalpz/http_request.py" />
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py" />
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/example.log" />
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -795,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="46" selection-start-line="46" selection-start-column="2" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -812,6 +814,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>

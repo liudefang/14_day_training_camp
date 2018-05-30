@@ -51,3 +51,36 @@ print(re.search("abc|ABC", "ABCBabcCD").group())
 # re.split 以匹配到的字符当做列表分隔符
 # re.sub 匹配字符并替换
 # re.fullmatch 全部匹配
+
+
+# phone = input("请输入手机号码:").strip()
+#
+# def func_yz(phone):
+#
+#     if phone.isdigit():
+#
+#         if phone.startswith('1') and len(phone) == 11:
+#             print("手机号码合法!")
+#         elif len(phone) > 11 or len(phone) < 11:
+#             print("手机号码长度只能为11位!")
+#         else:
+#             print("手机号码格式错误!")
+#
+#     else:
+#         print("手机号码只能为数字!")
+#
+#
+# func_yz(phone)
+
+# res = re.match(r'^[0-9a-zA-Z\_\-]+(\.[0-9a-zA-Z\_\-]+)*@[0-9a-zA-Z]+(\.[0-9a-zA-Z]+){1,}$', 'mashijia985.bj@163.com')
+# print(res)
+
+def validateEmail(email):
+    if re.match(r'^[0-9A-Za-z\_\-]+(\.[0-9A-Za-z\_\-]+)*@[0-9A-Za-z]+(\.[0-9A-Za-z]+){1,}$', email) != None:
+        print('邮箱地址正确!')
+    else:
+        print('邮箱地址错误!')
+
+validateEmail('mike.liu@jfz.com')
+
+
