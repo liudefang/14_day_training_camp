@@ -29,14 +29,14 @@
 # 写函数，检查用户传入的对象（字符串、列表、元组）的每一个元素是否含有空内容。
 from math import pi
 
-
-def file_s(file):
-    n = 0
-    for i in file:
-        if i == ' ':
-            n += 1
-    print("有%s个空格" % n)
-file_s('a b ct')
+# file = input("请输入内容:").strip()
+# def file_s(file):
+#     n = 0
+#     for i in file:
+#         if i == ' ':
+#             n += 1
+#     print("有%s个空格" % n)
+# file_s(file)
 
 # 写函数，检查传入字典的每一个value的长度,如果大于2，那么仅保留前两个长度的内容，并将新内容返回给调用者。
 #
@@ -75,19 +75,19 @@ file_s('a b ct')
 #
 # 例如:min_max(2,5,7,8,4)
 # 返回:{‘max’:8,’min’:2}
-def func(*args):
-    the_max = args[0]
-    the_min = args[0]
-
-
-    for i in args:
-        if i > the_max:
-            the_max = i
-        elif i < the_min:
-            the_min = i
-    return {'max': the_max, 'min': the_min}
-
-print(func(2,5,7,8,4))
+# def func(*args):
+#     the_max = args[0]
+#     the_min = args[0]
+#
+#
+#     for i in args:
+#         if i > the_max:
+#             the_max = i
+#         elif i < the_min:
+#             the_min = i
+#     return {'max': the_max, 'min': the_min}
+#
+# print(func(2,5,7,8,4))
 
 # 写函数，专门计算图形的面积
 #
@@ -128,12 +128,12 @@ print(func(2,5,7,8,4))
 #
 # 例如:cal(7)
 # 计算7*6*5*4*3*2*1
-# def func(n):
-#     res = 1
-#     for i in range(7, 0, -1):
-#         res = res * i
-#     return res
-# print(func(7))
+def func(n):
+    res = 1
+    for i in range(n, 0, -1):
+        res = res * i
+    return res
+print(func(7))
 
 
 # 编写装饰器，为多个函数加上认证的功能（用户的账号密码来源于文件），要求登录成功一次，后续的函数都无需再输入用户名和密码
