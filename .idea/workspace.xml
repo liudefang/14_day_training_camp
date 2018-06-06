@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a0bd5d-d9af-429a-a638-77681ec6ede1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/Manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/School.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/School.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,70 +17,48 @@
     <SUITE FILE_PATH="coverage/14_day_training_camp$__1_.coverage" NAME="第三章课后练习 (1) Coverage Results" MODIFIED="1527682587724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$3_.coverage" NAME="3 属性查找与绑定方法 Coverage Results" MODIFIED="1527990126085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$2_.coverage" NAME="2 类与对象 Coverage Results" MODIFIED="1527987001152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$run.coverage" NAME="run Coverage Results" MODIFIED="1528298968100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Select Course/bin" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$.coverage" NAME="类、实例、属性、方法 Coverage Results" MODIFIED="1527928124529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$5_.coverage" NAME="5 继承和派生 Coverage Results" MODIFIED="1528118923199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$1_.coverage" NAME="1 面向过程编程 Coverage Results" MODIFIED="1527780019400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$file__.coverage" NAME="file_修改_替换原文件 Coverage Results" MODIFIED="1527427170812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$1___1_.coverage" NAME="1 面向过程编程 (1) Coverage Results" MODIFIED="1527779401708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$main.coverage" NAME="main Coverage Results" MODIFIED="1528295489609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Select Course/core" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2 类与对象.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/2 类与对象.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="28" selection-start-line="7" selection-start-column="4" selection-end-line="14" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3 属性查找与绑定方法.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/3 属性查找与绑定方法.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="34" column="125" selection-start-line="30" selection-end-line="34" selection-end-column="125" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5 继承和派生.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/bin/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="e#99#108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/conf/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#104#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="202">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="School.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/lib/School.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Classes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/lib/Classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Course.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/lib/Course.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -87,8 +66,17 @@
       <file leaf-file-name="Student.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/Student.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1259">
+            <state relative-caret-position="306">
               <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -96,29 +84,37 @@
       <file leaf-file-name="Manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/Manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="547">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding>
+                <element signature="e#102#126#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="School.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/lib/School.py">
+      <file leaf-file-name="accounts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/accounts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="7">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#104#113#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/log/system.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
       <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state>
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#118#133#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_login.py" />
-        <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py" />
         <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.ipynb" />
         <option value="$PROJECT_DIR$/../interface_erpapi_automation/globalpz/http_request.py" />
         <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" />
@@ -183,10 +177,15 @@
         <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/bin/run.py" />
         <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/conf/settings.py" />
         <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/logger.py" />
-        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py" />
         <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/Student.py" />
-        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/Manager.py" />
+        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/accounts.py" />
+        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/db_handler.py" />
         <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/School.py" />
+        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/auth.py" />
+        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/Classes.py" />
+        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/Course.py" />
+        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py" />
+        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/Manager.py" />
       </list>
     </option>
   </component>
@@ -213,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,10 +274,19 @@
               <item name="Select Course" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第六次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="Select Course" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5 继承和派生">
+  <component name="RunManager" selected="Python.run">
     <configuration name="面向对象编程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -321,44 +328,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\Python\14_day_training_camp\Python全栈开发中级\第三模块\第五章-面向对象编程\2 面向对象编程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="1 面向过程编程 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14_day_training_camp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/1 面向过程编程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="1 面向过程编程" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14_day_training_camp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/1 面向过程编程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -497,6 +466,44 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/第六次作业/Select Course/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/第六次作业/Select Course/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/第六次作业/Select Course/bin/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="interface_erpapi_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -585,19 +592,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.1 面向过程编程" />
-      <item itemvalue="Python.1 面向过程编程 (1)" />
       <item itemvalue="Python.2 类与对象" />
       <item itemvalue="Python.3 属性查找与绑定方法" />
       <item itemvalue="Python.5 继承和派生" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.5 继承和派生" />
         <item itemvalue="Python.3 属性查找与绑定方法" />
         <item itemvalue="Python.2 类与对象" />
-        <item itemvalue="Python.1 面向过程编程" />
-        <item itemvalue="Python.1 面向过程编程 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -655,9 +662,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28249568" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28202367" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17542918" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17757511" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -680,35 +687,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="59" column="26" selection-start-line="51" selection-end-line="59" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1072250519/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/兼职白领学生空姐模特护士联系方式.txt.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_修改_替换原文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/poetry.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/file.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -884,9 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#103#112#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,9 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -949,61 +921,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/bin/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#99#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/conf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="630">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#104#113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/logger.py">
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/db_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="660">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#118#133#0" expanded="true" />
+            <element signature="e#146#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py">
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/bin/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="420">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#99#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/lib/Classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/Student.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1259">
+        <state relative-caret-position="306">
           <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/Manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/lib/School.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="427">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/Manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="e#102#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/core/accounts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#104#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/log/system.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第六次作业/Select Course/lib/Course.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>

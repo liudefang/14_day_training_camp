@@ -3,6 +3,7 @@
 # @Author  : mike.liu
 # @File    : Manager.py
 from core import Student
+from lib import Classes, School, Course
 
 
 class Manager:
@@ -24,6 +25,15 @@ class Manager:
     @staticmethod
     def create_school():
         School.School.create_school()
+
+    @staticmethod
+    def show_course():
+        Course.Course.show_course()
+
+    @staticmethod
+    def create_course():
+        Course.Course.create_course()
+
 
     @staticmethod
     def show_shool():
