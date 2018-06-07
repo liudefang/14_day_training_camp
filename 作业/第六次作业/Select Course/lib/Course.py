@@ -14,9 +14,9 @@ class Course:
     def create_course():
         name = "course"
         print("\033[32;1m欢迎来到创建课程页面\033[0m".center(20, '-'))
-        course_data = accounts.MyPicke.load_coursedata(name)
+
         course_dict = {}
-        accounts.MyPicke.load_school('school')
+        accounts.MyPickle.load_school('school')
         course_school = input("请输入学校对应的课程:").strip()
         course_name = input("请输入课程名称:").strip()
         course_period = input("请输入课程周期:").strip()
@@ -27,8 +27,8 @@ class Course:
         course_dict["course_prices"] = course_prices
         print("\033[32;1m创建的课程信息如下:\033[0m".center(20, '-'))
         print("\033[31;1m%s\033[0m" % course_dict)
-        accounts.MyPicke.save_course(course_dict)
-        accounts.MyPicke.save_coursedata(name, course_name)
+        accounts.MyPickle.save_course(course_dict)
+        accounts.MyPickle.save_coursedata(name, course_school, course_name, course_period, course_prices)
 
     @staticmethod
     def show_course():
@@ -36,8 +36,8 @@ class Course:
         请输入课程信息
         :return:
         '''
-        print("\033\32;1m欢迎来到课程查询页面".center(20, '-'))
+        print("\033[32;1m欢迎来到课程查询页面".center(20, '-'))
         name = "course"
-        accounts.MyPicke.load_coursedata(name)
+        accounts.MyPickle.load_coursedata(name)
         course_name = input("请输入要查找的课程名:").strip()
-        accounts.MyPicke.load_course(course_name)
+        accounts.MyPickle.load_course(course_name)

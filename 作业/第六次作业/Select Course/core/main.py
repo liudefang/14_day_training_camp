@@ -2,7 +2,7 @@
 # @Time    : 2018-06-05 21:50
 # @Author  : mike.liu
 # @File    : main.py
-from core import logger, Manager, auth
+from core import logger, Manager,  Student, Teacher
 
 # 初始化账号数据
 
@@ -29,20 +29,36 @@ def interactive(msg, menu_dic):
             print("\033[31;1m你选择的功能不存在!\033[0m")
 
 
-# def Student_view():
-#     msg = '''\033[32;1m-------欢迎来到学生管理界面-------
-#             1、 注册新学生用户
-#             2、 查看上课记录
-#             3、 查看作业成绩
-#             4、 退出
-#             \033[0m'''
-#     menu_dic = {
-#         "1": Student.Student.resistered,
-#         "2":Student.Student.find_classrecord,
-#         "3":Student.Student.find_grade,
-#         "4":logout,
-#     }
-#     interactive(msg, menu_dic)
+def Student_view():
+    msg = '''\033[32;1m-------欢迎来到学生管理界面-------
+            1、 注册新学生用户
+            2、 查看上课记录
+            3、 查看作业成绩
+            4、 退出
+            \033[0m'''
+    menu_dic = {
+        "1": Student.Student.resistered,
+        "2": Student.Student.find_classrecord,
+        "3": Student.Student.find_grade,
+        "4": logout,
+    }
+    interactive(msg, menu_dic)
+
+
+def Teacher_view():
+    msg = '''\033[32;1m-------欢迎来到老师管理页面------
+            1   创建新讲师
+            2   创建学生上课情况
+            3   创建学生考试成绩
+            4   logout
+    \033[0m'''
+    menu_dic = {
+        "1": Teacher.Teacher.resistered,
+        "2": Teacher.Teacher.create_classrecord,
+        "3": Teacher.Teacher.create_grade,
+        "4": logout,
+    }
+    interactive(msg, menu_dic)
 
 # 管理员视图
 def Manager_view():
@@ -68,7 +84,7 @@ def Manager_view():
         # "8": Manager.Manager.show_class,
         "9": logout,
     }
-    login_judge()
+
     interactive(msg, menu_dic)
 
 
@@ -93,18 +109,10 @@ def begin():
             4. 退出系统
         \033[0m'''
     menu_dic = {
-        # "1": Student_viem,
-        # "2": Teacher_viem,
+        "1": Student_view,
+        "2": Teacher_view,
         "3": Manager_view,
         "4": logout,
     }
 
     interactive(msg, menu_dic)
-
-
-def login_judge():
-    # 调用认证模块，返回用户文件json.load后的字典，传入access_logger日志对象
-
-    access_data = auth.access_login(user_data, access_logger)
-    if user_data['is_authenticated']:    # 如果用户认证成功
-        user_data["account_data"] = access_data

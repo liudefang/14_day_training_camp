@@ -2,7 +2,7 @@
 # @Time    : 2018-06-05 22:47
 # @Author  : mike.liu
 # @File    : Manager.py
-from core import Student
+from core import Student, Teacher
 from lib import Classes, School, Course
 
 
@@ -15,6 +15,18 @@ class Manager:
         Student.Student.resistered()
 
     @staticmethod
+    def create_teacher():
+        Teacher.Teacher.resistered()
+
+    @staticmethod
+    def create_course():
+        Course.Course.create_course()
+
+    @staticmethod
+    def show_course():
+        Course.Course.show_course()
+
+    @staticmethod
     def create_class():
         Classes.Classes.create_class()
 
@@ -25,14 +37,6 @@ class Manager:
     @staticmethod
     def create_school():
         School.School.create_school()
-
-    @staticmethod
-    def show_course():
-        Course.Course.show_course()
-
-    @staticmethod
-    def create_course():
-        Course.Course.create_course()
 
     @staticmethod
     def show_school():

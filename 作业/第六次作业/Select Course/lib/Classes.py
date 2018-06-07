@@ -16,9 +16,10 @@ class Classes:
 
         class_name = input("请输入班级名称:").strip()
         accounts.MyPickle.save_class(name, class_name)
+        print("\033[34;1m创建[%s]班级成功\033[0m" % class_name)
 
     @staticmethod
     def show_class():
         print("\033[32;1m欢迎来到班级查看页面".center(20, '-'))
         name = "class"
-        accounts.MyPicke.load_class(name)
+        accounts.MyPickle.load_class(name)
