@@ -26,7 +26,7 @@ def interactive(msg, menu_dic):
         if user_choice in menu_dic:
             menu_dic[user_choice]()
         else:
-            print("\033[31;1m 你选择的功能不存在!\o33[0m")
+            print("\033[31;1m你选择的功能不存在!\033[0m")
 
 
 # def Student_view():
@@ -60,14 +60,15 @@ def Manager_view():
     menu_dic = {
         # "1": Manager.Manager.create_teacher,
         # "2": Manager.Manager.create_student,
-        # "3": Manager.Manager.create_school,
+        "3": Manager.Manager.create_school,
         "4": Manager.Manager.create_course,
         "5": Manager.Manager.show_course,
-        # "6": Manager.Manager.show_shool,
-        # "7": Manager.Manager.create_class,
+        "6": Manager.Manager.show_school,
+        "7": Manager.Manager.create_class,
         # "8": Manager.Manager.show_class,
         "9": logout,
     }
+    login_judge()
     interactive(msg, menu_dic)
 
 

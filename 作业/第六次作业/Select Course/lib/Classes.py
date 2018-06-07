@@ -13,9 +13,9 @@ class Classes:
     def create_class():
         name = "class"
         print("\033[32;1m欢迎来到班级创建页面".center(20, '-'))
-        class_data = accounts.MyPicke.load_class(name)
+
         class_name = input("请输入班级名称:").strip()
-        accounts.MyPicke.save_class(name, class_name)
+        accounts.MyPickle.save_class(name, class_name)
 
     @staticmethod
     def show_class():

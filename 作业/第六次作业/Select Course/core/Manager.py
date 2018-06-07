@@ -34,7 +34,6 @@ class Manager:
     def create_course():
         Course.Course.create_course()
 
-
     @staticmethod
-    def show_shool():
-        School.Shool.show_school()
+    def show_school():
+        School.School.show_school()

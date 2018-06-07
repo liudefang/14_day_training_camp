@@ -5,6 +5,7 @@
 '''
 学生视图，学生创建姓名，年龄，所报的班级，所报的学校
 '''
+from core import accounts, Manager
 
 
 class Student:

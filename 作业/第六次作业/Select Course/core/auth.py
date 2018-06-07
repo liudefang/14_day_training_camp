@@ -18,8 +18,8 @@ def access_login(user_data, log_obj):
 
     retry_count = 0
     while user_data['is_authenticated'] is not True and retry_count < 3:
-        account = input("\033[33;1m;请输入管理员用户名:\033[0m".center(20, '-')).strip()
-        password = input("\033[33;1m;请输入管理员密码:\033[0m".center(20, '-')).strip()
+        account = input("\033[33;1m请输入管理员用户名:\033[0m".center(20, '-')).strip()
+        password = input("\033[33;1m请输入管理员密码:\033[0m".center(20, '-')).strip()
         # 用户账号密码正确，则返回用户数据的字典
         auth = access_auth(account, password, log_obj)
         if auth:
