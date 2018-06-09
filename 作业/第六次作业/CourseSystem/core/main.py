@@ -4,7 +4,7 @@
 # @File    : main.py
 
 # 管理员视图
-# from core.auth import Auth
+from core.auth import Auth
 from lib.Admin import Admin
 
 

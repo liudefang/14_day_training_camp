@@ -13,7 +13,6 @@ sys.path.append(BASE_DIR)
 from core import main
 
 
-
 if __name__ == '__main__':
     a = main.Run()
     a.interactive()
