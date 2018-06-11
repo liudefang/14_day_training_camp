@@ -3,6 +3,7 @@
 # @Author  : mike.liu
 # @File    : sokect_server.py
 import socketserver
+import os
 from 第七次作业.FTP.ftpserver.core.Log import *
 from 第七次作业.FTP.ftpserver.modules import auth_user
 
@@ -22,6 +23,7 @@ class Myserver(socketserver.BaseRequestHandler):
                 if status_code == "400":
                     logging.info("用户认证失败!")
                     continue
+
                 else:
                     self.user_db = result[1]
                     self.current_path = self.user_db["homepath"]    # 用户当前目录
@@ -47,3 +49,30 @@ class Myserver(socketserver.BaseRequestHandler):
             return "200", result
         else:
             return "400", result
+
+
+    def pwd(self, command):
+        '''查看当前用户路径'''
+        if len(command.split()) == 1:
+            self.conn.sendall("201".encode())
+            response = self.conn.recv(1024)
+            send_data = self.current_path
+            self.conn.sendall(send_data.encode())
+        else:
+            self.conn.sendall("401".encode())
+
+    def mkdir(self, command):
+        '''创建目录'''
+        if len(command.split()) > 1:
+            dir_name = command.split()[1]   # 目录名
+            dir_path = self.current_path + r"/%s" % dir_name        # 目录路径
+            logging.info("dir_path:" % dir_path)
+            if os.path.isdir(dir_path):  # 目录存在
+                self.conn.sendall("403".encode())
+            else:
+                self.conn.sendall("201".encode())
+                os.makedirs(dir_path)
+                logging.info("创建目录[%s]成功" % dir_path)
+
+        else:
+            self.conn.sendall("401".encode())
