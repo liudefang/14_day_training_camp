@@ -9,8 +9,10 @@ from 第七次作业.FTP.ftpserver.modules import sokect_server
 
 
 if __name__ == "__main__":
+    # 创建用户数据库文件和宿主目录
     create_db()
     create_dir()
 
+    # 启动服务端
     server = sokect_server.socketserver.ThreadingTCPServer(settings.IP_PORT, sokect_server.Myserver)
     server.serve_forever()

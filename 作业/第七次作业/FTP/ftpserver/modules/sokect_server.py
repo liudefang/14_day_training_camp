@@ -2,8 +2,11 @@
 # @Time    : 18-6-11 下午1:48
 # @Author  : mike.liu
 # @File    : sokect_server.py
+import hashlib
 import socketserver
 import os
+from os.path import getsize, join
+
 from 第七次作业.FTP.ftpserver.core.Log import *
 from 第七次作业.FTP.ftpserver.modules import auth_user
 
@@ -50,12 +53,11 @@ class Myserver(socketserver.BaseRequestHandler):
         else:
             return "400", result
 
-
     def pwd(self, command):
         '''查看当前用户路径'''
         if len(command.split()) == 1:
             self.conn.sendall("201".encode())
-            response = self.conn.recv(1024)
+            self.conn.recv(1024)
             send_data = self.current_path
             self.conn.sendall(send_data.encode())
         else:
@@ -66,7 +68,7 @@ class Myserver(socketserver.BaseRequestHandler):
         if len(command.split()) > 1:
             dir_name = command.split()[1]   # 目录名
             dir_path = self.current_path + r"/%s" % dir_name        # 目录路径
-            logging.info("dir_path:" % dir_path)
+
             if os.path.isdir(dir_path):  # 目录存在
                 self.conn.sendall("403".encode())
             else:
@@ -76,3 +78,120 @@ class Myserver(socketserver.BaseRequestHandler):
 
         else:
             self.conn.sendall("401".encode())
+
+    def cd(self, command):
+        '''目录切换'''
+        if len(command.split()) > 1:
+            dir_name = command.split()[1]       # 目录名
+            dir_path = self.current_path + r"/%s" % dir_name    # 目录路径
+            user_home_path = settings.HOME_PATH + r"/%s" % self.user_db["username"]     # 宿主目录
+
+            if dir_name == ".." and len(self.current_path) > len(user_home_path):
+                self.conn.sendall("201".encode())
+                self.conn.recv(1024)
+                self.current_path = os.path.dirname(self.current_path)      # 返回上一级目录
+                logging.info("返回上一级目录:%s 成功" % self.current_path)
+            elif os.path.isdir(dir_path):
+                self.conn.sendall("201".encode())
+                self.conn.recv(1024)
+                if dir_name != "." and dir_name != "..":
+                    self.current_path += r"/%s" % dir_name      # 切换目录
+                    logging.info("切换到目录【%s】成功" % dir_name)
+
+            else:
+                self.conn.sendall("402".encode())
+        else:
+            self.conn.sendall("401".encode())
+
+    def dir(self, command):
+        '''查看当前目录下的文件'''
+        if len(command.split()) == 1:
+            self.conn.sendall("201".encode())
+            self.conn.recv(1024)
+            send_data = os.popen("dir %s" % self.current_path)
+            self.conn.sendall(send_data.read().encode())
+        else:
+            self.conn.sendall("401".encode())
+
+    def put(self, command):
+        '''上传文件'''
+        filename = command.split()[1]
+        file_path = self.current_path + r"/%s" % filename
+        self.conn.sendall("000".encode())       # 发送确认
+        file_size = self.conn.recv(1024).decode()   # 文件大小
+        file_size = int(file_size)
+        limit_size = self.user_db["limitsize"]  # 磁盘额度
+        used_size = self.__getdirsize(self.home_path)   # 已用空间大小
+        if not os.path.isfile(file_path):   # 判断文件是否存在
+            if limit_size > file_size + used_size:
+                self.conn.sendall("202".encode())
+                with open(file_path, "wb") as file:
+                    revice_size = 0
+                    m = hashlib.md5()
+                    while revice_size < file_size:
+                        minus_size = file_size - revice_size
+                        if minus_size > 1024:
+                            size = 1024
+                        else:
+                            size = minus_size
+                        data = self.conn.recv(size)
+                        revice_size += len(data)
+                        file.write(data)
+                        m.update(data)
+                    new_file_md5 = m.hexdigest()    # 生成新文件的md5值
+                    server_file_md5 = self.conn.recv(1024).decode()
+                    if new_file_md5 == server_file_md5:     # md5值一致
+                        self.conn.sendall("203".encode())
+            else:
+                self.conn.sendall("404".encode())
+        else:
+            self.conn.sendall("403".encode())
+
+    def get(self, command):
+        '''下载文件'''
+        if len(command.split()) > 1:
+            filename = command.split()[1]
+            file_path = self.current_path + r"/%s" % filename
+            if os.path.isfile(file_path):        # 文件是否存在
+                self.conn.sendall("201".encode())   # 命令可执行
+                file_size = os.stat(file_path).st_size   # 文件总大小
+                status_code = self.conn.recv(1024).decode()
+
+                # 客户端存在次文件
+                if status_code == "403":
+                    self.conn.sendall("000".encode())   # 系统交互
+                    has_send_size = self.conn.recv(1024).decode()
+                    has_send_size = int(has_send_size)
+                    # 客户端文件不完整可以续传
+                    if has_send_size < file_size:
+                        self.conn.sendall("205".encode())
+                        file_size -= has_send_size  # 续传文件大小
+                        self.conn.recv(1024)
+
+                    # 客户端文件完整不可续传，不提供下载
+                    else:
+                        self.conn.sendall("405".encode())
+                        return
+                elif status_code == "402":
+                    has_send_size = 0
+
+                with open(file_path, "rb") as file:
+                    self.conn.sendall(str(file_size).encode())      # 发送文件大小
+                    self.conn.recv(1024)
+                    file.seek(has_send_size)
+                    m = hashlib.md5()
+                    for line in file:
+                        m.update(line)
+                        self.conn.sendall(line)
+                self.conn.sendall(m.hexdigest().encode())       # 发送文件md5值
+            else:
+                self.conn.sendall("402".encode())
+        else:
+            self.conn.sendall("401".encode())
+
+    def __getdirsize(self, home_path):
+        '''统计目录空间大小'''
+        size = 0
+        for root, dirs, files in os.walk(home_path):
+            size += sum([getsize(join(root, name)) for name in files])
+        return size

@@ -91,3 +91,159 @@
 2018-06-11 21:28:43 ftpclient.py[line:46] INFO ������Ӧ�Ĳ���
 2018-06-11 21:28:47 ftpclient.py[line:80] INFO [403]����
 2018-06-11 21:29:08 ftpclient.py[line:77] INFO �����ͷ�����������!
+2018-06-12 09:44:17 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 09:44:29 ftpclient.py[line:39] INFO [200]用户认证成功!
+2018-06-12 09:44:29 ftpclient.py[line:46] INFO 进行相应的操作
+2018-06-12 09:44:34 ftpclient.py[line:85] INFO []错误
+2018-06-12 09:44:49 ftpclient.py[line:85] INFO []错误
+2018-06-12 09:47:00 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 09:47:05 ftpclient.py[line:39] INFO [200]用户认证成功!
+2018-06-12 09:47:05 ftpclient.py[line:46] INFO 进行相应的操作
+2018-06-12 09:47:33 ftpclient.py[line:85] INFO [401]错误
+2018-06-12 09:51:21 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 09:52:24 ftpclient.py[line:39] INFO [200]用户认证成功!
+2018-06-12 09:52:24 ftpclient.py[line:46] INFO 进行相应的操作
+2018-06-12 09:52:33 ftpclient.py[line:85] INFO [403]错误
+2018-06-12 09:52:41 ftpclient.py[line:94] INFO /home/mikeliu/python/14_day_training_camp/作业/第七次作业/FTP/ftpserver/home/mike
+2018-06-12 09:52:59 ftpclient.py[line:94] INFO /home/mikeliu/python/14_day_training_camp/作业/第七次作业/FTP/ftpserver/home/mike/test
+2018-06-12 09:56:21 ftpclient.py[line:94] INFO /home/mikeliu/python/14_day_training_camp/作业/第七次作业/FTP/ftpserver/home/mike
+2018-06-12 09:58:06 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 09:58:12 ftpclient.py[line:39] INFO [200]用户认证成功!
+2018-06-12 09:58:12 ftpclient.py[line:46] INFO 进行相应的操作
+2018-06-12 09:58:22 ftpclient.py[line:82] INFO 操作成功!
+2018-06-12 09:58:43 ftpclient.py[line:82] INFO 操作成功!
+2018-06-12 10:50:23 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 10:50:27 ftpclient.py[line:39] INFO [200]用户认证成功!
+2018-06-12 10:50:27 ftpclient.py[line:46] INFO 进行相应的操作
+2018-06-12 10:50:33 ftpclient.py[line:102] INFO [401]命令不正确!
+2018-06-12 10:52:38 ftpclient.py[line:140] INFO /home/mikeliu/python/14_day_training_camp/作业/第七次作业/FTP/ftpserver/home/mike
+2018-06-12 10:52:38 ftpclient.py[line:141] INFO 操作成功!
+2018-06-12 11:05:05 ftpclient.py[line:100] INFO [402]文件不存在!
+2018-06-12 11:10:42 ftpclient.py[line:56] INFO [dir]命令不存在
+2018-06-12 11:11:58 ftpclient.py[line:100] INFO [402]文件不存在!
+2018-06-12 11:12:03 ftpclient.py[line:140] INFO /home/mikeliu/python/14_day_training_camp/作业/第七次作业/FTP/ftpserver/home/mike
+2018-06-12 11:12:03 ftpclient.py[line:141] INFO 操作成功!
+2018-06-12 11:12:25 ftpclient.py[line:100] INFO [402]文件不存在!
+2018-06-12 11:21:47 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:21:47 ftpclient.py[line:29] INFO ------开始进行用户登录------
+2018-06-12 11:21:59 ftpclient.py[line:39] INFO [200]用户认证成功!
+2018-06-12 11:21:59 ftpclient.py[line:46] INFO 进行相应的操作
+2018-06-12 11:22:04 ftpclient.py[line:145] INFO python.pptx  test
+
+2018-06-12 11:22:04 ftpclient.py[line:146] INFO 操作成功!
+2018-06-12 11:22:44 ftpclient.py[line:145] INFO /home/mikeliu/python/14_day_training_camp/作业/第七次作业/FTP/ftpserver/home/mike
+2018-06-12 11:22:44 ftpclient.py[line:146] INFO 操作成功!
+2018-06-12 11:22:54 ftpclient.py[line:105] INFO [402]文件不存在!
+2018-06-12 11:24:55 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:24:55 ftpclient.py[line:29] INFO ------开始进行用户登录------
+2018-06-12 11:25:25 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:25:25 ftpclient.py[line:29] INFO -----开始进行用户登录
+------
+2018-06-12 11:26:16 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:26:16 ftpclient.py[line:29] INFO ------开始进行用户登录------
+2018-06-12 11:26:33 ftpclient.py[line:39] INFO [200]用户认证成功!
+2018-06-12 11:26:33 ftpclient.py[line:46] INFO 进行相应的操作
+2018-06-12 11:26:54 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:26:54 ftpclient.py[line:29] INFO ------开始进行用户登录------
+2018-06-12 11:28:05 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:28:05 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 11:28:20 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:28:20 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 11:28:34 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:28:34 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 11:28:55 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:28:55 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 11:29:01 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 11:29:01 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 11:29:16 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:29:16 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 11:29:43 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 11:29:43 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 11:29:48 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 11:29:48 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 13:56:18 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 13:56:18 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 13:56:22 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 13:56:22 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 13:56:32 ftpclient.py[line:109] INFO [402]文件不存在!
+2018-06-12 13:57:19 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 13:57:19 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 13:57:25 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 13:57:25 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 13:58:37 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 13:58:37 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 13:58:41 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 13:58:41 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 14:01:08 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 14:01:08 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 14:01:12 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 14:01:12 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 14:02:41 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 14:02:41 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 14:02:45 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 14:02:45 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 14:03:07 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 14:03:07 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 14:04:31 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 14:04:31 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 14:09:57 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 14:09:57 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 14:10:02 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 14:10:02 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 14:10:09 ftpclient.py[line:106] INFO 
+文件具有一致性
+2018-06-12 14:10:52 ftpclient.py[line:150] INFO python.pptx  test
+
+2018-06-12 14:10:52 ftpclient.py[line:151] INFO 操作成功!
+2018-06-12 14:12:10 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 14:12:10 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 14:12:16 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 14:12:16 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 14:12:22 ftpclient.py[line:106] INFO 
+文件具有一致性
+2018-06-12 14:58:18 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 14:58:18 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 14:58:28 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 14:58:28 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 14:58:37 ftpclient.py[line:106] INFO 
+文件具有一致性
+2018-06-12 14:59:28 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 14:59:28 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 14:59:32 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 14:59:32 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 14:59:37 ftpclient.py[line:106] INFO 
+文件具有一致性
+2018-06-12 15:01:46 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 15:01:46 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 15:01:52 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 15:01:52 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 15:01:58 ftpclient.py[line:108] INFO [403]错误
+2018-06-12 15:02:44 ftpclient.py[line:106] INFO 
+文件具有一致性
+2018-06-12 15:57:17 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 15:57:17 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 15:57:22 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 15:57:22 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 15:59:43 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 15:59:43 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 15:59:50 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 15:59:50 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 15:59:59 ftpclient.py[line:131] INFO 继续上次上传位置进行续传
+2018-06-12 15:59:59 ftpclient.py[line:166] INFO 
+文件具有一致性
+2018-06-12 16:00:39 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 16:00:39 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 16:00:44 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 16:00:44 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 16:00:52 ftpclient.py[line:136] INFO 文件已经存在，大小一致
+2018-06-12 16:02:52 ftpclient.py[line:166] INFO 
+文件具有一致性
+2018-06-12 16:03:17 ftpclient.py[line:136] INFO 文件已经存在，大小一致
+2018-06-12 17:45:44 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 17:45:44 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 17:45:51 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 17:45:51 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-12 17:48:24 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-12 17:48:24 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-12 17:48:31 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-12 17:48:31 ftpclient.py[line:48] INFO 进行相应的操作
