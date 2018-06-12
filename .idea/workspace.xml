@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a0bd5d-d9af-429a-a638-77681ec6ede1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第七次作业/FTP/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/bin/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第七次作业/FTP/bin/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpclient/ftpclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpclient/ftpclient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/bin/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/bin/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/core/Log.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/core/Log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/log/ftpserver.log" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/log/ftpserver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/auth_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/auth_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/sokect_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/sokect_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/log/ftpserver.log" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第七次作业/FTP/log/ftpserver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第七次作业/ftptest.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,8 +83,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="489">
+              <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -201,7 +191,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1167" />
     <option name="y" value="-15" />
     <option name="width" value="1120" />
@@ -599,7 +589,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1080" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="1080" y="-2" width="1920" height="1082" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18763213" />
@@ -937,8 +927,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="489">
+          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
         </state>
       </provider>
     </entry>
