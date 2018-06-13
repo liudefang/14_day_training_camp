@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 # @Time    : 18-6-11 上午11:02
 # @Author  : mike.liu
-# @File    : start.py
+# @File    : server_start.py
 from 第七次作业.FTP.ftpserver.core.ftpserver import create_db, create_dir, settings
 from 第七次作业.FTP.ftpserver.modules import sokect_server
 

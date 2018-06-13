@@ -141,7 +141,7 @@ logger.error("account [1234] too many login attempts")
 # │   ├── luffy.json
 # │   └── tesla.json
 # └── bin
-#       └── start.py
+#       └── server_start.py
 # 当执行start.py时，出现交互窗口
 #
 #    ------- Luffy Bank ---------
@@ -156,7 +156,7 @@ logger.error("account [1234] too many login attempts")
 # ├── account
 # │   └── luffy.json
 # ├── bin
-# │   └── start.py
+# │   └── server_start.py
 # └── core
 #    └── withdraw.py
 # 当执行start.py时，出现交互窗口
@@ -174,7 +174,7 @@ logger.error("account [1234] too many login attempts")
 #  ├── account
 #  │   └── luffy.json
 #  ├── bin
-#  │   └── start.py
+#  │   └── server_start.py
 #  └── core
 #  |   └── withdraw.py
 #  └── logs

@@ -22,7 +22,8 @@
     |     |--ftpclient.py   # 客户端主程序
     |-- bin     # 客户端入口
     |    |--__init__.py
-    |    |-- start.py   # 客户端启动程序
+    |    |-- client_start.py   # 客户端启动程序
+    |    |-- server_start.py    # 创建用户数据，启动服务器
     |
     |-- log
     |    |-- ftpserver.log # 客户端的日志信息
@@ -54,12 +55,16 @@
                |-- ftpserver.log  # 服务端日志信息
 
  三、功能实现
- 
+
      1、conf 目录下setting.py模块记录可操作用户信息，根据用户信息生成用户字典和宿主目录，已经生成的不再新建
 
      2、每个用户的宿主目录磁盘空间配额默认为10m，可在setting.py模块里进行修改
 
-     3、程序实现下面命令操作
+     3、运行bin的server_start.py创建用户数据，创建用户宿主目录及启动ftp服务器
+
+     4、运行bin的client_start.py启动ftp的客户端
+
+     5、程序实现下面命令操作
 
             ①、切换目录：cd..  返回上一级目录
                         cd dirname 进入dirname
