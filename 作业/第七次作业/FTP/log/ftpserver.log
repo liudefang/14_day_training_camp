@@ -267,3 +267,21 @@
 2018-06-13 13:46:39 ftpclient.py[line:48] INFO 进行相应的操作
 2018-06-13 13:46:42 ftpclient.py[line:202] INFO /home/mikeliu/python/14_day_training_camp/作业/第七次作业/FTP/ftpserver/home/tom
 2018-06-13 13:46:42 ftpclient.py[line:203] INFO 操作成功!
+2018-06-14 12:22:30 sokect_server.py[line:16] INFO ftp服务器已经启动
+2018-06-14 12:22:30 ftpserver.py[line:15] INFO 创建数据库文件开始
+2018-06-14 12:22:30 ftpserver.py[line:36] INFO 该数据库文件已经存在!
+2018-06-14 12:22:30 ftpserver.py[line:36] INFO 该数据库文件已经存在!
+2018-06-14 12:22:30 ftpserver.py[line:36] INFO 该数据库文件已经存在!
+2018-06-14 12:22:30 ftpserver.py[line:44] INFO 该目录已经存在!
+2018-06-14 12:22:30 ftpserver.py[line:44] INFO 该目录已经存在!
+2018-06-14 12:22:30 ftpserver.py[line:44] INFO 该目录已经存在!
+2018-06-14 12:22:40 ftpclient.py[line:22] INFO 连接服务器成功!
+2018-06-14 12:22:40 ftpclient.py[line:30] INFO ------开始进行用户登录------
+2018-06-14 12:22:47 ftpclient.py[line:41] INFO [200]用户认证成功!
+2018-06-14 12:22:47 ftpclient.py[line:48] INFO 进行相应的操作
+2018-06-14 12:22:55 ftpclient.py[line:202] INFO python.pptx  test
+
+2018-06-14 12:22:55 ftpclient.py[line:203] INFO 操作成功!
+2018-06-14 12:23:14 ftpclient.py[line:135] INFO 文件已经存在，大小一致
+2018-06-14 12:25:25 ftpclient.py[line:202] INFO /home/mikeliu/python/14_day_training_camp/作业/第七次作业/FTP/ftpserver/home/mike
+2018-06-14 12:25:25 ftpclient.py[line:203] INFO 操作成功!
