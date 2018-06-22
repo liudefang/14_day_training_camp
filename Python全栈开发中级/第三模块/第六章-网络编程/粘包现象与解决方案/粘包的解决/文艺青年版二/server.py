@@ -24,9 +24,9 @@ while True:
         print('cmd:%s' % cmd)
 
         res = subprocess.Popen(cmd.decode('utf-8'),
-                               shell=True,
-                               stdout=subprocess.PIPE,
-                               stderr=subprocess.PIPE)
+                               shell=True,  # shell命令，可以是字符串或者序列类型(如：list，元组)
+                               stdout=subprocess.PIPE,  # 标准输出
+                               stderr=subprocess.PIPE)  # 错误句柄
 
         err = res.stderr.read()
         print(err)
