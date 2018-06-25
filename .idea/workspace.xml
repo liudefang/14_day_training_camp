@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a0bd5d-d9af-429a-a638-77681ec6ede1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,14 +37,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="练习题.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="客户端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/客户端.py">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/客户端.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="服务端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/服务端.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/服务端.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+              <folding>
+                <element signature="e#100#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="客户端.py" pinned="false" current-in-tab="false">
@@ -51,64 +90,32 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="客户端2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端2.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="客户端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/客户端.py">
+      <file leaf-file-name="客户端1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端1.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="服务端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/服务端.py">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/服务端.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="-72" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="客户端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/client/客户端.py">
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-648">
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="服务端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/server/服务端.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-355">
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="客户端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/优化版本/client/客户端.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="练习题.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="528">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -128,10 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/Teacher.py" />
-        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py" />
-        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/Course.py" />
-        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/core/accounts.py" />
         <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/README.md" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py" />
@@ -179,6 +182,10 @@
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/client.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/server.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py" />
       </list>
     </option>
   </component>
@@ -228,6 +235,56 @@
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
               <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
               <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="02 加上循环" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="02 加上循环" type="462c0819:PsiDirectoryNode" />
+              <item name="01 加上通信循环" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="02 加上循环" type="462c0819:PsiDirectoryNode" />
+              <item name="03 加上链接循环" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="02 加上循环" type="462c0819:PsiDirectoryNode" />
+              <item name="04_模拟ssh远程执行命令" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="03 粘包现象分析" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
               <item name="第六章-网络编程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,6 +294,24 @@
               <item name="第三模块" type="462c0819:PsiDirectoryNode" />
               <item name="第六章-网络编程" type="462c0819:PsiDirectoryNode" />
               <item name="本章总结" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第六章-网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="本章总结" type="462c0819:PsiDirectoryNode" />
+              <item name="聊天软件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第六章-网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="本章总结" type="462c0819:PsiDirectoryNode" />
+              <item name="远程命令" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.client (2)">
+  <component name="RunManager" selected="Python.client (1)">
     <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,29 +356,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="client (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14_day_training_camp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,11 +374,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,11 +392,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,20 +420,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
+      <item itemvalue="Python.server (2)" />
+      <item itemvalue="Python.server" />
       <item itemvalue="Python.client" />
       <item itemvalue="Python.server (1)" />
       <item itemvalue="Python.client (1)" />
-      <item itemvalue="Python.server (2)" />
-      <item itemvalue="Python.client (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.client (2)" />
-        <item itemvalue="Python.server (2)" />
         <item itemvalue="Python.client (1)" />
         <item itemvalue="Python.server (1)" />
         <item itemvalue="Python.client" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.server (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -397,11 +472,11 @@
     <frame x="1080" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14006342" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14006342" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32394367" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27410617" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27410617" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32936078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -435,83 +510,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6870">
-          <caret line="229" column="12" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/9 封装.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6120">
-          <caret line="204" column="13" selection-start-line="204" selection-start-column="13" selection-end-line="204" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/sokect_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/core/ftpserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/bin/client_start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/bin/server_start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/10 绑定方法与非绑定方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="21" selection-start-line="21" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1987">
-          <caret line="114" column="31" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="554" column="7" selection-start-line="554" selection-start-column="7" selection-end-line="554" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/globalpz/get_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -612,13 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/client1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -737,52 +728,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/02 粘包现象分析1/客户端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/01 send与recv对比">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/02 粘包现象分析1/服务端.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/服务端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/服务端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/client/客户端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -808,10 +759,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/02 粘包现象分析1/客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/客户端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/客户端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/client/客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-740">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/client1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/01 加上通信循环/客户端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/01 加上通信循环/服务端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/补充.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="220">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="e#100#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/客户端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
