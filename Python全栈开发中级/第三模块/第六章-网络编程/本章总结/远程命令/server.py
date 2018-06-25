@@ -17,7 +17,7 @@ socket_server.listen(5)
 
 print("服务器启动")
 
-while True: # 循环链接
+while True:     # 循环链接
     conn, client_addr = socket_server.accept()
     print(client_addr)
 
@@ -31,6 +31,7 @@ while True: # 循环链接
             # 执行命令，拿到结果
             obj = subprocess.Popen(cmd.decode('utf-8'), shell=True,
                                    stdout=subprocess.PIPE,
+                                   stdin=subprocess.PIPE,
                                    stderr=subprocess.PIPE)
 
             stdout = obj.stdout.read()
@@ -38,7 +39,8 @@ while True: # 循环链接
 
             # 3、把命令的结果返回给客户端
             print(len(stdout) + len(stderr))
-            conn.send(stdout+stderr)
+            conn.send(stdout)
+            conn.send(stderr)
 
         except ConnectionResetError:    # 适应于Windows操作系统
             break

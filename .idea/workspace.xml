@@ -2,8 +2,892 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a0bd5d-d9af-429a-a638-77681ec6ede1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14天集训营学员须知（第三期）.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/bin/atm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/bin/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/conf/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/core/accounts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/core/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/core/db_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/core/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/core/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/core/transaction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/db/account_sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/db/accounts/1234.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/log/access.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/ATM程序/atm/log/transactions.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/员工信息表/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/员工信息表/作业讲解代码/staff.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/员工信息表/作业讲解代码/staff_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/员工信息表/作业讲解代码/草稿" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/员工信息表/标准答案/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/员工信息表/标准答案/staff.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/员工信息表/标准答案/staff_query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/员工信息表/标准答案/员工信息表流程图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/break and continue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/dead looop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/guess age 升级版.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/guess_age.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/guess_age2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/if语句.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/user_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/while else.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/while 语句.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/打印分手.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter1-基础语法/格式化输出.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/collections模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/encoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/py2_ch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/三级菜单.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/列表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/列表用法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/列表练习题" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/列表练习题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/字符串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/编码/16to2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/编码/encode_py2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/编码/py2_encode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/编码/py3_encode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/购物车.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter2-数据类型/集合用法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/内置函数/eval_exec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/内置函数/memory_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/内置函数/print.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/GLOBAL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/account.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/len.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/name space.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/nonlocal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/作用域.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/修改个人信息的程序.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/函数参数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/函数生成器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/函数返回值.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/名称空间.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/局部变量.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/嵌套函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/斐波那契.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/生成器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/装饰器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/装饰器2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/装饰器带参数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/递归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/递归二分查找.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/递归函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/闭包.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/函数/高阶函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/argv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/f_flush_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/f_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_append.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_r+.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_r+修改.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_rb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_seek.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_w+.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_write.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_修改.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_修改_替换原文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_修改占硬盘.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/file_循环文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/utf8test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/兼职.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/兼职2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/兼职白领学生空姐模特护士联系方式.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/兼职白领学生空姐模特护士联系方式.txt.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/文件处理/兼职白领学生空姐模特护士联系方式utf8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter3-文件操作与函数/第三章 文件操作 函数.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/conf.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/conf_test.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/conf_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/conf_test2.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/conf_test_new.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/configparser模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logger/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logger/example.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logger/logger模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logger/mysql.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logger/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logging mod/log_console_and_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logging mod/log_test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logging mod/log_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logging mod/web.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/logging mod/web.log.2017-10-19_22-07-38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/mods/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/mods/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/mods/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/p3/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/p3/my_proj/crm/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/p3/my_proj/crm/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/p3/my_proj/crm/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/p3/my_proj/crm/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/p3/my_proj/proj/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/p3/my_proj/proj/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/p3/my_proj/proj/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/crm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/crm/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/crm/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/crm/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/crm/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/crm/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/proj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/proj/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/proj/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/pack2/my_proj/proj/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/crm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/crm/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/crm/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/crm/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/crm/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/crm/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/proj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/proj/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/proj/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/packages/my_proj/proj/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/mysql.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/crm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/crm/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/crm/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/crm/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/crm/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/crm/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/proj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/proj/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/proj/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/test2/pack5/my_proj/proj/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/ziptmp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/ziptmp/mysql.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/ziptmp/re模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/ziptmp/shutil模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/configparser_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/example.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/game_status" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/i.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/json mod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/json_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/json_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/mod_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/my_module2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/mysql.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/pickle mod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/re模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/run_forever.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/shelve mod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/shelve_test.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/sheve_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/sheve_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/sheve_test_new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/subprocess模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/test2.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/time模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/tkinter模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/traceback模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/xml test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/xml模块/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/xml模块/build_out.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/xml模块/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/xml模块/xml test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/xml模块/xml_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/xml模块/xml_handler2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/xml模块/xmlbuild.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/兼职白领学生空姐模特护士联系方式.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/chapter4-常用模块/课堂练习/序列化.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/3级菜单/3级菜单.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/bin/atm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/bin/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/conf/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/core/accounts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/core/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/core/db_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/core/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/core/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/core/transaction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/db/account_sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/db/accounts/1234.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/log/access.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/ATM程序/atm/log/transactions.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/员工信息表/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/员工信息表/作业讲解代码/staff.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/员工信息表/作业讲解代码/staff_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/员工信息表/作业讲解代码/草稿" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/员工信息表/标准答案/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/员工信息表/标准答案/staff.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/员工信息表/标准答案/staff_query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/作业讲解/员工信息表/标准答案/员工信息表流程图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第1~4章/课程开课介绍.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/工具使用/Pycharm使用秘籍.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/工具使用/Pycharm使用秘籍系列.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/工具使用/settings.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/break and continue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/dead looop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/guess age 升级版.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/guess_age.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/guess_age2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/if语句.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/user_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/while else.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/while 语句.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/打印分手.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/chapter1-基础语法/格式化输出.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/第一章 基础语法.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/第一章练习题_1509863043.482668.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第一章-基本语法/课后练习题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/collections模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/encoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/py2_ch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/三级菜单.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/列表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/列表用法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/列表练习题" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/列表练习题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/字符串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/编码/16to2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/编码/encode_py2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/编码/py2_encode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/编码/py3_encode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/购物车.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/chapter2-数据类型/集合用法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/user_info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/第二章 数据类型.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/第二章-购物车作业/accounts/alex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/第二章-购物车作业/note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/第二章-购物车作业/shopping_cart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/第二章-购物车作业/三级菜单.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/第二章练习题_1509863276.3079565.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/第二章-数据类型/课后练习.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/课程开课介绍.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第一模块/闯关答辩.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/.idea/dictionaries/apple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/.idea/homework4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/bin/start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/conf/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/core/Manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/core/Teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/core/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/作业讲解学员管理系统/db/userinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/._1 面向过程编程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/.idea/面向对象编程.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/1 面向过程编程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/10 派生.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/11 继承的实现原理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/12 在子类中重用父类的属性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/13 组合.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/14 抽象类.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/15 多态与多态性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/16 鸭子类型.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/17 封装之如何实现属性的隐藏.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/18 封装的意义.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/19 封装与扩展性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/2 面向对象编程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/20 property的使用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/21 绑定方法与非绑定方法介绍.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/22 绑定方法与非绑定方法应用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/23 反射.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/24 内置方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/25 元类介绍.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/26 自定义元类控制类的行为.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/27 自定义元类控制类的实例化行为.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/28 自定义元类控制类的实例化行为的应用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/29 异常处理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/3 如何使用类.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/30 try...except的详细用法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/4 __init__方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/5 属性查找.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/6 补充.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/7 面向对象小结.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/8 练习.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/9 继承.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/LuffyFTP/client/luffy_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/LuffyFTP/server/bin/luffy_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/LuffyFTP/server/conf/accounts.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/LuffyFTP/server/conf/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/LuffyFTP/server/core/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/LuffyFTP/server/core/management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/client/.luffy_db.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/client/.luffy_db.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/client/.luffy_db.dir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/client/123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/client/luffy_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/note2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/bin/luffy_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/conf/accounts.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/conf/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/core/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/core/management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/FuckHomework/01/menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/FuckHomework/01/menu2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/FuckHomework/01/shoppingcart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/FuckHomework/02/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/FuckHomework/02/example1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/FuckHomework/02/exercise_keys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/FuckHomework/02/列表推导式.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/FuckHomework/列表推导式.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/FuckHomework/购物车和三级菜单.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三章FTP实战开发/server/home/alex/note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/01 加上通信循环/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/01 加上通信循环/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/补充.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/01 send与recv对比" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/02 粘包现象分析1/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/02 粘包现象分析1/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/04 解决粘包问题/简单版/struct模块的使用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/04 解决粘包问题/简单版/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/04 解决粘包问题/简单版/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/04 解决粘包问题/终极版/struct模块的使用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/04 解决粘包问题/终极版/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/04 解决粘包问题/终极版/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/优化版本/client/download/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/优化版本/client/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/优化版本/server/share/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/优化版本/server/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/client/download/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/client/download/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/client/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/server/share/._3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/server/share/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/server/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/06 基于udp协议的套接字/udp协议不会粘包/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/06 基于udp协议的套接字/udp协议不会粘包/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/06 基于udp协议的套接字/客户端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/06 基于udp协议的套接字/服务端.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/07 作业/._作业.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/07 作业/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/07 作业/作业.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/1 面向过程编程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/10 绑定方法与非绑定方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/2 类与对象.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/2 面向对象编程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/3 属性查找与绑定方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/9 封装.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/db/534215ba5d00fa919a9d7057fa7bd532" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/module_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/类、实例、属性、方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/01 简单的套接字/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/01 简单的套接字/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/01 简单的套接字/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/02 循环收发数据/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/02 循环收发数据/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/02 循环收发数据/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/03 简单的聊天软件/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/03 简单的聊天软件/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/03 简单的聊天软件/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/client1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/client2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/UDP实例/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/UDP实例/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/UDP实例/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令/ssh_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令/ssh_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/02 基于UDP的命令/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/02 基于UDP的命令/udp_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/02 基于UDP的命令/udp_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/bin/atm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/bin/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/conf/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/core/accounts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/core/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/core/db_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/core/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/core/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/core/transaction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/db/account_sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/db/accounts/1234.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/log/access.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/ATM程序/atm/log/transactions.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/内置函数/eval_exec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/内置函数/memory_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/内置函数/print.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/GLOBAL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/account.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/len.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/name space.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/nonlocal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/作用域.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/修改个人信息的程序.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/函数参数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/函数生成器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/函数返回值.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/名称空间.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/局部变量.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/嵌套函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/斐波那契.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/生成器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/装饰器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/装饰器2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/装饰器带参数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/递归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/递归二分查找.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/递归函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/闭包.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/高阶函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/argv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/f_flush_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/f_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_append.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_r+.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_r+修改.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_rb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_seek.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_w+.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_write.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_修改.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_修改_替换原文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_修改占硬盘.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/file_循环文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/utf8test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/兼职.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/兼职2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/兼职白领学生空姐模特护士联系方式.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/兼职白领学生空姐模特护士联系方式.txt.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理/兼职白领学生空姐模特护士联系方式utf8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章 文件操作 函数.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/love.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/user_file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/user_list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/yield.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/作用域.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/关键参数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数参数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数练习题/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数练习题/account.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数练习题/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数练习题/person_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/函数进阶练习题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/匿名函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/变量.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/嵌套函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/斐波拉契数列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/生成器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/装饰器进化.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/课后练习题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/返回值.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/迭代器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/递归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/闭包.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/非固定参数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/高阶函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/默认参数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-文件/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-文件/user_list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-文件/文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章练习题_1509863520.499541.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/access.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/configparser模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/example.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/example.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/f1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/f2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/folder2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/group.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/json&amp;pickle模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/log.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/log.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/logging模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/crm/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/my_proj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/my_proj/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/my_proj/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj/my_proj/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/my_proj_bak.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/mysql.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/new" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/rando.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/re模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/shelve_test.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/shelve_test.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/shelve_test.dir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/shelve模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/shutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/sys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/xmltest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/xml模块.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/兼职联系方式" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter4-常用模块/模块查找路径.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/员工信息表/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/员工信息表/作业讲解代码/staff.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/员工信息表/作业讲解代码/staff_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/员工信息表/作业讲解代码/草稿" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/员工信息表/标准答案/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/员工信息表/标准答案/staff.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/员工信息表/标准答案/staff_query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/员工信息表/标准答案/员工信息表流程图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/02第二模块之三体语录" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/ATM+Log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/ATM+Log/account/1234.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/ATM+Log/account/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/ATM+Log/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/example.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/my.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/my.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/poem.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/poetry.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/str.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/user_file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/user_info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/username.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/第三章课后练习.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/第四章课后练习题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习/闯关二.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/._1 面向过程编程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/.idea/面向对象编程.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/1 面向过程编程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/10 派生.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/11 继承的实现原理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/12 在子类中重用父类的属性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/13 组合.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/14 抽象类.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/15 多态与多态性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/16 鸭子类型.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/17 封装之如何实现属性的隐藏.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/18 封装的意义.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/19 封装与扩展性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/2 面向对象编程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/20 property的使用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/21 绑定方法与非绑定方法介绍.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/22 绑定方法与非绑定方法应用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/23 反射.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/24 内置方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/25 元类介绍.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/26 自定义元类控制类的行为.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/27 自定义元类控制类的实例化行为.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/28 自定义元类控制类的实例化行为的应用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/29 异常处理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/3 如何使用类.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/30 try...except的详细用法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/4 __init__方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/5 属性查找.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/6 补充.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/7 面向对象小结.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/8 练习.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/9 继承.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/面向对象/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/Python数据类型.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/guess_age升级.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/if.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/user_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/while.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/主流语言介绍.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/变量.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/基本数据类型-字符串.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/格式化输出.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/编程语言进化.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/编程语言进化.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/编译器的种类.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/运算符.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/高级语言的分类.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1-基础语法/高级语言的分类.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2-数据类型/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2-数据类型/列表_练习题.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2-数据类型/字典.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3-文件操作和函数/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3-文件操作和函数/函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3_文件操作 函数/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3_文件操作 函数/user_list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3_文件操作 函数/user_list1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3_文件操作 函数/文件操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/一周感想.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/主流语言介绍.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/历史购物信息.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/account_db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/auth2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/auth3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/chapter1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/chapter1_函数实现.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/chapter1_升级需求.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/chapter1_基础要求.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/lock_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第一次作业/user.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业-FTP.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/bin/client_start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/bin/server_start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpclient/ftpclient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/conf/Logger.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/conf/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/core/Log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/core/ftpserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/database/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/database/jack.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/database/mike.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/database/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/database/tom.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/home/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/log/ftpserver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/auth_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/sokect_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/FTP/log/ftpserver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第七次作业/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业/accounts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业/accounts/mike" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业/chapter2_购物车升级需求.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业/chapter2_购物车基础需求.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业/user_info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业/user_list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业/user_shop_cart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三次作业/第三次作业.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第二次作业/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第二次作业/chapter2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第二次作业/三级菜单升级版2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第二次作业/三级菜单简单版1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/atm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/atm/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/conf/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/creditcard_dict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/creditcard_record" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/product_list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/shopping_car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/shopping_record" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/db/users_dict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/logs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/logs/access.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/logs/transactions.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/admincenter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/authentication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/creditcard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/ATM/modules/shopping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第五次作业/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/bin/cource.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/conf/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/core/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/core/db_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/core/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/db/accounts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/lib/Admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/lib/Baseclass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/lib/Class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/lib/Course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/lib/School.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/lib/Student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/lib/Teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/CourseSystem/lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Coursesystem.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/bin/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/conf/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/Manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/Student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/Teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/accounts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/db_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/core/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/db/accounts/Course" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/db/accounts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/db/accounts/admin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/db/accounts/alex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/db/accounts/class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/db/accounts/class_grade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/db/accounts/class_record" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/db/accounts/school" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/Classes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/Course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/School.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/Select Course/log/system.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第六次作业/第六次作业-选课系统.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/chapter4_员工信息表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/course system/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/course system/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/course system/bin/course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/course system/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/course system/core/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/course system/core/uid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/course system/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/course system/db/classes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/staff_table.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/第三章作业_1520583382.6884398.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第四次作业/第四次作业.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/购物车_别人实现的.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/购物车用户信息档案.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/工作流程.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章/account_db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章/auth2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章/auth3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章/auth4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章/file 代码.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章/lock_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章/总结" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一章作业.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二章-购物车作业.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,52 +897,109 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/14_day_training_camp$__1_.coverage" NAME="第三章课后练习 (1) Coverage Results" MODIFIED="1527682587724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$3_.coverage" NAME="3 属性查找与绑定方法 Coverage Results" MODIFIED="1527990126085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$2_.coverage" NAME="2 类与对象 Coverage Results" MODIFIED="1527987001152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$ftptest.coverage" NAME="ftptest Coverage Results" MODIFIED="1528730530114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第七次作业" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$5_.coverage" NAME="5 继承和派生 Coverage Results" MODIFIED="1528469372581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$settings.coverage" NAME="settings Coverage Results" MODIFIED="1528903595323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$Run.coverage" NAME="Run Coverage Results" MODIFIED="1528382021179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Course system/core" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$11_.coverage" NAME="11 内置方法 Coverage Results" MODIFIED="1528989403538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$test.coverage" NAME="test Coverage Results" MODIFIED="1528903197330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1529938651335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$4_.coverage" NAME="4 小结 Coverage Results" MODIFIED="1528462848136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$9_.coverage" NAME="9 封装 Coverage Results" MODIFIED="1528816362831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$cource.coverage" NAME="cource Coverage Results" MODIFIED="1528386288499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Course system/bin" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$run.coverage" NAME="run Coverage Results" MODIFIED="1528393545645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Select Course/bin" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$.coverage" NAME="类、实例、属性、方法 Coverage Results" MODIFIED="1527928124529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1529938655934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$course.coverage" NAME="course Coverage Results" MODIFIED="1528386393154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四次作业/course system/bin" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$1_.coverage" NAME="1 面向过程编程 Coverage Results" MODIFIED="1527780019400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$start.coverage" NAME="start Coverage Results" MODIFIED="1528725254506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第七次作业/FTP/bin" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1528723000962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/bin" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$file__.coverage" NAME="file_修改_替换原文件 Coverage Results" MODIFIED="1527427170812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/文件处理" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$1___1_.coverage" NAME="1 面向过程编程 (1) Coverage Results" MODIFIED="1527779401708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$main.coverage" NAME="main Coverage Results" MODIFIED="1528391118264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Select Course/core" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$__1_.coverage" NAME="第三章课后练习 (1) Coverage Results" MODIFIED="1527682587724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第二模块/第二关课后练习" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$3_.coverage" NAME="3 属性查找与绑定方法 Coverage Results" MODIFIED="1527990126085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$ftptest.coverage" NAME="ftptest Coverage Results" MODIFIED="1528730530114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第七次作业" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$5_.coverage" NAME="5 继承和派生 Coverage Results" MODIFIED="1528469372581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$Run.coverage" NAME="Run Coverage Results" MODIFIED="1528382021179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Course system/core" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$test.coverage" NAME="test Coverage Results" MODIFIED="1528903197330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$server.coverage" NAME="server Coverage Results" MODIFIED="1529940980637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$cource.coverage" NAME="cource Coverage Results" MODIFIED="1528386288499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Course system/bin" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$client.coverage" NAME="client Coverage Results" MODIFIED="1529942183627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$run.coverage" NAME="run Coverage Results" MODIFIED="1528393545645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Select Course/bin" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$.coverage" NAME="客户端 Coverage Results" MODIFIED="1529937398427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$start.coverage" NAME="start Coverage Results" MODIFIED="1528725254506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第七次作业/FTP/bin" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$1___1_.coverage" NAME="1 面向过程编程 (1) Coverage Results" MODIFIED="1527779401708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="练习题.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="练习题.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="客户端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/客户端.py">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#101#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="38" />
+              <folding>
+                <element signature="e#102#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ftpserver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/core/ftpserver.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="服务端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/服务端.py">
+      <file leaf-file-name="sokect_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/sokect_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-5115" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_start.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/bin/client_start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ftpclient.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpclient/ftpclient.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="177" column="15" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -66,56 +1007,8 @@
       <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-              <folding>
-                <element signature="e#100#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="客户端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="客户端1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端1.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="服务端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/服务端.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="-210">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -135,10 +1028,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/作业/第六次作业/Select Course/README.md" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py" />
-        <option value="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/conf/setting.py" />
         <option value="$PROJECT_DIR$/作业/第七次作业/FTP/bin/start.py" />
         <option value="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/database.py" />
         <option value="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/ftpserver.py" />
@@ -184,8 +1073,12 @@
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/客户端.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/server.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/client.py" />
       </list>
     </option>
   </component>
@@ -198,7 +1091,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1782" />
     <option name="y" value="267" />
     <option name="width" value="1013" />
@@ -212,6 +1105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,7 +1137,7 @@
               <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
               <item name="第三模块" type="462c0819:PsiDirectoryNode" />
               <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
-              <item name="02 加上循环" type="462c0819:PsiDirectoryNode" />
+              <item name="04 解决粘包问题" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
@@ -251,8 +1145,7 @@
               <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
               <item name="第三模块" type="462c0819:PsiDirectoryNode" />
               <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
-              <item name="02 加上循环" type="462c0819:PsiDirectoryNode" />
-              <item name="01 加上通信循环" type="462c0819:PsiDirectoryNode" />
+              <item name="05_文件传输" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
@@ -260,8 +1153,8 @@
               <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
               <item name="第三模块" type="462c0819:PsiDirectoryNode" />
               <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
-              <item name="02 加上循环" type="462c0819:PsiDirectoryNode" />
-              <item name="03 加上链接循环" type="462c0819:PsiDirectoryNode" />
+              <item name="05_文件传输" type="462c0819:PsiDirectoryNode" />
+              <item name="简单版本" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
@@ -269,16 +1162,9 @@
               <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
               <item name="第三模块" type="462c0819:PsiDirectoryNode" />
               <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
-              <item name="02 加上循环" type="462c0819:PsiDirectoryNode" />
-              <item name="04_模拟ssh远程执行命令" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第二章网络编程" type="462c0819:PsiDirectoryNode" />
-              <item name="03 粘包现象分析" type="462c0819:PsiDirectoryNode" />
+              <item name="05_文件传输" type="462c0819:PsiDirectoryNode" />
+              <item name="简单版本" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
@@ -302,7 +1188,27 @@
               <item name="第三模块" type="462c0819:PsiDirectoryNode" />
               <item name="第六章-网络编程" type="462c0819:PsiDirectoryNode" />
               <item name="本章总结" type="462c0819:PsiDirectoryNode" />
-              <item name="聊天软件" type="462c0819:PsiDirectoryNode" />
+              <item name="文件上传" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第六章-网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="本章总结" type="462c0819:PsiDirectoryNode" />
+              <item name="文件上传" type="462c0819:PsiDirectoryNode" />
+              <item name="download" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
+              <item name="第三模块" type="462c0819:PsiDirectoryNode" />
+              <item name="第六章-网络编程" type="462c0819:PsiDirectoryNode" />
+              <item name="本章总结" type="462c0819:PsiDirectoryNode" />
+              <item name="文件上传" type="462c0819:PsiDirectoryNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
@@ -313,11 +1219,70 @@
               <item name="本章总结" type="462c0819:PsiDirectoryNode" />
               <item name="远程命令" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第七次作业" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第七次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第七次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第七次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP" type="462c0819:PsiDirectoryNode" />
+              <item name="ftpclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第七次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP" type="462c0819:PsiDirectoryNode" />
+              <item name="ftpserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第七次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP" type="462c0819:PsiDirectoryNode" />
+              <item name="ftpserver" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第七次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP" type="462c0819:PsiDirectoryNode" />
+              <item name="ftpserver" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,14 +1290,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版" />
-      <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/03 简单的聊天软件" />
-      <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/02 循环收发数据" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版" />
       <recent name="$PROJECT_DIR$/作业/第七次作业/FTP/bin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第三模块\第六章-网络编程\本章总结\文件上传\share" />
+      <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版" />
+      <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/03 简单的聊天软件" />
+      <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/02 循环收发数据" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,7 +1313,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.client (1)">
+  <component name="RunManager" selected="Python.client">
+    <configuration name="客户端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/客户端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,6 +1345,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -374,11 +1360,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -396,25 +1383,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14_day_training_camp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,30 +1398,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.server (2)" />
-      <item itemvalue="Python.server" />
-      <item itemvalue="Python.client" />
       <item itemvalue="Python.server (1)" />
       <item itemvalue="Python.client (1)" />
+      <item itemvalue="Python.客户端" />
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.client (1)" />
-        <item itemvalue="Python.server (1)" />
         <item itemvalue="Python.client" />
         <item itemvalue="Python.server" />
-        <item itemvalue="Python.server (2)" />
+        <item itemvalue="Python.client (1)" />
+        <item itemvalue="Python.server (1)" />
+        <item itemvalue="Python.客户端" />
       </list>
     </recent_temporary>
   </component>
@@ -469,30 +1440,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1080" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14006342" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32394367" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27410617" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32936078" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27341226" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20976394" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32394367" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,53 +1481,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/globalpz/get_db.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/服务端.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="480">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/服务端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/globalpz/get_db.py" />
     <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/conf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="3" selection-start-line="8" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="e#102#111#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="e#106#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_v6_4/python_aes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-          <folding>
-            <element signature="e#111#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#107#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py" />
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_v6_4/python_aes.py" />
+    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" />
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/module_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
@@ -613,13 +1561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/UDP实例/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -645,9 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#104#117#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,9 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="15" column="9" selection-start-line="8" selection-end-line="10" />
-          <folding>
-            <element signature="e#104#117#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,9 +1600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#104#124#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,9 +1614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#100#113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,9 +1621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#100#113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,9 +1628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-625">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#100#113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,9 +1635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#100#120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,51 +1642,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
-          <folding>
-            <element signature="e#100#113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/01 send与recv对比">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/02 粘包现象分析1/服务端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/server/服务端.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-355" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/优化版本/client/客户端.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/03 粘包现象分析/02 粘包现象分析1/客户端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/服务端.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,23 +1670,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/01 简单的套接字通信/客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/服务端.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/02 bug修复/客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/05_文件传输/简单版本/client/客户端.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-740">
+        <state relative-caret-position="-740" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/服务端.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py" />
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py" />
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="45" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -800,80 +1697,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/client1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="450">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/01 加上通信循环/客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/01 加上通信循环/服务端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/客户端1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/03 加上链接循环/服务端.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/客户端.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="330">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/聊天软件/client.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/补充.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/服务端.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="-210">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/core/ftpserver.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/sokect_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/bin/client_start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpclient/ftpclient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="177" column="15" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
-            <element signature="e#100#113#0" expanded="true" />
+            <element signature="e#101#114#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令/客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="435">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="38" />
+          <folding>
+            <element signature="e#102#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
         </state>
       </provider>
     </entry>
