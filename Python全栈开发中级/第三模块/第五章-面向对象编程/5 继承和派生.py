@@ -3,6 +3,28 @@
 # @Author  : mike.liu
 # @File    : 5 继承和派生.py
 
+# 继承：
+#     继承就是类与类的关系，是一种创建新类的方式，在python中，新建的类可以继承一个或多个父类，父类可以称为基类或超类，新建的类称为派生类或子类。
+#
+# python中类的继承分为：单继承和多继承
+# class ParentClass1: #定义父类
+#     pass
+#
+# class ParentClass2: #定义父类
+#     pass
+#
+# class SubClass1(ParentClass1): #单继承，基类是ParentClass1，派生类是SubClass
+#     pass
+#
+# class SubClass2(ParentClass1,ParentClass2): #python支持多继承，用逗号分隔开多个继承的类
+#     pass
+#
+# 查看继承：
+# >>> SubClass1.__bases__
+# #__base__只查看从左到右继承的第一个子类，__bases__则是查看所有继承的父类
+# (<class '__main__.ParentClass1'>,)
+# >>> SubClass2.__bases__
+# (<class '__main__.ParentClass1'>, <class '__main__.ParentClass2'>)
 
 # 属性查找小练习
 # class Foo:
@@ -168,6 +190,8 @@ print(r1.skin)
 # f1 = F()
 # f1.test()
 # print(F.__mro__)    # 只有新式类才有这个属性可以查看线性列表，经典类没有这个属性
+#新式类继承顺序:F->D->B->E->C->A
+#经典类继承顺序:F->D->B->A->E->C
 
 # 在子类中调用父类的方法
 # 两种方式

@@ -3,18 +3,22 @@
 # @Author  : mike.liu
 # @File    : 9 封装.py
 
-# class A:
-#     __N = 0     # 类的数据属性就应该是共享的，但是语法上是可以把类的数据属性设置成私有的如__N,会变形为_A_N
-#     def __init__(self):
-#         self.__X = 10   # 变形为self.__A__X
-#
-#     def __foo(self):    # 变形为__A__foo
-#         print('from A')
-#
-#     def bar(self):
-#         self.__foo()    # 只有在类内部才可以通过__foo的形式访问到
-#
-# A.__A__N
+# 首先说一下隐藏，在python中用双下划线开头的方式将属性隐藏起来（即设置成私有属性）
+# 其实这仅仅这是一种变形操作
+# 类中所有双下划线开头的名称如__x都会自动变形成：_类名__x的形式：
+
+class A:
+    __N = 0     # 类的数据属性就应该是共享的，但是语法上是可以把类的数据属性设置成私有的如__N,会变形为
+    def __init__(self):
+        self.__X = 10     # 变形为self._A__X
+    def __foo(self):    # 变形为_A__foo
+        print('from A')
+    def bar(self):
+        self.__foo()    # 只有在类内部才可以通过__foo的形式访问到
+
+# A._A__N是可以访问到的，即这种操作并不是严格意义上的限制外部访问，仅仅是一种语法意义上的变形
+
+
 
 # 3、在继承中，父类如果不想让子类覆盖自己的方法，可以将方法定义为私有的
 # 正常情况
@@ -191,16 +195,16 @@
 
 
 # 类的设计者，轻松的扩展了功能，而类的使用者完全不需要改变自己的代码
-class Room:
-    def __init__(self, name, owner, width, length, high):
-        self.name = name
-        self.owner = owner
-        self.__width = width
-        self.__length = length
-        self.__high = high
-
-    def tell_area(self):      # 对外提供的接口，隐藏内部实现，此时我们想求的是体积，内部逻辑变了，只需求修改下列一行就可以很简单
-        return self.__width * self.__length * self.__high   # 的实现，而且外部调用感知不到，任然使用该方法，但是功能已经变了
-
-r1 = Room('卧室', 'egon', 20, 20, 20)
-print(r1.tell_area())
+# class Room:
+#     def __init__(self, name, owner, width, length, high):
+#         self.name = name
+#         self.owner = owner
+#         self.__width = width
+#         self.__length = length
+#         self.__high = high
+#
+#     def tell_area(self):      # 对外提供的接口，隐藏内部实现，此时我们想求的是体积，内部逻辑变了，只需求修改下列一行就可以很简单
+#         return self.__width * self.__length * self.__high   # 的实现，而且外部调用感知不到，任然使用该方法，但是功能已经变了
+#
+# r1 = Room('卧室', 'egon', 20, 20, 20)
+# print(r1.tell_area())
