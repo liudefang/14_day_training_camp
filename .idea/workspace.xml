@@ -4,14 +4,11 @@
     <list default="true" id="01a0bd5d-d9af-429a-a638-77681ec6ede1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/2 类与对象.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/2 类与对象.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/10 绑定方法与非绑定方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/10 绑定方法与非绑定方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/9 封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/9 封装.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/本章练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/本章练习.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,10 +21,10 @@
     <SUITE FILE_PATH="coverage/14_day_training_camp$2_.coverage" NAME="2 类与对象 Coverage Results" MODIFIED="1527987001152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$settings.coverage" NAME="settings Coverage Results" MODIFIED="1528903595323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$11_.coverage" NAME="11 内置方法 Coverage Results" MODIFIED="1528989403538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1529938651335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$4_.coverage" NAME="4 小结 Coverage Results" MODIFIED="1528462848136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$9_.coverage" NAME="9 封装 Coverage Results" MODIFIED="1528816362831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1529938655934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1530417412207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/untitled/ftp" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$9_.coverage" NAME="9 封装 Coverage Results" MODIFIED="1530365683534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$4_.coverage" NAME="4 小结 Coverage Results" MODIFIED="1530537358497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1530417414743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/untitled/ftp" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$course.coverage" NAME="course Coverage Results" MODIFIED="1528386393154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四次作业/course system/bin" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$1_.coverage" NAME="1 面向过程编程 Coverage Results" MODIFIED="1527780019400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1528723000962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/bin" />
@@ -43,75 +40,46 @@
     <SUITE FILE_PATH="coverage/14_day_training_camp$cource.coverage" NAME="cource Coverage Results" MODIFIED="1528386288499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Course system/bin" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$client.coverage" NAME="client Coverage Results" MODIFIED="1529942183627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$run.coverage" NAME="run Coverage Results" MODIFIED="1528393545645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第六次作业/Select Course/bin" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$.coverage" NAME="客户端 Coverage Results" MODIFIED="1529937398427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第二章网络编程/02 加上循环/04_模拟ssh远程执行命令" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$10_.coverage" NAME="10 绑定方法与非绑定方法 Coverage Results" MODIFIED="1530366205616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$.coverage" NAME="本章练习 Coverage Results" MODIFIED="1530542293303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$start.coverage" NAME="start Coverage Results" MODIFIED="1528725254506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第七次作业/FTP/bin" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$1___1_.coverage" NAME="1 面向过程编程 (1) Coverage Results" MODIFIED="1527779401708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第一章面向对象" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="本章练习.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/本章练习.py">
+      <file leaf-file-name="11 内置方法.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="第三模块考核.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第三模块考核.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="131" column="17" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="17" />
+            <state relative-caret-position="-253">
+              <caret line="64" column="20" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="64" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tesat_account.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft/tesat_account.py">
+      <file leaf-file-name="3 属性查找与绑定方法.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/3 属性查找与绑定方法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="60" column="102" selection-start-line="60" selection-start-column="102" selection-end-line="60" selection-end-column="102" />
-              <folding>
-                <element signature="e#107#122#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="990">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="9 封装.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/9 封装.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="51" />
-            </state>
-          </provider>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="test_order.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft/test_order.py">
+      <file leaf-file-name="10 绑定方法与非绑定方法.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/10 绑定方法与非绑定方法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="71" column="52" lean-forward="true" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
-              <folding>
-                <element signature="e#103#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http_request.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/globalpz/http_request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_getToken.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-627" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_getSellData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="42" column="52" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="42" selection-end-column="52" />
+            <state relative-caret-position="-1813">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -119,26 +87,41 @@
       <file leaf-file-name="4 小结.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-992" />
+            <state relative-caret-position="1169">
+              <caret line="94" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="73" selection-end-column="22" />
+            </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="本章练习.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/本章练习.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="411" column="20" selection-start-line="411" selection-start-column="20" selection-end-line="411" selection-end-column="20" />
+              <folding>
+                <element signature="e#7575#7586#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8 练习.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/面向对象/8 练习.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="5 继承和派生.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="194" lean-forward="true" selection-start-line="194" selection-end-line="194" />
+            <state relative-caret-position="-60">
+              <caret line="79" column="23" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11 内置方法.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="716" column="3" lean-forward="true" selection-start-line="716" selection-start-column="3" selection-end-line="747" selection-end-column="76" />
-            </state>
-          </provider>
+      <file leaf-file-name="module_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/module_test.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -156,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/作业/第七次作业/FTP/conf/Logger.conf" />
         <option value="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/conf/Logger.conf" />
         <option value="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/bin/start.py" />
         <option value="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/conf/settings.py" />
@@ -167,10 +149,10 @@
         <option value="$PROJECT_DIR$/作业/第七次作业/ftptest.py" />
         <option value="$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/bin/server_start.py" />
         <option value="$PROJECT_DIR$/作业/第七次作业/FTP/README.md" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/10 绑定方法与非绑定方法.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/test.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/settings.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/module_test.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/01 简单的套接字/server.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/01 简单的套接字/client.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/02 循环收发数据/server.py" />
@@ -198,15 +180,16 @@
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/server.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/client.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/本章练习.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/2 类与对象.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/8 多态.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/12 元类.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py" />
-        <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft/test_order.py" />
-        <option value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft/tesat_account.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/9 封装.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/10 绑定方法与非绑定方法.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包" />
+        <option value="$USER_HOME$/PycharmProjects/untitled/ftp/client.py" />
+        <option value="$USER_HOME$/PycharmProjects/untitled/ftp/server.py" />
+        <option value="$USER_HOME$/PycharmProjects/untitled/面向对象/面向对象.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三模块考核/面向对象/面向对象.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三模块考核.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/本章练习.py" />
       </list>
     </option>
   </component>
@@ -220,8 +203,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1782" />
-    <option name="y" value="267" />
+    <option name="x" value="1889" />
+    <option name="y" value="155" />
     <option name="width" value="1013" />
     <option name="height" value="728" />
   </component>
@@ -233,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,28 +242,41 @@
               <item name="第三模块" type="462c0819:PsiDirectoryNode" />
               <item name="第五章-面向对象编程" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="面向对象" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../interface_erpapi_automation" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版" />
-      <recent name="$PROJECT_DIR$/作业/第七次作业/FTP/bin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第三模块\第三模块考核\简单ftp通信" />
       <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第三模块\第六章-网络编程\本章总结\文件上传\share" />
       <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版" />
       <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/03 简单的聊天软件" />
       <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/02 循环收发数据" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版" />
+      <recent name="$PROJECT_DIR$/作业/第七次作业/FTP/bin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,8 +291,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9 封装">
-    <configuration name="9 封装" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.本章练习">
+    <configuration name="本章练习" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,78 +304,122 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/9 封装.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/本章练习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for tesat_account.MyTestCase.test_poft_taxresident" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="interface_erpapi_automation" />
+    <configuration name="第三模块考核" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tesat_account.MyTestCase.test_poft_taxresident&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三模块考核.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for test_order.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="interface_erpapi_automation" />
+    <configuration name="4 小结" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for test_order.MyTestCase.test_poft_getbalance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="interface_erpapi_automation" />
+    <configuration name="第三模块考核" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.MyTestCase.test_poft_getbalance&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第三模块考核.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for test_order.MyTestCase.test_poft_getorder" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="interface_erpapi_automation" />
+    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/untitled/ftp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_order.MyTestCase.test_poft_getorder&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/untitled/ftp/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/untitled/ftp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/untitled/ftp/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_order.MyTestCase" />
-      <item itemvalue="Python tests.Unittests for test_order.MyTestCase.test_poft_getorder" />
-      <item itemvalue="Python tests.Unittests for test_order.MyTestCase.test_poft_getbalance" />
-      <item itemvalue="Python tests.Unittests for tesat_account.MyTestCase.test_poft_taxresident" />
-      <item itemvalue="Python.9 封装" />
+      <item itemvalue="Python.本章练习" />
+      <item itemvalue="Python.server (1)" />
+      <item itemvalue="Python.client (1)" />
+      <item itemvalue="Python.4 小结" />
+      <item itemvalue="Python.第三模块考核" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.9 封装" />
-        <item itemvalue="Python tests.Unittests for tesat_account.MyTestCase.test_poft_taxresident" />
-        <item itemvalue="Python tests.Unittests for test_order.MyTestCase.test_poft_getbalance" />
-        <item itemvalue="Python tests.Unittests for test_order.MyTestCase.test_poft_getorder" />
-        <item itemvalue="Python tests.Unittests for test_order.MyTestCase" />
+        <item itemvalue="Python.本章练习" />
+        <item itemvalue="Python.第三模块考核" />
+        <item itemvalue="Python.4 小结" />
+        <item itemvalue="Python.client (1)" />
+        <item itemvalue="Python.server (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -395,62 +436,30 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_for_test_order_MyTestCase_test_poft_getbalance - 2018.06.28 at 13h 44m 38s.xml">
-      <configuration name="Unittests for test_order.MyTestCase.test_poft_getbalance" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_order_MyTestCase_test_poft_getbalance - 2018.06.28 at 13h 48m 09s.xml">
-      <configuration name="Unittests for test_order.MyTestCase.test_poft_getbalance" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_order_MyTestCase_test_poft_getbalance - 2018.06.28 at 13h 48m 12s.xml">
-      <configuration name="Unittests for test_order.MyTestCase.test_poft_getbalance" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_order_MyTestCase_test_poft_getbalance - 2018.06.28 at 13h 53m 09s.xml">
-      <configuration name="Unittests for test_order.MyTestCase.test_poft_getbalance" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_order_MyTestCase_test_poft_getbalance - 2018.06.28 at 13h 54m 01s.xml">
-      <configuration name="Unittests for test_order.MyTestCase.test_poft_getbalance" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_order_MyTestCase_test_poft_getorder - 2018.06.28 at 13h 55m 43s.xml">
-      <configuration name="Unittests for test_order.MyTestCase.test_poft_getorder" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_order_MyTestCase_test_poft_getbalance - 2018.06.28 at 13h 56m 56s.xml">
-      <configuration name="Unittests for test_order.MyTestCase.test_poft_getbalance" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tesat_account_MyTestCase_test_poft_taxresident - 2018.06.28 at 14h 41m 26s.xml">
-      <configuration name="Unittests for tesat_account.MyTestCase.test_poft_taxresident" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tesat_account_MyTestCase_test_poft_taxresident - 2018.06.28 at 14h 42m 44s.xml">
-      <configuration name="Unittests for tesat_account.MyTestCase.test_poft_taxresident" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tesat_account_MyTestCase_test_poft_taxresident - 2018.06.28 at 14h 43m 01s.xml">
-      <configuration name="Unittests for tesat_account.MyTestCase.test_poft_taxresident" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="1080" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20930232" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38786566" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27125943" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2167382" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32394367" />
     </layout>
   </component>
@@ -469,6 +478,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/UDP实例/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="5" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/UDP实例/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -600,183 +623,182 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/04 聊天软件升级版/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
+        <state relative-caret-position="840">
           <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="660">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/远程命令/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="510">
           <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/sokect_server.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/bin/client_start.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpclient/ftpclient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4152">
+        <state relative-caret-position="5190">
           <caret line="177" column="15" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/server.py" />
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/client.py" />
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        <state relative-caret-position="360">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/2 面向对象编程.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/文件上传/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/函数/递归二分查找.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="21" selection-start-line="3" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="1380">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/斐波拉契数列.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第二模块/chapter3-文件操作与函数/第三章-函数/递归.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="47" column="24" selection-start-line="30" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_new_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="54" column="27" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="54" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1293">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/1 面向过程编程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/8 多态.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/12 元类.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-start-column="2" selection-end-line="8" selection-end-column="20" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/2 类与对象.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/本章总结/练习题.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/3 属性查找与绑定方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-992" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="194" lean-forward="true" selection-start-line="194" selection-end-line="194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="716" column="3" lean-forward="true" selection-start-line="716" selection-start-column="3" selection-end-line="747" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/本章练习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="131" column="17" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getToken.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/test_getSellData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="42" column="52" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="42" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/globalpz/http_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft/test_order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="71" column="52" lean-forward="true" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
-          <folding>
-            <element signature="e#103#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_erpapi_automation/testCase/erp_poft/tesat_account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="60" column="102" selection-start-line="60" selection-start-column="102" selection-end-line="60" selection-end-column="102" />
-          <folding>
-            <element signature="e#107#122#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1740">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/9 封装.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="30">
+          <caret line="190" column="1" selection-start-line="190" selection-start-column="1" selection-end-line="202" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/1 面向过程编程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/01 简单的套接字/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/01 简单的套接字/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/03 简单的聊天软件/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/untitled/ftp/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/untitled/ftp/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/untitled/面向对象/面向对象.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第三模块考核/面向对象/面向对象.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/2 面向对象编程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/面向对象/8 练习.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/module_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/11 内置方法.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/3 属性查找与绑定方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第三模块考核.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/10 绑定方法与非绑定方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1813">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/5 继承和派生.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/4 小结.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="94" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/本章练习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="411" column="20" selection-start-line="411" selection-start-column="20" selection-end-line="411" selection-end-column="20" />
+          <folding>
+            <element signature="e#7575#7586#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/14_day_training_camp.iml" filepath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" />
       <module fileurl="file://$PROJECT_DIR$/../interface_erpapi_automation/.idea/interface_erpapi_automation.iml" filepath="$PROJECT_DIR$/../interface_erpapi_automation/.idea/interface_erpapi_automation.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" filepath="$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" />
     </modules>
   </component>
 </project>
