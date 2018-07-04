@@ -84,8 +84,14 @@ with conn:
 # client
 while True:
     msg = input("请输入信息:").strip()
-    if
+    if len(msg) == 0:
+        continue
+
     sock_server.sendall(msg.encode('utf-8'))
+
+    data = sock_server.recv(1024)
+
+    print("服务器发送的信息:", data.decode('utf-8'))
 
 
 
