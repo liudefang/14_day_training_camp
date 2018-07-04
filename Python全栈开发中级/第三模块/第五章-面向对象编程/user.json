@@ -1,0 +1,12 @@
+{
+  "egon": {
+    "password": "123",
+    "status": false,
+    "timeout": 1530580639.056413
+  },
+  "alex": {
+    "password": "456",
+    "status": true,
+    "timeout": 1530580377.1760995
+  }
+}

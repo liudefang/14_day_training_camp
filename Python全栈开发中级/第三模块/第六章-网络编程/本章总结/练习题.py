@@ -55,7 +55,40 @@ socket:是应用层与TCP/IP协议族通信的中间软件抽象层，它是一�
 原因：是因为socket缓冲器导致的
 """
 # 基于socket开发一个聊天程序，实现两端互相发送和接收消息
-#
+# server
+import socket
+
+HOST = '127.0.01'
+PORT = 8081
+
+sock_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)     # 建立TCP连接
+sock_server.bind((HOST, PORT))    # 绑定IP地址和端口
+
+sock_server.listen(1)       # 开始监听
+
+conn, addr = sock_server.accept()   # 阻塞直到有连接为止
+
+with conn:
+    print("连接信息:", addr)
+    while True:
+        data = conn.recv(1024)
+        print("接收到的信息:", conn.getpeername(), data.decode())
+        if not data:
+            break
+
+        response = input("服务器输入的信息:").strip()
+        conn.send(response.encode('utf-8'))
+
+        print("服务器发出的信息:", response)
+
+# client
+while True:
+    msg = input("请输入信息:").strip()
+    if
+    sock_server.sendall(msg.encode('utf-8'))
+
+
+
 # 基于tcp socket，开发简单的远程命令执行程序，允许用户执行命令，并返回结果
 #
 # 基于tcp协议编写简单FTP程序，实现上传、下载文件功能，并解决粘包问题

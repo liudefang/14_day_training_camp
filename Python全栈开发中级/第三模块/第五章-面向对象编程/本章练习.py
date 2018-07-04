@@ -73,19 +73,37 @@ obj.create_if()/class.create_id()
  
 """
 # 6、使用实例进行获取、设置、删除数据, 分别会触发类的什么私有方法
-
-
 # class A(object):
-#     pass
+#     def __getitem__(self, item):
+#         return self.__dict__.get(item)
+#
+#     def __delitem__(self, key):
+#         del self.__dict__[key]
+#
+#     def __setitem__(self, key, value):
+#         self.__dict__[key] = value
 #
 #
 # a = A()
 #
 # a["key"] = "val"
-# a = a["key"]
+# print(a.__dict__)
+# # a = a["key"]
+# # print(a)
 # del a["key"]
+# print(a.__dict__)
+
+
 # python中经典类和新式类的区别
-#
+"""
+1.只有在Python2中才分新式类和经典类，Python3中统一都是新式类
+2.在Python2中，没有显式的继承object类的类，以及该类的子类，都是经典类
+3.在Python2中，显式的声明继承object的类，以及该类的子类，都是新式类
+4.在Python3中，无论是否继承object，都默认继承object，即Python3中所有类都是新式类
+
+当类是经典类时，按照：深度优先的方式查找
+当类是新式类时，按照：广度优先的方式查找
+"""
 # 如下示例, 请用面向对象的形式优化以下代码
 #
 #
@@ -143,9 +161,12 @@ obj.create_if()/class.create_id()
 #
 #
 # People()
-# 请简单解释Python中
-# staticmethod（静态方法）和
-# classmethod（类方法）, 并分别补充代码执行下列方法。
+
+# 请简单解释Python中staticmethod（静态方法）和 classmethod（类方法）, 并分别补充代码执行下列方法。
+"""
+staticmethod（静态方法）:不与类和对象绑定，类和对象都可以调用，但是没有自动传值那么一说
+classmethod（类方法）：绑定到类的方法，是给类使用，类在使用时会将类本身当做参数传给类方法的第一个参数
+"""
 #
 # class A(object):
 #
@@ -178,7 +199,7 @@ obj.create_if()/class.create_id()
 #
 #
 # d = Dog("ChenRonghua")
-# d.eat
+# d.eat()
 # 下面这段代码的输出结果将是什么？请解释。
 #
 class Parent(object):
@@ -276,6 +297,53 @@ print(Parent.x, Child1.x, Child2.x)
 # 此blog最后面有详解
 #
 # 请写一个小游戏，人狗大站，2 个角色，人和狗，游戏开始后，生成2个人，3条狗，互相混战，人被狗咬了会掉血，狗被人打了也掉血，狗和人的攻击力，具备的功能都不一样。注意，请按题14领域建模的方式来设计类。
+
+# 一种方法
+# class Animal:
+#     def __init__(self, name, life_value, aggressivity):
+#         self.name = name
+#         self.life_value = life_value
+#         self.aggressivity = aggressivity
+#
+#     def attack(self, enemy):
+#         enemy.life_value -= self.aggressivity
+#         if enemy.life_value <= 0:
+#             print('已经死亡')
+#         else:
+#             print(enemy.life_value)
+#
+#
+# class Person(Animal):
+#     camp = 'home'
+#
+#     def attack(self, enemy):
+#         super().attack(enemy)
+#         print('from person')
+#
+#
+# class Dog(Animal):
+#     camp = 'wo'
+#
+#     def attack(self, enemy):
+#         super().attack(enemy)
+#         print('from dog')
+#
+#
+# p1 = Person('mike', 100, 30)
+# p2 = Person('tom', 100, 20)
+# d1 = Dog('dog1', 100, 10)
+# d2 = Dog('dog2', 100, 20)
+# d3 = Dog('dog3', 100, 30)
+#
+# d1.attack(p1)
+# p1.attack(d2)
+# d2.attack(p1)
+# d3.attack(p1)
+# d3.attack(p1)
+# d3.attack(p1)
+# print(p1.life_value)
+
+# 另外一种方法
 # class Animal:
 #     def __init__(self, name, life_value, gjl):
 #         self.name = name
@@ -325,47 +393,47 @@ print(Parent.x, Child1.x, Child2.x)
 #
 # 编写程序, 在元类中控制把自定义类的数据属性都变成大写.
 #
-class Mymetaclass(type):
-    def __new__(cls, name, bases, attrs):
-        update_attrs = {}
-        for k, v in attrs.items():
-            if not callable(v) and not k.startswith('__'):
-                update_attrs[k.upper()] = v
-            else:
-                update_attrs[k] = v
-        return type.__new__(cls, name, bases, update_attrs)
-
-class Chinese(metaclass=Mymetaclass):
-    country = 'China'
-    tag = 'Legend of the Dragon'    # 龙的传人
-    def walk(self):
-        print('%s is walking' % self.name)
-
-print(Chinese.__dict__)
+# class Mymetaclass(type):
+#     def __new__(cls, name, bases, attrs):
+#         update_attrs = {}
+#         for k, v in attrs.items():
+#             if not callable(v) and not k.startswith('__'):
+#                 update_attrs[k.upper()] = v
+#             else:
+#                 update_attrs[k] = v
+#         return type.__new__(cls, name, bases, update_attrs)
+#
+# class Chinese(metaclass=Mymetaclass):
+#     country = 'China'
+#     tag = 'Legend of the Dragon'    # 龙的传人
+#     def walk(self):
+#         print('%s is walking' % self.name)
+#
+# print(Chinese.__dict__)
 # 编写程序, 在元类中控制自定义的类无需init方法.
 #
 # 编写程序, 编写一个学生类, 要求有一个计数器的属性, 统计总共实例化了多少个学生.
-class Student:
-    count = 0
-    def __init__(self, name, country, age):
-        self.name = name
-        self.country = country
-        self.age = age
-        Student.count += 1
-
-s1 = Student('mike', 'china', 18)
-s2 = Student('mike1', 'china', 18)
-print(Student.count)
+# class Student:
+#     count = 0
+#     def __init__(self, name, country, age):
+#         self.name = name
+#         self.country = country
+#         self.age = age
+#         Student.count += 1
+#
+# s1 = Student('mike', 'china', 18)
+# s2 = Student('mike1', 'china', 18)
+# print(Student.count)
 
 
 # 编写程序, A 继承了 B, 俩个类都实现了 handle 方法, 在 A 中的 handle 方法中调用 B 的 handle 方法
-class B:
-    def handle(self):
-        pass
-
-class A(B):
-    def handle(self):
-        super().handle(self)
+# class B:
+#     def handle(self):
+#         pass
+#
+# class A(B):
+#     def handle(self):
+#         super().handle(self)
 # 编写程序, 如下有三点要求：
 #
 #
@@ -375,20 +443,19 @@ class A(B):
 #     "egon": {"password": "123", 'status': False, 'timeout': 0},
 #     "alex": {"password": "456", 'status': False, 'timeout': 0},
 # }
-# 定义用户类，定义方法db，例如
-# 执行obj.db可以拿到用户数据结构
-# 在该类中实现登录、退出方法, 登录成功将状态(status)
-# 修改为True, 退出将状态修改为False(退出要判断是否处于登录状态).密码输入错误三次将设置锁定时间(下次登录如果和当前时间比较大于10秒即不允许登录)
+# 定义用户类，定义方法db，例如 执行obj.db可以拿到用户数据结构
+# 在该类中实现登录、退出方法, 登录成功将状态(status) 修改为True, 退出将状态修改为False(退出要判断是否处于登录状态).密码输入错误三次将设置锁定时间(下次登录如果和当前时间比较大于10秒即不允许登录)
 import json
 import time
 import os
 
-user_dict =  {
+user_dict = {
     "egon": {"password": "123", 'status': False, 'timeout': 0},
     "alex": {"password": "456", 'status': False, 'timeout': 0},
 }
 
-class User:
+
+class User():
     def __init__(self):
         if not os.path.isfile('user.json'):
             self.write()
@@ -401,14 +468,59 @@ class User:
         count = 0
         while count < 3:
             username = input("请输入用户名:").strip()
-            passwd = input("请输入密码:").strip()
+            password = input("请输入密码:").strip()
             user_info = self.db()
             if username in user_info.keys():
-                passwd = user_info.get(username).get("passwd")
+                passwd = user_info.get(username).get("password")
                 time_o = user_info.get(username).get("timeout")
                 login_t = time.time()
                 print(username, login_t, time_o)
                 if login_t - time_o > 10:
+                    if passwd == password:
+                        print("欢迎登录,%s" % username)
+                        user_info.get(username)["status"] = True
+                        user_info.get(username)["timeout"] = time.time()
+                        break
+                    else:
+                        print("用户名或密码错误!")
+                        count += 1
+                else:
+                    print("登录过于频繁，请间隔10秒再登录")
+            else:
+                print("用户名不存在!")
+
+        else:
+            print("错误次数大于三次")
+            user_info.get(username)["timeout"] = time.time()
+        self.save_user(user_info)
+
+    def exit(self, username):
+        user_info = self.db()
+        if username in user_info.keys():
+            if user_info.get(username)["status"]:
+                print("用户%s 已经登录，准备退出" % username)
+                time.sleep(3)
+                user_info.get(username)["status"] = False
+                self.save_user(user_info)
+        else:
+            print("用户名不存在!")
+
+    @staticmethod
+    def save_user(obj):
+        with open('user.json', 'r+', encoding='utf-8') as f:
+            json.dump(obj, f, ensure_ascii=False, indent=2)
+
+    @staticmethod
+    def write():
+        with open("user.json", "w", encoding="utf-8") as f:
+            json.dump(user_dict, f, ensure_ascii=False, indent=2)
+
+
+login = User()
+# login.write()
+# print(login.db())
+# login.login()
+login.exit('egon1')
                     
 # 用面向对象的形式编写一个老师角色, 并实现以下功能, 获取老师列表, 创建老师、删除老师、创建成功之后通过
 # pickle
