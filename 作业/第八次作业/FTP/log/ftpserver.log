@@ -1,0 +1,1356 @@
+2018-06-11 14:45:41 ftpclient.py[line:36] INFO []ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-11 14:49:48 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-11 14:52:39 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-11 14:52:53 ftpclient.py[line:38] INFO []ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-11 15:05:56 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-11 15:06:15 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-11 15:06:22 ftpclient.py[line:38] INFO []ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-11 15:08:48 ftpclient.py[line:38] INFO []ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-11 15:16:41 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-11 15:16:46 ftpclient.py[line:38] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-11 15:20:57 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-11 15:21:24 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-11 15:21:29 ftpclient.py[line:36] INFO [400]ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯
+2018-06-11 15:21:47 ftpclient.py[line:39] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-11 20:12:22 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:12:34 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:13:07 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:13:48 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:13:48 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:14:06 ftpclient.py[line:56] INFO [get]ÃüÁî²»´æÔÚ
+2018-06-11 20:14:16 ftpclient.py[line:56] INFO [cd]ÃüÁî²»´æÔÚ
+2018-06-11 20:15:08 ftpclient.py[line:56] INFO [pwd]ÃüÁî²»´æÔÚ
+2018-06-11 20:16:19 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:16:24 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:16:24 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:17:09 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:17:14 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:17:14 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:22:46 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:22:51 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:22:51 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:23:37 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:23:42 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:23:42 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:23:44 ftpclient.py[line:76] INFO [401]´íÎó
+2018-06-11 20:30:19 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:30:26 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:30:26 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:30:28 ftpclient.py[line:76] INFO [401]´íÎó
+2018-06-11 20:32:58 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:33:17 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:33:22 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:33:22 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:33:23 ftpclient.py[line:74] INFO /home/mikeliu/python/14_day_training_camp/×÷Òµ/µÚÆß´Î×÷Òµ/FTP/ftpserver/home/mike
+2018-06-11 20:48:47 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:48:52 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:48:52 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:49:55 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:49:59 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:49:59 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:50:03 ftpclient.py[line:79] INFO [401]´íÎó
+2018-06-11 20:52:46 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 20:52:50 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 20:52:50 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 20:52:55 ftpclient.py[line:81] INFO [401]´íÎó
+2018-06-11 20:57:36 ftpclient.py[line:90] INFO /home/mikeliu/python/14_day_training_camp/×÷Òµ/µÚÆß´Î×÷Òµ/FTP/ftpserver/home/mike
+2018-06-11 21:03:40 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 21:03:45 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 21:03:45 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 21:03:49 ftpclient.py[line:81] INFO [401]´íÎó
+2018-06-11 21:07:12 ftpclient.py[line:90] INFO /home/mikeliu/python/14_day_training_camp/×÷Òµ/µÚÆß´Î×÷Òµ/FTP/ftpserver/home/mike
+2018-06-11 21:08:13 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 21:08:19 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 21:08:19 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 21:08:33 ftpclient.py[line:80] INFO [401]´íÎó
+2018-06-11 21:08:46 ftpclient.py[line:80] INFO [401]´íÎó
+2018-06-11 21:09:11 ftpclient.py[line:80] INFO []´íÎó
+2018-06-11 21:10:39 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 21:10:45 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 21:10:45 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 21:10:50 ftpclient.py[line:77] INFO ½¨Á¢ºÍ·şÎñÆ÷µÄÁ¬½Ó!
+2018-06-11 21:16:44 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 21:16:50 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 21:16:50 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 21:16:58 ftpclient.py[line:77] INFO ½¨Á¢ºÍ·şÎñÆ÷µÄÁ¬½Ó!
+2018-06-11 21:20:59 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 21:21:05 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 21:21:05 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 21:21:32 ftpclient.py[line:80] INFO [403]´íÎó
+2018-06-11 21:22:29 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 21:22:35 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 21:22:35 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 21:22:41 ftpclient.py[line:80] INFO [403]´íÎó
+2018-06-11 21:24:55 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 21:24:59 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 21:24:59 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 21:25:06 ftpclient.py[line:80] INFO [403]´íÎó
+2018-06-11 21:25:54 ftpclient.py[line:77] INFO ½¨Á¢ºÍ·şÎñÆ÷µÄÁ¬½Ó!
+2018-06-11 21:28:39 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-06-11 21:28:43 ftpclient.py[line:39] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-06-11 21:28:43 ftpclient.py[line:46] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-06-11 21:28:47 ftpclient.py[line:80] INFO [403]´íÎó
+2018-06-11 21:29:08 ftpclient.py[line:77] INFO ½¨Á¢ºÍ·şÎñÆ÷µÄÁ¬½Ó!
+2018-06-12 09:44:17 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 09:44:29 ftpclient.py[line:39] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 09:44:29 ftpclient.py[line:46] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 09:44:34 ftpclient.py[line:85] INFO []é”™è¯¯
+2018-06-12 09:44:49 ftpclient.py[line:85] INFO []é”™è¯¯
+2018-06-12 09:47:00 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 09:47:05 ftpclient.py[line:39] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 09:47:05 ftpclient.py[line:46] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 09:47:33 ftpclient.py[line:85] INFO [401]é”™è¯¯
+2018-06-12 09:51:21 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 09:52:24 ftpclient.py[line:39] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 09:52:24 ftpclient.py[line:46] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 09:52:33 ftpclient.py[line:85] INFO [403]é”™è¯¯
+2018-06-12 09:52:41 ftpclient.py[line:94] INFO /home/mikeliu/python/14_day_training_camp/ä½œä¸š/ç¬¬ä¸ƒæ¬¡ä½œä¸š/FTP/ftpserver/home/mike
+2018-06-12 09:52:59 ftpclient.py[line:94] INFO /home/mikeliu/python/14_day_training_camp/ä½œä¸š/ç¬¬ä¸ƒæ¬¡ä½œä¸š/FTP/ftpserver/home/mike/test
+2018-06-12 09:56:21 ftpclient.py[line:94] INFO /home/mikeliu/python/14_day_training_camp/ä½œä¸š/ç¬¬ä¸ƒæ¬¡ä½œä¸š/FTP/ftpserver/home/mike
+2018-06-12 09:58:06 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 09:58:12 ftpclient.py[line:39] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 09:58:12 ftpclient.py[line:46] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 09:58:22 ftpclient.py[line:82] INFO æ“ä½œæˆåŠŸ!
+2018-06-12 09:58:43 ftpclient.py[line:82] INFO æ“ä½œæˆåŠŸ!
+2018-06-12 10:50:23 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 10:50:27 ftpclient.py[line:39] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 10:50:27 ftpclient.py[line:46] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 10:50:33 ftpclient.py[line:102] INFO [401]å‘½ä»¤ä¸æ­£ç¡®!
+2018-06-12 10:52:38 ftpclient.py[line:140] INFO /home/mikeliu/python/14_day_training_camp/ä½œä¸š/ç¬¬ä¸ƒæ¬¡ä½œä¸š/FTP/ftpserver/home/mike
+2018-06-12 10:52:38 ftpclient.py[line:141] INFO æ“ä½œæˆåŠŸ!
+2018-06-12 11:05:05 ftpclient.py[line:100] INFO [402]æ–‡ä»¶ä¸å­˜åœ¨!
+2018-06-12 11:10:42 ftpclient.py[line:56] INFO [dir]å‘½ä»¤ä¸å­˜åœ¨
+2018-06-12 11:11:58 ftpclient.py[line:100] INFO [402]æ–‡ä»¶ä¸å­˜åœ¨!
+2018-06-12 11:12:03 ftpclient.py[line:140] INFO /home/mikeliu/python/14_day_training_camp/ä½œä¸š/ç¬¬ä¸ƒæ¬¡ä½œä¸š/FTP/ftpserver/home/mike
+2018-06-12 11:12:03 ftpclient.py[line:141] INFO æ“ä½œæˆåŠŸ!
+2018-06-12 11:12:25 ftpclient.py[line:100] INFO [402]æ–‡ä»¶ä¸å­˜åœ¨!
+2018-06-12 11:21:47 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:21:47 ftpclient.py[line:29] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:21:59 ftpclient.py[line:39] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 11:21:59 ftpclient.py[line:46] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 11:22:04 ftpclient.py[line:145] INFO python.pptx  test
+
+2018-06-12 11:22:04 ftpclient.py[line:146] INFO æ“ä½œæˆåŠŸ!
+2018-06-12 11:22:44 ftpclient.py[line:145] INFO /home/mikeliu/python/14_day_training_camp/ä½œä¸š/ç¬¬ä¸ƒæ¬¡ä½œä¸š/FTP/ftpserver/home/mike
+2018-06-12 11:22:44 ftpclient.py[line:146] INFO æ“ä½œæˆåŠŸ!
+2018-06-12 11:22:54 ftpclient.py[line:105] INFO [402]æ–‡ä»¶ä¸å­˜åœ¨!
+2018-06-12 11:24:55 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:24:55 ftpclient.py[line:29] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:25:25 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:25:25 ftpclient.py[line:29] INFO -----å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•
+------
+2018-06-12 11:26:16 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:26:16 ftpclient.py[line:29] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:26:33 ftpclient.py[line:39] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 11:26:33 ftpclient.py[line:46] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 11:26:54 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:26:54 ftpclient.py[line:29] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:28:05 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:28:05 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:28:20 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:28:20 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:28:34 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:28:34 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:28:55 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:28:55 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:29:01 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 11:29:01 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 11:29:16 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:29:16 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:29:43 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 11:29:43 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 11:29:48 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 11:29:48 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 13:56:18 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 13:56:18 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 13:56:22 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 13:56:22 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 13:56:32 ftpclient.py[line:109] INFO [402]æ–‡ä»¶ä¸å­˜åœ¨!
+2018-06-12 13:57:19 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 13:57:19 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 13:57:25 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 13:57:25 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 13:58:37 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 13:58:37 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 13:58:41 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 13:58:41 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 14:01:08 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 14:01:08 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 14:01:12 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 14:01:12 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 14:02:41 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 14:02:41 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 14:02:45 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 14:02:45 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 14:03:07 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 14:03:07 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 14:04:31 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 14:04:31 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 14:09:57 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 14:09:57 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 14:10:02 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 14:10:02 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 14:10:09 ftpclient.py[line:106] INFO 
+æ–‡ä»¶å…·æœ‰ä¸€è‡´æ€§
+2018-06-12 14:10:52 ftpclient.py[line:150] INFO python.pptx  test
+
+2018-06-12 14:10:52 ftpclient.py[line:151] INFO æ“ä½œæˆåŠŸ!
+2018-06-12 14:12:10 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 14:12:10 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 14:12:16 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 14:12:16 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 14:12:22 ftpclient.py[line:106] INFO 
+æ–‡ä»¶å…·æœ‰ä¸€è‡´æ€§
+2018-06-12 14:58:18 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 14:58:18 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 14:58:28 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 14:58:28 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 14:58:37 ftpclient.py[line:106] INFO 
+æ–‡ä»¶å…·æœ‰ä¸€è‡´æ€§
+2018-06-12 14:59:28 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 14:59:28 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 14:59:32 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 14:59:32 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 14:59:37 ftpclient.py[line:106] INFO 
+æ–‡ä»¶å…·æœ‰ä¸€è‡´æ€§
+2018-06-12 15:01:46 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 15:01:46 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 15:01:52 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 15:01:52 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 15:01:58 ftpclient.py[line:108] INFO [403]é”™è¯¯
+2018-06-12 15:02:44 ftpclient.py[line:106] INFO 
+æ–‡ä»¶å…·æœ‰ä¸€è‡´æ€§
+2018-06-12 15:57:17 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 15:57:17 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 15:57:22 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 15:57:22 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 15:59:43 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 15:59:43 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 15:59:50 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 15:59:50 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 15:59:59 ftpclient.py[line:131] INFO ç»§ç»­ä¸Šæ¬¡ä¸Šä¼ ä½ç½®è¿›è¡Œç»­ä¼ 
+2018-06-12 15:59:59 ftpclient.py[line:166] INFO 
+æ–‡ä»¶å…·æœ‰ä¸€è‡´æ€§
+2018-06-12 16:00:39 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 16:00:39 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 16:00:44 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 16:00:44 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 16:00:52 ftpclient.py[line:136] INFO æ–‡ä»¶å·²ç»å­˜åœ¨ï¼Œå¤§å°ä¸€è‡´
+2018-06-12 16:02:52 ftpclient.py[line:166] INFO 
+æ–‡ä»¶å…·æœ‰ä¸€è‡´æ€§
+2018-06-12 16:03:17 ftpclient.py[line:136] INFO æ–‡ä»¶å·²ç»å­˜åœ¨ï¼Œå¤§å°ä¸€è‡´
+2018-06-12 17:45:44 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 17:45:44 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 17:45:51 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 17:45:51 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-12 17:48:24 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-12 17:48:24 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-12 17:48:31 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-12 17:48:31 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-13 13:45:53 sokect_server.py[line:16] INFO ftpæœåŠ¡å™¨å·²ç»å¯åŠ¨
+2018-06-13 13:45:53 ftpserver.py[line:15] INFO åˆ›å»ºæ•°æ®åº“æ–‡ä»¶å¼€å§‹
+2018-06-13 13:45:53 ftpserver.py[line:36] INFO è¯¥æ•°æ®åº“æ–‡ä»¶å·²ç»å­˜åœ¨!
+2018-06-13 13:45:53 ftpserver.py[line:36] INFO è¯¥æ•°æ®åº“æ–‡ä»¶å·²ç»å­˜åœ¨!
+2018-06-13 13:45:53 ftpserver.py[line:36] INFO è¯¥æ•°æ®åº“æ–‡ä»¶å·²ç»å­˜åœ¨!
+2018-06-13 13:45:53 ftpserver.py[line:44] INFO è¯¥ç›®å½•å·²ç»å­˜åœ¨!
+2018-06-13 13:45:53 ftpserver.py[line:44] INFO è¯¥ç›®å½•å·²ç»å­˜åœ¨!
+2018-06-13 13:45:53 ftpserver.py[line:44] INFO è¯¥ç›®å½•å·²ç»å­˜åœ¨!
+2018-06-13 13:45:58 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-13 13:45:58 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-13 13:46:04 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-13 13:46:04 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-13 13:46:07 ftpclient.py[line:202] INFO /home/mikeliu/python/14_day_training_camp/ä½œä¸š/ç¬¬ä¸ƒæ¬¡ä½œä¸š/FTP/ftpserver/home/mike
+2018-06-13 13:46:07 ftpclient.py[line:203] INFO æ“ä½œæˆåŠŸ!
+2018-06-13 13:46:32 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-13 13:46:32 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-13 13:46:39 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-13 13:46:39 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-13 13:46:42 ftpclient.py[line:202] INFO /home/mikeliu/python/14_day_training_camp/ä½œä¸š/ç¬¬ä¸ƒæ¬¡ä½œä¸š/FTP/ftpserver/home/tom
+2018-06-13 13:46:42 ftpclient.py[line:203] INFO æ“ä½œæˆåŠŸ!
+2018-06-14 12:22:30 sokect_server.py[line:16] INFO ftpæœåŠ¡å™¨å·²ç»å¯åŠ¨
+2018-06-14 12:22:30 ftpserver.py[line:15] INFO åˆ›å»ºæ•°æ®åº“æ–‡ä»¶å¼€å§‹
+2018-06-14 12:22:30 ftpserver.py[line:36] INFO è¯¥æ•°æ®åº“æ–‡ä»¶å·²ç»å­˜åœ¨!
+2018-06-14 12:22:30 ftpserver.py[line:36] INFO è¯¥æ•°æ®åº“æ–‡ä»¶å·²ç»å­˜åœ¨!
+2018-06-14 12:22:30 ftpserver.py[line:36] INFO è¯¥æ•°æ®åº“æ–‡ä»¶å·²ç»å­˜åœ¨!
+2018-06-14 12:22:30 ftpserver.py[line:44] INFO è¯¥ç›®å½•å·²ç»å­˜åœ¨!
+2018-06-14 12:22:30 ftpserver.py[line:44] INFO è¯¥ç›®å½•å·²ç»å­˜åœ¨!
+2018-06-14 12:22:30 ftpserver.py[line:44] INFO è¯¥ç›®å½•å·²ç»å­˜åœ¨!
+2018-06-14 12:22:40 ftpclient.py[line:22] INFO è¿æ¥æœåŠ¡å™¨æˆåŠŸ!
+2018-06-14 12:22:40 ftpclient.py[line:30] INFO ------å¼€å§‹è¿›è¡Œç”¨æˆ·ç™»å½•------
+2018-06-14 12:22:47 ftpclient.py[line:41] INFO [200]ç”¨æˆ·è®¤è¯æˆåŠŸ!
+2018-06-14 12:22:47 ftpclient.py[line:48] INFO è¿›è¡Œç›¸åº”çš„æ“ä½œ
+2018-06-14 12:22:55 ftpclient.py[line:202] INFO python.pptx  test
+
+2018-06-14 12:22:55 ftpclient.py[line:203] INFO æ“ä½œæˆåŠŸ!
+2018-06-14 12:23:14 ftpclient.py[line:135] INFO æ–‡ä»¶å·²ç»å­˜åœ¨ï¼Œå¤§å°ä¸€è‡´
+2018-06-14 12:25:25 ftpclient.py[line:202] INFO /home/mikeliu/python/14_day_training_camp/ä½œä¸š/ç¬¬ä¸ƒæ¬¡ä½œä¸š/FTP/ftpserver/home/mike
+2018-06-14 12:25:25 ftpclient.py[line:203] INFO æ“ä½œæˆåŠŸ!
+2018-07-14 16:46:49 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 16:46:50 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 16:46:50 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 16:46:50 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 16:46:50 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 16:46:50 ftpserver.py[line:47] INFO ´´½¨ÓÃ»§ËŞÖ÷Ä¿Â¼¡¾D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/mike¡¿³É¹¦!
+2018-07-14 16:46:50 ftpserver.py[line:47] INFO ´´½¨ÓÃ»§ËŞÖ÷Ä¿Â¼¡¾D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/tom¡¿³É¹¦!
+2018-07-14 16:46:50 ftpserver.py[line:47] INFO ´´½¨ÓÃ»§ËŞÖ÷Ä¿Â¼¡¾D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/jack¡¿³É¹¦!
+2018-07-14 16:47:25 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 16:47:25 ftpclient.py[line:30] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:10:50 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 17:10:50 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 17:10:50 ftpserver.py[line:33] INFO ´´½¨Êı¾İ¿âÎÄ¼şmike³É¹¦!
+2018-07-14 17:10:50 ftpserver.py[line:33] INFO ´´½¨Êı¾İ¿âÎÄ¼ştom³É¹¦!
+2018-07-14 17:10:50 ftpserver.py[line:33] INFO ´´½¨Êı¾İ¿âÎÄ¼şjack³É¹¦!
+2018-07-14 17:10:50 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:10:50 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:10:50 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:11:30 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:11:30 ftpclient.py[line:30] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:11:37 ftpclient.py[line:41] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 17:11:37 ftpclient.py[line:48] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 17:11:44 ftpclient.py[line:59] INFO [ls]ÃüÁî²»´æÔÚ
+2018-07-14 17:11:52 ftpclient.py[line:59] INFO [ll]ÃüÁî²»´æÔÚ
+2018-07-14 17:26:55 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 17:26:55 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 17:26:55 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:26:55 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:26:55 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:26:55 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:26:55 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:26:55 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:27:00 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:27:00 ftpclient.py[line:30] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:27:04 auth_user.py[line:32] INFO ¸ÃÓÃ»§Ä¿Â¼²»´æÔÚ!
+2018-07-14 17:27:04 sokect_server.py[line:74] INFO ÓÃ»§ÈÏÖ¤Ê§°Ü!
+2018-07-14 17:27:04 ftpclient.py[line:38] INFO [400]ÓÃ»§Ãû»òÃÜÂë´íÎó
+2018-07-14 17:27:04 ftpclient.py[line:30] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:27:09 ftpclient.py[line:41] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 17:27:09 ftpclient.py[line:48] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 17:29:30 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 17:29:30 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 17:29:30 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:29:30 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:29:30 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:29:30 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:29:30 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:29:30 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:29:33 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:29:33 ftpclient.py[line:30] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:29:39 ftpclient.py[line:41] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 17:29:39 ftpclient.py[line:48] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 17:31:18 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 17:31:18 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 17:31:18 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:31:18 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:31:18 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:31:18 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:31:18 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:31:18 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:31:21 ftpclient.py[line:22] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:31:21 ftpclient.py[line:30] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:31:27 ftpclient.py[line:41] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 17:31:27 ftpclient.py[line:48] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 17:31:30 ftpclient.py[line:193] INFO [401]´íÎó
+2018-07-14 17:46:23 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 17:46:23 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 17:46:23 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:46:23 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:46:23 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:46:23 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:46:23 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:46:23 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:47:33 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:47:59 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 17:47:59 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 17:47:59 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:47:59 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:47:59 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:47:59 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:47:59 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:47:59 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:48:02 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:49:03 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:49:15 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:51:27 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:51:27 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:54:48 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:54:48 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:54:52 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 17:54:52 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 17:55:21 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:55:21 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:56:44 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 17:56:44 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 17:56:44 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:56:44 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:56:44 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 17:56:44 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:56:44 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:56:44 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 17:56:46 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 17:56:46 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 17:56:51 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 17:56:51 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 17:56:54 ftpclient.py[line:203] INFO [401]´íÎó
+2018-07-14 20:19:18 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 20:19:18 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 20:19:18 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:19:18 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:19:18 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:19:18 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:19:18 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:19:18 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:19:21 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 20:19:21 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:19:27 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 20:19:27 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 20:20:05 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 20:20:05 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 20:20:05 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:20:05 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:20:05 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:20:05 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:20:05 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:20:05 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:20:08 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 20:20:08 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:20:14 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 20:20:14 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 20:20:17 ftpclient.py[line:212] INFO D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/mike
+2018-07-14 20:20:17 ftpclient.py[line:213] INFO ²Ù×÷³É¹¦!
+2018-07-14 20:21:36 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 20:21:36 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 20:21:36 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:21:36 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:21:36 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:21:36 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:21:36 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:21:36 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:21:40 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 20:21:40 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:21:46 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 20:21:46 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 20:23:04 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 20:23:04 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:23:10 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 20:23:10 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 20:25:55 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 20:25:55 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:26:02 auth_user.py[line:32] INFO ¸ÃÓÃ»§Ä¿Â¼²»´æÔÚ!
+2018-07-14 20:26:02 sokect_server.py[line:74] INFO ÓÃ»§ÈÏÖ¤Ê§°Ü!
+2018-07-14 20:26:02 ftpclient.py[line:48] INFO [400]ÓÃ»§Ãû»òÃÜÂë´íÎó
+2018-07-14 20:26:02 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:26:08 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 20:26:08 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 20:31:48 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 20:31:48 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:31:53 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 20:31:53 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 20:34:58 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 20:34:58 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:35:06 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 20:35:06 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 20:35:13 ftpclient.py[line:212] INFO D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/mike
+2018-07-14 20:35:13 ftpclient.py[line:213] INFO ²Ù×÷³É¹¦!
+2018-07-14 20:36:37 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 20:36:37 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:37:52 sokect_server.py[line:19] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 20:37:52 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 20:37:52 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:37:52 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:37:52 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 20:37:52 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:37:52 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:37:52 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 20:37:59 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 20:37:59 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 20:38:05 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 20:38:05 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 21:34:53 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 21:34:53 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 21:34:53 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:34:53 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:34:53 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:34:53 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:34:53 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:34:53 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:34:59 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 21:34:59 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 21:35:06 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 21:35:06 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 21:40:37 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 21:40:37 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 21:40:37 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:40:37 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:40:37 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:40:37 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:40:37 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:40:37 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:40:40 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 21:40:40 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 21:40:45 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 21:40:45 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 21:40:46 ftpclient.py[line:212] INFO    
+2018-07-14 21:40:46 ftpclient.py[line:213] INFO ²Ù×÷³É¹¦!
+2018-07-14 21:43:03 ftpclient.py[line:29] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 21:43:03 ftpclient.py[line:40] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 21:43:08 ftpclient.py[line:51] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 21:43:08 ftpclient.py[line:58] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 21:43:10 ftpclient.py[line:212] INFO    
+2018-07-14 21:43:10 ftpclient.py[line:213] INFO ²Ù×÷³É¹¦!
+2018-07-14 21:56:44 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 21:56:44 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 21:56:44 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:56:44 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:56:44 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:56:44 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:56:44 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:56:44 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:56:46 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 21:56:46 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 21:56:53 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 21:56:53 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 21:58:08 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 21:58:08 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 21:58:12 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 21:58:12 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 21:59:35 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 21:59:35 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 21:59:35 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:59:35 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:59:35 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 21:59:35 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:59:35 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:59:35 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 21:59:37 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 21:59:37 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 21:59:42 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 21:59:42 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:02:20 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:02:20 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:02:25 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:02:25 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:03:50 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:03:50 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:03:50 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:03:50 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:03:50 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:03:50 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:03:50 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:03:50 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:03:53 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:03:53 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:03:58 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:03:58 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:06:13 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:06:13 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:06:13 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:06:13 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:06:13 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:06:13 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:06:13 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:06:13 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:06:15 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:06:15 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:06:22 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:06:22 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:13:03 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:13:03 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:13:03 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:13:03 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:13:03 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:13:03 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:13:03 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:13:03 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:13:05 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:13:05 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:13:10 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:13:10 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:13:43 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:13:43 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:13:43 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:13:43 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:13:43 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:13:43 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:13:43 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:13:43 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:13:46 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:13:46 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:13:50 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:13:50 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:15:09 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:15:09 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:15:09 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:15:09 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:15:09 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:15:09 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:15:09 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:15:09 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:15:12 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:15:12 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:15:16 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:15:16 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:16:14 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:16:14 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:16:14 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:16:14 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:16:14 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:16:14 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:16:14 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:16:14 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:16:17 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:16:17 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:16:20 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:16:20 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:16:22 ftpclient.py[line:71] INFO [ls]ÃüÁî²»´æÔÚ
+2018-07-14 22:16:57 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:16:57 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:16:57 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:16:57 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:16:57 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:16:57 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:16:57 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:16:57 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:17:01 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:17:01 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:17:07 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:17:07 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:31:21 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:31:21 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:31:21 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:31:21 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:31:21 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:31:21 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:31:21 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:31:21 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:31:24 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:31:24 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:31:30 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:31:30 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:33:21 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:33:21 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:33:21 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:33:21 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:33:21 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:33:21 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:33:21 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:33:21 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:33:25 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:33:25 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:33:47 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:33:47 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:33:59 ftpclient.py[line:205] INFO [401]´íÎó
+2018-07-14 22:46:09 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:46:09 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:46:09 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:46:09 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:46:09 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:46:09 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:46:09 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:46:09 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:46:13 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:46:13 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:46:18 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:46:18 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:47:07 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:47:07 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:47:07 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:47:07 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:47:07 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:47:07 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:47:07 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:47:07 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:47:10 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:47:10 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:47:16 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:47:16 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:56:20 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 22:56:20 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 22:56:20 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:56:20 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:56:20 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 22:56:20 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:56:20 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:56:20 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 22:56:31 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 22:56:31 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 22:56:35 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 22:56:35 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 22:56:37 ftpclient.py[line:225] INFO ÎŞĞ§¿ª¹Ø - "mike"¡£
+
+2018-07-14 22:56:37 ftpclient.py[line:226] INFO ²Ù×÷³É¹¦!
+2018-07-14 22:57:20 ftpclient.py[line:225] INFO 'D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/mike' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËĞĞµÄ³ÌĞò
+»òÅú´¦ÀíÎÄ¼ş¡£
+
+2018-07-14 22:57:20 ftpclient.py[line:226] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:03:21 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:03:21 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:03:25 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:03:25 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:03:27 ftpclient.py[line:225] INFO ÎŞĞ§¿ª¹Ø - "mike"¡£
+
+2018-07-14 23:03:27 ftpclient.py[line:226] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:05:08 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:05:08 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:05:08 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:05:08 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:05:08 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:05:08 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:05:08 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:05:08 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:05:11 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:05:11 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:05:18 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:05:18 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:05:19 ftpclient.py[line:225] INFO '000' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËĞĞµÄ³ÌĞò
+»òÅú´¦ÀíÎÄ¼ş¡£
+
+2018-07-14 23:05:19 ftpclient.py[line:226] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:05:31 ftpclient.py[line:225] INFO 'D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/mike' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËĞĞµÄ³ÌĞò
+»òÅú´¦ÀíÎÄ¼ş¡£
+
+2018-07-14 23:05:31 ftpclient.py[line:226] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:07:58 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:07:58 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:08:03 auth_user.py[line:32] INFO ¸ÃÓÃ»§Ä¿Â¼²»´æÔÚ!
+2018-07-14 23:08:03 sokect_server.py[line:76] INFO ÓÃ»§ÈÏÖ¤Ê§°Ü!
+2018-07-14 23:08:03 ftpclient.py[line:50] INFO [400]ÓÃ»§Ãû»òÃÜÂë´íÎó
+2018-07-14 23:08:03 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:08:08 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:08:08 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:08:10 ftpclient.py[line:225] INFO '000' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËĞĞµÄ³ÌĞò
+»òÅú´¦ÀíÎÄ¼ş¡£
+
+2018-07-14 23:08:10 ftpclient.py[line:226] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:08:20 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:08:20 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:08:20 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:08:20 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:08:20 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:08:20 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:08:20 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:08:20 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:08:24 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:08:24 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:08:29 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:08:29 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:08:56 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:08:56 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:08:56 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:08:56 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:08:56 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:08:56 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:08:56 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:08:56 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:08:59 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:08:59 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:09:04 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:09:04 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:12:12 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:12:12 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:12:12 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:12:12 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:12:12 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:12:12 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:12:12 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:12:12 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:12:18 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:12:18 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:12:24 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:12:24 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:13:57 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:13:57 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:13:57 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:13:57 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:13:57 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:13:57 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:13:57 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:13:57 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:14:00 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:14:00 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:14:06 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:14:06 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:14:33 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:14:33 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:14:33 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:14:33 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:14:33 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:14:33 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:14:33 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:14:33 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:14:36 ftpclient.py[line:31] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:14:36 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:14:41 ftpclient.py[line:53] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:14:41 ftpclient.py[line:60] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:14:43 ftpclient.py[line:225] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\bin µÄÄ¿Â¼
+
+2018-07-14  16:46    <DIR>          .
+2018-07-14  16:46    <DIR>          ..
+2018-07-14  16:28               468 client_start.py
+2018-07-14  16:46               682 server_start.py
+2018-06-25  22:16               110 __init__.py
+               3 ¸öÎÄ¼ş          1,260 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,547,386,368 ¿ÉÓÃ×Ö½Ú
+
+2018-07-14 23:14:43 ftpclient.py[line:226] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:19:08 ftpclient.py[line:225] INFO 'D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/mike' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËĞĞµÄ³ÌĞò
+»òÅú´¦ÀíÎÄ¼ş¡£
+
+2018-07-14 23:19:08 ftpclient.py[line:226] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:36:29 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:36:34 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:37:03 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:37:06 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:37:20 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:37:20 ftpclient.py[line:62] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:38:03 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:38:06 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:38:17 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:38:19 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:38:28 ftpclient.py[line:229] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\bin µÄÄ¿Â¼
+
+2018-07-14  16:46    <DIR>          .
+2018-07-14  16:46    <DIR>          ..
+2018-07-14  16:28               468 client_start.py
+2018-07-14  16:46               682 server_start.py
+2018-06-25  22:16               110 __init__.py
+               3 ¸öÎÄ¼ş          1,260 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,547,382,272 ¿ÉÓÃ×Ö½Ú
+
+2018-07-14 23:38:28 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:38:54 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:38:56 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:39:03 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:39:05 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:43:04 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:43:06 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:43:06 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:43:06 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:43:06 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:43:06 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:43:06 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:43:06 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:43:06 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:43:06 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:43:25 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:43:27 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:43:36 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:43:38 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:46:54 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:46:54 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:46:54 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:46:54 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:46:54 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:46:54 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:46:54 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:46:54 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:46:56 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:46:58 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:47:07 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:47:09 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:47:50 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:47:50 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:47:50 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:47:50 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:47:50 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:47:50 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:47:50 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:47:50 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:48:14 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:48:16 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:48:25 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:48:26 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:48:34 ftpclient.py[line:206] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:48:34 sokect_server.py[line:147] INFO ´´½¨Ä¿Â¼[D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/mike/test]³É¹¦
+2018-07-14 23:48:50 ftpclient.py[line:209] INFO [401]´íÎó
+2018-07-14 23:49:20 sokect_server.py[line:169] INFO ÇĞ»»µ½Ä¿Â¼¡¾test¡¿³É¹¦
+2018-07-14 23:50:30 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:50:30 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:50:30 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:50:30 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:50:30 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:50:30 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:50:30 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:50:30 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:50:33 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:50:35 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:50:45 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:50:46 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:50:50 ftpclient.py[line:229] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\bin µÄÄ¿Â¼
+
+2018-07-14  16:46    <DIR>          .
+2018-07-14  16:46    <DIR>          ..
+2018-07-14  16:28               468 client_start.py
+2018-07-14  16:46               682 server_start.py
+2018-06-25  22:16               110 __init__.py
+               3 ¸öÎÄ¼ş          1,260 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,547,378,176 ¿ÉÓÃ×Ö½Ú
+
+2018-07-14 23:50:50 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:56:13 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:56:13 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:56:13 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:56:13 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:56:13 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:56:13 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:56:13 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:56:13 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:56:18 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:56:20 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:56:29 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:56:30 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:56:32 ftpclient.py[line:229] INFO ÎŞĞ§¿ª¹Ø - "mike"¡£
+
+2018-07-14 23:56:32 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:57:08 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:57:10 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:57:18 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-14 23:57:18 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-14 23:57:18 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:57:18 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:57:18 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-14 23:57:18 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:57:18 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:57:18 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-14 23:57:22 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-14 23:57:24 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-14 23:57:31 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-14 23:57:32 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-14 23:57:34 ftpclient.py[line:229] INFO 'D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/mike' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËĞĞµÄ³ÌĞò
+»òÅú´¦ÀíÎÄ¼ş¡£
+
+2018-07-14 23:57:34 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-14 23:57:45 ftpclient.py[line:229] INFO 'D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home/mike' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËĞĞµÄ³ÌĞò
+»òÅú´¦ÀíÎÄ¼ş¡£
+
+2018-07-14 23:57:45 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:19:22 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:19:22 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:19:22 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:19:22 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:19:22 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:19:22 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:19:22 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:19:22 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:19:29 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:19:31 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:19:40 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:19:41 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:19:46 ftpclient.py[line:229] INFO ÎŞĞ§¿ª¹Ø - "mike"¡£
+
+2018-07-15 07:19:46 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:21:20 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:21:22 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:21:27 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:21:27 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:21:27 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:21:27 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:21:27 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:21:27 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:21:27 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:21:27 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:21:32 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:21:34 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:21:40 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:21:41 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:21:44 ftpclient.py[line:229] INFO ÎŞĞ§¿ª¹Ø - "mike"¡£
+
+2018-07-15 07:21:44 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:23:11 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:23:11 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:23:11 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:23:11 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:23:11 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:23:11 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:23:11 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:23:11 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:23:15 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:23:17 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:23:24 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:23:25 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:23:28 ftpclient.py[line:229] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\bin µÄÄ¿Â¼
+
+2018-07-14  16:46    <DIR>          .
+2018-07-14  16:46    <DIR>          ..
+2018-07-14  16:28               468 client_start.py
+2018-07-14  16:46               682 server_start.py
+2018-06-25  22:16               110 __init__.py
+               3 ¸öÎÄ¼ş          1,260 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,512,615,424 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 07:23:28 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:27:38 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:27:38 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:27:38 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:27:38 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:27:38 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:27:38 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:27:38 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:27:38 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:27:41 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:27:43 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:27:51 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:27:52 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:28:00 ftpclient.py[line:229] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\bin µÄÄ¿Â¼
+
+2018-07-14  16:46    <DIR>          .
+2018-07-14  16:46    <DIR>          ..
+2018-07-14  16:28               468 client_start.py
+2018-07-14  16:46               682 server_start.py
+2018-06-25  22:16               110 __init__.py
+               3 ¸öÎÄ¼ş          1,260 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,512,607,232 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 07:28:00 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:40:19 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:40:19 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:40:19 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:40:19 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:40:19 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:40:19 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:40:19 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:40:19 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:40:24 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:40:26 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:40:32 auth_user.py[line:24] INFO user_data:
+2018-07-15 07:40:32 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:40:33 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:46:46 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:46:48 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:46:55 auth_user.py[line:24] INFO user_data:
+2018-07-15 07:46:55 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:46:56 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:47:07 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:47:07 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:47:07 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:47:07 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:47:07 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:47:07 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:47:07 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:47:07 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:47:12 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:47:14 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:47:21 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:47:22 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:49:03 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:49:03 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:49:03 ftpserver.py[line:33] INFO ´´½¨Êı¾İ¿âÎÄ¼şmike³É¹¦!
+2018-07-15 07:49:03 ftpserver.py[line:33] INFO ´´½¨Êı¾İ¿âÎÄ¼ştom³É¹¦!
+2018-07-15 07:49:03 ftpserver.py[line:33] INFO ´´½¨Êı¾İ¿âÎÄ¼şjack³É¹¦!
+2018-07-15 07:49:03 ftpserver.py[line:47] INFO ´´½¨ÓÃ»§ËŞÖ÷Ä¿Â¼¡¾D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike¡¿³É¹¦!
+2018-07-15 07:49:03 ftpserver.py[line:47] INFO ´´½¨ÓÃ»§ËŞÖ÷Ä¿Â¼¡¾D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\tom¡¿³É¹¦!
+2018-07-15 07:49:03 ftpserver.py[line:47] INFO ´´½¨ÓÃ»§ËŞÖ÷Ä¿Â¼¡¾D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\jack¡¿³É¹¦!
+2018-07-15 07:49:16 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:49:18 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:49:25 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:49:26 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:49:30 ftpclient.py[line:229] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\bin µÄÄ¿Â¼
+
+2018-07-14  16:46    <DIR>          .
+2018-07-14  16:46    <DIR>          ..
+2018-07-14  16:28               468 client_start.py
+2018-07-14  16:46               682 server_start.py
+2018-06-25  22:16               110 __init__.py
+               3 ¸öÎÄ¼ş          1,260 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,512,603,136 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 07:49:30 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:51:28 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:51:28 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:51:28 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:51:28 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:51:28 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:51:28 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:51:28 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:51:28 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:51:33 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:51:34 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:51:41 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:51:42 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:51:45 ftpclient.py[line:229] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike µÄÄ¿Â¼
+
+2018-07-15  07:49    <DIR>          .
+2018-07-15  07:49    <DIR>          ..
+               0 ¸öÎÄ¼ş              0 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,512,603,136 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 07:51:45 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:52:00 ftpclient.py[line:206] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:52:00 sokect_server.py[line:149] INFO ´´½¨Ä¿Â¼[D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike/test]³É¹¦
+2018-07-15 07:52:25 ftpclient.py[line:209] INFO [401201]´íÎó
+2018-07-15 07:55:31 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:55:31 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:55:31 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:55:31 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:55:31 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:55:31 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:55:31 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:55:31 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:55:35 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:55:36 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:55:43 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:55:44 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:55:48 ftpclient.py[line:206] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:55:48 sokect_server.py[line:171] INFO ÇĞ»»µ½Ä¿Â¼¡¾test¡¿³É¹¦
+2018-07-15 07:56:04 ftpclient.py[line:206] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:56:04 sokect_server.py[line:165] INFO ·µ»ØÉÏÒ»¼¶Ä¿Â¼:D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike ³É¹¦
+2018-07-15 07:56:08 ftpclient.py[line:229] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike µÄÄ¿Â¼
+
+2018-07-15  07:52    <DIR>          .
+2018-07-15  07:52    <DIR>          ..
+2018-07-15  07:52    <DIR>          test
+               0 ¸öÎÄ¼ş              0 ×Ö½Ú
+               3 ¸öÄ¿Â¼ 30,512,603,136 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 07:56:08 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:56:14 ftpclient.py[line:206] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:56:14 sokect_server.py[line:171] INFO ÇĞ»»µ½Ä¿Â¼¡¾test¡¿³É¹¦
+2018-07-15 07:56:16 ftpclient.py[line:229] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike\test µÄÄ¿Â¼
+
+2018-07-15  07:52    <DIR>          .
+2018-07-15  07:52    <DIR>          ..
+               0 ¸öÎÄ¼ş              0 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,512,599,040 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 07:56:16 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 07:57:15 ftpclient.py[line:125] INFO [402]ÎÄ¼ş²»´æÔÚ!
+2018-07-15 07:58:25 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:58:25 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:58:25 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:58:25 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:58:25 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:58:25 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:58:25 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:58:25 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:58:29 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 07:58:30 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 07:58:38 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 07:58:39 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 07:59:58 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 07:59:58 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 07:59:58 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:59:58 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:59:58 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 07:59:58 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:59:58 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 07:59:58 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:00:04 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 08:00:05 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 08:00:11 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 08:00:12 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 08:01:15 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 08:01:15 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 08:01:15 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:01:15 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:01:15 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:01:15 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:01:15 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:01:15 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:01:19 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 08:01:20 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 08:01:25 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 08:01:26 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 08:01:32 ftpclient.py[line:121] INFO 
+ÎÄ¼ş¾ßÓĞÒ»ÖÂĞÔ
+2018-07-15 08:05:25 sokect_server.py[line:21] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 08:05:25 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 08:05:25 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:05:25 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:05:25 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:05:25 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:05:25 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:05:25 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:05:28 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 08:05:29 ftpclient.py[line:43] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 08:05:36 ftpclient.py[line:55] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 08:05:37 ftpclient.py[line:63] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 08:05:42 ftpclient.py[line:181] INFO 
+ÎÄ¼ş¾ßÓĞÒ»ÖÂĞÔ
+2018-07-15 08:17:22 ftpclient.py[line:229] INFO 'D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËĞĞµÄ³ÌĞò
+»òÅú´¦ÀíÎÄ¼ş¡£
+
+2018-07-15 08:17:22 ftpclient.py[line:230] INFO ²Ù×÷³É¹¦!
+2018-07-15 08:42:53 sokect_server.py[line:22] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 08:42:53 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 08:42:53 ftpserver.py[line:33] INFO ´´½¨Êı¾İ¿âÎÄ¼şmike³É¹¦!
+2018-07-15 08:42:53 ftpserver.py[line:33] INFO ´´½¨Êı¾İ¿âÎÄ¼ştom³É¹¦!
+2018-07-15 08:42:53 ftpserver.py[line:33] INFO ´´½¨Êı¾İ¿âÎÄ¼şjack³É¹¦!
+2018-07-15 08:42:53 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:42:53 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:42:53 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:43:04 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 08:43:05 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 08:43:10 ftpclient.py[line:54] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 08:43:11 ftpclient.py[line:62] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 08:43:14 ftpclient.py[line:228] INFO ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÎÄ¼ş¡£
+
+2018-07-15 08:43:14 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 08:43:17 ftpclient.py[line:228] INFO ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÎÄ¼ş¡£
+
+2018-07-15 08:43:17 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 08:44:32 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 08:44:33 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 08:44:39 ftpclient.py[line:54] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 08:44:40 ftpclient.py[line:62] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 08:44:45 ftpclient.py[line:228] INFO ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÎÄ¼ş¡£
+
+2018-07-15 08:44:45 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 08:44:59 sokect_server.py[line:22] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 08:44:59 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 08:44:59 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:44:59 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:44:59 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:44:59 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:44:59 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:44:59 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:45:05 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 08:45:06 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 08:45:12 ftpclient.py[line:54] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 08:45:13 ftpclient.py[line:62] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 08:45:15 ftpclient.py[line:228] INFO ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÎÄ¼ş¡£
+
+2018-07-15 08:45:15 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 08:52:22 sokect_server.py[line:22] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 08:52:22 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 08:52:22 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:52:22 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:52:22 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 08:52:22 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:52:22 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:52:22 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 08:52:27 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 08:52:28 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 08:52:33 ftpclient.py[line:54] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 08:52:34 ftpclient.py[line:62] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 08:52:38 ftpclient.py[line:228] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike µÄÄ¿Â¼
+
+2018-07-15  08:01    <DIR>          .
+2018-07-15  08:01    <DIR>          ..
+2018-07-15  07:52    <DIR>          test
+2018-07-15  08:01           159,842 test.jpg
+               1 ¸öÎÄ¼ş        159,842 ×Ö½Ú
+               3 ¸öÄ¿Â¼ 30,512,263,168 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 08:52:38 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 09:46:35 sokect_server.py[line:25] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 09:46:35 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 09:46:35 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 09:46:35 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 09:46:35 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 09:46:35 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 09:46:35 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 09:46:35 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 09:53:37 sokect_server.py[line:22] INFO ftp·şÎñÆ÷ÒÑ¾­Æô¶¯
+2018-07-15 09:53:37 ftpserver.py[line:15] INFO ´´½¨Êı¾İ¿âÎÄ¼ş¿ªÊ¼
+2018-07-15 09:53:37 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 09:53:37 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 09:53:37 ftpserver.py[line:36] INFO ¸ÃÊı¾İ¿âÎÄ¼şÒÑ¾­´æÔÚ!
+2018-07-15 09:53:37 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 09:53:37 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 09:53:37 ftpserver.py[line:44] INFO ¸ÃÄ¿Â¼ÒÑ¾­´æÔÚ!
+2018-07-15 09:53:42 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 09:53:43 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 09:53:50 ftpclient.py[line:54] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 09:53:51 ftpclient.py[line:62] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 09:53:54 ftpclient.py[line:228] INFO 'pwd' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËĞĞµÄ³ÌĞò
+»òÅú´¦ÀíÎÄ¼ş¡£
+
+2018-07-15 09:53:54 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 09:54:16 ftpclient.py[line:228] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike µÄÄ¿Â¼
+
+2018-07-15  08:01    <DIR>          .
+2018-07-15  08:01    <DIR>          ..
+2018-07-15  07:52    <DIR>          test
+2018-07-15  08:01           159,842 test.jpg
+               1 ¸öÎÄ¼ş        159,842 ×Ö½Ú
+               3 ¸öÄ¿Â¼ 30,512,250,880 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 09:54:16 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 09:54:26 sokect_server.py[line:172] INFO ÇĞ»»µ½Ä¿Â¼¡¾test¡¿³É¹¦
+2018-07-15 09:54:33 ftpclient.py[line:228] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike\test µÄÄ¿Â¼
+
+2018-07-15  07:52    <DIR>          .
+2018-07-15  07:52    <DIR>          ..
+               0 ¸öÎÄ¼ş              0 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,512,250,880 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 09:54:33 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 09:54:36 ftpclient.py[line:205] INFO ²Ù×÷³É¹¦!
+2018-07-15 09:54:36 sokect_server.py[line:166] INFO ·µ»ØÉÏÒ»¼¶Ä¿Â¼:D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\mike ³É¹¦
+2018-07-15 09:54:53 ftpclient.py[line:74] INFO [ls]ÃüÁî²»´æÔÚ
+2018-07-15 10:00:19 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 10:00:20 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 10:00:31 ftpclient.py[line:54] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 10:00:32 ftpclient.py[line:62] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 10:00:40 ftpclient.py[line:32] INFO Á¬½Ó·şÎñÆ÷³É¹¦!
+2018-07-15 10:00:41 ftpclient.py[line:42] INFO ------¿ªÊ¼½øĞĞÓÃ»§µÇÂ¼------
+2018-07-15 10:00:51 ftpclient.py[line:54] INFO [200]ÓÃ»§ÈÏÖ¤³É¹¦!
+2018-07-15 10:00:52 ftpclient.py[line:62] INFO ½øĞĞÏàÓ¦µÄ²Ù×÷
+2018-07-15 10:01:01 ftpclient.py[line:228] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\jack µÄÄ¿Â¼
+
+2018-07-15  07:49    <DIR>          .
+2018-07-15  07:49    <DIR>          ..
+               0 ¸öÎÄ¼ş              0 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,512,250,880 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 10:01:01 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 10:01:05 ftpclient.py[line:228] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\jack µÄÄ¿Â¼
+
+2018-07-15  07:49    <DIR>          .
+2018-07-15  07:49    <DIR>          ..
+               0 ¸öÎÄ¼ş              0 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,512,250,880 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 10:01:05 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!
+2018-07-15 10:01:14 ftpclient.py[line:228] INFO  Çı¶¯Æ÷ D ÖĞµÄ¾íÃ»ÓĞ±êÇ©¡£
+ ¾íµÄĞòÁĞºÅÊÇ B60A-9C3B
+
+ D:\Python\14_day_training_camp\×÷Òµ\µÚ°Ë´Î×÷Òµ\FTP\ftpserver\home\jack µÄÄ¿Â¼
+
+2018-07-15  07:49    <DIR>          .
+2018-07-15  07:49    <DIR>          ..
+               0 ¸öÎÄ¼ş              0 ×Ö½Ú
+               2 ¸öÄ¿Â¼ 30,512,246,784 ¿ÉÓÃ×Ö½Ú
+
+2018-07-15 10:01:14 ftpclient.py[line:229] INFO ²Ù×÷³É¹¦!

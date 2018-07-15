@@ -6,7 +6,7 @@
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-res = s.connect_ex(('127.0.0.1', 8080))
+res = s.connect_ex(('127.0.0.1', 8081))
 
 while True:
     msg = input('请输入信息:').strip()
@@ -26,4 +26,4 @@ while True:
         data += s.recv(1024)
         recv_size += len(data)  # 为什么不直接写1024？
 
-    print(data.decode('utf-8'))
+    print(data.decode())
