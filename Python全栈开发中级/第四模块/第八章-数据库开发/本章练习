@@ -1,18 +1,20 @@
 --  1、创建数据库
 create database luffycity charset utf8;
-create table class(cid int primary key auto_increment,caption varchar(10),grade_id int)engine=innodb; -- 创建表
+create table class(cid int primary key auto_increment,caption varchar(10),grade_id int,foreign key(grade_id) references class_grade(gid) on delete cascade on update cascade)engine=innodb; -- 创建表
 create table student(sid int primary key auto_increment, sname varchar(20), gender varchar(10),class_id int,constraint fk_name foreign key(class_id) references class(cid) on delete cascade on update cascade)engine=innodb;
 create table teacher(tid int primary key auto_increment,tname varchar(10) not null)engine=innodb;
 create table course(cid int primary key auto_increment,cname varchar(20) not null,teacher_id int,constraint th_name foreign key(teacher_id) references teacher(tid) on delete cascade on update cascade)engine=innodb;
- create table class(cid int primary key auto_increment,caption varchar(10),grade_id int)engine=innodb;
+
 create table class_grade(gid int primary key auto_increment,gname var_char(20) not null)engine=innodb;
-create table score(sid int primary key auto_increment,student_id int,foreign key(student_id) references student(sid) on delete cascade on update cascade)engine=innodb;
-alter table class add foreign key(grade_id) references class_grade(gid) on delete cascade on update cascade; 	-- 添加外键关联
+create table score(sid int primary key auto_increment,student_id int,foreign key(student_id) references student(sid) on delete cascade on update cascade,course_id int,foreign key(course_id) references course(cid) on delete cascade on update cascade,score varchar(10) not null)engine=innodb;
 create table teach2cls(tcid int primary key auto_increment,tid int,foreign key(tid) references teacher(tid) on delete cascade on update cascade,cid int,foreign key(cid) references course(cid) on delete cascade on update cascade)engine=innodb;
+
+alter table class add foreign key(grade_id) references class_grade(gid) on delete cascade on update cascade; 	-- 添加外键关联
+
 --
 insert into class_grade(gname) VALUES('三年级')  -- 添加年级信息
 INSERT into class(caption,grade_id) VALUES('三年二班',3) -- 添加班级信息
-INSERT into student(sname,gender,class_id) VALUES('科比','男',1)	-- 添加学生信息
-INSERT into teacher(tname) VALUES('王五')		-- 添加老师信息
-INSERT INTO course(cname,teacher_id) VALUES('物理',2)
-INSERT into teach2cls(tid,cid) VALUES(3,2)
+INSERT into student(sname,gender,class_id) VALUES('科比','男',2);	-- 添加学生信息
+INSERT into teacher(tname) VALUES('王五');		-- 添加老师信息
+INSERT INTO course(cname,teacher_id) VALUES('物理',2);
+INSERT into teach2cls(tid,cid) VALUES(1,1);

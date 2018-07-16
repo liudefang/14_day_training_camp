@@ -1,0 +1,157 @@
+一、表介绍
+表相当于文件，表中的一条记录就相当于文件的一行内容，不同的是，表中的一条记录有对应的标题，称为表的字段
+
+二、创建表
+create table 表名(
+字段名1 类型[(宽度) 约束条件],
+字段名2 类型[(宽度) 约束条件],
+字段名3 类型[(宽度) 约束条件]
+);
+
+#注意：
+1. 在同一张表中，字段名是不能相同
+2. 宽度和约束条件可选
+3. 字段名和类型是必须的
+
+示例：
+mysql> create table t1(
+    -> id int,
+    -> name varchar(50),
+    -> sex enum('male','female'),
+    -> age int(3)
+    -> );
+
+
+# 查看库下面的所有表
+mysql> show tables;
+
+# 往表里插入数据
+mysql> insert into t1 values
+    -> (1,'egon',18,'male'),
+    -> (2,'alex',28,'female');
+Query OK, 2 rows affected, 4 warnings (0.00 sec)
+
+
+# 三、查看表结构
+mysql> desc t1;
++-------+-----------------------+------+-----+---------+-------+
+| Field | Type                  | Null | Key | Default | Extra |
++-------+-----------------------+------+-----+---------+-------+
+| id    | int(11)               | YES  |     | NULL    |       |
+| name  | varchar(50)           | YES  |     | NULL    |       |
+| sex   | enum('male','female') | YES  |     | NULL    |       |
+| age   | int(3)                | YES  |     | NULL    |       |
++-------+-----------------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+
+查看表详细结构：
+mysql> show create table t1\G;
+*************************** 1. row ***************************
+       Table: t1
+Create Table: CREATE TABLE `t1` (
+  `id` int(11) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `sex` enum('male','female') DEFAULT NULL,
+  `age` int(3) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+1 row in set (0.00 sec)
+
+
+四、修改表结构
+语法：
+1、修改表名
+alter TABLE 表名 RENAME 新表名;
+
+2、增加字段
+alter TABLE 表名 add 字段名  数据类型 [完整性约束条件。。。]
+                add 字段名   数据类型 [完整性约束条件....]
+
+alter TABLE 表名 add 字段名  数据类型[完整性约束条件...] FIRST;
+
+alter TABLE 表名 add 字段名  数据类型[完整性约束条件...] AFTER 字段名;
+
+3、删除字段
+alter table 表名 drop 字段名
+
+4、修改字段
+alter table 表名 modify 字段名 数据类型[完整性约束条件...]
+alter table 表名 change 旧字段名 新字段名 旧数据类型[完整性约束条件...]
+alter table 表名 change 旧字段名 新字段名 新数据类型[完整性约束条件...]
+
+示例：
+1、修改存储引擎
+mysql> alter table t1
+    -> engine = innodb;
+
+
+2、添加字段
+mysql> alter table t2
+    -> add name varchar(10) not null,
+    -> add age int(3) not null default 23;
+
+mysql> alter table t2
+    -> add stu_num varchar(10) not null after name;     # 添加name字段之后
+
+mysql> alter table t2
+    -> add sex enum('male','female') default 'male' first;  # 添加到最前面
+
+3、删除字段
+mysql> alter table t2
+    -> drop sex;
+
+4、修改字段类型
+
+mysql> alter table t2
+    -> modify age int(3);
+
+
+mysql> alter table t2
+    -> modify id int(11) not null primary key auto_increment;   //修改为主键
+
+5、增加约束（针对已有的主键添加auto_increment)
+mysql> alter table t2 modify id int(10) not null primary key auto_increment;
+ERROR 1068 (42000): Multiple primary key defined
+mysql> alter table t2 modify id int(10) not null auto_increment;
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+6、对已经存在的表增加复合主键
+mysql> alter table t2
+    -> add primary key(id,name);
+
+
+7、增加主键
+mysql> alter table t2
+    -> modify name varchar(10) not null primary key;
+
+
+8、增加主键和自动增长
+mysql> alter table t2
+    -> modify id int not null primary key auto_increment;
+
+
+9、删除主键
+a.删除自增约束
+mysql> alter table t2 modify id int(11) not null;
+
+b.删除主键
+mysql> alter table t2
+    -> drop primary key;
+
+五、复制表
+复制表结构+记录（key不会复制：主键，外键和索引）
+mysql> create table new_t2 select * from t2;
+
+只复制表结构
+mysql> select * from t2 where 1=2;      # 条件为假，查不到任何记录
+Empty set (0.00 sec)
+
+mysql> create table new1_t2 select * from t2 where 1=2;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+六、删除表
+drop table 表名;
+
+
