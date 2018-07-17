@@ -12,9 +12,31 @@ create table teach2cls(tcid int primary key auto_increment,tid int,foreign key(t
 alter table class add foreign key(grade_id) references class_grade(gid) on delete cascade on update cascade; 	-- 添加外键关联
 
 --
-insert into class_grade(gname) VALUES('三年级')  -- 添加年级信息
-INSERT into class(caption,grade_id) VALUES('三年二班',3) -- 添加班级信息
-INSERT into student(sname,gender,class_id) VALUES('科比','男',2);	-- 添加学生信息
-INSERT into teacher(tname) VALUES('王五');		-- 添加老师信息
-INSERT INTO course(cname,teacher_id) VALUES('物理',2);
-INSERT into teach2cls(tid,cid) VALUES(1,1);
+insert into class_grade VALUES ('一年级'),('二年级'),('三年级')  -- 添加年级信息
+INSERT into class VALUES ('一年一班',1),('二年一班',2),('三年二班',3) -- 添加班级信息
+INSERT into student VALUES ('乔丹','女',1),('艾弗森','女',1),('科比','男',2);	-- 添加学生信息
+INSERT into teacher VALUES ('张三')，('李四')，('王五');		-- 添加老师信息
+INSERT INTO course VALUES('生物',1),('体育',1),('物理',2);
+INSERT INTO score VALUE(1,1,60),(1,2,59),(2,2,99)
+INSERT into teach2cls VALUES(1,1),(1,2),(2,1),(3,2);
+
+2、查询学生总人数；
+SELECT count(*) as '学生总人数' from student ;
+
+3、查询“生物”课程和“物理”课程成绩都及格的学生id和姓名；
+select sid,sname from student where sid in (select student_id s from score s left join course c on s.course_id = c.cid and c.cname in('生物','物理') WHERE s.score >= 60);
+
+4、查询每个年级的班级数，取出班级数最多的前三个年级；
+SELECT cg.gname as '年级',count(c.grade_id) as '班级数' from class_grade cg LEFT JOIN class c on cg.gid = c.grade_id GROUP BY cg.gname ORDER BY count(c.grade_id) desc LIMIT 3
+
+5、查询平均成绩最高和最低的学生的id和姓名以及平均成绩；
+
+6、查询每个年级的学生人数；
+
+7、查询每位学生的学号，姓名，选课数，平均成绩；
+
+8、查询学生编号为“2”的学生的姓名、该学生成绩最高的课程名、成绩最低的课程名及分数；
+
+9、查询姓“李”的老师的个数和所带班级数；
+
+10、查询班级数小于5的年级id和年级名；
