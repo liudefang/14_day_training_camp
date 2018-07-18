@@ -1,0 +1,22 @@
+mysql> create table consumer(
+    -> name varchar(50),
+    -> sex enum('male','female'),
+    -> level enum('vip1','vip2','vip3','vip4','vip5'),
+    -> hobby set('play','music','read','study')
+    -> );
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> insert into consumer values
+    -> ('egon','male','vip5','read,study'),
+    -> ('alex','femal','vip1','girl');
+Query OK, 2 rows affected, 2 warnings (0.00 sec)
+Records: 2  Duplicates: 0  Warnings: 2
+
+mysql> select * from consumer;
++------+------+-------+------------+
+| name | sex  | level | hobby      |
++------+------+-------+------------+
+| egon | male | vip5  | read,study |
+| alex |      | vip1  |            |
++------+------+-------+------------+
+2 rows in set (0.00 sec)

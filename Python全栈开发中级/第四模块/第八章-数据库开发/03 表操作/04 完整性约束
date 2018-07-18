@@ -1,0 +1,168 @@
+一、介绍
+
+约束条件与数据类型的宽度一样，都是可选参数
+
+
+
+作用：用于保证数据的完整性和一致性
+
+主要分为：
+PRIMARY KEY (PK)    标识该字段为该表的主键，可以唯一的标识记录
+FOREIGN KEY (FK)    标识该字段为该表的外键
+NOT NULL    标识该字段不能为空
+UNIQUE KEY (UK)    标识该字段的值是唯一的
+AUTO_INCREMENT    标识该字段的值自动增长（整数类型，而且为主键）
+DEFAULT    为该字段设置默认值
+
+UNSIGNED 无符号
+ZEROFILL 使用0填充
+
+
+说明：
+1. 是否允许为空，默认NULL，可设置NOT NULL，字段不允许为空，必须赋值
+2. 字段是否有默认值，缺省的默认值是NULL，如果插入记录时不给字段赋值，此字段使用默认值
+sex enum('male','female') not null default 'male'
+age int unsigned NOT NULL default 20 必须为正值（无符号） 不允许为空 默认是20
+3. 是否是key
+主键 primary key
+外键 foreign key
+索引 (index,unique...)
+
+二、not null与default
+是否可空，null表示空，非字符串
+not null - 不可空
+null - 可空
+
+默认值，创建列时可以指定默认值，当插入数据时如果未主动设置，则自动添加默认值
+create table tb1(
+nid int not null defalut 2,
+num int not null
+)
+
+
+==================not null====================
+mysql> create table tb1(id int);
+Query OK, 0 rows affected (0.01 sec)
+mysql> desc tb1;
++-------+---------+------+-----+---------+-------+
+| Field | Type    | Null | Key | Default | Extra |
++-------+---------+------+-----+---------+-------+
+| id    | int(11) | YES  |     | NULL    |       |
++-------+---------+------+-----+---------+-------+
+1 row in set (0.00 sec)
+
+mysql> insert into tb1 values();    # 可以插入空
+Query OK, 1 row affected (0.01 sec)
+
+mysql> create table tb2(id int not null);    # 设置字段id不为空
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> desc tb2;
++-------+---------+------+-----+---------+-------+
+| Field | Type    | Null | Key | Default | Extra |
++-------+---------+------+-----+---------+-------+
+| id    | int(11) | NO   |     | NULL    |       |
++-------+---------+------+-----+---------+-------+
+1 row in set (0.00 sec)
+
+mysql> insert into tb2(id) values();
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+
+==================default====================
+#设置id字段有默认值后，则无论id字段是null还是not null，都可以插入空，插入空默认填入default指定的默认值
+mysql> create table t3(id int default 1);
+mysql> alter table t3 modify id int not null default 1;
+
+
+==================综合练习====================
+
+mysql> create table student1(
+    -> name varchar(20) not null,
+    -> age int(3) unsigned not null default 18,
+    -> sex enum('male','female') default 'male',
+    -> hobby set('play','study','read','music') default 'play,music'
+    -> );
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> desc student1;
++-------+------------------------------------+------+-----+------------+-------+
+| Field | Type                               | Null | Key | Default    | Extra |
++-------+------------------------------------+------+-----+------------+-------+
+| name  | varchar(20)                        | NO   |     | NULL       |       |
+| age   | int(3) unsigned                    | NO   |     | 18         |       |
+| sex   | enum('male','female')              | YES  |     | male       |       |
+| hobby | set('play','study','read','music') | YES  |     | play,music |       |
++-------+------------------------------------+------+-----+------------+-------+
+4 rows in set (0.01 sec)
+
+mysql> insert into student1(name) values('egon');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from student1;
++------+-----+------+------------+
+| name | age | sex  | hobby      |
++------+-----+------+------------+
+| egon |  18 | male | play,music |
++------+-----+------+------------+
+1 row in set (0.00 sec)
+
+
+三、 unique
+============设置唯一约束 UNIQUE===============
+方法一：
+mysql> create table department1(
+    -> id int,
+    -> name varchar(20) unique,
+    -> comment varchar(100)
+    -> );
+
+
+
+方法二：
+mysql> create table department2(
+    -> id int,
+    -> name varchar(100),
+    -> constraint uk_name unique(name)
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+
+mysql> insert into department1 values(1,'IT','技术');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into department1 values(1,'IT','技术');
+ERROR 1062 (23000): Duplicate entry 'IT' for key 'name'
+　　
+
+mysql> create table tb4(id int not null unique);
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> desc t4;
++-------+------------+------+-----+---------+-------+
+| Field | Type       | Null | Key | Default | Extra |
++-------+------------+------+-----+---------+-------+
+| x     | char(5)    | YES  |     | NULL    |       |
+| y     | varchar(5) | YES  |     | NULL    |       |
++-------+------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+
+not null+unique的化学反应
+　　
+
+mysql> create table service( id int primary key auto_increment, name varchar(20), host varchar(15) not null, port int not null, unique(host,port) );
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> insert into service values
+    -> (1,'nginx','192.168.0.10',80),
+    -> (2,'haproxy','192.168.0.20',80),
+    -> (3,'mysql','192.168.0.30',3306)
+    -> ;
+Query OK, 3 rows affected (0.00 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> insert into service(name,host,port) values('nginx','192.168.0.10',80);
+ERROR 1062 (23000): Duplicate entry '192.168.0.10-80' for key 'host'
+
+
+
