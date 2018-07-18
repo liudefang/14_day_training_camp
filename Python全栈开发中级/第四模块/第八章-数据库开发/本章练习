@@ -203,6 +203,8 @@ mysql> select c.cid,c.caption,cg.gid, case  when cg.gid between 1 and 2 then '�
 9 rows in set (0.00 sec)
 
 12、查询学过“张三”老师2门课以上的同学的学号、姓名；
+mysql> select sid,sname from student where sid in( select student_id from score where course_id in( select c.cid from course c,teacher t where c.teacher_id = t.tid  and t.tname = '张三') group by student_id  having count(course_id) >2);
+Empty set (0.00 sec)
 
 13、查询教授课程超过2门的老师的id和姓名；
 

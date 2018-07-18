@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cbfb7cb-eaf8-4ca4-830a-64099ff26614" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/03 表操作/03 枚举类型和集合类型" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/03 表操作/04 完整性约束" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +29,8 @@
       <file leaf-file-name="本章练习" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+            <state relative-caret-position="604">
+              <caret line="205" selection-start-line="205" selection-end-line="206" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -736,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+        <state relative-caret-position="604">
+          <caret line="205" selection-start-line="205" selection-end-line="206" selection-end-column="20" />
         </state>
       </provider>
     </entry>
