@@ -186,7 +186,28 @@ mysql> select gid,gname from class_grade where gid in (select grade_id from clas
 班级id	班级名称	年级	年级级别
 1	一年一班	一年级	低
 
-mysql> select c.cid,c.caption,cg.gid, case  when cg.gid between 1 and 2 then '低' when cg.gid between 3 and 4 then '中'  when cg.gid between 5 and 6 then '高' else 0 end as '年级级别' from class c,class_grade cg where c.grade_id = cg.gid;
+SELECT
+	c.cid,
+	c.caption,
+	cg.gid,
+	CASE
+WHEN cg.gid BETWEEN 1
+AND 2 THEN
+	'低'
+WHEN cg.gid BETWEEN 3
+AND 4 THEN
+	'中'
+WHEN cg.gid BETWEEN 5
+AND 6 THEN
+	'高'
+ELSE
+	0
+END AS '年级级别'
+FROM
+	class c,
+	class_grade cg
+WHERE
+	c.grade_id = cg.gid;
 +-----+--------------+-----+--------------+
 | cid | caption      | gid | 年级级别     |
 +-----+--------------+-----+--------------+
@@ -203,24 +224,130 @@ mysql> select c.cid,c.caption,cg.gid, case  when cg.gid between 1 and 2 then '�
 9 rows in set (0.00 sec)
 
 12、查询学过“张三”老师2门课以上的同学的学号、姓名；
-mysql> select sid,sname from student where sid in( select student_id from score where course_id in( select c.cid from course c,teacher t where c.teacher_id = t.tid  and t.tname = '张三') group by student_id  having count(course_id) >2);
+ SELECT
+	sid,
+	sname
+FROM
+	student
+WHERE
+	sid IN (
+		SELECT
+			student_id
+		FROM
+			score
+		WHERE
+			course_id IN (
+				SELECT
+					c.cid
+				FROM
+					course c,
+					teacher t
+				WHERE
+					c.teacher_id = t.tid
+				AND t.tname = '张三'
+			)
+		GROUP BY
+			student_id
+		HAVING
+			count(course_id) > 2
+	);
 Empty set (0.00 sec)
 
 13、查询教授课程超过2门的老师的id和姓名；
-
+SELECT
+	tid,
+	tname
+FROM
+	teacher t
+LEFT JOIN course c ON t.tid = c.teacher_id
+GROUP BY
+	c.teacher_id
+HAVING
+	count(c.teacher_id) >= 2
 14、查询学过编号“1”课程和编号“2”课程的同学的学号、姓名；
-
+SELECT
+	sid,
+	sname
+FROM
+	student
+WHERE
+	sid IN (
+		SELECT
+			student_id
+		FROM
+			score
+		WHERE
+			course_id IN (1, 2)
+	)
 15、查询没有带过高年级的老师id和姓名；
 
 16、查询学过“张三”老师所教的所有课的同学的学号、姓名；
+SELECT
+	sid,
+	sname
+FROM
+	student
+WHERE
+	sid IN (
+		SELECT
+			student_id
+		FROM
+			score
+		WHERE
+			course_id IN (
+				SELECT
+					c.cid
+				FROM
+					course c,
+					teacher t
+				WHERE
+					c.teacher_id = t.tid
+				AND t.tname = '张三'
+			)
 
+	);
 17、查询带过超过2个班级的老师的id和姓名；
+SELECT
+	t.tid,
+	t.tname
+FROM
+	teacher t
+LEFT JOIN teach2cls ts ON t.tid = ts.tid
+GROUP BY
+	ts.tid
+HAVING
+	count(ts.cid) > 2
 
 18、查询课程编号“2”的成绩比课程编号“1”课程低的所有同学的学号、姓名；
 
 19、查询所带班级数最多的老师id和姓名；
+SELECT
+	t.tid,
+	t.tname
+FROM
+	teacher t
+LEFT JOIN teach2cls ts ON t.tid = ts.tid
+GROUP BY
+	ts.tid
+ORDER BY
+	count(ts.cid) DESC
+LIMIT 1
 
 20、查询有课程成绩小于60分的同学的学号、姓名；
+SELECT
+	sid,
+	sname
+FROM
+	student
+WHERE
+	sid IN (
+		SELECT
+			student_id
+		FROM
+			score
+		WHERE
+			score < 60
+	)
 
 21、查询没有学全所有课的同学的学号、姓名；
 
