@@ -20,14 +20,14 @@ import shutil
 #
 # import zipfile
 #
-# # z = zipfile.ZipFile("test.zip","w")
+# # z = zipfile.ZipFile("第九次作业.zip","w")
 # # z.write("mysql.log")
 # # z.write("re模块.py")
 # # z.write("p3")
 # #
 # # z.close()
 #
-# z = zipfile.ZipFile('../test.zip', 'r')
+# z = zipfile.ZipFile('../第九次作业.zip', 'r')
 # z.extractall()
 # z.close()
 

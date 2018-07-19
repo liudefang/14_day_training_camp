@@ -42,10 +42,10 @@ fh.setFormatter(file_formatter)
 
 
 
-logger.warning("test log ")
-logger.info("test log 2")
-logger.debug("test log 3")
-logger.debug("test log db backup 3")
+logger.warning("第九次作业 log ")
+logger.info("第九次作业 log 2")
+logger.debug("第九次作业 log 3")
+logger.debug("第九次作业 log db backup 3")
 
 #console : INFO
 #global : DEBUG  default level : warning

@@ -36,10 +36,10 @@ import time
 
 # 二：编写装饰器，为每个函数加上统计运行时间的功能
 
-# def test(func):
+# def 第九次作业(func):
 #     def inner():
 #         start = time.time()
-#         print('hello,test')
+#         print('hello,第九次作业')
 #
 #         end = time.time() - start
 #         print('花的时间:', end )
@@ -48,11 +48,11 @@ import time
 #
 #     return inner
 #
-# @test
+# @第九次作业
 # def test1():
 #     print('执行时间')
 #
-# #test1 = test(test1)
+# #test1 = 第九次作业(test1)
 # test1()
 
 # 三：编写装饰器，为函数加上认证的功能，即要求认证成功后才能执行函数

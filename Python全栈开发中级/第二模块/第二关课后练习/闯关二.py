@@ -43,15 +43,15 @@
 #
 # print(time_test(3, 9))
 
-# def test():
+# def 第九次作业():
 #     print(luffy)
 #     luffy = 'e'
 #
 #
-# test()
+# 第九次作业()
 # luffy = "the king of sea."
 #
-# test()
+# 第九次作业()
 # 5，li = [1,2,3,5,5,6,7,8,9,9,8,3] 利用生成器功能，写一个所有数值乘以2的功能
 # li = [1,2,3,5,5,6,7,8,9,9,8,3]
 # res = (i*2 for i in li)
@@ -80,14 +80,14 @@ with open(file1, "r", encoding="utf-8") as f1:
 f1.close()
 f2.close()
 os.replace(file2, file1)
-# def test():
+# def 第九次作业():
 #    print(luffy)
 # luffy = "the king of sea."
-# test()
+# 第九次作业()
 
 # li = [1, 2, 3, 5, 5, 6, 7, 8, 9, 9, 8, 3]
-# test = [i*2 for i in li]
-# print(test)
+# 第九次作业 = [i*2 for i in li]
+# print(第九次作业)
 
 # def test1():
 #     n = 18

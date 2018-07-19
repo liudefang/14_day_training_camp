@@ -8,4 +8,4 @@ print(d['names'])
 print(d['info_dic'])
 
 
-#del d['test'] #还可以删除
+#del d['第九次作业'] #还可以删除

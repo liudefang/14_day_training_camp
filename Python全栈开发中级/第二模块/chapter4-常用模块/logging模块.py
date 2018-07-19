@@ -54,7 +54,7 @@ logger.addHandler(fh)
 # add filter
 logger.addFilter(IgnoreBackupLogFilter())
 
-logger.debug("test....")
-logger.info("test info...")
+logger.debug("第九次作业....")
+logger.info("第九次作业 info...")
 logger.warning("start to run db backup job...")
-logger.error("test error")
+logger.error("第九次作业 error")

@@ -242,7 +242,7 @@ def staff_update(data_set, query_clause):
             STAFF_DATA[col_name][staff_id_index] = new_val
             save_db()  # 修改后的数据保存到硬盘上
 
-        print('test:', STAFF_DATA[col_name][staff_id_index])
+        print('第九次作业:', STAFF_DATA[col_name][staff_id_index])
         print(STAFF_DATA)
 
         print_log('成功修改了%s条数据!' % len(data_set))

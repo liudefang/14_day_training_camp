@@ -110,7 +110,7 @@ print(b.test())
     # def fa(self):
     #     print("from A")
     #
-    # def test(self):
+    # def 第九次作业(self):
     #     self.fa()
 
 # property 特性

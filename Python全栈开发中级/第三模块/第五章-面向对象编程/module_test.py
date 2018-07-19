@@ -11,9 +11,9 @@
     index.py
 """
 # import module_test as obj
-# # obj.test()
-# print(hasattr(obj, 'test'))
-# getattr(obj, 'test')()
+# # obj.第九次作业()
+# print(hasattr(obj, '第九次作业'))
+# getattr(obj, '第九次作业')()
 
 # 3 为什么用反射之反射的好处
 # 好处一：实现可插拔机制

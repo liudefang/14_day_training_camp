@@ -7,7 +7,7 @@ f = shelve.open('shelve_test') # 打开一个文件
 
 
 
-names = ["alex", "rain", "test"]
+names = ["alex", "rain", "第九次作业"]
 info = {'name':'alex','age':22}
 
 

@@ -21,13 +21,13 @@ import json
 # d2 = json.loads(d)
 # print(d2['roles'])
 # # print(d,type(d))
-# f = open("test.json","w")
+# f = open("第九次作业.json","w")
 # json.dump(data,f) #转成字符并写入文件
 
 
 
 #
-# f = open("test.json","r")
+# f = open("第九次作业.json","r")
 #
 # data = json.load(f)
 #

@@ -33,8 +33,8 @@ print(va1)
 sec=config.remove_section('group1')  # 删除section 并返回状态(true, false)
 config.write(open('group.ini', 'w'))
 
-sec = config.has_section('test')
-sec = config.add_section('test')
+sec = config.has_section('第九次作业')
+sec = config.add_section('第九次作业')
 config.write(open('group.ini', 'w', encoding= 'utf-8'))
 
 config.set('group2', 'k3', '333')

@@ -4,7 +4,7 @@
 
 import xml.etree.ElementTree as ET
 
-tree = ET.parse("xml test")
+tree = ET.parse("xml 第九次作业")
 root = tree.getroot() #f.seek(0)
 
 
@@ -25,4 +25,4 @@ for country in root.findall('country'):
 tree.write('output.xml')
 
 
-#tree.write("xml test")
+#tree.write("xml 第九次作业")

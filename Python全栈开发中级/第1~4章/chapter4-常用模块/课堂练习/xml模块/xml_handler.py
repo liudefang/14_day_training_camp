@@ -5,7 +5,7 @@
 
 import xml.etree.ElementTree as ET
 
-tree = ET.parse("xml test") #open
+tree = ET.parse("xml 第九次作业") #open
 root = tree.getroot() #f.seek(0)
 #print(dir(root))
 print(root.tag)

@@ -29,32 +29,32 @@
 #验证多继承情况下的属性查找
 
 class A:
-    # def test(self):
+    # def 第九次作业(self):
     #     print('from A')
     pass
 
 class B(A):
-    # def test(self):
+    # def 第九次作业(self):
     #     print('from B')
     pass
 
 class C(A):
-    # def test(self):
+    # def 第九次作业(self):
     #     print('from C')
     pass
 
 class D(B):
-    # def test(self):
+    # def 第九次作业(self):
     #     print('from D')
     pass
 
 class E(C):
-    # def test(self):
+    # def 第九次作业(self):
     #     print('from E')
     pass
 
 class F(D,E):
-    # def test(self):
+    # def 第九次作业(self):
     #     print('from F')
     pass
 
@@ -63,7 +63,7 @@ class F(D,E):
 
 print(F.mro())
 # f=F()
-# f.test()
+# f.第九次作业()
 
 
 
