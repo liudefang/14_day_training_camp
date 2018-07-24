@@ -197,19 +197,16 @@ if __name__ == '__main__':
 # 下，而在实例化子进程时，必须把Manager对象传递给子进程，否则lists无法被共享，而这个过程会消耗巨大资源，因此性能很差。
 #
 # 12、什么是协程？使用协程与使用线程的区别是什么？
-# 协程是一种用户态的轻量化的线程。线程是系统级别的，它们是由操作系统调度；协程是程序级别的，由程序员根据需要自己调度。我们把一个线程中的一个个函数叫做子程序，那么子程序在执行过程中可以中断去执行别的子程序；别的子程序也可以中断回来继续执行之前的子程序，这就是协程
+# 协程是一种用户态的轻量化的线程。线程是系统级别的，它们是由操作系统调度；协程是程序级别的，由程序员根据需要自己调度。我们把一个线程中的一个个函数叫做子程序，
+# 那么子程序在执行过程中可以中断去执行别的子程序；别的子程序也可以中断回来继续执行之前的子程序，这就是协程
 #
 # 13、说说你所知道的MySQL数据库存储引擎，InnoDB存储引擎和MyISM存储引擎的区别？
-# MYSQL5
-# .7
+# MYSQL5.7
 # 支持的引擎有INNODB, MyISAM，Memory、merge、archive、csv、federated、BLACKHOLE。
 # 可以通过show
-# engines \G
-# 查看
+# engines \G 查看
 #
-# InnoDB支持事务、数据缓存、外键不支持全文索引（mysql5
-# .6
-# 支持），InnoDB的存储限制为64TB。
+# InnoDB支持事务、数据缓存、外键不支持全文索引（mysql5.6支持），InnoDB的存储限制为64TB。
 # MYISAM不支持事务、数据缓存、外键，但是支持全文索引，MYISAM的存储限制是256TB。
 #
 # 14、主键具有什么特征？
@@ -255,9 +252,12 @@ if __name__ == '__main__':
 # 2、
 # create
 # table
+#al
 #
-#
-# class(cid int not null unique);
+# mysql> create table class(
+#     -> cid int not null unique,
+#     -> cname varchar(20) not null
+#     -> );
 #
 #
 # insert
@@ -266,25 +266,10 @@ if __name__ == '__main__':
 #
 # class values(1);
 #
-#
-# alter
-# table
-# student
-# add
-# class_id
-# int;
-# alter
-# table
-# student
-# add
-# constraint
-# c_cid
-# foreign
-# key(class_id)
-# references
-#
-#
-# class(cid);
+#mysql> alter table student add class_id int not null;
+
+
+# mysql> alter table student add foreign key(class_id) references class(cid) on delete cascade on update cascade;
 #
 #
 # 3、
