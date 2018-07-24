@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cbfb7cb-eaf8-4ca4-830a-64099ff26614" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/pymysel模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/查.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/获取最后一条数据的id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/执行存储过程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +23,7 @@
     <SUITE FILE_PATH="coverage/14_day_training_camp$client.coverage" NAME="client Coverage Results" MODIFIED="1531572701629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1531583768466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$server_start.coverage" NAME="server_start Coverage Results" MODIFIED="1531619617387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第八次作业/FTP/bin" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$.coverage" NAME="执行存储过程 Coverage Results" MODIFIED="1532243141577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$.coverage" NAME="本章总结 Coverage Results" MODIFIED="1532443121929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第四模块" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$Array.coverage" NAME="Array的用法 Coverage Results" MODIFIED="1531535531254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习" />
     <SUITE FILE_PATH="coverage/14_day_training_camp$ssh_client.coverage" NAME="ssh_client Coverage Results" MODIFIED="1531572883276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令" />
   </component>
@@ -37,8 +32,17 @@
       <file leaf-file-name="本章练习" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="30">
               <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="221" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="本章总结.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -46,7 +50,7 @@
       <file leaf-file-name="pymysel模块.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/pymysel模块.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="300">
               <caret line="10" column="116" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="116" />
             </state>
           </provider>
@@ -55,7 +59,7 @@
       <file leaf-file-name="增删改.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state>
               <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
@@ -64,8 +68,8 @@
       <file leaf-file-name="查.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/查.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="-1">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -79,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="执行存储过程.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="执行存储过程.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/执行存储过程.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="360">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -124,11 +128,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>result</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -167,6 +166,7 @@
         <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/查.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/获取最后一条数据的id.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/执行存储过程.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py" />
       </list>
     </option>
   </component>
@@ -179,12 +179,6 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -193,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,22 +232,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第四模块\第七章-网络编程进阶" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Python\14_day_training_camp\作业" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.执行存储过程">
+  <component name="RunManager" selected="Python.本章总结">
     <configuration name="增删改" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,6 +261,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="本章总结" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第四模块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,14 +364,12 @@
     <list>
       <item itemvalue="Python.pymysel模块" />
       <item itemvalue="Python.增删改" />
-      <item itemvalue="Python.查" />
       <item itemvalue="Python.获取最后一条数据的id" />
-      <item itemvalue="Python.执行存储过程" />
+      <item itemvalue="Python.本章总结" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.执行存储过程" />
-        <item itemvalue="Python.查" />
+        <item itemvalue="Python.本章总结" />
         <item itemvalue="Python.获取最后一条数据的id" />
         <item itemvalue="Python.增删改" />
         <item itemvalue="Python.pymysel模块" />
@@ -393,7 +390,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -401,9 +398,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32938644" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27042484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27414164" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -425,19 +422,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/core/ftpserver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -718,31 +703,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="221" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/pymysel模块.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="300">
           <caret line="10" column="116" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/查.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -755,8 +719,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/执行存储过程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="360">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/查.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
         </state>
       </provider>
     </entry>
