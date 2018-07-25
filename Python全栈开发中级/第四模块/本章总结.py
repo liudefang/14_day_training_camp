@@ -58,17 +58,138 @@
 #     print('主')
 
 # 2、请写一个包含10个线程的程序，并给每一个子线程都创建名为"name"的线程私有变量，变量值为“Alex”；
-from threading import Thread
+# from threading import Thread
+#
+#
+# def task(name):
+#     print('%s is running' % name)
+#     print('end ----')
+#
+#
+# if __name__ == '__main__':
+#     for i in range(10):
+#         t = Thread(target=task, args=('alex_%s' % i,))
+#         t.start()
+#
+#     print('主 end ---')
+
+# 3、请使用协程写一个消费者生产者模型；
+# def consumer():
+#     while True:
+#         x = yield
+#         print('消费：', x)
+#
+# def producter():
+#     c = consumer()
+#     next(c)
+#     for i in range(10):
+#         print('生产：', i)
+#         c.send(i)
+# producter()
+
+# 4、写一个程序，包含十个线程，子线程必须等待主线程sleep 10秒钟之后才执行，并打印当前时间；
+
+# from threading import Thread,Event,currentThread
+# import time
+# import datetime
+#
+# def task():
+#     event.wait(10)
+#     print('线程名:%s----%s' % (currentThread().name, datetime.datetime.now()))
+#
+# if __name__ == '__main__':
+#     event = Event()
+#     for i in range(10):
+#         t = Thread(target=task)
+#         t.start()
+#     time.sleep(10)
+#     event.set()
 
 
-def task(name):
-    print('%s is running' % name)
-    print('end ----')
+# 5、写一个程序，包含十个线程，同时只能有五个子线程并行执行；
+# 信号量
+# from threading import Thread,Semaphore,currentThread
+# import time
+# sem = Semaphore(5)
+# def task():
+#     with sem:
+#         print('%s in' % currentThread().getName())
+#         time.sleep(2)
+#
+#
+# if __name__ == '__main__':
+#     for i in range(10):
+#         t = Thread(target=task,)
+#         t.start()
 
+# 用线程池
+# from concurrent.futures import ThreadPoolExecutor
+# from threading import currentThread
+# import os,time
+#
+# def task():
+#     print('name:%s in pid:%s' % (currentThread().getName(), os.getpid()))
+#     time.sleep(2)
+#
+#
+# if __name__ == '__main__':
+#     pool = ThreadPoolExecutor(5)
+#     for i in range(10):
+#         pool.submit(task,)
+#     pool.shutdown(wait=True)
+
+
+# 7、写一个程序，利用queue实现进程间通信；
+# from multiprocessing import Process,current_process,Queue
+# import time
+#
+# def consumer(q):
+#     while True:
+#         res = q.get()   # 接结果
+#         if not res:
+#             break
+#         print('消费了：', res, '---', current_process().name)
+#
+# def producter(q):
+#     for i in range(5):
+#         print('生产：', i)
+#         time.sleep(2)
+#         q.put(i)
+#
+#
+# if __name__ == '__main__':
+#     q = Queue()
+#     p1 = Process(target=producter, args=(q,))
+#     p2 = Process(target=producter, args=(q,))
+#     c1 = Process(target=consumer, args=(q,))
+#     c2 = Process(target=consumer, args=(q,))
+#     c3 = Process(target=consumer, args=(q,))
+#
+#
+#     p1.start()
+#     p2.start()
+#     c1.start()
+#     c2.start()
+#     c3.start()
+#
+#     p1.join()
+#     p2.join()
+#
+#     q.put(None)
+#     q.put(None)
+#     q.put(None)
+#     print('主')
+
+
+# 8、写一个程序，利用pipe实现进程间通信；
+from multiprocessing import Process, Pipe
+def task(conn):
+    conn.send('hello world')
+    conn.close()
 
 if __name__ == '__main__':
-    for i in range(10):
-        t = Thread(target=task, args=('alex_%s' % i,))
-        t.start()
-
-    print('主 end ---')
+    parent_conn, child_conn = Pipe()
+    p = Process(target=task, args=(child_conn,))
+    p.start()
+    p.join()
+    print(parent_conn.recv())
