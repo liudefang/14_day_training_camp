@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+        <th>星期四</th>
+        <th>星期五</th>
+    </tr>
+    <tr>
+        <td>语文</td>
+        <td>数学</td>
+        <td>外语</td>
+        <td>历史</td>
+        <td>物理</td>
+    </tr>
+    <tr>
+        <td>语文</td>
+        <td>数学</td>
+        <td>外语</td>
+        <td>化学</td>
+        <td>生物</td>
+    </tr>
+</table>
+
+<table>
+     <tr>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+        <th>星期四</th>
+        <th>星期五</th>
+    </tr>
+    <tr>
+        <td>语文</td>
+        <td>数学</td>
+        <td>外语</td>
+        <td>历史</td>
+        <td>物理</td>
+    </tr>
+    <tr>
+        <td>语文</td>
+        <td>数学</td>
+        <td>外语</td>
+        <td>化学</td>
+        <td>生物</td>
+    </tr>
+</table>
+
+<!-- 带有标题的表格-->
+<table border="1">
+    <caption>课程表</caption>
+    <tr>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+        <th>星期四</th>
+        <th>星期五</th>
+    </tr>
+    <tr>
+        <td>语文</td>
+        <td>数学</td>
+        <td>外语</td>
+        <td>历史</td>
+        <td>物理</td>
+    </tr>
+    <tr>
+        <td>语文</td>
+        <td>数学</td>
+        <td>外语</td>
+        <td>化学</td>
+        <td>生物</td>
+    </tr>
+</table>
+
+<!-- 单元格合并 -->
+<h4>单元格跨两格</h4>
+<div class="table">
+    <table border="1" cellpadding="0">
+    <!--表格头-->
+        <thead>
+        <!--表格行-->
+            <tr>
+                <th>时间</th>
+                <th>星期一</th>
+                <th>星期二</th>
+                <th>星期三</th>
+                <th>星期四</th>
+                <th>星期五</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <!--表格行-->
+            <tr>
+                <!--跨行合并-->
+                <td rowspan="3">上午</td>
+                <td>语文</td>
+                <td>数学</td>
+                <td>外语</td>
+                <td>历史</td>
+                <td>物理</td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td>数学</td>
+                <td>外语</td>
+                <td>化学</td>
+                <td>生物</td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td>数学</td>
+                <td>外语</td>
+                <td>化学</td>
+                <td>生物</td>
+            </tr>
+            <tr>
+                <td rowspan="2">下午</td>
+                <td>语文</td>
+                <td>数学</td>
+                <td>外语</td>
+                <td>化学</td>
+                <td>生物</td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td>数学</td>
+                <td>外语</td>
+                <td>化学</td>
+                <td>生物</td>
+            </tr>
+        </tbody>
+        <!--表格底部-->
+        <tfoot>
+            <tr>
+                <!--跨列合并-->
+                <td colspan="6">课程表</td>
+            </tr>
+        </tfoot>
+
+
+</table>
+
+</div>
+
+<h4>没有单元格边距：</h4>
+<table border="1">
+    <tr>
+
+        <td>语文</td>
+        <td>数学</td>
+
+    </tr>
+</table>
+
+<h4>有单元格边距：</h4>
+<table border="1" cellpadding="10">
+    <tr>
+
+        <td>语文</td>
+        <td>数学</td>
+
+    </tr>
+</table>
+</body>
+</html>
