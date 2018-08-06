@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>高级选择器</title>
+    <style type="text/css">
+        /*后代选择器，在css中使用非常频繁*/
+        /*div p{
+                color:red;
+            }
+        div div p{
+                    color:yellow;
+            }
+        .container div p{
+                            color:green;
+                    }*/
+        /*div>p{
+                            color:yellowgreen;
+                        }*/
+        /*交集选择器*/
+        /*h3{
+                width:300px;
+                color:red;
+            }
+        .active{
+                    font-size:30px;
+                    }
+        h3.active{
+                    background-color:yellow;
+                    }*/
+
+        /*并集选择器*/
+        a,h4{
+                color:#666;
+                font-size:20px;
+                text-decoration:none;
+                }
+        /*性能有点差*/
+        html,body,div,p,span,a{
+                color:red;
+                }
+
+
+    </style>
+</head>
+<body>
+        <div class="container">
+            <p>我是另一个段落</p>
+            <div>
+                <p>我是一个段落</p>
+                <a href="#">luffy</a>
+            </div>
+            <p>我是另外一个段落2</p>
+
+            <ul>
+                <li class="item">
+                    <h3 class="active">我是一个H3</h3>
+                    <h4>我是一个H4标题</h4>
+                </li>
+                <li>
+                    <h4>我是一个H4标题</h4>
+                    <a href="#">BAT</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p>子代选择器</p>
+        </div>
+
+</body>
+</html>
