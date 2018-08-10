@@ -76,20 +76,69 @@
             position: relative;
             top:5px;
         }
-        .header-search{ float: right; position: relative;}
-        .header-nav ul li{ float: left; padding: 0 8px; color: black}
-        .header-nav ul li a{ color: #333; font-size: 16px;}
-        .header-nav ul li a:hover{ color: rgba(255,103,0,0.98);}
-        .header-nav ul li .div1{ display: none; overflow: hidden; position: absolute;background-color: white; left: 0; width: 100%;
-            z-index: 2;border-top: 1px solid #b0b0b0; }
-        .header-nav ul li .div1 ul{ overflow: hidden;}
-        .header-nav ul li .div1 ul li{ padding-top: 30px; height: 125px; margin: 0 50px; text-align: center;}
-        .header-nav ul li .div1 ul li div{ width: 60px;height: 60px; background: url("../images/小米图标.jpg") no-repeat center;
-            background-size: 60px;position: relative; left: 0; border: none;}
-        .header-nav ul li .div1 ul li span{ position: relative; bottom: 30px;}
-        .header-nav ul li .div2{ width: 1226px; margin: 0 auto;}
-        .header-nav ul li .div2 div{ cursor: pointer;}
-        .header-nav ul li .div2 span:hover{ color:rgba(255,103,0,0.98); cursor: pointer;}
+
+        /*搜索*/
+        .header-search{
+            right: -51px;
+            position: relative;
+        }
+        .header-search input[type="text"]{
+            height: 44px;
+            width: 243px;
+            border: 1px solid #e0e0e0;
+            margin-right: -1px;
+        }
+        .header-search input[type="text"]:hover{
+            border: 1px solid #b0b0b0;
+        }
+        .header-search input[type="text"]:focus{
+            outline: none;
+        }
+        .hot-words{
+            font-size: 12px;
+            position: absolute;
+            right: 50px;
+        }
+        .hot-words a{
+            background-color: #eeeeee;
+            color: #757575;
+            padding: 3px 6px;
+            position: relative;
+            top: 2px;
+            right: 450px;
+        }
+        .hot-words a:hover{
+            background-color: rgba(255,103,0,0.98);
+            color: white;
+        }
+        .header-search input[type="submit"]{
+            height: 45px;
+            width: 45px;
+            background: url("../images/search.jpg") no-repeat 3px 6px;
+            border: 1px solid #e0e0e0;
+            position: relative;
+            top: 17px;
+            cursor: pointer;
+            left: -5px;
+        }
+        .header-search input[type="submit"]:hover{
+            background: url("../images/search.jpg") no-repeat 8px 8px;
+            background-color: rgba(255,107,0,0.98);
+        }
+        .header-nav ul li{
+            float: left;
+            padding: 0 8px;
+            color: black
+        }
+        .header-nav ul li a{
+            color: #333;
+            font-size: 16px;
+        }
+        .header-nav ul li a:hover{
+            color: rgba(255,103,0,0.98);
+        }
+
+
         .logo{
             float: left;
             width: 62px;
@@ -122,64 +171,150 @@
             height: 110px;
             background-color: yellow;
         }
-        .header-search{
-            float: right;
-            width: 296px;
-            height: 50px;
-            background-color: purple;
-            margin-top: 25px;
-        }
-         .search-hot-words{
-             position:absolute;
-             top:14px;
-             right:62px;
-             z-index:2;
-             text-align:right
-         }
-        .site-header .search-hot-words a{display:inline-block;*zoom:1;*display:inline;margin-left:5px;padding:0 5px;font-size:12px;background:#eee;color:#757575;-webkit-transition:all .2s;transition:all .2s}
-        .site-header .search-hot-words a:hover{background:#ff6700;color:#fff}
-        .search-text{border-color:#b0b0b0}.site-header .search-form:hover .search-btn{border-color:#b0b0b0}.site-header .search-form:hover .search-btn:hover{border-color:#ff6700}.site-header .search-form-focus:hover .search-text{border-color:#ff6700}.site-header .search-form-focus:hover .search-btn{border-color:#ff6700}.site-header .search-form-focus .search-text{border-color:#ff6700}.site-header .search-form-focus .search-btn{border-color:#ff6700}.site-header .search-form-focus .search-btn:hover{background-color:#ff6700;color:#fff}.site-header .search-text{position:absolute;top:0;right:51px;z-index:1;width:223px;height:48px;padding:0 10px;border:1px solid #e0e0e0;font-size:14px;line-height:48px;outline:0;-webkit-transition:all .2s;transition:all .2s}.site-header .search-btn{position:absolute;right:0;top:0;z-index:2;width:52px;height:50px;border:1px solid #e0e0e0;font-size:24px;line-height:24px;background:#fff;color:#616161;outline:0;-webkit-transition:all .2s;transition:all .2s}
+
         .content{
             width:1226px;
             height:460px;
             margin: 0 auto;
         }
+        .content .con-up .up-l{ background-color: rgba(89,89,89,0.8);width: 240px; position: absolute;}
+        .content-up ul:before,.content-up ul:after{
+            content: "";
+            height: 26px;
+            display: block;
+        }
+         .content-up ul li{
+            padding: 10px 25px;
+        }
+         .content-up ul li:hover{
+             background-color: rgba(255,103,0,0.98);
+
+         }
+         .content-up ul li a{
+             color:white;
+         }
+        .content-up ul li span{
+            float: right;
+            color: white;
+        }
+        .content-up ul li div{
+            display: none;
+            position: absolute;
+            top:0;
+            left:240px;
+            width:985px;
+            height:460px;
+            background-color: white;
+        }
+        .content-up ul li .active{
+            display: block;
+        }
+        .content-up ul li div ul{
+            position: absolute;
+            z-index: 1;
+        }
+        .content-up ul li div ul li{
+            float: left;
+            padding: 10px 60px;
+            line-height: 60px;
+        }
+        .content-up ul li div ul li:hover{
+            background-color: white;
+            color: rgba(255,103,0,0.98);
+            cursor: pointer;
+        }
+
         .content-list{
             float: left;
             width:234px;
             height:460px;
-            background-color: #1971FE;
+            background-color: #333;
         }
+        .content-list .title {
+            position: relative;
+            display: block;
+            padding-left: 30px;
+            height: 42px;
+            line-height: 42px;
+            color: #fff;
+        }
+
+
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: 0.2px;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        i, cite, em, var, address, dfn {
+                font-style: italic;
+            }
+
         .lunbo{
             float: left;
             width:992px;
             height:460px;
             background-color: #FD8008;
         }
-        .shop{
+        .lunbo img{
+            width:992px;
+            height: 460px;
+        }
+
+        .shop {
+            /*overflow: hidden;*/
+            padding-top: 10px;
             width:1226px;
             height: 170px;
             margin:0 auto;
-            /*background-color: green;*/
         }
-        .shop .channel{
-            width:234px;
-            height: 170px;
+        .shop .channel {
+            width:240px;
+            overflow: hidden;
+            background-color: rgba(95,87,80,0.98);
             float: left;
-            background-color: #996633;
         }
+        .shop  ul {
+            overflow: hidden;
+        }
+        .shop .channel ul li{
+            float: left;
+            width: 78px;
+            height: 83px;
+            border: 1px solid #665e57;
+            text-align: center;
+        }
+        .channel  ul li a {
+            color: #b0b0b0;
+            position: relative;
+            top:19px;
+            font-size:12px;
+
+        }
+        .channel ul li a:hover{
+            color: white;
+        }
+        .channel ul li span{
+            background: url("../images/icon-1.jpg") no-repeat center;
+            display: block;
+            position: relative;
+            height: 32px;
+            bottom: 6px;
+        }
+
         .shop .advertising{
-            width:992px;
-            height:170px;
+            /*width:992px;*/
+            /*height:170px;*/
             /*background-color: red;*/
             float: left;
         }
         .shop .advertising ul li{
             float:left;
-            width:316px;
-            height:170px;
-            background-color: red;
-            margin-left: 14px;
+            /*width:315px;*/
+            /*height:170px;*/
+            /*background-color: red;*/
+            /*margin-left: 13px;*/
         }
         span{
             display:inline-block;
@@ -188,4 +323,13 @@
             margin-left:44px;
             border-color:#da952e;
             color:#da952e
+        }
+        img {
+            border: 0;
+            -ms-interpolation-mode: bicubic;
+        }
+         .advertising img {
+            width: 315px;
+            height: 170px;
+            margin-left: 13px;
         }
