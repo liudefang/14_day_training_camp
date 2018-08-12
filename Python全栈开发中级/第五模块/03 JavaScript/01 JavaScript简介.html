@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript简介</title>
+</head>
+<body>
+    <!--<p id="demo">-->
+        <!--javascrip 能改变HTML元素的内容-->
+
+    <!--</p>-->
+    <!--<p>-->
+        <!--JavaScript能够直接写入HTML输出流中：-->
+    <!--</p>-->
+    <!--<script>-->
+        <!--document.write("<h1>这是一个标题</h1>");-->
+        <!--document.write("<p>这是一个段落</p>");-->
+        <!--function myFunction() {-->
+            <!--x=document.getElementById("demo");   //找到元素-->
+            <!--x.innerHTML="Hello JavaScript!";    //改变内容-->
+
+        <!--}-->
+
+    <!--</script>-->
+    <!--点亮灯泡-->
+    <!--<script>-->
+        <!--function changeImage() {-->
+            <!--element=document.getElementById('myimage')-->
+            <!--if (element.src.match("bulbon"))-->
+            <!--{-->
+                <!--element.src="images/pic_bulboff.gif";-->
+            <!--}-->
+            <!--else-->
+            <!--{-->
+                <!--element.src="images/pic_bulbon.gif"-->
+            <!--}-->
+
+        <!--}-->
+    <!--</script>-->
+    <!--<img id="myimage" onclick="changeImage()" src="images/pic_bulboff.gif" width="100" height="180">-->
+    <!--<p>点击灯泡就可以打开或关闭这盏灯</p>-->
+    <!--/*以上实例中代码 element.src.match("bulbon") 的作用意思是：检索 <img id="myimage"
+     onclick="changeImage()" src="/images/pic_bulboff.gif" width="100" height="180"> 里面 src 属性的值有没有包含 bulbon
+     这个字符串，如果存在字符串 bolbon，图片 src 更新为 bulboff.gif，若匹配不到 bulbon 字符串，src 则更新为 bulbon.gif-->
+    <!--<button type="button" onclick="myFunction()">点击这里</button>*/-->
+     <!--<button type="button" onclick="alert('欢迎')">点我</button>-->
+    <p>
+        你只能在HTML输出流中使用<strong>document.write</strong>
+        如果你的文档已加载后使用它（比如函数中），会覆盖整个文档
+    </p>
+    <h1>我的第一段JavaScript</h1>
+    <p>请输入数字，如果输入值不少数字，浏览器会弹出提示框</p>
+    <input id="demo" type="text">
+    <script>
+        function myFunction() {
+            var x=document.getElementById("demo").value;
+            if(isNaN(x)||x.replace(/(^\s*)|(\s*$)/g,"")=="")
+            {
+                alert("不是数字");
+            }
+
+        }
+    </script>
+    <button type="button" onclick="myFunction()">点击这里</button>
+
+</body>
+</html>

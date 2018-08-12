@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <!--<script>-->
+        <!--function validateForm() {-->
+            <!--var x=document.forms["myForm"]["fname"].value;-->
+            <!--if (x=null || x==""){-->
+                <!--alert("姓必须填写");-->
+                <!--return false-->
+            <!--}-->
+
+        <!--}-->
+    <!--</script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form name="myForm" action="/statics/demosource/demo-form.php" onsubmit="return validateForm()" method="post">-->
+    <!--姓:<input type="text" name="fname">-->
+    <!--<input type="submit" value="提交">-->
+<!--</form>-->
+    <script>
+        <!--email验证-->
+        function validateForm() {
+            var x=document.forms["myForm"]["email"].value;
+            var atpos=x.indexOf("@");
+            var dotpos=x.lastIndexOf(".");
+            if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length){
+                alert("不是一个有效的e-mail地址");
+                return false;
+            }
+
+        }
+    </script>
+</head>
+<body>
+<form name="myForm" action="demo-form" onsubmit="return validateForm();" method="post">
+    Email:<input type="text" name="email">
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>

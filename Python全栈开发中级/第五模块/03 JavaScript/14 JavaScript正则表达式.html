@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正则表达式</title>
+</head>
+<body>
+<!--<p>搜索字符串"w3cSchool", 并显示匹配的起始位置：</p>-->
+<!--<button onclick="myFunction()">点我</button>-->
+<!--<p id="demo"></p>-->
+<!--<script>-->
+    <!--function myFunction() {-->
+        <!--var str = "Visit W3cSchool!";-->
+        <!--var n = str.search(/w3cSchool/i);-->
+        <!--document.getElementById("demo").innerHTML = n;-->
+
+    <!--}-->
+<!--</script>-->
+<p>替换“Microsoft”为“W3cSchool":</p>
+<button onclick="myFunction()">点我</button>
+<p id="demo">请访问Microsoft!</p>
+<script>
+    // function myFunction() {
+    //     var str = document.getElementById("demo").innerHTML;
+    //     var txt = str.replace("Microsoft", "W3cSchool");
+    //     document.getElementById("demo").innerHTML = txt
+    //
+    // }
+    var patt1=new RegExp("e");
+    document.write(patt1.test("The best things in life are free"))
+</script>
+</body>
+</html>

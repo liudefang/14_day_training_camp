@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>类型转换</title>
+</head>
+<body>
+<!--<p>typeof操作符返回变量、对象、函数、表达式的类型</p>-->
+<!--<p id="demo"></p>-->
+<!--<script>-->
+    <!--document.getElementById("demo").innerHTML =-->
+        <!--typeof "john" + "<br>"+-->
+            <!--typeof 3.14 + "<br>" +-->
+            <!--typeof NaN + "<br>" +-->
+            <!--typeof false + "<br>" +-->
+            <!--typeof [1,2,3,4] + "<br>" +-->
+            <!--typeof {name:'john', age:20} + "<br>" +-->
+            <!--typeof function () {-->
+
+            <!--} + "<br>" +-->
+            <!--typeof new Date() + "<br>" +-->
+            <!--typeof null;-->
+<!--</script>-->
+
+<!--<p>判断是否为数组</p>-->
+<!--<p id="demo"></p>-->
+<!--<script>-->
+    <!--var fruits = ["Banana", "Orange", "Apple", "Mango"];-->
+    <!--document.getElementById("demo").innerHTML = isArray(fruits);-->
+    <!--function isArray(myArray) {-->
+        <!--return myArray.constructor.toString().indexOf("Array") > -1;-->
+
+    <!--}-->
+<!--</script>-->
+
+<p>判断是否为日期</p>
+<p id="demo"></p>
+<script>
+    var myDate = new Date();
+    document.getElementById("demo").innerHTML = isDate(myDate);
+    function isDate(myDate) {
+        return myDate.constructor.toString().indexOf("Date") > -1;
+
+    }
+</script>
+</body>
+</html>

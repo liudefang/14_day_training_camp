@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据类型</title>
+</head>
+<body>
+<script>
+    var carname1="Volvo XC60";
+    var carname2='Volvo XC60';
+    var answer1="It's alright";
+    var answer2="He is called 'Johnny'";
+    var answer3='He is called "Johnny"';
+    var answer4='It\' is alright';
+    var answer5="He is called \"Johnny\"";
+    var x1=34.00;
+    var x2=34;
+    var y=123e5;
+    var z=123e-5;
+    var i;
+    var cars = new Array();
+    cars[0] = "Saab";
+    cars[1] = "Volvo";
+    cars[2] = "BMW"
+
+    document.write(carname1 +"<br>")
+    document.write(carname2 +"<br>")
+    document.write(answer1 +"<br>")
+    document.write(answer2 +"<br>")
+    document.write(answer3 +"<br>")
+    document.write(answer4 +"<br>")
+    document.write(answer5 +"<br>")
+    document.write(x1 + "<br>")
+    document.write(x2 + "<br>")
+    document.write(y + "<br>")
+    document.write(z + "<br>")
+
+    for (i=0; i<cars.length; i++)
+    {
+        document.write(cars[i] + "<br>");
+    }
+    var person=
+        {
+            firstname : "John",
+            lastname : "Doe",
+            id  : 5566
+        };
+    document.write(person.lastname + "<br>");
+    document.write(person["lastname"] + "<br>");
+
+    var person;
+    var car = "Volvo";
+    document.write(person + "<br>");
+    document.write(car + "<br>");
+    var car = ""
+    document.write(car + "<br>");
+</script>
+
+</body>
+</html>

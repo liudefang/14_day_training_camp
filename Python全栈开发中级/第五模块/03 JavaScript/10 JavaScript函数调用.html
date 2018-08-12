@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数调用</title>
+</head>
+<body>
+<!--<p>全局函数（myFunction）返回参数的相乘的结果</p>-->
+<!--<p id="demo"></p>-->
+<!--<script>-->
+    <!--function myFunction(a, b) {-->
+        <!--return a * b;-->
+
+    <!--}-->
+    <!--document.getElementById("demo").innerHTML = myFunction(10, 2)-->
+<!--</script>-->
+
+<!--<p>myObject.fullName()返回John Doe:</p>-->
+<!--<p id="demo"></p>-->
+<!--<script>-->
+    <!--var myObject = {-->
+        <!--firstName:"John",-->
+        <!--lastName:"Doe",-->
+        <!--fullName:function() {-->
+            <!--return this.firstName + "" + this.lastName;-->
+        <!--}-->
+    <!--}-->
+    <!--document.getElementById("demo").innerHTML = myObject.fullName();-->
+<!--</script>-->
+<p>该实例中，myFunction是函数构造函数：</p>
+<p id="demo"></p>
+<script>
+    function myFunction(arg1, arg2) {
+        this.firstName = arg1;
+        this.lastName = arg2;
+
+    }
+    var x = new myFunction("John", "Doe")
+    document.getElementById("demo").innerHTML = x.firstName;
+</script>
+</body>
+</html>
