@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .box{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            border: 20px solid red;
+            margin: 10px 0px 0px 0px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+<script type="text/javascript">
+    var oBox = document.getElementsByClassName('box')[0];
+
+    console.log(oBox.clientTop);
+    console.log(oBox.clientLeft);
+    console.log(oBox.clientWidth);
+    console.log(oBox.clientHeight);
+</script>
+
+</body>
+</html>
