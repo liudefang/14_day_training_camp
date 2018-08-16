@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.3.1.js">
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#p1").hover(function () {
+                alert("你进入了p1！");
+
+            },
+            function () {
+                alert("拜拜！现在你离开了P1")
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <p id="p1">这是一个段落。</p>
+
+</body>
+</html>
