@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="box" style="width:330px;height:480px;position: absolute;right: 10px;bottom: 0;display: none;">
+        <img src="../image/lunbo.jpg" style="width: 100%;height: 100%;"/>
+    </div>
+
+</body>
+<script src="../js/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#box').slideDown('normal').slideUp('fast').fadeIn(1000).click(function () {
+            $(this).fadeOut(1000)
+
+        })
+
+    })
+</script>
+</html>
