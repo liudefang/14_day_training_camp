@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- 以最高的ie浏览器渲染 -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+    <!-- 视口的设备 移动设备优先 支持移动端 在多个设备上适应 pc iPhone 安卓-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <title>抽屉新热榜</title>
+
+    <!-- Bootstrap 必须引入bootstrap -->
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="icon" href="images/chouti.ico">
+
+    <link rel="stylesheet" href="css/index.css">
+
+
+</head>
+<body>
+    <!--导航栏-->
+    <nav class="navbar navbar-default navbar-fixed-top my-navbar">
+        <div class="container">
+            <!--页面导航-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!--导航-->
+                <ul class="nav navbar-nav my-navbar-nav">
+                    <li class="active"><a href="#">全部<span class="sr-only">(current)</span> </a> </li>
+                    <li><a href="#">42区</a> </li>
+                    <li><a href="#">段子</a> </li>
+                    <li><a href="#">图片</a> </li>
+                    <li><a href="#">挨踢1024</a> </li>
+                    <li><a href="#">你问我答</a> </li>
+                    <li><a href="#">视频</a> </li>
+                </ul>
+
+                <!--搜索框-->
+                <form class="navbar-form navbar-right my-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <a class="my-img" href="#"></a>
+                </form>
+
+                <!--注册登录-->
+                <ul class="nav navbar-nav navbar-right my-navbar-nav">
+                    <li><a style="color:white;" href="javascript:login();">注册</a> </li>
+                    <li><a style="color:white;" href="javascript:login();">登录</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--模态窗-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabell myModalLabel2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content clearfix">
+
+                <!--登录页面-->
+                <div class="pull-left">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close"></button>
+                        <h4 class="modal-title" id="myModalLabell">登录</h4>
+                    </div>
+
+                    <div class="modal-body my-modal-body">
+                        <ul class="nav nav-pills">
+                            <li role="presentation" class="active"><a href="#">手机号码登录</a> </li>
+                            <li role="presentation"><a href="#">用户名登录</a> </li>
+                        </ul>
+
+                        <!--手机号登录-->
+                        <div class="my-phone-login">
+                            <form>
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>中国台湾(+886)</option>
+                                        <option>中国(+86)</option>
+                                        <option>中国香港(+852)</option>
+                                        <option>中国澳门(+853)</option>
+                                        <option>中国(+1)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputText1" placeholder="手机号码">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="密码">
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" checked> <small>一个月内自动登录</small>
+                                    </label>
+                                    <small>&nbsp;&nbsp;&nbsp;&nbsp;忘记密码?</small>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--用户名登录-->
+                    <div class="my-phone-login">
+                        <form>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputText2" placeholder="用户名">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="密码">
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" checked> <small>一个月内自动登录</small>
+                                </label>
+                                <small>&nbsp;&nbsp;&nbsp;&nbsp;忘记密码?</small>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">登录</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--回到顶部图标-->
+    <div class="move-top" title="回到顶部"></div>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+    <script src="js/index.js"></script>
+</html>

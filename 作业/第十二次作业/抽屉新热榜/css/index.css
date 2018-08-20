@@ -1,0 +1,88 @@
+/* 为了弹出框 弹出时滚动条不消失 背景不影响*/
+.modal-open{
+    overflow-y: scroll !important;
+}
+@media screen and (min-width: 765px) and (max-width: 995px){
+    .my-form{
+        display: none;
+    }
+}
+body{
+    background-color: #ededed;
+}
+.my-form{
+    position: relative;
+}
+.my-container{
+    padding-top: 70px;
+    background-color: white;
+}
+.my-nav{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.my-nav .pull-right{
+    position: relative;
+    right: 128px;
+}
+.my-nav .pull-right li{
+    font-size: 12px;
+}
+.my-nav .pull-right li a{
+    padding: 20px 8px;
+    color: #333;
+}
+.my-nav .pull-right+button{
+    width: 120px;
+    margin-left: 10px;
+    position: relative;
+    right: -155px;
+    float: right;
+}
+.my-nav .pull-right+button span{
+    padding: 0 8px;
+}
+.my-nav .pull-right li.active a{
+    color: #5cb86c;
+}
+.my-nav .pull-right li a:hover{
+    color: #5cb85c;
+    background-color: white;
+}
+.my-nav .my-active .active a{
+    background-color: white;
+}
+.my-navbar{
+    background-color: #2459A2;
+}
+.my-navbar .navbar-collapse:last-child li.active a{
+    color: white;
+    background-color: #204982;
+}
+.my-navbar .navbar-collapse:last-child li.active a:visited{
+    color: white;
+    background-color: #204982;
+}
+.my-navbar .my-navbar-nav>.active>a{
+    background-color: #204982;
+    color: white;
+}
+.my-navbar .my-navbar-nav>.active:hover{
+    background-color: #396bb3;
+}
+.my-navbar .my-navbar-nav>.active a:visited{
+    color: white;
+    background-color: #204982;
+}
+.my-navbar .my-navbar-nav>li>a{
+    color: #c0cddf;
+}
+.my-navbar .my-navbar-nav>li>a:visited{
+    color: #c0cddf;
+}
+.my-navbar .my-navbar-nav>li:hover{
+    background-color: #396bb3;
+}
+.mynavbar .my-navbar-nav>li>a:hover{
+    color: white;
+}
