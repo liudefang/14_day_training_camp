@@ -86,3 +86,290 @@ body{
 .mynavbar .my-navbar-nav>li>a:hover{
     color: white;
 }
+
+
+.my-list-content a{
+    cursor: default;
+}
+.my-list-content a h5{
+    color: black;
+}
+.my-list-content a h5>small{
+    cursor: text;
+}
+
+.my-list-content a h5,small,p,h5>small>span{
+    cursor: pointer;
+}
+.my-list-content a .pull-left p.pull-left{
+    width: 67%;
+}
+.my-list-content a .pull-left p.my-p-right{
+    display: none;
+}
+.my-list-content div.my-pull-right {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    right: 20px;
+}
+.my-list-content a .pull-left small{
+    color: gray;
+}
+.my-list-content a .pull-left p{
+    margin: 12px 0 0 0;
+    color: #9d9d9d;
+
+}
+.my-list-content a .pull-left p>span{
+    display: inline-block;
+    width: 42px;
+    height: 18px;
+    margin-right: 10px;
+}
+.my-list-content a .pull-left p .span1{
+    background: url("../images/icon_18_118.png") no-repeat 8px -40px;
+}
+.my-list-content a .pull-left p .span1:hover{
+    background: url("../images/icon_18_118.png") no-repeat 8px -20px;
+    color: #204982;
+
+}
+.my-list-content a .pull-left p span span{
+    float: right;
+}
+.my-list-content a .pull-left p .span2{
+    background: url("../images/icon_18_118.png") no-repeat 8px -99px;
+}
+.my-list-content a .pull-left p .span2:hover{
+    background: url("../images/icon_18_118.png") no-repeat 8px -79px;
+    color: #204982;
+}
+.my-list-content a .pull-left p .span3{
+    width: 42px;
+    background: url("../images/icon_18_118.png") no-repeat 8px -159px;
+}
+.my-list-content a .pull-left p .span3:hover{
+    background: url("../images/icon_18_118.png") no-repeat 8px -139px;
+    color: #204982;
+}
+.my-list-content a .pull-left p .span3>span{
+    margin-right: -18px ;
+}
+.my-list-content a .pull-left p .span4{
+    background: url("../images/small-img.jpg") no-repeat left center/10px;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+    width: 20px;
+    position: relative;
+    cursor: default;
+}
+.my-list-content a .pull-left p .span5{
+    width: 52px;
+    color: orange;
+    font-size: 12px;
+    position: relative;
+    cursor: text;
+    top: -4px;
+    left: -12px;
+}
+.my-list-content a .pull-left p .span6{
+    position: relative;
+    top:-4px;
+    left: -4px;
+}
+.my-list-content a .pull-left p .span7{
+    position: relative;
+    top:-4px;
+    left: -18px;
+}
+.my-list-content .pull-left img{
+    height: 64px;
+    width: 64px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    z-index: 2;
+}
+.my-list-content .pull-right img:hover{
+    cursor: zoom-in;
+}
+.my-list-content .pull-right img.big:hover{
+    cursor: zoom-out;
+}
+.my-list-content a .pull-left p.my-p-right span{
+    width: 22px;
+    margin: 0;
+    height: 15px;
+}
+.my-list-content a .pull-left p.my-p-right .span1_1{
+    width: 41px;
+    font-size: 12px;
+    cursor: text;
+}
+.my-list-content a .pull-left p.my-p-right .span1_1~sapn{
+    position: relative;
+    top: 2px;
+}
+.my-list-content a .pull-left p.my-p-right .span2_1{
+    background: url("../images/share_icon.png") no-repeat 5px 0;
+}
+.my-list-content a .pull-left p.my-p-right .span2_1:hover{
+    background: url("../images/share_icon.png") no-repeat 5px -90px;
+    color: gray;
+}
+.my-list-content a .pull-left p.my-p-right .span3_1{
+    background: url("../images/share_icon.png") no-repeat 5px -15px;
+}
+.my-list-content a .pull-left p.my-p-right .span3_1:hover{
+    background: url("../images/share_icon.png") no-repeat 5px -105px;
+
+}
+.my-list-content a .pull-left p.my-p-right .span4_1{
+    background: url("../images/share_icon.png") no-repeat 5px -30px;
+}
+.my-list-content a .pull-left p.my-p-right .span4_1:hover{
+    background: url("../images/share_icon.png") no-repeat 5px -120px;
+
+}
+.my-list-content a .pull-left p.my-p-right .span5_1{
+    background: url("../images/share_icon.png") no-repeat 5px -60px;
+}
+.my-list-content a .pull-left p.my-p-right .span5_1:hover{
+    background: url("../images/share_icon.png") no-repeat 5px -150px;
+
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px){
+    .my-list-content a .pull-left p.pull-left{
+        width: 78%;
+    }
+    .my-list-content a .pull-left p.my-p-right{
+        width: 18%;
+    }
+
+}
+.my-img{
+    position: absolute;
+    background: url("../images/view.png") no-repeat left center;
+    display: inline-block;
+    height: 32px;
+    width: 37px;
+    top: 1px;
+    right: 12px;
+    border-left: 1px solid #e0e0e0;
+}
+@media screen and (max-width: 765px) {
+    .my-img{
+        top: 10px;
+    }
+
+}
+.my-a-img a{
+    padding-right: 16px;
+}
+my-a-img+a{
+    background: url("../images/view.png") no-repeat left center;
+    display: block;
+    height: 20px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.my-span-top{
+    font-size: 14px;
+    margin: 12px 0;
+    display: block;
+    font-weight: 600;
+}
+.my-span-top>span{
+    color: red;
+}
+.my-list-group{
+    padding-left: 30px;
+}
+.my-list-group li.list-group-item>span{
+    float: left;
+    background-color: #e0e0e0;
+    color: gray;
+    position: absolute;
+    left: -24px;
+}
+.my-list-group li.list-group-item a{
+    text-decoration: none;
+    color: #333;
+}
+.my-list-group li.list-group-item a:hover{
+    color: #396bb3;
+}
+.my-panel .panel-heading{
+    background-color: #2459A2;
+    color: white;
+    text-align: center;
+}
+
+/*登录注册*/
+.my-modal-body>ul{
+    margin-bottom: 15px;
+}
+.my-modal-body .my-user-login{
+    display: none;
+}
+.my-info-register, .my-btn-sumit{
+    display: none;
+}
+.my-info-register .form-inline select{
+    width: 49%;
+}
+#myModal .modal-dialog{
+    width: 45%;
+}
+
+.my-comment{
+    display: none;
+}
+.my-comment ul.list-group li:hover{
+    background-color: #f5f5f5;
+}
+.my-comment .form-inline textarea{
+    width: 90%;
+}
+.my-comment .com-span1{
+    background: url("../images/small-img.jpg") no-repeat left center/19px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    position: relative;
+    top: 4px;
+}
+.my-comment .com-span2{
+    color: #2459A2;
+    margin-left: 5px;
+}
+.my-comment .com-span3{
+    margin-left: 10px;
+}
+.my-comment .com-span4{
+    color: #ccc;
+    margin-left: 20px;
+}
+.move-top{
+    display: none;
+    position: fixed;
+    z-index: 3;
+    background: url("../images/move_top.png") no-repeat 0 0;
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    right: 100px;
+    cursor: pointer;
+}
+.move-top:hover{
+    background: url("../images/move_top.png") no-repeat 0 -40px;
+}
+.my-publish .my-text,.my-photo{
+    display: none;
+}

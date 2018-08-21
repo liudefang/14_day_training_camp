@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 
     <!-- 以最高的ie浏览器渲染 -->
-    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- 视口的设备 移动设备优先 支持移动端 在多个设备上适应 pc iPhone 安卓-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,7 +65,7 @@
     </nav>
 
     <!--模态窗-->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabell myModalLabel2">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1 myModalLabel2">
         <div class="modal-dialog" role="document">
             <div class="modal-content clearfix">
 
@@ -73,7 +73,7 @@
                 <div class="pull-left">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="close"></button>
-                        <h4 class="modal-title" id="myModalLabell">登录</h4>
+                        <h4 class="modal-title" id="myModalLabel1">登录</h4>
                     </div>
 
                     <div class="modal-body my-modal-body">
@@ -108,10 +108,10 @@
                                 </div>
                             </form>
                         </div>
-                    </div>
+
 
                     <!--用户名登录-->
-                    <div class="my-phone-login">
+                    <div class="my-user-login">
                         <form>
 
                             <div class="form-group">
@@ -132,6 +132,96 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
                     <button type="button" class="btn btn-primary" data-dismiss="modal">登录</button>
+                </div>
+            </div>
+
+            <!--注册页面-->
+            <div class="pull-right">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span> </button>
+                    <h4 class="modal-title" id="myModalLabel2">注册</h4>
+                </div>
+
+                    <div class="modal-body my-modal-body">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" class="active"><a href="#">1.填写手机号</a> </li>
+                            <li role="presentation"><a href="#">2.填写基本资料</a> </li>
+                        </ul>
+
+                        <!--填写手机号-->
+                        <div class="my-phone-register">
+                            <form>
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>中国台湾(+886)</option>
+                                        <option>中国(+86)</option>
+                                        <option>中国香港(+852)</option>
+                                        <option>中国澳门(+853)</option>
+                                        <option>美国(+1)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <input type="text" class="form-control" id="exampleInputText3" placeholder="手机号">
+                                    <button type="submit" class="btn btn-primary">获取验证码</button>
+                                </div>
+                                <div class="form-group text-right" style="margin-top: -10px;">
+                                    <small>收不到短信?</small>
+                                    <small style="color: #337ab7;">获取语音验证码</small>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputText4" placeholder="验证码">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="密码">
+                                </div>
+                            </form>
+                        </div>
+
+                        <!--填写基本信息-->
+                        <div class="my-info-register">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputText5" placeholder="XXX" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked> 女
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked> 男
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control my-country">
+                                        <option value="0">中国</option>
+                                        <option value="1">海外</option>
+                                    </select>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <select class="form-control">
+                                        <option>北京</option>
+                                        <option>上海</option>
+                                        <option>广州</option>
+                                        <option>深圳</option>
+                                    </select>
+                                    <select class="form-control">
+                                        <option>东城</option>
+                                        <option>西城</option>
+                                        <option>海淀</option>
+                                        <option>朝阳</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" placeholder="签名档(100个汉子内)"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary my-btn-next" onclick="btnNext();">下一步</button>
+                        <button type="button" class="btn btn-primary my-btn-sumit" data-dismiss="modal">提交资料</button>
+                    </div>
                 </div>
             </div>
         </div>
