@@ -156,6 +156,18 @@ $(function () {
             scrollTop:'0'
         },500)
 
+    });
+
+    //发布页面的导航，内容切换
+    $('.my-publish ul.nav li').click(function () {
+        $(this).addClass('active').siblings('li').removeClass('active');
+        $($('.my-publish ul.nav').siblings('div')[$(this).index()]).show().siblings('div').hide();
+
+    });
+    //发布到的切换
+    $('.my-form-a a').click(function () {
+        $(this).addClass('active').siblings('a').removeClass('active');
+
     })
 
 });
@@ -177,5 +189,15 @@ function btnNext() {
     $('.my-btn-next').hide();
     $('.my-btn-sumit').show();
     $('.pull-right .my-modal-body ul li').last().addClass('active').siblings('li').removeClass('active');
+
+}
+
+//发布
+function publish() {
+    $('#myModal1').modal({
+        keyboard: false
+    });
+    /*为了弹出窗，弹出时滚动条不消失，背景不影响*/
+    $('body').css('padding-right','0')
 
 }
