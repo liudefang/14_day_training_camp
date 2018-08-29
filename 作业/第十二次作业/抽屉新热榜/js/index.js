@@ -81,6 +81,67 @@ $(function () {
 
         });
 
+    //评论的点击事件
+    $('.span_click2').each(function (index,ele) {
+        var isFlag2 = true;
+        $(this).click(function () {
+            console.log($(this).index());
+            if(isFlag2){
+                $($('.my-comment')[index]).show();
+                $(this).css({
+                    'background':'url(./images/icon_18_118.png) no-repeat 8px -79px','color':'#63c8ff'
+                });
+                isFlag2 = false;
+            }else {
+                $($('.my-comment')[index]).hide();
+                $(this).css({
+                    'background':'url(./images/icon_18_118.png) no-repeat 8px -99px','color':'#9d9d9d'
+                });
+                isFlag2 = true;
+            }
+
+        })
+
+    });
+
+    //关闭评论框
+    $('.my-comment .close').each(function (index,ele) {
+        $(this).click(function () {
+            $($('.my-comment')[index]).hide();
+            $($('.span_click2')[index]).css({
+                    'background':'url(./images/icon_18_118.png) no-repeat 8px -99px','color':'#9d9d9d'
+                });
+
+        })
+
+
+    });
+
+    //评论内容追加到ul li 中
+    $('.my-comment button').each(function (index,ele) {
+        $(this).bind('click',function () {
+            var date = new Date();
+            var strDate = date.getFullYear() + '-' + Number(date.getMonth()+1) + '-' + date.getDate()
+            + '&nbsp;&nbsp;' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
+            var comCount = $($('.com-count')[index]).text();
+            var comment = $($('.my-comment textarea')[index]).val();
+
+            var str = "<li class=\"list-group-item\"> <small>" +
+                "<span class=\"com-span1\"></span>" +
+                "<span class=\"com-span2\">mike</span>" +
+                "<span class=\"com-span3\">"+comment+"</span>" +
+                "<span class=\"com-span4\">"+strDate+"&nbsp;&nbsp;发布</span>" +
+                "</small></li>";
+
+            $($('.my-comment ul.list-group')[index]).append(str);
+            $($('.com-count')[index]).text(Number(comCount)+1);
+            $($('.span_count2')[index]).text(Number(comCount)+1);
+            $($('.my-comment textarea')[index]).val('');
+
+        })
+
+    });
+
 
 
     //监听页面滚动
@@ -94,6 +155,18 @@ $(function () {
         $(document.documentElement).animate({
             scrollTop:'0'
         },500)
+
+    });
+
+    //发布页面的导航，内容切换
+    $('.my-publish ul.nav li').click(function () {
+        $(this).addClass('active').siblings('li').removeClass('active');
+        $($('.my-publish ul.nav').siblings('div')[$(this).index()]).show().siblings('div').hide();
+
+    });
+    //发布到的切换
+    $('.my-form-a a').click(function () {
+        $(this).addClass('active').siblings('a').removeClass('active');
 
     })
 
@@ -116,5 +189,15 @@ function btnNext() {
     $('.my-btn-next').hide();
     $('.my-btn-sumit').show();
     $('.pull-right .my-modal-body ul li').last().addClass('active').siblings('li').removeClass('active');
+
+}
+
+//发布
+function publish() {
+    $('#myModal1').modal({
+        keyboard: false
+    });
+    /*为了弹出窗，弹出时滚动条不消失，背景不影响*/
+    $('body').css('padding-right','0')
 
 }
