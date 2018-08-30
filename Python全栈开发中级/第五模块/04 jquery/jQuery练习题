@@ -109,7 +109,15 @@ removeAttr():从每一个匹配的元素中删除一个属性
     但是addClass和removeClass则是增加和删除属性，如果删除了，属性就不存在了
     简单说就是一个是新增属性，一个是增删属性
 8.列举jquery的筛选方法有哪些？重点
-
+    eq:获取第N个元素，eq(index),$("p").eq(1)
+    first:获取第一个元素，first(),$('li').first()
+    last:获取最后一个元素，last(),$('li').last()
+    hasClass:检查当前的元素是否含有某个特定的类，如果有，则返回True，hasClass(类名),$('li').hasclass('li1')
+    children:取得一个包含匹配的元素集合中每一个元素所有子元素的元素集合，children(), $("div").children()
+    parent:取得一个包含着所有匹配元素的唯一父元的元素集合，parent(), $("p").parent()
+    prev:取得一个包含元素的元素集合中每一个元素紧邻的前一个同辈元素的元素集合，prev(), $("p").prev()
+    preAll:查找当前元素之前所有的同辈元素，preAll(),$("div:last").prevAll().addClass("before")
+    siblings:筛选给定的同胞同类元素(不包括给定元素本身),siblings(元素),$('#leftBoxli').eq(0).siblings('li).addClass('actiove')
 9.jquery的事件有哪些？
 
 10.mouseout和mouseover以及mouseenter和mouseleave的区别？
