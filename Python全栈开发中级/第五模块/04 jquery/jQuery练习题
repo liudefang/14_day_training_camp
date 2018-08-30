@@ -1,19 +1,113 @@
 
 
 1.js的入口函数和jquery入口函数的区别？
+JS的Windows.onload事件必须等到所有内容，以及外部图片之类的文件加载完之后，才会去执行
+jQuery入口函数时所有标签加载完之后，就会去执行
 
 2.jquery的值的操作哪个方法？
+    val() 方法返回或设置被选元素的值。
 
+    元素的值是通过 value 属性设置的。该方法大多用于 input 元素
+    当用于返回值时：
+    该方法返回第一个匹配元素的 value 属性的值。
+
+    当用于设置值时：
+    该方法设置所有匹配元素的 value 属性的值。
 3.jquery和js对象如何转化？
+//DOM对象转换为jQuery对象
+var box = document.getElementById('box');
+console.log($(box));
 
+//jQuery对象转换为DOM对象
+//第一种方式
+console.log($('button')[0]);
+//第二种方式
+//$('button').get(0)
+var isShow = true;
+$('button').get(0).onclick = function(){
+    if(isShow){
+        $('#box').hide();
+        $(this).text('显示');
+        isShow = false;
+
+    }else{
+        $('$box').show();
+        isShow = true;
+    }
+}
 4.阐述一下js和jquery的关系？
+1.jQuery 是JavaScript的一个库，包含多个可重用的函数，用来辅助我们简化JavaScript开发
+2.jQuery能做的JavaScript都能做到，而JavaScript能做的事情，jQuery不一定能做到
 
 5.jquery的html属相操作是哪个方法？你认为是js中哪个方法封装来的？
+attr():设置属性值或者返回被选元素的属性值，由js的setAttribute()方法封装来的
+removeAttr():从每一个匹配的元素中删除一个属性
 
 6.列举jquery的文档操作的方法？以及他们的意思？
+插入操作：
+    1.父元素.append(子元素)追加某元素，父元素中添加新的元素
+        var oli = document.createElement('li');
+        oli.innerHTML = '哈哈哈'
+        //jquery中的dom操作
+        //1.append(content)追加  往父元素中添加新的元素
+        //content:string | element | jquery元素
+        $('ul').append('<li>1233</li>')
+        $('ul').append(oli)
+        //如果直接的内容是当前页面中的某些元素，那么这些元素将从原位置上消失。简言之，就是一个移动操作
+        $('ul').append($('#app'))
+
+    2.子元素appendTo(父元素)追加到某个元素，子元素添加到父元素
+        $('<li>天王盖地虎</li>').appendTo($('ul')).addClass('hu')
+
+    3.prepend()前置添加，添加到父元素的第一个位置
+        $('ul').prepend('<li>我是第一个</li>')
+
+    4.prependTo后置添加，第一个元素添加到父元素中
+         $('<a href="#">路飞学诚</a>').prependTo('ul')
+
+    5.父after(子)在匹配的元素之后插入内容与子.insertAfter(父)
+        $('ul').after('<h4>我是一个h3标题</h4>')
+        $('<h5>我是一个h2标题</h5>').insertAfter('ul')
+    6.父before(子)在匹配的元素之前插入内容与子.insertBefor(父)
+        $('ul').before('<h3>我是一个h3标题</h3>')
+        $('<h2>我是一个h2标题</h2>').insertBefore('ul')
+
+复制操作：
+    clone() 克隆匹配的DOM元素并且选中这些克隆的副本
+    $('button').click(function() {
+
+      // 1.clone()：克隆匹配的DOM元素并且选中这些克隆的副本。
+     // 2.clone(true)：元素以及其所有的事件处理并且选中这些克隆的副本(简言之，副本具有与真身一样的事件处理能力)
+      $(this).clone(true).insertAfter(this);
+    })
+
+替换操作：
+    1.replaceWith():将所有匹配的元素替换成指定的HTML或DOM元素
+    //将所有的h5标题替换为a标签
+    $('h5').replaceWith('<a href="#">hello world</a>')
+    //将所有h5标题标签替换成id为app的dom元素
+    $('h5').replaceWith($('#app'));
+
+    2.replaceAll():用匹配的元素替换掉所有selector匹配到的元素
+    $('<br/><hr/><button>按钮</button>').replaceAll('h4')
+
+删除操作：
+    1.remove()：删除节点后，事件也会删除（简言之，删除了整个标签）
+    $('ul').remove();
+
+    2.detach():删除节点后，事件会保留
+    var $btn = $('button').detach()
+     //此时按钮能追加到ul中
+     $('ul').append($btn)
+
+    3.empty():清空元素中的所有后代节点
+    //清空掉ul中的子元素，保留ul
+    $('ul').empty()
 
 7.对一个元素显示隐藏分别使用类控制(addClass和removeClass)和文档操作(append())来实现,并描述一下他们的区别？
-
+    append的属性依然存在，只是在原来的基础上再后面增加属性
+    但是addClass和removeClass则是增加和删除属性，如果删除了，属性就不存在了
+    简单说就是一个是新增属性，一个是增删属性
 8.列举jquery的筛选方法有哪些？重点
 
 9.jquery的事件有哪些？
