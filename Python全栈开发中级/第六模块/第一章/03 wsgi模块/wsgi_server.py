@@ -18,14 +18,14 @@ def application(environ, start_response):
     start_response('200 OK', [])
 
     if path=="/login":
-        with open("login.html","r") as f:
+        with open("login.html","rb") as f:
 
             data=f.read()
     elif path=="/index":
-        with open("index.html","r") as f:
+        with open("index.html","rb") as f:
             data=f.read()
 
-    return [data]
+    return data
 
 
 # 封装socket

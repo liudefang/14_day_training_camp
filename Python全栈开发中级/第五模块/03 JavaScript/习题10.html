@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="div1"></div>
+<button id="btn" onclick="createP()">点我一下</button>
+<button id="btn2" onclick="del()">删除</button>
+<script type="text/javascript">
+    function createP() {
+        var p1 = document.createElement('p');
+        var div1 = document.getElementById('div1');
+        p1.innerText = 'alexsb';
+        div1.appendChild(p1)
+
+    }
+    function del() {
+        var p2 = document.getElementsByTagName('p');
+        var div1 = document.getElementById('div1');
+        div1.removeChild(div1.lastChild)
+
+    }
+</script>
+
+</body>
+</html>

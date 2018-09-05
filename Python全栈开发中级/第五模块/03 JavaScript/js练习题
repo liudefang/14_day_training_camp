@@ -3,23 +3,135 @@
 重点内容：DOM的操作
 
 1.声明一个add函数，要求函数有返回值，并打印结果
+    <p id="demo"></p>
+    <script>
+        function  add(a, b) {
+            return a+b;
+
+        }
+        document.getElementById("demo").innerHTML = add(5,10).toString()
+    </script>
 
 2.对“hello world”进行翻转处理 要求变为："dlorw olleh"
+  <script type="text/javascript">
+        var txt = "hello world"
+        document.write(txt.split("").reverse().join(""));
+    </script>
 
 3.如何定义一个对象？使用字面量方式 要求：该对象有名字、年龄、爱好多个
-
+var student = {
+    name : "mike",
+    age: 20,
+    ah : "跑步"
+}
 4.setTimeout()和setInterval()的区别？如何理解他们的作用
+setTimeout():只在指定时间后执行一次
+    定时器 异步执行
+    function hello(){
+    alert("hello");
+    }
+    使用方法名字执行方法
+    var t1 = window.setTimeout(hello, 1000);
+    var t2 = window.setTimeout("hello()",3000); //使用字符串执行方法
+    window.clearTimeout(t1); //去掉定时器
+
+setInterval():在指定时间为周期循环执行
+    //实时刷新时间单位为毫秒
+    setInterval('refreshQuery()',8000);
+    /*刷新查询*/
+    function refreshQuery(){
+     console.log('每8秒调一次')
+    }
+
+一般情况下setTimeout用于延迟执行某方法或功能，setInterval则一般用于刷新表单，对于一些表单的假实时指定时刷新异步，动画效果等
 
 5.对于标签文本内容值的操作使用的是哪个属性？input输入框呢？
+innerText
+value
 
 6.获取DOM的三种方式？
+//1. 通过id获取，唯一的
+var oDiv = document.getElementById('box');
+
+// 2. 通过类名获取
+var oDiv = document.getElementsByClassName('.box')[0];
+
+// 3. 通过标签获取
+var oDiv = document.getElementsByTagName('div')[0];
 
 7.如何设置标签属性的值？比如类名如何设置？如何设置多个类型
+// 设置标签属性
+oA.setAttribute('href','www.baidu.com');
+//设置类名
+oH2.className = 'mike'
+oH2.className = 'mike2'
+
+//设置元素id
+oH2.id = 'luffy'
 
 8.列举你知道的js事件
+onchange:HTML元素改变
+onclick：用户点击HTML元素
+onmouseover：用户在一个HTML元素上移动鼠标
+onmouseout：用户从一个HTML元素上移开鼠标
+onkeydown：用户按下键盘按键
+onload：浏览器已完成页面的加载
 
 9.如何设置样式属性？比如设置该div的背景颜色为红色
+<style type="text/css">
+    *{
+        padding； 0；
+        margin: 0;
+    }
+    #div1{
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<div id="div1">大家好</div>
+
+<script type="text/javascript">
+    var txt = document.getElementById('div1');
+    txt.style.background = 'red';
+</script>
 
 10.使用DOM操作，创建一个p标签，设置内容为alexsb，将p标签插入到div中。然后点击某个删除按钮，移除当前创建的p标签（练习dom的创建，修改内容，追加，删除）
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="div1"></div>
+<button id="btn" onclick="createP()">点我一下</button>
+<button id="btn2" onclick="del()">删除</button>
+<script type="text/javascript">
+    function createP() {
+        var p1 = document.createElement('p');
+        var div1 = document.getElementById('div1');
+        p1.innerText = 'alexsb';
+        div1.appendChild(p1)
+
+    }
+    function del() {
+        var p2 = document.getElementsByTagName('p');
+        var div1 = document.getElementById('div1');
+        div1.removeChild(div1.lastChild)
+
+    }
+</script>
 
 11.如何打开一个新的网站，比如打开路飞学城官网
+<body>
+    <button id="btn" onclick="Open()">打开</button>
+</body>
+<script type="text/javascript">
+    function Open(){
+    window.open(url='www.baidu.com');
+    }
+</script>

@@ -1,0 +1,65 @@
+本小节重点： 熟练使用div+span布局，知道div和span的语义化的意思 熟悉对div、ul、li、span、a、img、table、form、input标签有深刻的认知，
+初期也了解他们，知道他们在浏览器上的初始化样式是怎样的。 熟练网站布局结构 比如 header区域，侧边栏区域，内容区域，脚部区域
+
+1.查询一下对div和span标签的理解
+div:是一个块级标签，独占一行
+span：是行内标签，在一行内显示，不能设置跨高，默认是内容的跨高
+
+2.如何理解标签的嵌套结构？它们的规则是怎样的？
+块元素可以包含内联元素或某些块元素
+内联元不能包含块元素，它只能包含其它的内联元素
+块元素不能放在p标签里面
+
+有几个特殊的块级元素只能包含内联元素，不能包含块级元素，这几个特殊的标签是：
+h1～h6，p
+
+li元素可以嵌入ul，ol，div等标签
+
+如果给你一个网站，让你只用div来画块的画，如何画？比如京东
+4.一个html文件包含几部分？
+HTML：文档的根标签
+head：文档的头部，它是所有头部元素的容器，常见的头部元素有：title，script，style，link，meta
+body：是网页的主要内容
+
+5、当使用p标签的使用，应该注意什么？
+在html中p标签里只可以放置文本，图片和表单，其他的标签p标签是不能识别的
+
+6、阐述一下form标签的作用？form标签的属性有哪些？
+表单是一个包含表单元素的区域
+表单用于收集不同的输入信息
+属性：
+action：定义表单被提交时发生的动作，提交给服务器处理程序的地址
+method：作用：定义表单提交数据时的方式
+取值：get：默认值，明文提交，所提交的数据时可以显示在地址上，安全性低
+post：隐式提交-所提交的内容，不会显示到地址栏上，安全性高
+enctype：编码类型，即表单数据进行编码的方式，允许表单将什么样的数据提交给服务器
+取值：application/x-www-from-urlencoded
+默认，允许将普通字符，特殊字符，都提交给服务器，不允许提交文件
+multipart/form-data,允许将文件提交给服务器
+text/plain只允许提交普通字符，特殊字符，文件都无法提交
+
+7、ul的孩子元素一定是li么？
+必须是li，ul子元素不允许放置除除li外的任何元素
+
+如何理解语义化的标签？
+网页布局的合理化。
+有利于和搜索引擎建立良好沟通，有了良好的结构和语义你的网页内容自然容易被搜索引擎抓取。
+方便其他设备解析，如屏幕阅读器、盲人阅读器、移动设备等。
+便于团队开发和维护。
+
+8.标签的分类
+根元素:<html>
+文档元数据:<link>、<meta>、<style>、<style>
+内容分区:<header>、<nav>、 <section>、<aside> 、<footer> 、<h1>~<h6> 、<article> 、<address>、<hgroup>
+文本内容:<main>、<div>、<p>、<pre>、<ol>、 <ul>、<li>、<dl> 、<dt>、<dd>、<figure> 、<figcaption>、<blockquote> 、<hr>
+内联文本语义:
+<span>、<a>、<strong>、<em>、<q>、<br>、<mark>、<code>、<abbr>、<b>、<bdi>、<bdo>、<sub>、<sup>、<time>、<i>、<u>、<cite>、<data>、<kbd>、<nobr>、<s>、<samp>、<tt>、<var>、<wbr>、<rp>、<rt>、<rtc>、<ruby>
+图片和多媒体:<img><audio> <video><track><map><area>
+内嵌内容:<iframe>、<embed>、<object> 、<param>、<picture>、<source>
+脚本:<canvas>、<noscript>、<script>
+编辑标识:<del>、<ins>
+表格内容:<table>、<caption>、<thead>、<tbody>、<tfoot>、<tr>、、<col><colgroup>、<th>、<td>
+表单:<form> 、<input>、<textarea> 、<label>、<button>、<datalist>、<fieldset>、<legend>、<meter>、<optgroup>、<option>、<output>、<progress>、<select>
+交互元素<details>、<summary>、<dialog>、<menu>
+Web 组件:<slot>、<template>
+过时的和弃用的元素:<acronym><applet><basefont><bgsound><big><blink><center><command><content><dir><element><font><frame><frameset><image><isindex><keygen><listing><marquee><menuitem><multicol><nextid><nobr><noembed><noframes><plaintext><spacer><strike><shadow><tt><xmp>
