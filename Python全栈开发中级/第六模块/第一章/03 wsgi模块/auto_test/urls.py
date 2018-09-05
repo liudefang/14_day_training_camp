@@ -7,5 +7,6 @@ from app01.views import *
 
 
 URLpattern = (
-    ("/login/", login),
+    ("/login", login),
+    ("/favicon.ico", fav),
 )
