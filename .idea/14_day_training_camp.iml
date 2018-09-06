@@ -7,9 +7,10 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="first_pro" />
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="pytest" />
+    <option name="projectConfiguration" value="py.test" />
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>
