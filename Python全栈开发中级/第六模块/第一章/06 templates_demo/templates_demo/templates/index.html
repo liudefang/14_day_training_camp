@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h4>{{ s }}</h4>
+    <h4>列表：{{ l.0 }}</h4>
+    <h4>列表：{{ l.2 }}</h4>
+    <h4>字典:{{ dic.name }}</h4>
+    <h4>日期：{{ date.year }}</h4>
+    <h4>类对象列表:{{ person_list.0.name }}</h4>
+    <h4>字典：{{ dic.name.upper }}</h4>
+
+    <h4>过滤器</h4>
+    <p>{{ now|date:"Y-m-d" }}</p>
+    <p>{{ i|add:15 }}</p>
+    <p>{{ l|length }}</p>
+    <p>{{ file_size|filesizeformat }}</p>
+    <p>{{ content|truncatechars:13 }}</p>
+    <p>{{ content|truncatechars:3 }}</p>
+    <p>{{ link|safe }}</p>
+
+    <p>for循环标签</p>
+    {% for person in person_list %}
+        <p>{{ person.name }}</p>
+    {% endfor %}
+</body>
+</html>

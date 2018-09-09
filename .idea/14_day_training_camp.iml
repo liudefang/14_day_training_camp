@@ -8,6 +8,8 @@
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="first_pro" />
+    <orderEntry type="module" module-name="views_demo" />
+    <orderEntry type="module" module-name="templates_demo" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="py.test" />
