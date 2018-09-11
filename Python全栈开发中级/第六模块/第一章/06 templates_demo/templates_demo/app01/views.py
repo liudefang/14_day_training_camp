@@ -44,5 +44,20 @@ def index(request):
     file_size = 12314556425254
     link = "<a href=''>click</a>"
 
+    ########### 标签
+    user = "mike"
+
+
    # return render(request, "index.html", {"l": l, "dic": dic, "date": date, "person_list": person_list})
     return render(request, "index.html", locals())
+
+
+def login(request):
+
+    if request.method=="POST":
+        return HttpResponse("OK")
+
+    return render(request, "login.html")
+
+def orders(request):
+    return render(request, "orders.html")
