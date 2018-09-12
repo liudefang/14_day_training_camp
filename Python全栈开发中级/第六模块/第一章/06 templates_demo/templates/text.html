@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block classinfo %}
+    <h1>学生信息</h1>
+    <h3>{{ class_id }}</h3>
+{% endblock %}
+
+
+{#追加#}
+{% block menu %}
+    {{ block.super }}
+    <a href="">学生信息</a>
+{% endblock %}
