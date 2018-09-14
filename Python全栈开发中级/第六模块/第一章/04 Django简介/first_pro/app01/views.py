@@ -53,7 +53,7 @@ def login(request):
     print(request.method)
 
     if request.method=="GET":
-        return render(request, "login.html")
+        return render(request, "index.html")
     else:
         print(request.GET)
         print(request.POST)

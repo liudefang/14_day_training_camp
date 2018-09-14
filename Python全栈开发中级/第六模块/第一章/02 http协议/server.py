@@ -16,7 +16,7 @@ while True:
     print("data:", data)
 
     # 读取HTML文件
-    with open("login.html", "rb") as f:
+    with open("index.html", "rb") as f:
         data = f.read()
 
     conn.send(b"HTTP/1.1 200 OK\r\n\r\n%s" % data)

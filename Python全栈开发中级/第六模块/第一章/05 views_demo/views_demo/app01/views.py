@@ -31,4 +31,4 @@ def login(request):
         if user == "mike" and pwd == "123":
             return redirect("/index/")
 
-    return render(request, "login.html")
+    return render(request, "index.html")

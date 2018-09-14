@@ -54,7 +54,7 @@ def login(request):
     if request.method=="POST":
         return HttpResponse("OK")
 
-    return render(request, "login.html")
+    return render(request, "index.html")
 
 
 def orders(request):

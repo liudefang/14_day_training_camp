@@ -26,7 +26,7 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="db" uuid="d475d77b-5bb3-423f-8d64-1baed3819fbd">
+    <data-source source="LOCAL" name="bookms" uuid="623d6202-7978-4dec-a333-948ac56d0860">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>

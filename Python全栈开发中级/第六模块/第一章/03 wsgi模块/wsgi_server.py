@@ -18,7 +18,7 @@ def application(environ, start_response):
     start_response('200 OK', [])
 
     if path=="/login":
-        with open("login.html","rb") as f:
+        with open("index.html","rb") as f:
 
             data=f.read()
     elif path=="/index":

@@ -11,7 +11,7 @@ from urllib.parse import parse_qs
 
 def login(environ):
 
-    with open("templates/login.html", "rb") as f:
+    with open("templates/index.html", "rb") as f:
         data = f.read()
     return data
 
