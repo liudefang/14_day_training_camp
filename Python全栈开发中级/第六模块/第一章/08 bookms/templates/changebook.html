@@ -1,52 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>编辑书籍</title>
-    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.min.css">
-    <script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        .container{
-            margin-top: 100px;
-        }
-        .btn{
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<body>
-<h3>编辑书籍</h3>
+{% extends "base.html" %}
+{% block style %}
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <form action="" method="post">
+    {{block.super}}
+    .form-horzontal {
+            margin-top:100px;
+        }
+    .panel {
+        margin-top: 30px;
+        width:700px;
+        height: 500px;
+        margin-left: 300px;
+    }
+{% endblock style%}
+{% block add %}
+    <div class="panel panel-primary">
+        <div class="panel-heading">编辑图书信息</div>
+        <div class="panel-body">
+            <form class="form-horizontal" action="/changebook/" method="post">
                 {% csrf_token %}
-                <div>
-                    <label for="">书籍名称</label>
-                    <input type="text" class="form-control" name="title" value="{{ book_obj.title }}">
+                <div class="form-group">
+                    <div class="col-sm-10">
+                        <input type="hidden" name="b">
+                    </div>
                 </div>
-                <div>
-                    <label for="">作者</label>
-                    <input type="text" class="form-control" name="author" value="{{ book_obj.author }}">
+                <div class="form-group">
+                    <label for="title" class="col-sm-2 control-label">书籍名称:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="title" value="{{ book_obj.title }}">
+                    </div>
                 </div>
-                <div>
-                    <label for="">价格(元)</label>
-                    <input type="text" class="form-control" name="price" value="{{ book_obj.price }}">
+                <div class="form-group">
+                    <label for="author" class="col-sm-2 control-label">作者:</label>
+                    <div class="col-sm-10">
+                        <select name="author" id="author" multiple>
+                            {% for author_obj in authorlist %}
+                                <option value="{{author_obj.id}}">{{author_obj.name}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
                 </div>
-                <div>
-                    <label for="">出版社</label>
-                    <input type="text" class="form-control" name="publish" value="{{ book_obj.publish }}">
+                <div class="form-group">
+                    <label for="price" class="col-sm-2 control-label">价格:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="price" value="{{ book_obj.price }}">
+                    </div>
                 </div>
-                <div>
-                    <label for="">出版日期</label>
-                    <input type="date" class="form-control" name="date" value="{{ book_obj.publishData|date:'Y-m-d' }}">
+                <div class="form-group">
+                    <label for="date" class="col-sm-2 control-label">出版日期:</label>
+                    <div class="col-sm-10">
+                        <input type="date" name="date" value="{{ book_obj.publishData|date:'Y-m-d' }}">
+                    </div>
                 </div>
-                <input type="submit" class="btn btn-success pull-right">
+                <div class="form-group">
+                    <label for="publish" class="col-sm-2 control-label">出版社:</label>
+                    <div class="col-sm-10">
+                        <select name="publish" id="publish">
+                            {% for pub_obj in publist %}
+                            <option value="{{pub_obj.id}}">{{pub_obj.name}}</option>
+                            {% endfor %}
+                        </select>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10 col-md-offset-2">
+                        <input type="submit" class="btn btn-sucess pull-right">
+                    </div>
+                </div>
+
             </form>
         </div>
     </div>
-</div>
-
-</body>
-</html>
+{% endblock %}

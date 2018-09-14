@@ -30,4 +30,5 @@ urlpatterns = [
     url(r'^index/$', views.index),
     url(r'^$', views.index),
     url(r'^logout/$', views.index),
+    url(r'^accounts/login/$', views.index)
 ]

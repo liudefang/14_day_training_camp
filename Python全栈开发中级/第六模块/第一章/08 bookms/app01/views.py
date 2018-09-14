@@ -22,7 +22,6 @@ def reg(request):
         if username != str(User.objects.get(username="defang1")):
             s = "注册成功"
             if password == password1:  # 当密码与确认密码一致的时候，注册成功
-
                 User.objects.create_user(username=username, password=password)
                 return redirect("/login/")
             else:
