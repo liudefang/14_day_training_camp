@@ -1,44 +1,56 @@
-{% extends "base.html" %}
-{% block add %}
-    <!--<h1 class="pull-right">欢迎{{request.user}}登录</h1>-->
-
-    <div class="container">
-        <div class="row" style="padding-top: 80px;">
-            <div class="col-md-6 col-md-offset-3">
-                <a href="/addbook/">
-                    <button class="btn btn-primary add">添加图书</button>
-                    </a>
-
-                <table class="table table-striped table-bordered">
-                    <thead>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图书列表</title>
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.min.css">
+    <script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .container{
+            margin-top: 100px;
+        }
+        .btn{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<h3>查看书籍</h3>
+ 
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <a href="/addbook" class="btn btn-primary">添加书籍</a>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>书籍名称</th>
+                        <th>作者</th>
+                        <th>价格(元)</th>
+                        <th>出版社</th>
+                        <th>出版日期</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for book in book_list %}
                         <tr>
-                            <th>编号</th>
-                            <th>书籍名称</th>
-                            <th>作者</th>
-                            <th>价格(元)</th>
-                            <th>出版社</th>
-                            <th>出版日期</th>
-                            <th>操作</th>
+                            <td>{{ book.title }}</td>
+                            <td>{{ book.author}}</td>
+                            <td>{{ book.price }}</td>
+                            <td>{{ book.publish }}</td>
+                            <td>{{ book.publishData|date:'Y-m-d' }}</td>
+                            <td>
+                                <a href="/books/{{ book.pk }}/delete"><button class="btn btn-danger">删除</button></a>
+                                <a href="/books/{{ book.pk }}/change"><button class="btn btn-info">编辑</button></a>
+                            </td>
                         </tr>
-                    </thead>
-                    <tbody>
-                        {% for book in book_list %}
-                            <tr>
-                                <td>{{book.id}}</td>
-                                <td>{{ book.title }}</td>
-                                <td>{{ book.author}}</td>
-                                <td>{{ book.price }}</td>
-                                <td>{{ book.publish }}</td>
-                                <td>{{ book.publishData|date:'Y-m-d' }}</td>
-                                <td>
-                                    <a href="/books/{{ book.pk }}/delete"><button class="btn btn-danger">删除</button></a>
-                                    <a href="/books/{{ book.pk }}/change"><button class="btn btn-info">编辑</button></a>
-                                </td>
-                            </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>
     </div>
-{% endblock %}
+</div>
+ 
+</body>
+</html>

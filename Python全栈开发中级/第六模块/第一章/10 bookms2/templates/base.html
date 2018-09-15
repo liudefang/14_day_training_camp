@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>添加图书</title>
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.min.css">
+    <script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <link href="/static/css/dashboard.css" rel="stylesheet">
+    <style>
+        {% block style %}
+            .menu {
+                margin: 0 -20px;
+                border-bottom: 1px solid #336699;
+            }
+            .head {
+                padding: 15px;
+            }
+            .menu .nav-sidebar > li > a {
+                padding-right: 40px;
+                padding-left: 40px;
+            }
+            table {
+                margin-top: 50px;
+                margin-left: 40px;
+            }
+            .addbook{
+                margin-top: 20px;
+            }
+        {% endblock style %}
+    </style>
+</head>
+<body>
+<!--导航条-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">图书管理系统</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">欢迎 {{request.user}} 登录</a> </li>
+                <li><a href="/logout/">注销</a> </li>
+                <li><a href="/set_pwd">修改密码</a> </li>
+                <!--<li><a href="">个人中心</a> </li>-->
+            </ul>
+            <form class="mavbar-form navbar-right">
+                <input type="text" class="form-control" placeholder="Search...">
+            </form>
+        </div>
+    </div>
+</nav>
+<!--左侧菜单-->
+<div class="container">
+    <div class="left">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <div class="menu">
+                    <div class="head bg-primary">图书管理</div>
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/addbook/">添加图书</a> </li>
+                        <li><a href="/books/">查看图书</a> </li>
+                    </ul>
+                </div>
+
+                <div class="menu">
+                    <div class="head bg-primary">作者管理</div>
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/add">添加作者</a> </li>
+                        <li><a href="/changebook/">查看作者</a> </li>
+                        <li><a href="/books/">编辑作者</a> </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <div class="head bg-primary">出版社管理</div>
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/add">添加出版社</a> </li>
+                        <li><a href="/changebook/">查看出版社</a> </li>
+                        <li><a href="/books/">编辑出版社</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        {#表格#}
+        {% block add %}
+        {% endblock %}
+    </div>
+</div>
+
+<script src="/static/jquery-3.2.1.min.js"></script>
+<script src="/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script>
+    // 左侧菜单
+    $(".head").on("click",function(){
+        //兄弟标签紧挨着的ul标签隐藏addclass("hide")
+        $(this).parent().siblings().children("ul").slideUp();
+        //把自己紧挨着的ul标签显示removeClass("hide")
+            $(this).next().removeClass("hide");
+        $(this).next().slideToggle();
+    });
+</script>
+</body>
+</html>

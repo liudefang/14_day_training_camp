@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block style %}
+
+    {{block.super}}
+    .form-horzontal {
+            margin-top:100px;
+        }
+    .panel {
+        margin-top: 30px;
+        width:700px;
+        height: 500px;
+        margin-left: 300px;
+    }
+{% endblock style%}
+{% block add %}
+    <div class="panel panel-primary">
+        <div class="panel-heading">编辑图书信息</div>
+        <div class="panel-body">
+            <form class="form-horizontal" action="/changebook/" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <div class="col-sm-10">
+                        <input type="hidden" name="b">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="title" class="col-sm-2 control-label">书籍名称:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="title" value="{{ book_obj.title }}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="author" class="col-sm-2 control-label">作者:</label>
+                    <div class="col-sm-10">
+                        <select name="author" id="author" multiple>
+                            {% for author_obj in authorlist %}
+                                <option value="{{author_obj.id}}">{{author_obj.name}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="price" class="col-sm-2 control-label">价格:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="price" value="{{ book_obj.price }}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="date" class="col-sm-2 control-label">出版日期:</label>
+                    <div class="col-sm-10">
+                        <input type="date" name="date" value="{{ book_obj.publishData|date:'Y-m-d' }}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="publish" class="col-sm-2 control-label">出版社:</label>
+                    <div class="col-sm-10">
+                        <select name="publish" id="publish">
+                            {% for pub_obj in publist %}
+                            <option value="{{pub_obj.id}}">{{pub_obj.name}}</option>
+                            {% endfor %}
+                        </select>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10 col-md-offset-2">
+                        <input type="submit" class="btn btn-sucess pull-right">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,124 @@
+from django.http import HttpResponse
+from django.shortcuts import render
+
+# Create your views here.
+from app01 import models
+
+def query(request):
+
+    # publish_obj = models.Publish.objects.create(name="邮电出版社", city="北京", email="555@qq.com")
+    # print(publish_obj)
+    # 一对多插入
+    # 方式一：
+    # publish_obj = models.Publish.objects.get(id=1)
+    # book_obj = models.Book.objects.create(title="性能测试案例分析", publishDate="2010-12-12", price=100, publish=publish_obj)
+    # print(book_obj)
+    #
+    # # 方式二：
+    # models.Book.objects.create(title="Python全栈开发", publishDate="2015-05-05", price="150", publish_id=2)
+    #
+    # # 方式三：
+    # publish_obj = models.Publish.objects.get(name="邮电出版社")
+    # book_obj = models.Book(title="未来简史", publishDate="2010-10-10", price=200, publish=publish_obj)
+    # book_obj.save()
+    # print(book_obj)
+
+
+    # --------------多对多添加--------------
+    # 方式一：
+    # authordetail_obj = models.AuthorDetail.objects.create(birthday="2012-08-12", telephone="15912245678",addr="北京")
+    # print(authordetail_obj)
+    # author_obj = models.Author.objects.create(name="jacke", age=30, authorDetail_id=3)
+    # print(author_obj)
+    # pub_obj=models.Publish.objects.filter(name="机械工业出版社").first()
+    # book_obj = models.Book.objects.create(title="人类简史",publishDate="2008-10-8", price="122", publish=pub_obj)
+    # # 通过作者的名字django默认找到id
+    # author_obj = models.Author.objects.filter(name="mike")[0]
+    # tom_obj = models.Author.objects.filter(name="tom")[0]
+    # jack_obj = models.Author.objects.filter(name="jacke")[0]
+    # book_obj.authors.add(author_obj, tom_obj, jack_obj)
+    #
+    #
+    # # 方式二：查出所有的作者
+    # pub_obj = models.Publish.objects.filter(name="邮电出版社").first()
+    # book_obj = models.Book.objects.create(title="零成本实现性能测试", publishDate="2018-08-08", price="225", publish=pub_obj)
+    # author_obj = models.Author.objects.all()
+    # # 绑定多对多关系
+    # book_obj.authors.add(*author_obj)
+
+
+    # ---------------解除绑定-------------------
+    # 解除多对多的关系(remove)
+    # book_obj = models.Book.objects.filter(title="零成本实现性能测试").last()     # 找到书对象
+    # author_obj = models.Author.objects.filter(id__lt=3)     # 找到符合条件的作者对象
+    # book_obj.authors.remove(*author_obj)    # 因为清除是多条，得加*
+    #
+    # # 清除关系方法（clear）
+    # book_obj = models.Book.objects.filter(title="人类简史")
+    # for book_obj_item in book_obj:
+    #     book_obj_item.authors.clear()
+
+    # ------------基于对象的跨表查询（相当于sql语句的where子查询）--------------
+    # 一对一的查询
+    # 正向查询：手机好为15812345678的作者的姓名
+    # deital_obj = models.AuthorDetail.objects.filter(telephone="15812345678").first()
+    # print(deital_obj.author.name)
+    #
+    # # 反向查询：查询mike的手机号
+    # mike_obj = models.Author.objects.filter(name="mike").first()
+    # print(mike_obj.authorDetail.telephone)
+
+    # # 一对多查询
+    # # 正向查询：查询“零成本实现性能测试”这本书的出版社的地址
+    # book_obj = models.Book.objects.filter(title="零成本实现性能测试")[0]     # 找对象
+    # print(book_obj.publish)     # 拿到的是关联出版社的对象
+    # print(book_obj.publish.city)
+    #
+    # # 反向查询：查询邮电出版社出版过的所有书的价格和名字
+    # pub_obj = models.Publish.objects.filter(name="邮电出版社")[0]
+    # book_dic = pub_obj.book_set.all().values("price", "title")[0]
+    # print(book_dic)
+    # print(book_dic["price"])
+    #
+    # # 查询邮电出版社出版过的所有书籍
+    # publish = models.Publish.objects.get(name="邮电出版社")      # get得到的直接是一个对象，不过get只能查看有一条记录
+    # book_list = publish.book_set.all()      # 与邮电出版社关联的所有书籍对象集合
+    # for book_obj in book_list:
+    #     print(book_obj.title)
+
+
+    # # 多对多查询
+    # # 正向查询：查询“人类简史”的这本书的所有作者的姓名和年龄
+    # book_obj = models.Book.objects.filter(title="人类简史").first()
+    # auth_list = book_obj.authors.all()
+    # for auth_obj in auth_list:
+    #     print(auth_obj.name, auth_obj.age)
+    #
+    # # 反向查询：查询作者是Mike的这个人出了哪几本书的信息
+    # mike_obj = models.Author.objects.filter(name="mike").first()
+    # print(mike_obj.book_set.all().first().title)    # 与该作者关联的所有书对象的集合
+
+    # 查询邮电出版社出版过的所有书籍
+    publish = models.Publish.objects.get(name="邮电出版社")
+    book_list=publish.bookList.all()    # 与人民出版社关联的所有书籍对象集合
+    print(book_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return HttpResponse("OK")

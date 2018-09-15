@@ -7,110 +7,54 @@ from django.shortcuts import render, redirect
 # Create your views here.
 from app01 import models
 
+from django.http import HttpResponse
+from django.shortcuts import render, redirect
 
-def index(request):
-    return render(request, "index.html")
-
-
-# 注册
-def reg(request):
-    if request.method == "POST":
-        username = request.POST.get("username")
-        password = request.POST.get("password")
-        password1 = request.POST.get("password1")
-        print(username, password, password1)
-        if username != str(User.objects.get(username="defang1")):
-            s = "注册成功"
-            if password == password1:  # 当密码与确认密码一致的时候，注册成功
-                User.objects.create_user(username=username, password=password)
-                return redirect("/login/")
-            else:
-                s1 = "两次输入的密码不一致"
-                return render(request, "reg.html", {"s1": s1})
-        else:
-            mess = "用户名已经存在!"
-            return render(request, "reg.html", {"mess": mess})
-
-    return render(request, "reg.html")
+# Create your views here.
+from app01 import models
 
 
-# 登录
-def login(request):
-    if request.method == "POST":
-        username = request.POST.get("username")
-        password = request.POST.get("password")
-        print(username, password)
-        user = auth.authenticate(username=username, password=password)  # 验证用户名和密码
-        if user is not None and user.is_active:
-            #  如果认证成功，就让登录
-            auth.login(request, user)
-            request.session['user'] = username  # 将session信息记录到浏览器
-            response = HttpResponseRedirect("/books/")
-            return response
-        else:
-            s = "用户名或密码错误"
-            return render(request, "index.html", {"s": s})
-
-    return render(request, "index.html")
-
-
-@login_required
-# 新增书籍
 def addbook(request):
     if request.method == "POST":
-
-        title = request.POST.get("title")
-        date = request.POST.get("date")
-        author = request.POST.get("author")
-        price = request.POST.get("price")
-        publish = int(request.POST.get("publish"))
-
-        book_obj = models.Book.objects.create(title=title, publish_id=publish, publishData=date, price=price)
-        authors = models.Author.objects.filter(id_in=author)
-        book_obj.authorlist.add(*authors)
-        return redirect("/books")
-    else:
-        pub_obj = models.Publish.objects.all()  # 查询出所有的出版社对象
-
-        authorlist = models.Author.objects.all()
-        return render(request, "addbook.html", {"publist": pub_obj, "authorlist": authorlist})
-
-
-@login_required
-def books(request):
-
-    book_list = models.Book.objects.all()
-    username = request.session.get('user')
-
-    return render(request, "books.html", {"user": username}, locals())
-
-
-@login_required
-def changebook(request, id):
-    book_obj = models.Book.objects.filter(id=id).first()
-
-    if request.method == "POST":
-
         title = request.POST.get("title")
         date = request.POST.get("date")
         author = request.POST.get("author")
         price = request.POST.get("price")
         publish = request.POST.get("publish")
-        models.Book.objects.filter(id=id).update(title=title, publishData=date, author=author, price=price, publish=publish)
+
+        book_obj = models.Book.objects.create(title=title, publish=publish, publishData=date, author=author,
+                                              price=price)
+
+        return redirect("/books")
+
+    return render(request, "addbook.html")
+
+
+def books(request):
+    book_list = models.Book.objects.all()
+
+    return render(request, "books.html", locals())
+
+
+def changebook(request, id):
+    book_obj = models.Book.objects.filter(id=id).first()
+
+    if request.method == "POST":
+        title = request.POST.get("title")
+        date = request.POST.get("date")
+        author = request.POST.get("author")
+        price = request.POST.get("price")
+        publish = request.POST.get("publish")
+        models.Book.objects.filter(id=id).update(title=title, publishData=date, author=author, price=price,
+                                                 publish=publish)
 
         return redirect("/books")
     return render(request, "changebook.html", {"book_obj": book_obj})
 
 
-@login_required
 def delbook(request, id):
     models.Book.objects.filter(id=id).delete()
     return redirect("/books")
-
-@login_required
-def logout(request):
-    auth.logout(request)
-    return redirect("/index")
 
 def query(request):
     # 1、查询老男孩出版社出版过的价格大于200的书籍
