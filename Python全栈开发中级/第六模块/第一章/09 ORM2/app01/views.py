@@ -1,8 +1,11 @@
+from django.db.models import ForeignKey, Avg, Max, Min, Count, Sum
 from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
 from app01 import models
+
+
 
 def query(request):
 
@@ -99,11 +102,114 @@ def query(request):
     # print(mike_obj.book_set.all().first().title)    # 与该作者关联的所有书对象的集合
 
     # 查询邮电出版社出版过的所有书籍
-    publish = models.Publish.objects.get(name="邮电出版社")
-    book_list=publish.bookList.all()    # 与人民出版社关联的所有书籍对象集合
-    print(book_list)
+    # publish = ForeignKey(models.Book, related_name = 'bookList')
+    # publish = models.Publish.objects.get(name="邮电出版社")
+    # book_list=publish.bookList.all()    # 与人民出版社关联的所有书籍对象集合
+    # print(book_list)
 
 
+    # ------------------基于双下划线的跨表查询--------------------
+    # 基于下划线的方式查找-----------一对多
+    # 练习1、查询人民出版社出版过的所有的书的价格和名字
+    # 第一种方法
+    # ret = models.Publish.objects.filter(name="机械工业出版社").values("book__price", "book__title")
+    # print(ret)
+    #
+    # # 第二种方法
+    # ret2 = models.Book.objects.filter(publish__name="邮电出版社").values("price", "title")
+    # print(ret2)
+
+    # 查询某出版社出版过的所有的书籍
+    # ret3 = models.Book.objects.filter(publish__name="邮电出版社").all()
+    # print(ret3)
+
+    # 练习2、查询“人类简史”这本书的出版社的地址：filter先过滤，values显示要求的字段
+    # 第一种方式
+    # ret = models.Book.objects.filter(title="人类简史").values("publish__city")
+    # print(ret)
+    # # 第二种方式
+    # ret2 = models.Publish.objects.filter(book__title="人类简史").values("city")
+    # print(ret2)
+
+    # 多对多查询
+    # # 练习1、查询mike出过的所有书的名字
+    # # 方式一
+    # ret = models.Author.objects.filter(name="mike").values("book__title")
+    # print(ret)
+    # # 方式二
+    # ret2 = models.Book.objects.filter(authors__name="mike").values("title")
+    # print(ret2)
+
+    # 进阶练习（连续跨表）
+    # 练习2、查询手机号以158开头的作者出版过的所有书的名称以及出版社的名称
+    # 方式一
+    # ret = models.AuthorDetail.objects.filter(telephone__startswith="158").first()
+    # print(ret.author.book_set.all().values("title", "publish__name"))
+    # print(ret)
+    #
+    # # 方式二
+    # ret = models.Book.objects.filter(authors__authorDetail__telephone__regex="158").values("title", "publish__name")
+    # print(ret)
+
+    # 练习3、查询邮电出版社出版过的所有书籍的名字以及作者的姓名
+    # 正向查询
+    # ret = models.Book.objects.filter(publish__name='邮电出版社').values_list("title", "authors__name")
+    # print(ret)
+    #
+    # # 反向查询
+    # ret = models.Publish.objects.filter(name="邮电出版社").values_list("book__title", "book__authors__age", "book__authors__name")
+    # print(ret)
+
+
+    # ----------------聚合查询与分组查询--------------------
+    # 计算所有图书的平均价格
+    # price_avg = models.Book.objects.all().aggregate(Avg('price'))
+    # print(price_avg)
+
+    # print(models.Book.objects.aggregate(average_price=Avg('price')))
+
+    # 返回平均值，最大值，最小值
+    # print(models.Book.objects.aggregate(Avg('price'), Max('price'), Min('price')))
+
+    # (1) 练习：统计每一个出版社的最便宜的书
+    # 方式一
+    # print(models.Book.objects.values("publish__name").annotate(MinPrice=Min('price')))  # 注意：values内的字段即group by字段，也就是分组
+    #
+    # # 方式二
+    # print(models.Publish.objects.all().annotate(minprice=Min("book__price")).values("name", "minprice"))
+    #
+    # # 方式三
+    # publish_list = models.Publish.objects.annotate(MinPrice=Min("book__price"))
+    # for publish_obj in publish_list:
+    #     print(publish_obj.name, publish_obj.MinPrice)
+
+    # (2)    练习：统计每一本书的作者个数
+    # # 方式一
+    # author_list = models.Book.objects.all().annotate(Count_author=Count("authors__name")).values("Count_author")
+    # print(author_list)
+    #
+    #
+    # # 方式二
+    # book_list = models.Book.objects.all().annotate(authorNum=Count("authors__name"))
+    # for book_obj in book_list:
+    #     print(book_obj.title, book_obj.authorNum)
+
+    # (3)   统计每一本以py开头的书籍的作者个数：
+    # book_list = models.Book.objects.all().filter(title__startswith="Py").annotate(authorNum=Count("authors__name"))
+    # for book_obj in book_list:
+    #     print(book_obj.title, book_obj.authorNum)
+
+    # (4)    统计不止一个作者的图书：
+    author_obj = models.Book.objects.annotate(num_authors=Count('authors')).filter(num_authors__gt=1)
+    print(author_obj)
+
+    # (5) 根据一本图书作者数量的多少对查询集 QuerySet进行排序:
+    author_boj = models.Book.objects.annotate(num_authors=Count('authors')).order_by('num_authors')
+    print(author_boj)
+
+    # (6)  查询各个作者出的书的总价格:
+    ret = models.Author.objects.annotate(SumPrice=Sum("book__price")).values_list("name", "SumPrice")
+    print(ret)
 
 
 
