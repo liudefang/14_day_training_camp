@@ -19,7 +19,7 @@
     <div class="panel panel-primary">
         <div class="panel-heading">编辑图书信息</div>
         <div class="panel-body">
-            <form class="form-horizontal" action="/changebook/" method="post">
+            <form class="form-horizontal" action="" method="post">
                 {% csrf_token %}
                 <div class="form-group">
                     <div class="col-sm-10">
@@ -29,17 +29,21 @@
                 <div class="form-group">
                     <label for="title" class="col-sm-2 control-label">书籍名称:</label>
                     <div class="col-sm-10">
-                        <input type="text" name="title" value="{{ book_obj.title }}">
+                        <input type="text" name="title" value="{{ edit_book_obj.title }}" id="title">
                     </div>
                 </div>
                 <h6 style="color: red">{{s}}</h6>
                 <h6 style="color: red">{{s1}}</h6>
                 <div class="form-group">
-                    <label for="author" class="col-sm-2 control-label">作者:</label>
+                    <label for="authors_id_list" class="col-sm-2 control-label">作者:</label>
                     <div class="col-sm-10">
-                        <select name="author" id="author" multiple>
-                            {% for author_obj in authorlist %}
-                                <option value="{{author_obj.id}}">{{author_obj.name}}</option>
+                        <select name="authors_id_list" id="authors_id_list" multiple>
+                            {% for author_obj in author_list %}
+                            {% if author_obj in edit_book_obj.authorlist.all %}
+                                <option selected value="{{author_obj.id}}">{{author_obj.name}}</option>
+                            {% else %}}
+                                <option value="{{ author_obj.id}}">{{author_obj.name}}</option>
+                            {% endif %}
                             {% endfor %}
                         </select>
                     </div>
@@ -47,21 +51,25 @@
                 <div class="form-group">
                     <label for="price" class="col-sm-2 control-label">价格:</label>
                     <div class="col-sm-10">
-                        <input type="text" name="price" value="{{ book_obj.price }}">
+                        <input type="text" name="price" value="{{ edit_book_obj.price }}" id="price">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="date" class="col-sm-2 control-label">出版日期:</label>
                     <div class="col-sm-10">
-                        <input type="date" name="date" value="{{ book_obj.publishData|date:'Y-m-d' }}">
+                        <input type="date" name="date" value="{{ edit_book_obj.publishData|date:'Y-m-d' }}" id="date">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="publish" class="col-sm-2 control-label">出版社:</label>
+                    <label for="publish_id" class="col-sm-2 control-label">出版社:</label>
                     <div class="col-sm-10">
-                        <select name="publish" id="publish">
-                            {% for pub_obj in publist %}
-                            <option value="{{pub_obj.id}}">{{pub_obj.name}}</option>
+                        <select name="publish_id" id="publish_id">
+                            {% for pub_obj in publish_list %}
+                                {% if edit_book_obj.publish == publish %}
+                                    <option selected value="{{pub_obj.id}}">{{pub_obj.name}}</option>
+                                {% else %}
+                                    <option value="{{pub_obj.id}}">{{pub_obj.name}}</option>
+                                {% endif %}
                             {% endfor %}
                         </select>
 

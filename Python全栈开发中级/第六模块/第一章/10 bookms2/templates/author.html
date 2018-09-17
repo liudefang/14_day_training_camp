@@ -22,7 +22,7 @@
                         {% for author in author_list %}
                             <tr>
                                 <td>{{author.id}}</td>
-                                <td>{{ author.name }}</td>
+                                <td><a href="/books/{{ author.id }}/authors">{{ author.name }}</a> </td>
                                 <td>{{ author.age}}</td>
                                 <td>
                                     <a href="/authors/{{ author.pk }}/change"><button class="btn btn-info">编辑</button></a>

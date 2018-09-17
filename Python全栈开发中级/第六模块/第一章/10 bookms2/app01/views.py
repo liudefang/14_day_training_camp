@@ -68,6 +68,8 @@ def login(request):
 @login_required
 # 新增书籍
 def addbook(request):
+    publish_list = models.Publish.objects.all()  # 查询出所有的出版社对象
+    author_list = models.Author.objects.all()
     if request.method == "POST":
         title = request.POST.get("title")
         date = request.POST.get("date")
@@ -80,20 +82,35 @@ def addbook(request):
             book_obj.authorlist.add(*authors_id_list)
             return redirect("/books")
         elif len(title) == 0:
-            return render(request, "addbook.html", {"s": "书籍名称不能为空!"})
+            return render(request, "addbook.html", {"s": "书籍名称不能为空!", "publish_list": publish_list,
+                                                    "author_list": author_list})
         else:
-            return render(request, "addbook.html", {"s1": "书籍名称已经存在!"})
+            return render(request, "addbook.html", {"s1": "书籍名称已经存在!", "publish_list": publish_list,
+                                                    "author_list": author_list})
 
-    publish_list = models.Publish.objects.all()  # 查询出所有的出版社对象
-
-    author_list = models.Author.objects.all()
     return render(request, "addbook.html", {"publish_list": publish_list, "author_list": author_list})
 
 
 # 查看图书列表
 @login_required
-def books(request):
-    book_list = models.Book.objects.all()
+def books(request, field_id=0, field_type='src'):
+    '''
+    图书列表有3种情况：
+    点击查看图书列表（books）显示的的图书
+    点击出版社（publishs)显示的图书
+    点击作者（authors)显示的图书
+    :param request:
+    :param field_id
+    :param field_type: /publishs /anthors
+    :return:
+    '''
+    if field_type == 'publishs':
+        book_list = models.Book.objects.filter(publish_id=field_id).all()
+    elif field_type == 'authors':
+        book_list = models.Book.objects.filter(authorlist__id=field_id).all()
+    else:
+        book_list = models.Book.objects.all()
+
     username = request.session.get('user')
 
     return render(request, "books.html", {"user": username, "book_list": book_list})
@@ -102,24 +119,25 @@ def books(request):
 # 编辑图书
 @login_required
 def changebook(request, id):
-    book_obj = models.Book.objects.filter(id=id).first()
+    edit_book_obj = models.Book.objects.filter(id=id).first()
 
     if request.method == "POST":
         title = request.POST.get("title")
         date = request.POST.get("date")
-        author = request.POST.get("author")
         price = request.POST.get("price")
-        publish = request.POST.get("publish")
-        if title != str(models.Book.objects.filter(title=title).first()) and len(title) != 0:
-            models.Book.objects.filter(id=id).update(title=title, publishData=date, author=author, price=price,
-                                                     publish=publish)
-
+        authors_id_list = request.POST.getlist("authors_id_list")
+        publish_id = request.POST.get("publish_id")
+        if len(title) != 0:
+            models.Book.objects.filter(id=id).update(title=title, publishData=date, price=price, publish_id=publish_id)
+            edit_book_obj.authorlist.set(authors_id_list)
             return redirect("/books")
-        elif len(title) == 0:
-            return render(request, "addbook.html", {"s": "书籍名称不能为空!"})
         else:
-            return render(request, "addbook.html", {"s1": "书籍名称已经存在!"})
-    return render(request, "changebook.html", {"book_obj": book_obj})
+            return render(request, "changebook.html", {"s": "书籍名称不能为空!"})
+
+    publish_list = models.Publish.objects.all()
+    author_list = models.Author.objects.all()
+    return render(request, "changebook.html", {"edit_book_obj": edit_book_obj, "publish_list": publish_list,
+                                               "author_list": author_list})
 
 
 # 删除图书
@@ -227,7 +245,8 @@ def delpublish(request, id):
 
 
 def query(request):
-    user_obj = User.objects.filter(username="defang1").first()
-    print(user_obj)
+    # book_list = models.Book.objects.filter(authorlist=5).all()
+    book_list = models.Book.objects.filter(publish_id=5).all()
+    print(book_list)
 
     return HttpResponse("OK")

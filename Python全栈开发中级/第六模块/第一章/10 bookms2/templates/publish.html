@@ -23,7 +23,7 @@
                         {% for publish in pub_list %}
                             <tr>
                                 <td>{{publish.id}}</td>
-                                <td>{{ publish.name }}</td>
+                                <td><a href="/books/{{ publish.id }}/publishs">{{ publish.name }}</a></td>
                                 <td>{{ publish.addr }}</td>
                                 <td>{{ publish.email }}</td>
                                 <td>

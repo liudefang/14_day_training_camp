@@ -39,4 +39,6 @@ urlpatterns = [
     url(r'^publishs/$', views.publishs),
     re_path(r'publishs/(\d+)/change', views.editpublish),
     re_path(r'publishs/(\d+)/delete', views.delpublish),
+    re_path(r'books/(?P<field_id>\d+)/(?P<field_type>publishs)', views.books),
+    re_path(r'books/(?P<field_id>\d+)/(?P<field_type>authors)', views.books),
 ]
