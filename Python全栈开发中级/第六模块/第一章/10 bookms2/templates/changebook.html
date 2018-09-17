@@ -11,6 +11,9 @@
         height: 500px;
         margin-left: 300px;
     }
+    h6 {
+        margin-left:200px;
+    }
 {% endblock style%}
 {% block add %}
     <div class="panel panel-primary">
@@ -29,6 +32,8 @@
                         <input type="text" name="title" value="{{ book_obj.title }}">
                     </div>
                 </div>
+                <h6 style="color: red">{{s}}</h6>
+                <h6 style="color: red">{{s1}}</h6>
                 <div class="form-group">
                     <label for="author" class="col-sm-2 control-label">作者:</label>
                     <div class="col-sm-10">

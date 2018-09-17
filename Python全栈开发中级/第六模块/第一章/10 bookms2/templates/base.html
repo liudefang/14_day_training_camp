@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>添加图书</title>
+    <title>图书管理系统</title>
     <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.min.css">
     <script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
     <link href="/static/css/dashboard.css" rel="stylesheet">
@@ -73,17 +73,17 @@
                 <div class="menu">
                     <div class="head bg-primary">作者管理</div>
                     <ul class="nav nav-sidebar">
-                        <li><a href="/add">添加作者</a> </li>
-                        <li><a href="/changebook/">查看作者</a> </li>
-                        <li><a href="/books/">编辑作者</a> </li>
+                        <li><a href="/addauthor/">添加作者</a> </li>
+                        <li><a href="/authors/">查看作者</a> </li>
+                        <!--<li><a href="/books/">编辑作者</a> </li>-->
                     </ul>
                 </div>
                 <div class="menu">
                     <div class="head bg-primary">出版社管理</div>
                     <ul class="nav nav-sidebar">
-                        <li><a href="/add">添加出版社</a> </li>
-                        <li><a href="/changebook/">查看出版社</a> </li>
-                        <li><a href="/books/">编辑出版社</a> </li>
+                        <li><a href="/addpublish">添加出版社</a> </li>
+                        <li><a href="/publishs/">查看出版社</a> </li>
+                        <!--<li><a href="/books/">编辑出版社</a> </li>-->
                     </ul>
                 </div>
             </div>
@@ -96,8 +96,8 @@
     </div>
 </div>
 
-<script src="/static/jquery-3.2.1.min.js"></script>
-<script src="/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="/static/jquery-3.3.1.js"></script>
+<script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script>
     // 左侧菜单
     $(".head").on("click",function(){

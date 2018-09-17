@@ -13,9 +13,30 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls import url
 from django.contrib import admin
-from django.urls import path
-
+from django.urls import path, re_path
+from app01 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('addbook/', views.addbook),
+    path('books/', views.books),
+    re_path(r'books/(\d+)/change', views.changebook),
+    re_path(r'books/(\d+)/delete/', views.delbook),
+    path('query/', views.query),
+    url(r'^reg/$', views.reg),
+    url(r'^login/$', views.login),
+    url(r'^index/$', views.index),
+    url(r'^$', views.index),
+    url(r'^logout/$', views.index),
+    url(r'^accounts/login/$', views.index),
+    url(r'^addauthor/$', views.addauthor),
+    url(r'^reg_succes/$', views.reg_succes),
+    url(r'^authors/$', views.authors),
+    re_path(r'authors/(\d+)/change', views.editauthor),
+    re_path(r'authors/(\d+)/delete', views.delauthor),
+    url(r'addpublish/$', views.addpublish),
+    url(r'^publishs/$', views.publishs),
+    re_path(r'publishs/(\d+)/change', views.editpublish),
+    re_path(r'publishs/(\d+)/delete', views.delpublish),
 ]

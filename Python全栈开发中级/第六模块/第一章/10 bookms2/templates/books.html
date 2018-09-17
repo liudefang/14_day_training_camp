@@ -4,7 +4,7 @@
 
     <div class="container">
         <div class="row" style="padding-top: 80px;">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-8 col-md-offset-3">
                 <a href="/addbook/">
                     <button class="btn btn-primary add">添加图书</button>
                     </a>
@@ -26,10 +26,19 @@
                             <tr>
                                 <td>{{book.id}}</td>
                                 <td>{{ book.title }}</td>
-                                <td>{{ book.author}}</td>
+                                <td>
+                                    {% for author in book.authorlist.all %}
+                                        {% if forloop.last %}
+                                        <span>{{ author.name }}</span>
+                                        {% else %}
+                                        <span>{{ author.name }}</span>
+                                        {% endif %}
+                                    {% endfor %}
+                                </td>
                                 <td>{{ book.price }}</td>
                                 <td>{{ book.publish }}</td>
                                 <td>{{ book.publishData|date:'Y-m-d' }}</td>
+
                                 <td>
                                     <a href="/books/{{ book.pk }}/delete"><button class="btn btn-danger">删除</button></a>
                                     <a href="/books/{{ book.pk }}/change"><button class="btn btn-info">编辑</button></a>

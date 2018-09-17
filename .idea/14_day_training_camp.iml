@@ -10,6 +10,8 @@
     <orderEntry type="module" module-name="first_pro" />
     <orderEntry type="module" module-name="views_demo" />
     <orderEntry type="module" module-name="templates_demo" />
+    <orderEntry type="module" module-name="BOOKMS" />
+    <orderEntry type="module" module-name="MYBOOKMS" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />

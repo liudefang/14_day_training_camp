@@ -9,20 +9,27 @@
         .c1 {
             margin-top: 100px;
         }
-        .c2,h6 {
+        .c2 {
             width: 100px;
             margin-left: 80px;
+        }
+        h6 {
+            width: 100px;
+            margin-left: 200px;
         }
         .c3 {
             width: 100px;
             margin-left: 90px;
+        }
+        .btn {
+            width: 100px;
         }
     </style>
 </head>
 <body>
 <div class="container">
     <div class="row">
-        <div class="c1 col-md-5 col-md-offset-3">
+        <div class="c1 col-md-6 col-md-offset-3">
             <form class="form-horizontal" action="/reg/" method="post" novalidate>
                 {% csrf_token %}
                 <h3 style="text-align: center">请填写下面的注册信息</h3>
@@ -31,14 +38,17 @@
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="username" placeholder="输入用户名" name="username">
                     </div>
-                    <h6 style="color: red;">{{mess}}</h6>
+
                 </div>
+                    <h6 style="color: red;">{{mess}}</h6>
+                    <h6 style="color: red;">{{s2}}</h6>
                 <div class="form-group">
                     <label for="password" class="col-sm-2 control-label">密 码</label>
                     <div class="col-sm-10">
                         <input type="password" class="form-control" id="password" placeholder="输入密码" name="password">
                     </div>
                 </div>
+                <h6 style="color: red">{{s3}}</h6>
                 <div class="form-group">
                     <label for="password" class="col-sm-2 control-label">确认密码</label>
                     <div class="col-sm-10">
@@ -46,8 +56,13 @@
                     </div>
                 </div>
                 <h6 style="color: red">{{s1}}</h6>
-                <input type="submit" class="c2" value="提交">
-                <a href="/login/"><input type="button" class="c3" value="返回"></a>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <input type="submit" class="btn c2" value="提交">
+                        <a href="/login/"><input type="button" class="btn c3" value="返回"></a>
+                    </div>
+                </div>
+
 
             </form>
         </div>
