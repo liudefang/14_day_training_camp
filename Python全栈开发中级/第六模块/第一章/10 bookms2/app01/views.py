@@ -1,6 +1,7 @@
 from django.contrib import auth
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 
@@ -113,7 +114,19 @@ def books(request, field_id=0, field_type='src'):
 
     username = request.session.get('user')
 
-    return render(request, "books.html", {"user": username, "book_list": book_list})
+    paginator = Paginator(book_list, 10)
+    page = request.GET.get('page', 1)
+    currentPage = int(page)
+
+    try:
+        book_list = paginator.page(page)
+    except PageNotAnInteger:
+        book_list = paginator.page(1)
+    except EmptyPage:
+        book_list = paginator.page(paginator.num_pages)
+
+    return render(request, "books.html", {"user": username, "book_list": book_list, "paginator": paginator,
+                                          "currentPage": currentPage})
 
 
 # 编辑图书

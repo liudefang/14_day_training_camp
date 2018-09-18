@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>图书管理系统</title>
-    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.min.css">
-    <script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-    <link href="/static/css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/bootstrap-3.3.7/css/bootstrap.min.css">
+    <script src="../static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <link href="../static/css/dashboard.css" rel="stylesheet">
     <style>
         {% block style %}
             .menu {
@@ -48,7 +48,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="">欢迎 {{request.user}} 登录</a> </li>
                 <li><a href="/logout/">注销</a> </li>
-                <li><a href="/set_pwd">修改密码</a> </li>
+                <li><a href="#">修改密码</a> </li>
                 <!--<li><a href="">个人中心</a> </li>-->
             </ul>
             <form class="mavbar-form navbar-right">
@@ -96,8 +96,8 @@
     </div>
 </div>
 
-<script src="/static/jquery-3.3.1.js"></script>
-<script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script src="../static/jquery-3.3.1.js"></script>
+<script src="../static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script>
     // 左侧菜单
     $(".head").on("click",function(){

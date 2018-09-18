@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // =======js中的json序列化=========
+    s = '{"name": 1}';
+    var data = JSON.parse(s);
+    console.log(data)
+    console.log(typeof data); //object
+
+    //========js中的json的反序列化=====
+    s2 = {'name': 'mike'}
+    console.log(JSON.stringify(s2), typeof JSON.stringify(s2)) // string
+</script>
+
+</body>
+</html>
