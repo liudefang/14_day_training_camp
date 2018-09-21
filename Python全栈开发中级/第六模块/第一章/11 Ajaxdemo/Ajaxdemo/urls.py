@@ -24,4 +24,13 @@ urlpatterns = [
     url(r'^reg/$', views.reg),
     url(r'^login/$', views.login),
     url(r'^index/$', views.index),
+    path('test_ajax/', views.test_ajax),
+    path('cal/', views.cal),
+    path('ajax_get/', views.ajax_get),
+    path('serialize/', views.serialize),
+    path('formupload/', views.formupload),
+    path('ajaxupload/', views.ajaxupload),
+    path('get_upload/', views.get_upload),
+    url(r'^get_vaildCode_img/$', views.get_vaildCode_img),
+    url(r'^log_out/$', views.log_out)
 ]

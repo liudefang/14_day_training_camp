@@ -200,16 +200,16 @@ def query(request):
     #     print(book_obj.title, book_obj.authorNum)
 
     # (4)    统计不止一个作者的图书：
-    author_obj = models.Book.objects.annotate(num_authors=Count('authors')).filter(num_authors__gt=1)
-    print(author_obj)
-
-    # (5) 根据一本图书作者数量的多少对查询集 QuerySet进行排序:
-    author_boj = models.Book.objects.annotate(num_authors=Count('authors')).order_by('num_authors')
-    print(author_boj)
-
-    # (6)  查询各个作者出的书的总价格:
-    ret = models.Author.objects.annotate(SumPrice=Sum("book__price")).values_list("name", "SumPrice")
-    print(ret)
+    # author_obj = models.Book.objects.annotate(num_authors=Count('authors')).filter(num_authors__gt=1)
+    # print(author_obj)
+    #
+    # # (5) 根据一本图书作者数量的多少对查询集 QuerySet进行排序:
+    # author_boj = models.Book.objects.annotate(num_authors=Count('authors')).order_by('num_authors')
+    # print(author_boj)
+    #
+    # # (6)  查询各个作者出的书的总价格:
+    # ret = models.Author.objects.annotate(SumPrice=Sum("book__price")).values_list("name", "SumPrice")
+    # print(ret)
 
 
 
