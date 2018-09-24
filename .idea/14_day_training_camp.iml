@@ -12,9 +12,10 @@
     <orderEntry type="module" module-name="templates_demo" />
     <orderEntry type="module" module-name="BOOKMS" />
     <orderEntry type="module" module-name="MYBOOKMS" />
+    <orderEntry type="module" module-name="myblog" />
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="pytest" />
+    <option name="projectConfiguration" value="py.test" />
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>
