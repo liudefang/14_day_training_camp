@@ -86,5 +86,14 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="ORM2" uuid="608d8704-bc60-4e5b-a555-984dfb7731a6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../../09 ORM2/db.sqlite3</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

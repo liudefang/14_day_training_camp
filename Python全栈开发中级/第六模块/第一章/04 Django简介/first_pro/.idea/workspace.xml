@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148968fd-db5b-4b18-946e-23ec73f6faa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/KumoFont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/static/font/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/static/image/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/templates/ajaxupload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/templates/formupload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/templates/serialize.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09 ORM2/app01/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../09 ORM2/app01/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../09 ORM2/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../09 ORM2/app01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../11 Ajaxdemo/Ajaxdemo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/Ajaxdemo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../11 Ajaxdemo/Ajaxdemo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/Ajaxdemo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../11 Ajaxdemo/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/app01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../11 Ajaxdemo/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../11 Ajaxdemo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../11 Ajaxdemo/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11 Ajaxdemo/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09 ORM2/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../09 ORM2/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../第二章/myblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../第二章/myblog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../第二章/myblog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../第二章/myblog/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../作业/MYBOOKMS" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../作业/MYBOOKMS" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/first_pro$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1537845012943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../09 ORM2/app01" />
     <SUITE FILE_PATH="coverage/first_pro$tests.coverage" NAME="tests Coverage Results" MODIFIED="1537256021430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../11 Ajaxdemo/app01" />
     <SUITE FILE_PATH="coverage/first_pro$views.coverage" NAME="views Coverage Results" MODIFIED="1537255613098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../11 Ajaxdemo/app01" />
     <SUITE FILE_PATH="coverage/first_pro$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1536281258008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -46,44 +38,27 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [3]" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [3]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [3]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [3]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="auth_user: table" type="ffe0bd85:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ORM2" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ORM2" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ORM2" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ORM2" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -112,42 +87,43 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="01 表的增删改查" value="1" />
           <entry key="app01_author" value="6" />
           <entry key="app01_authordetail" value="3" />
           <entry key="app01_book" value="6" />
           <entry key="app01_book_authors" value="4" />
-          <entry key="app01_publish" value="4" />
+          <entry key="app01_publish" value="5" />
           <entry key="app01_userinfo" value="1" />
           <entry key="auth_user" value="5" />
           <entry key="css" value="1" />
-          <entry key="html" value="64" />
+          <entry key="html" value="65" />
           <entry key="js" value="2" />
           <entry key="md" value="2" />
           <entry key="name" value="1" />
-          <entry key="py" value="103" />
-          <entry key="sql" value="8" />
+          <entry key="py" value="112" />
+          <entry key="sql" value="9" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Database Element" value="29" />
-          <entry key="HTML" value="64" />
+          <entry key="Database Element" value="30" />
+          <entry key="HTML" value="65" />
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="103" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="112" />
           <entry key="SQL" value="1" />
-          <entry key="Scratch" value="7" />
+          <entry key="Scratch" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="6" />
           <entry key="css" value="115" />
-          <entry key="html" value="14407" />
-          <entry key="py" value="19824" />
+          <entry key="html" value="15596" />
+          <entry key="py" value="20053" />
           <entry key="sql" value="42" />
           <entry key="txt" value="5" />
         </counts>
@@ -155,9 +131,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="115" />
-          <entry key="HTML" value="14407" />
+          <entry key="HTML" value="15596" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="19824" />
+          <entry key="Python" value="20053" />
           <entry key="Scratch" value="48" />
         </counts>
       </usages-collector>
@@ -165,78 +141,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../11 Ajaxdemo/app01/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="92" lean-forward="true" selection-start-line="28" selection-end-line="92" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1537517454141" expanded="true" signature="639:644" ph="..." />
-                <marker date="1537517454141" expanded="true" signature="639:3032" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../11 Ajaxdemo/static/css/login.css">
+        <entry file="file://$PROJECT_DIR$/../../../第二章/myblog/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="1" lean-forward="true" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../11 Ajaxdemo/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="157" column="9" lean-forward="true" selection-end-line="159" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../11 Ajaxdemo/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="150" selection-start-line="150" selection-end-line="160" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../09 ORM2/app01/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4334">
-              <caret line="202" column="1" selection-start-line="202" selection-start-column="1" selection-end-line="211" selection-end-column="16" />
+            <state relative-caret-position="318">
+              <caret line="134" column="11" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
               <folding>
-                <element signature="e#0#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../11 Ajaxdemo/Ajaxdemo/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="21" selection-start-line="21" selection-end-line="35" selection-end-column="1" />
-              <folding>
-                <element signature="e#635#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../10 bookms2/app01/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1936">
-              <caret line="96" column="49" selection-start-line="96" selection-end-line="96" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#4486#4492#0" expanded="true" />
+                <element signature="e#4492#4498#0" expanded="true" />
+                <element signature="e#4498#4504#0" expanded="true" />
+                <element signature="e#4539#4545#0" expanded="true" />
+                <element signature="e#4545#4551#0" expanded="true" />
+                <element signature="e#4600#4606#0" expanded="true" />
+                <element signature="e#4606#4612#0" expanded="true" />
+                <element signature="e#4717#4723#0" expanded="true" />
+                <element signature="e#4723#4729#0" expanded="true" />
+                <element signature="e#4831#4837#0" expanded="true" />
+                <element signature="e#4837#4843#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -271,8 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../07 ORM/templates/db_index.html" />
-        <option value="$PROJECT_DIR$/../../07 ORM/ORM/urls.py" />
         <option value="$PROJECT_DIR$/../../07 ORM/ORM/settings.py" />
         <option value="$PROJECT_DIR$/../../07 ORM/app01/views.py" />
         <option value="$PROJECT_DIR$/../../08 bookms/manage.py" />
@@ -315,13 +234,15 @@
         <option value="$PROJECT_DIR$/../../11 Ajaxdemo/templates/serialize.html" />
         <option value="$PROJECT_DIR$/../../11 Ajaxdemo/templates/formupload.html" />
         <option value="$PROJECT_DIR$/../../11 Ajaxdemo/templates/ajaxupload.html" />
-        <option value="$PROJECT_DIR$/../../09 ORM2/app01/views.py" />
         <option value="$PROJECT_DIR$/../../11 Ajaxdemo/templates/test222.html" />
         <option value="$PROJECT_DIR$/../../11 Ajaxdemo/templates/index.html" />
         <option value="$PROJECT_DIR$/../../11 Ajaxdemo/Ajaxdemo/urls.py" />
         <option value="$PROJECT_DIR$/../../11 Ajaxdemo/static/css/login.css" />
         <option value="$PROJECT_DIR$/../../11 Ajaxdemo/templates/login.html" />
         <option value="$PROJECT_DIR$/../../11 Ajaxdemo/app01/views.py" />
+        <option value="$PROJECT_DIR$/../../09 ORM2/app01/views.py" />
+        <option value="$PROJECT_DIR$/../../09 ORM2/app01/tests.py" />
+        <option value="$PROJECT_DIR$/../../../第二章/myblog/templates/index.html" />
       </list>
     </option>
   </component>
@@ -376,53 +297,23 @@
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
               <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
               <item name="第六模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第一章" type="462c0819:PsiDirectoryNode" />
-              <item name="11 Ajaxdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="first_pro" type="b2602c69:ProjectViewProjectNode" />
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
               <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
               <item name="第六模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第一章" type="462c0819:PsiDirectoryNode" />
-              <item name="11 Ajaxdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Ajaxdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="first_pro" type="b2602c69:ProjectViewProjectNode" />
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
               <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
               <item name="第六模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第一章" type="462c0819:PsiDirectoryNode" />
-              <item name="11 Ajaxdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="app01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第六模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第一章" type="462c0819:PsiDirectoryNode" />
-              <item name="11 Ajaxdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第六模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第一章" type="462c0819:PsiDirectoryNode" />
-              <item name="11 Ajaxdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第六模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第一章" type="462c0819:PsiDirectoryNode" />
-              <item name="11 Ajaxdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -435,7 +326,7 @@
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../08 bookms/db.sqlite3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -469,8 +360,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test.html">
+  <component name="RunManager" selected="Python.tests (1)">
     <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/first_pro/Python全栈开发中级/第六模块/第一章/11 Ajaxdemo/templates/test.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../09 ORM2/app01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../09 ORM2/app01/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -544,9 +457,11 @@
       <item itemvalue="Python.views" />
       <item itemvalue="Python.tests" />
       <item itemvalue="JavaScript Debug.test.html" />
+      <item itemvalue="Python.tests (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tests (1)" />
         <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.views" />
@@ -581,7 +496,7 @@
     <frame x="1080" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3090129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3090129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -595,9 +510,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297414" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3297414" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3297414" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3297414" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3297414" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3297414" />
-      <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3297414" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -612,79 +527,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/app01/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="12" lean-forward="true" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/bookms/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="1" lean-forward="true" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/templates/addauthor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="13" lean-forward="true" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/templates/addbook.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="9" lean-forward="true" selection-end-line="75" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/templates/addpublish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="12" selection-end-line="53" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/templates/author.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="11" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b56eeb48-f7e5-491a-8a06-af2ee054e970/schema/main/table/app01_book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="11" selection-end-line="111" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/templates/books.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="21" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/templates/editauthor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="5" selection-end-line="52" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/static/css/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../作业/第十三次作业/bookms/bookms/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
@@ -884,16 +726,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../11 Ajaxdemo/templates/test222.html" />
-    <entry file="file://$PROJECT_DIR$/../../09 ORM2/app01/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4334">
-          <caret line="202" column="1" selection-start-line="202" selection-start-column="1" selection-end-line="211" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../10 bookms2/app01/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
@@ -917,7 +749,7 @@
     <entry file="file://$PROJECT_DIR$/../../11 Ajaxdemo/app01/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="92" lean-forward="true" selection-start-line="28" selection-end-line="92" />
+          <caret line="92" selection-start-line="28" selection-end-line="92" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <marker date="1537517454141" expanded="true" signature="639:644" ph="..." />
@@ -929,7 +761,7 @@
     <entry file="file://$PROJECT_DIR$/../../11 Ajaxdemo/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
-          <caret line="157" column="9" lean-forward="true" selection-end-line="159" selection-end-column="7" />
+          <caret line="157" column="9" selection-end-line="159" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -943,7 +775,87 @@
     <entry file="file://$PROJECT_DIR$/../../11 Ajaxdemo/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="1" lean-forward="true" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/608d8704-bc60-4e5b-a555-984dfb7731a6/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../09 ORM2/app01/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../第四模块/第八章-数据库开发/05 pymysql 模块/pymysel模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../第四模块/第八章-数据库开发/03 表操作/01 表的增删改查">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../第四模块/第八章-数据库开发/执行存储过程.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://608d8704-bc60-4e5b-a555-984dfb7731a6/schema/main/table/app01_publish">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../09 ORM2/app01/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../09 ORM2/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../09 ORM2/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../09 ORM2/app01/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../第二章/myblog/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="134" column="11" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
+          <folding>
+            <element signature="e#4486#4492#0" expanded="true" />
+            <element signature="e#4492#4498#0" expanded="true" />
+            <element signature="e#4498#4504#0" expanded="true" />
+            <element signature="e#4539#4545#0" expanded="true" />
+            <element signature="e#4545#4551#0" expanded="true" />
+            <element signature="e#4600#4606#0" expanded="true" />
+            <element signature="e#4606#4612#0" expanded="true" />
+            <element signature="e#4717#4723#0" expanded="true" />
+            <element signature="e#4723#4729#0" expanded="true" />
+            <element signature="e#4831#4837#0" expanded="true" />
+            <element signature="e#4837#4843#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

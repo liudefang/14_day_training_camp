@@ -9,8 +9,8 @@ from app01 import models
 
 def query(request):
 
-    # publish_obj = models.Publish.objects.create(name="邮电出版社", city="北京", email="555@qq.com")
-    # print(publish_obj)
+    publish_obj = models.Publish.objects.create(name="邮电出版社", city="北京", email="555@qq.com")
+    print(publish_obj)
     # 一对多插入
     # 方式一：
     # publish_obj = models.Publish.objects.get(id=1)
