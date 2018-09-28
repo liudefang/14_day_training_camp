@@ -80,7 +80,7 @@ def register(request):
             print("user", user)
             pwd = form.cleaned_data.get("pwd")
             email = form.cleaned_data.get("email")
-            avatar_obj = request.FILES.get("avater")
+            avatar_obj = request.FILES.get("avatar")
 
             extra = {}
             if avatar_obj:
@@ -99,3 +99,90 @@ def register(request):
 
 
     return render(request, "register.html")
+
+
+def home_site(request, username, **kwargs):
+    """
+    个人站点视图函数
+    :param request:
+    :param username:
+    :param kwargs:
+    :return:
+    """
+
+
+    print("kwargs", kwargs)
+    print("username", username)
+    user = UserInfo.objects.filter(username=username).first()
+    # 判断用户是否存在
+    if not user:
+        return render(request, "not_found.html")
+
+    # 查询当前站点对象
+    blog = user.blog
+
+    # 当前用户或者当前站点对应所有文章
+    # 基于对象查询
+    # article_list = user.article_set.all()
+
+    article_list = models.Article.objects.filter(user=user)
+
+    if kwargs:
+        condition = kwargs.get("condition")
+        param = kwargs.get("param")
+
+        if condition == "category":
+            article_list = article_list.filter(category__title=param)
+        elif condition == "tag":
+            article_list = article_list.filter(tags__title=param)
+        else:
+            year, month = param.split("/")
+            article_list = article_list.filter(create_time__year=year, create_time__month=month)
+    # 每一个后的表模型.objects.values("pk").annotate(聚合函数(关联表_统计字段)).values(“表模型的所有字段以及统计字段")
+    # 查询每一个分类名称已经对应的文章数
+    # 每一个后的表模型.objects.values("pk").annotate(聚合函数(关联表__统计字段)).values("表模型的所有字段以及统计字段")
+
+    # 查询每一个分类名称以及对应的文章数
+
+    # ret=models.Category.objects.values("pk").annotate(c=Count("article__title")).values("title","c")
+    # print(ret)
+
+    # 查询当前站点的每一个分类名称以及对应的文章数
+
+    # cate_list=models.Category.objects.filter(blog=blog).values("pk").annotate(c=Count("article__title")).values_list("title","c")
+    # print(cate_list)
+
+    # 查询当前站点的每一个标签名称以及对应的文章数
+
+    # tag_list=models.Tag.objects.filter(blog=blog).values("pk").annotate(c=Count("article")).values_list("title","c")
+    # print(tag_list)
+
+    # 查询当前站点每一个年月的名称以及对应的文章数
+
+    # ret=models.Article.objects.extra(select={"is_recent":"create_time > '2018-09-05'"}).values("title","is_recent")
+    # print(ret)
+
+    # 方式1:
+    # date_list=models.Article.objects.filter(user=user).extra(select={"y_m_date":"date_format(create_time,'%%Y/%%m')"}).values("y_m_date").annotate(c=Count("nid")).values_list("y_m_date","c")
+    # print(date_list)
+
+    # 方式2:
+
+    # from django.db.models.functions import TruncMonth
+    #
+    # ret=models.Article.objects.filter(user=user).annotate(month=TruncMonth("create_time")).values("month").annotate(c=Count("nid")).values_list("month","c")
+    # print("ret----->",ret)
+
+    return render(request, "home_site.html", {"username": username, "blog": blog, "article_list": article_list})
+
+
+def upload(request):
+    if request.method == "POST":
+        print(request.POST)
+        print(request.FILES)
+        obj = request.FILES.get('avatar')
+        with open(obj.name, 'wb') as f:
+            for line in obj:
+                f.write(line)
+        return HttpResponse('ok')
+    return render(request, 'upload.html')

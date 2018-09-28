@@ -31,7 +31,7 @@ class UserForm(forms.Form):
                              label="邮箱",
                              widget=widgets.EmailInput(attrs={"class": "form-control"},)
                              )
-
+    # 局部钩子
     def clean_user(self):
         val = self.cleaned_data.get("user")
 
@@ -40,6 +40,11 @@ class UserForm(forms.Form):
             return val
         else:
             raise ValidationError("该用户已注册!")
+
+    # 校验局部钩子的时候，没有办法拿到所有的数据
+    # 任何校验两个字段？全局钩子
+
+    # 全局钩子得到任何一个干净的数据
 
     def clean(self):
         pwd = self.cleaned_data.get("pwd")

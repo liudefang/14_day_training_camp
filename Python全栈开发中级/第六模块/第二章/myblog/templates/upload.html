@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>基于form表单提交数据</h3>
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p>用户名 <input type="text" name="user"></p>
+    <p>头像 <input type="file" name="avatar"></p>
+    <input type="submit">
+</form>
+
+<hr>
+<h3>基于Ajax提交文件数据</h3>
+<form>
+    {% csrf_token %}
+    <p>用户名 <input type="text" id="user"></p>
+    <p>头像 <input type="file" id="avatar"></p>
+    <input type="button" value="提交" id="btn">
+</form>
+
+<script src="../static/jquery-3.3.1.js">
+
+</script>
+<script type="text/javascript">
+    $('#btn').click(function () {
+        formdate = new FormData();  // 加var局部，不加var就是全局
+        formdate.append("user", $('#user').val());
+        formdate.append("avatar", $('#avatar')[0].files[0]);
+        formdate.append("csrfmiddlewaretoken", $('input[name="csrfmiddlewaretoken"]').val());
+
+        $.ajax({
+            url:'',
+            type:'post',
+            data:formdate,
+            contentType:false,
+            processData:false,
+            success:function (data) {
+                console.log(data)
+
+            }
+        })
+
+    })
+</script>
+</body>
+</html>

@@ -7,7 +7,9 @@
     <script src="../static/jquery-3.3.1.js"></script>
 
     <style>
-        #avatar_img {
+        .avatar_img {
+            width:60px;
+            height:60px;
             margin-left: 20px;
         }
         #avatar {
@@ -37,7 +39,7 @@
                 <div class="form-group">
                     <label for="avatar">
                         头像
-                        <img id="avatar_img" width="60" height="60" src="../static/blog/img/default.png" alt="">
+                        <img class="avatar_img"  src="/static/blog/img/default.png" alt="">
                     </label>
                     <input type="file" id="avatar" name="avatar">
                 </div>
@@ -58,7 +60,7 @@
         reader.readAsDataURL(file_obj);
         // 修改img的src属性， src= 文件对象的路径
         reader.onload = function () {
-            $("#avatar_img").attr("src", reader.result)
+            $(".avatar_img").attr("src", reader.result)
 
         };
 
@@ -73,7 +75,7 @@
             formdata.append(data.name, data.value)
 
         });
-        formdata.append("avatar", $("#avatar")[0].files[0]);
+        formdata.append("avatar", $("#avatar")[0].files[0]);    // 文件对象
         $.ajax({
             url:"",
             type: "post",
@@ -96,6 +98,7 @@
                     // 展示本次提交的错误信息
                     $.each(data.msg, function (field, error_list) {
                         console.log(field, error_list);
+                        // 全局的错误信息
                         if (field=="__all__"){
                             $("#id_re_pwd").next().html(error_list[0]).parent().addClass("has-error");
 
