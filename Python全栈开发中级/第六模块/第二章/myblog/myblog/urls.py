@@ -30,4 +30,10 @@ urlpatterns = [
     url(r'^upload/$', views.upload),
     # media配置:
     re_path(r"media/(?P<path>.*)$", serve, {"document_root": settings.MEDIA_ROOT}),
+
+    # 个人站点的跳转
+    re_path('^(?P<username>\w+)/(?P<condition>tag|category|archive)/(?P<param>.*)/$', views.home_site), # home_site(reqeust,username="yuan",condition="tag",param="python")
+
+    # 个人站点url
+    re_path('^(?P<username>\w+)/$', views.home_site),   # home_site(reqeust,username="yuan")
 ]

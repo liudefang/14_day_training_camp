@@ -110,8 +110,7 @@ def home_site(request, username, **kwargs):
     :return:
     """
 
-
-    print("kwargs", kwargs)
+    print("kwargs", kwargs)     # 区分访问是的站点页面还是站点下的跳转页面
     print("username", username)
     user = UserInfo.objects.filter(username=username).first()
     # 判断用户是否存在
