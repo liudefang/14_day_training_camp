@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.css">
+    <script src="/static/blog/js/jquery-3.3.1.js"></script>
+    <script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        #user_icon {
+            font-size: 18px;
+            margin-right: 10px;
+            vertical-align: -3px;
+        }
+
+        .pub_info{
+            margin-top: 10px;
+        }
+
+        .pub_info .glyphicon-comment{
+            vertical-align: -1px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="tab navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">博客园</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">随笔 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">新闻</a></li>
+                <li><a href="#">博文</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                {% if request.user.is_authenticated %}
+                    <li><a href="#"><span id="user_icon"
+                                          class="glyphicon glyphicon-user"></span>{{ request.user.username }}</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">个人设置 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">修改密码</a></li>
+                            <li><a href="#">修改头像</a></li>
+                            <li><a href="/cn_backend/">管理</a></li>
+                            <li><a href="/logout/">注销</a></li>
+                            <li role="separator" class="divider"></li>
+
+                        </ul>
+                    </li>
+
+                {% else %}
+                    <li><a href="/login/">登录</a></li>
+                    <li><a href="/register/">注册</a></li>
+                {% endif %}
+
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="panel panel-primary">
+                <div class="panel-heading">链接</div>
+                <div class="panel-body">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">反馈或建议</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">官方博客</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">博客模板</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Java博客</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">C++博客</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">手机版</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">最新推荐博客</div>
+                <div class="panel-body">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">圣杰』</a>
+                        </li>
+                         <li>
+                            <a href="#" target="_blank">sherrywasp</a>
+                        </li>
+                         <li>
+                            <a href="#" target="_blank">阿豪聊干货</a>
+                        </li>
+                         <li>
+                            <a href="#" target="_blank">James.Ying</a>
+                        </li>
+                         <li>
+                            <a href="#" target="_blank">东邪独孤</a>
+                        </li>
+                        <a href="#" target="_blank">» 更多推荐博客</a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">统计信息</div>
+                <div class="panel-body">
+                    博客 - 446700<br>
+                    随笔 - 5953779<br>
+                    文章 - 623102<br>
+                    评论 - 3126374<br>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="article_list">
+                {% for article in article_list %}
+                <div class="article-item small">
+                    <h5><a href="/{{ article.user.username }}/articles/{{ article.pk }}">{{ article.title }}</a></h5>
+                    <div class="article-desc">
+                        <span class="media-left">
+                            <a href="/{{ article.user.username }}/"><img width="56" height="56" src="media/{{ article.user.avatar }}" alt=""></a>
+                        </span>
+                        <span class="media-right">
+                            {{ article.desc }}
+                        </span>
+                    </div>
+                    <div class="small pub_info">
+                        <span><a href="/{{ article.user.username }}/">{{ article.user.username }}</a></span> &nbsp;&nbsp;&nbsp;
+                        <span>发布于 &nbsp;&nbsp;{{ article.create_time|date:"Y-m-d H:i" }}</span>&nbsp;&nbsp;
+                        <span class="glyphicon glyphicon-comment"></span>评论({{ article.comment_count }})&nbsp;&nbsp;
+                        <span class="glyphicon glyphicon-thumbs-up"></span>点赞({{ article.up_count }})&nbsp;&nbsp;
+                    </div>
+                </div>
+                    <hr>
+                {% endfor %}
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-success">
+                <div class="panel-heading">最新新闻</div>
+                <div class="panel-body">
+                        <a href="#">中国间谍芯片渗透美国公司？四大疑点违背常识</a><br>
+                        <a href="#">铁血女总裁董明珠的交锋史：怼雷军 怼员工 怼股东 怼前辈</a><br>
+                        <a href="#">这15张图能教给你的东西，比读完100本书还多</a><br>
+                        <a href="#">湖南人的社交王国</a><br>
+                        <a href="#">陕西人的互联网标签</a><br>
+                        <a href="#">SwiftKey Android版即将支持Windows 10云剪贴板</a><br>
+                        <a href="#">福布斯专访贝索斯：他的字典里没有“边界”这个词</a><br>
+                        <a href="#">谷歌又为一款自家应用提供了黑暗主题</a><br>
+                        <a href="#">每个过敏的人，都该感谢他和鸡屁股</a><br>
+                </div>
+            </div>
+            <div class="panel panel-success">
+                <div class="panel-heading">48小时阅读排行</div>
+                <div class="panel-body">
+                        <a href="#">TCP协议学习总结（上）</a><br>
+                        <a href="#">.NET微服务调查结果</a><br>
+                        <a href="#">我是如何学习数据结构与算法的？</a><br>
+                        <a href="#">mysql8.0 在window环境下的部署与配置</a><br>
+                        <a href="#">致十年</a><br>
+                        <a href="#">.Net Core中的Api版本控制</a><br>
+                        <a href="#">TCP协议学习总结（中）</a><br>
+                        <a href="#">ASP.NET Core中使用表达式树创建URL</a><br>
+                        <a href="#">Elasticsearch.net项目实战</a><br>
+                        <a href="#">Java中的设计模式（六）：责任链模式</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+

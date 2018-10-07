@@ -1,0 +1,26 @@
+{% extends 'backend/base.html' %}
+
+{% block content %}
+    <div class="article_list small">
+        <table class="table table-hover table-striped">
+            <thead>
+                <th>标题</th>
+                <th>评论数</th>
+                <th>点赞数</th>
+                <th>操作</th>
+                <th>操作</th>
+            </thead>
+            <tbody>
+                {% for article in article_list %}
+                <tr>
+                    <td><a href="/{{ article.user.username }}/articles/{{ article.pk }}">{{ article.title }}</a></td>
+                    <td>{{ article.comment_count }}</td>
+                    <td>{{ article.up_count }}</td>
+                    <td><a href="/article/{{ article.pk }}/edit"><button class="btn btn-info">编辑</button></a> </td>
+                    <td><a href="/article/{{ article.pk }}/delete"><button class="btn btn-danger">删除</button></a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

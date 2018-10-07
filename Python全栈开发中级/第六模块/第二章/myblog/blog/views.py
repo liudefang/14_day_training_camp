@@ -1,4 +1,5 @@
 from django.contrib import auth
+from django.db.models import Count
 from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render
 
@@ -97,21 +98,20 @@ def register(request):
     form = UserForm()
     return render(request, "register.html", {"form": form})
 
-
     return render(request, "register.html")
 
 
 def home_site(request, username, **kwargs):
     """
-    个人站点视图函数
-    :param request:
+    个人站点的首页
     :param username:
-    :param kwargs:
+    :param request:
     :return:
     """
+    # 区分访问是的站点页面还是站点下的跳转页面
+    print("kwargs:", kwargs)
+    print("username:", username)
 
-    print("kwargs", kwargs)     # 区分访问是的站点页面还是站点下的跳转页面
-    print("username", username)
     user = UserInfo.objects.filter(username=username).first()
     # 判断用户是否存在
     if not user:
@@ -119,13 +119,13 @@ def home_site(request, username, **kwargs):
 
     # 查询当前站点对象
     blog = user.blog
+    print("blog:", blog)
 
     # 当前用户或者当前站点对应所有文章
     # 基于对象查询
     # article_list = user.article_set.all()
-
+    # 基于 __
     article_list = models.Article.objects.filter(user=user)
-
     if kwargs:
         condition = kwargs.get("condition")
         param = kwargs.get("param")
@@ -133,46 +133,50 @@ def home_site(request, username, **kwargs):
         if condition == "category":
             article_list = article_list.filter(category__title=param)
         elif condition == "tag":
-            article_list = article_list.filter(tags__title=param)
+            article_list = article_list.filter(user=user).filter(tags__title=param)
         else:
-            year, month = param.split("/")
-            article_list = article_list.filter(create_time__year=year, create_time__month=month)
-    # 每一个后的表模型.objects.values("pk").annotate(聚合函数(关联表_统计字段)).values(“表模型的所有字段以及统计字段")
-    # 查询每一个分类名称已经对应的文章数
-    # 每一个后的表模型.objects.values("pk").annotate(聚合函数(关联表__统计字段)).values("表模型的所有字段以及统计字段")
+            year, month = param.split("-")
+            article_list = article_list.filter(user=user).filter(create_time__year=year, create_time__month=month)
 
-    # 查询每一个分类名称以及对应的文章数
 
-    # ret=models.Category.objects.values("pk").annotate(c=Count("article__title")).values("title","c")
+    # # 每一个后的表模型.objects.values("pk").annotate(聚合函数(关联表__统计字段)).values("表模型的所有字段以及统计字段")
+    # # 查询每一个分类名称以及对应的文章数
+    # ret = models.Category.objects.values("pk").annotate(c=Count("article__title")).values("title", "c")
     # print(ret)
-
-    # 查询当前站点的每一个分类名称以及对应的文章数
-
-    # cate_list=models.Category.objects.filter(blog=blog).values("pk").annotate(c=Count("article__title")).values_list("title","c")
+    #
+    # # 查询当前站点的每一个分类名称以及对应的文章数
+    # cate_list = models.Category.objects.filter(blog=blog).values("pk").annotate(c=Count("article__title")).values_list("title", "c")
     # print(cate_list)
-
-    # 查询当前站点的每一个标签名称以及对应的文章数
-
-    # tag_list=models.Tag.objects.filter(blog=blog).values("pk").annotate(c=Count("article")).values_list("title","c")
+    #
+    # # 查询当前站点的每一个标签名称以及对应的文章数
+    # tag_list = models.Tag.objects.filter(blog=blog).values("pk").annotate(c=Count("article")).values_list("title", "c")
     # print(tag_list)
-
-    # 查询当前站点每一个年月的名称以及对应的文章数
-
-    # ret=models.Article.objects.extra(select={"is_recent":"create_time > '2018-09-05'"}).values("title","is_recent")
-    # print(ret)
-
-    # 方式1:
-    # date_list=models.Article.objects.filter(user=user).extra(select={"y_m_date":"date_format(create_time,'%%Y/%%m')"}).values("y_m_date").annotate(c=Count("nid")).values_list("y_m_date","c")
+    #
+    # # 查询当前站点每一个年月的名称以及对应的文章数
+    # # 方式一
+    # date_list = models.Article.objects.extra(select={"standard_time": "strftime('%%Y-%%m',create_time)"
+    #                                                                    }).values("standard_time").annotate(c=Count("nid")).values_list("standard_time", "c")
     # print(date_list)
 
-    # 方式2:
-
-    # from django.db.models.functions import TruncMonth
-    #
-    # ret=models.Article.objects.filter(user=user).annotate(month=TruncMonth("create_time")).values("month").annotate(c=Count("nid")).values_list("month","c")
-    # print("ret----->",ret)
+    # 方式二
+    # ret = models.Article.objects.filter(user=user).annotate(month=TruncMonth("create_time")).values("month").annotate(c=Count("nid")).values_list("month", "c")
+    # print(ret)
 
     return render(request, "home_site.html", {"username": username, "blog": blog, "article_list": article_list})
+
+def get_classification_data(username):
+    user = UserInfo.objects.filter(username=username).first()
+    blog = user.blog
+
+    cate_list = models.Category.objects.filter(blog=blog).values("pk").annotate(c=Count("article__title")).values_list(
+        "title", "c")
+    tag_list = models.Tag.objects.filter(blog=blog).values("pk").annotate(c=Count("article")).values_list("title", "c")
+
+    date_list = models.Article.objects.filter(user=user).extra(
+        select={"y_m_date": "date_format(create_time,'%%Y/%%m')"}).values("y_m_date").annotate(
+        c=Count("nid")).values_list("y_m_date", "c")
+
+    return {"blog": blog, "cate_list": cate_list, "date_list": date_list, "tag_list": tag_list}
 
 
 def upload(request):
@@ -185,3 +189,8 @@ def upload(request):
                 f.write(line)
         return HttpResponse('ok')
     return render(request, 'upload.html')
+
+
+def calend(request):
+
+    return render(request, "calend.html")

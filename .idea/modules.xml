@@ -3,12 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/14_day_training_camp.iml" filepath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" />
-      <module fileurl="file://E:/BOOKMS/.idea/BOOKMS.iml" filepath="E:/BOOKMS/.idea/BOOKMS.iml" />
-      <module fileurl="file://E:/MYBOOKMS/.idea/MYBOOKMS.iml" filepath="E:/MYBOOKMS/.idea/MYBOOKMS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/04 Django简介/first_pro/.idea/first_pro.iml" filepath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/04 Django简介/first_pro/.idea/first_pro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/.idea/myblog.iml" filepath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/.idea/myblog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/06 templates_demo/templates_demo/.idea/templates_demo.iml" filepath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/06 templates_demo/templates_demo/.idea/templates_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/05 views_demo/views_demo/.idea/views_demo.iml" filepath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/05 views_demo/views_demo/.idea/views_demo.iml" />
+      <module fileurl="file://D:/Automated_Test_Platform/.idea/Automated_Test_Platform.iml" filepath="D:/Automated_Test_Platform/.idea/Automated_Test_Platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cnblog/.idea/cnblog.iml" filepath="$PROJECT_DIR$/../cnblog/.idea/cnblog.iml" />
+      <module fileurl="file://D:/mybbs/.idea/mybbs.iml" filepath="D:/mybbs/.idea/mybbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/作业/第十四作业/myblog/.idea/myblog.iml" filepath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/myblog.iml" />
     </modules>
   </component>
 </project>

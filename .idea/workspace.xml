@@ -1,13 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cbfb7cb-eaf8-4ca4-830a-64099ff26614" name="Default" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py" afterDir="false" />
-=======
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
+    <list default="true" id="1f6d3fc5-3b7f-4c2f-a477-0e16ca85fd08" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/css/dcalendar.picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/css/zzsc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/js/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/js/dcalendar.picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/article_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/calend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/myblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/my_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/VaildCodeImg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/validCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/media/add_article_img/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/article_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/backend.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/dcalendar.picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/home_site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/zzsc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/dogg3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/dogg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/dogg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/dogge2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/hashiqi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/hashiqi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/linhaifeng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/logo_small.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/lufei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/meinv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/meinv2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/meinv3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/namei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/dcalendar.picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/bin/LitJSON.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/demo.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/file_manager_json.ashx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/upload_json.ashx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/JSON_2.0.4.asp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/UpLoad_Class.asp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/demo.asp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/file_manager_json.asp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/upload_json.asp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/demo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/file_manager_json.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/lib/commons-io-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/lib/json_simple-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/upload_json.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/kindeditor-all-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/kindeditor-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/php/JSON.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/php/demo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/php/file_manager_json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/php/upload_json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/anchor/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/autoheight/autoheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/baidumap/baidumap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/baidumap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/baidumap/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/clearhtml/clearhtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/code/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/code/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/code/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/emoticons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/100.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/101.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/102.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/103.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/104.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/105.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/106.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/107.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/108.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/109.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/110.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/112.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/113.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/114.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/115.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/116.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/117.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/118.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/119.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/120.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/121.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/122.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/123.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/124.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/125.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/126.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/127.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/128.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/129.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/130.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/131.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/132.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/133.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/134.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/72.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/73.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/74.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/75.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/76.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/77.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/78.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/79.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/80.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/81.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/82.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/83.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/84.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/85.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/86.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/87.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/88.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/89.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/90.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/91.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/92.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/93.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/94.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/95.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/96.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/97.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/98.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/99.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/static.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/filemanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/file-16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/file-64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/folder-16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/folder-64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/go-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/fixtoolbar/fixtoolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/flash/flash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/images/align_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/images/align_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/images/align_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/images/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/insertfile/insertfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/lineheight/lineheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/link/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/map/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/media/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/images/select-files-en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/images/select-files-zh-CN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/images/swfupload.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/multiimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/pagebreak/pagebreak.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/plainpaste/plainpaste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/preview/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/quickformat/quickformat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/table/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/template/html/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/template/html/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/template/html/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/wordpaste/wordpaste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/flash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/media.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/rm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/default/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/default/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/default/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/qq/editor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/qq/qq.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/simple/simple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/KumoFont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/downdown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/icon_form.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/upup.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/add_article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/edit_article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/classification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/home_site.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/not_found.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c24ebc41-c81c-4fda-b7cc-fafe5f209cc7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c24ebc41-c81c-4fda-b7cc-fafe5f209cc7/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e15898e7-33d6-4549-8673-06f5636528c2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e15898e7-33d6-4549-8673-06f5636528c2/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/练习题.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/练习题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/templatetags/my_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/templatetags/my_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/js/jquery-3.3.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/classification.html" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/classification.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,137 +333,122 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/14_day_training_camp$client_start.coverage" NAME="client_start Coverage Results" MODIFIED="1531620039523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第八次作业/FTP/bin" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$ssh_server.coverage" NAME="ssh_server Coverage Results" MODIFIED="1531572831353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$id.coverage" NAME="获取最后一条数据的id Coverage Results" MODIFIED="1532230747205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$pymysel.coverage" NAME="pymysel模块 Coverage Results" MODIFIED="1532228917907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$server.coverage" NAME="server Coverage Results" MODIFIED="1531572697608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$value.coverage" NAME="value的用法 Coverage Results" MODIFIED="1531534974180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1531580097977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$client.coverage" NAME="client Coverage Results" MODIFIED="1531572701629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1531583768466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$server_start.coverage" NAME="server_start Coverage Results" MODIFIED="1531619617387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第八次作业/FTP/bin" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$.coverage" NAME="本章总结 Coverage Results" MODIFIED="1532443121929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第四模块" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$Array.coverage" NAME="Array的用法 Coverage Results" MODIFIED="1531535531254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习" />
-    <SUITE FILE_PATH="coverage/14_day_training_camp$ssh_client.coverage" NAME="ssh_client Coverage Results" MODIFIED="1531572883276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$9_.coverage" NAME="9 封装 Coverage Results" MODIFIED="1538552641672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
+    <SUITE FILE_PATH="coverage/14_day_training_camp$VaildCodeImg.coverage" NAME="VaildCodeImg Coverage Results" MODIFIED="1538553181313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="myblog" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="myblog" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="myblog" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="本章练习" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习">
+      <file leaf-file-name="add_article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/add_article.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="30">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="221" />
-=======
-            <state relative-caret-position="624">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="练习题.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/练习题.py">
+      <file leaf-file-name="article_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1289">
-              <caret line="271" column="113" selection-start-line="271" selection-start-column="113" selection-end-line="271" selection-end-column="113" />
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
+            <state relative-caret-position="630">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="本章总结.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py">
+      <file leaf-file-name="article_detail.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/article_detail.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-570">
+              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backend.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/backend.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="home_site.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/home_site.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="148" column="89" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backend.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1470">
+              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classification.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/classification.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pymysel模块.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/pymysel模块.py">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="300">
-=======
-            <state relative-caret-position="240">
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-              <caret line="10" column="116" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="116" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="增删改.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state>
-=======
-            <state relative-caret-position="144">
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-              <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="查.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/查.py">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="-1">
-=======
-            <state relative-caret-position="264">
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="获取最后一条数据的id.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/获取最后一条数据的id.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="执行存储过程.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/执行存储过程.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-=======
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-      <file leaf-file-name="01 表的增删改查" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/03 表操作/01 表的增删改查">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3552">
-              <caret line="148" selection-start-line="148" selection-end-line="148" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03 枚举类型和集合类型" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/03 表操作/03 枚举类型和集合类型">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="21" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04 完整性约束" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/03 表操作/04 完整性约束">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4032">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -158,8 +459,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>su</find>
+      <find>日</find>
+      <find>months</find>
+      <find>today:</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,42 +477,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/value的用法.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/Array的用法.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/socketserver/client.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/socketserver/server.py" />
-        <option value="$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/conf/settings.py" />
-        <option value="$PROJECT_DIR$/作业/第八次作业/FTP/bin/client_start.py" />
-        <option value="$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/core/Log.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版/server.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版/client.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一/server.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一/client.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令/ssh_server.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令/ssh_client.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/server.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/client.py" />
-        <option value="$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/modules/auth_user.py" />
-        <option value="$PROJECT_DIR$/作业/第八次作业/FTP/ftpclient/ftpclient.py" />
-        <option value="$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/core/ftpserver.py" />
-        <option value="$PROJECT_DIR$/作业/第八次作业/FTP/README.md" />
-        <option value="$PROJECT_DIR$/作业/第八次作业/FTP/bin/server_start.py" />
-        <option value="$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/modules/sokect_server.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/03 表操作/01 表的增删改查.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/03 表操作/01 表的增删改查" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习" />
-        <option value="$PROJECT_DIR$/作业/第九次作业/test" />
-        <option value="$PROJECT_DIR$/作业/第九次作业/第九次作业" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/pymysel模块.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/查.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/获取最后一条数据的id.py" />
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/执行存储过程.py" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py" />
-=======
-        <option value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/练习题.py" />
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
+        <option value="D:/Automated_Test_Platform/automated/test_platform/models.py" />
+        <option value="D:/Automated_Test_Platform/automated/test_platform/admin.py" />
+        <option value="D:/Automated_Test_Platform/automated/automated/settings.py" />
+        <option value="D:/Automated_Test_Platform/automated/templates/register.html" />
+        <option value="D:/Automated_Test_Platform/automated/test_platform/views.py" />
+        <option value="D:/Automated_Test_Platform/automated/automated/urls.py" />
+        <option value="D:/Automated_Test_Platform/automated/test_platform/forms.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/base.html" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/article_detail.html" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/home_site.html" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/classification.html" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/settings.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/templatetags/my_tags.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/register.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/forms.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/utils/validCode.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/VaildCodeImg.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/login.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/validCode.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/admin.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/home_site.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/my_tags.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6e6b09bb-7d20-4d2b-8209-f577fd0d2ff8/console_1.sql" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/not_found1.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/not_found.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/models.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/myblog/__init__.py" />
+        <option value="$PROJECT_DIR$/../cnblog/cnblog/settings.py" />
+        <option value="$PROJECT_DIR$/../cnblog/blog/templatetags/my_tags.py" />
+        <option value="D:/mybbs/blog/models.py" />
+        <option value="D:/mybbs/mybbs/urls.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/myblog/settings.py" />
+        <option value="D:/mybbs/mybbs/settings.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/index.html" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/urls.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/views.py" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/calend.html" />
+        <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/js/dcalendar.picker.js" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/classification.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/nav.css" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/base.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/myblog/urls.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/edit_article.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/add_article.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/views.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/article_detail.css" />
       </list>
     </option>
   </component>
@@ -214,6 +539,12 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="993" />
+    <option name="y" value="395" />
+    <option name="width" value="2353" />
+    <option name="height" value="370" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -239,44 +570,182 @@
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第四模块" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第四模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第七章-网络编程进阶" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第四模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第七章-网络编程进阶" type="462c0819:PsiDirectoryNode" />
-              <item name="本章练习" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="bookms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第四模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第八章-数据库开发" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="bookms" type="462c0819:PsiDirectoryNode" />
+              <item name="app01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-              <item name="第四模块" type="462c0819:PsiDirectoryNode" />
-              <item name="第八章-数据库开发" type="462c0819:PsiDirectoryNode" />
-              <item name="05 pymysql 模块" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="bookms" type="462c0819:PsiDirectoryNode" />
+              <item name="bookms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
+              <item name="bookms" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十四作业" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybbs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybbs" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybbs" type="462c0819:PsiDirectoryNode" />
+              <item name="mybbs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybbs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+    <property name="last_opened_file_path" value="D:/mybbs" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\js" />
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\blog\css" />
+      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第六模块\第二章\myblog\static\js" />
+      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第六模块\第二章\myblog\static\css" />
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\blog" />
+      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第六模块\第二章\myblog\static\js" />
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\templates\backend" />
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\js" />
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -290,12 +759,8 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Python.本章总结">
-=======
-  <component name="RunManager" selected="Python.pymysel模块">
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-    <configuration name="增删改" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.VaildCodeImg">
+    <configuration name="9 封装" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,37 +768,59 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第三模块/第五章-面向对象编程/9 封装.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="本章总结" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="14_day_training_camp" />
+    <configuration name="VaildCodeImg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myblog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第四模块" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/VaildCodeImg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="查" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myblog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,92 +828,168 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/查.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="执行存储过程" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/执行存储过程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="launchJavascriptDebuger" value="false" />
     </configuration>
-    <configuration name="获取最后一条数据的id" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="Tox" factoryName="Tox">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/获取最后一条数据的id.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pymysel模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="tests" factoryName="Doctests">
       <module name="14_day_training_camp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/pymysel模块.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="14_day_training_camp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.pymysel模块" />
-      <item itemvalue="Python.增删改" />
-      <item itemvalue="Python.获取最后一条数据的id" />
-<<<<<<< HEAD
-      <item itemvalue="Python.本章总结" />
+      <item itemvalue="Django server.myblog" />
+      <item itemvalue="Python.9 封装" />
+      <item itemvalue="Python.VaildCodeImg" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.本章总结" />
-=======
-    </list>
-    <recent_temporary>
-      <list>
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-        <item itemvalue="Python.获取最后一条数据的id" />
-        <item itemvalue="Python.增删改" />
-        <item itemvalue="Python.pymysel模块" />
+        <item itemvalue="Python.VaildCodeImg" />
+        <item itemvalue="Python.9 封装" />
       </list>
     </recent_temporary>
   </component>
@@ -435,52 +998,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5cbfb7cb-eaf8-4ca4-830a-64099ff26614" name="Default" comment="" />
-      <created>1531525825937</created>
+      <changelist id="1f6d3fc5-3b7f-4c2f-a477-0e16ca85fd08" name="Default" comment="" />
+      <created>1538225110407</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1531525825937</updated>
+      <updated>1538225110407</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-=======
-    <frame x="1080" y="-2" width="1920" height="1082" extended-state="6" />
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1296" height="1040" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27008456" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-<<<<<<< HEAD
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32938644" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27414164" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23138602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32352942" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.35866013" />
       <window_info anchor="right" id="SciView" order="3" />
-=======
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32646048" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32582322" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,361 +1039,352 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../cnblog/cnblog/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/core/ftpserver.py">
+    <entry file="file://$PROJECT_DIR$/../cnblog/blog/Myforms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="-813" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/myblog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/ftpclient/ftpclient.py">
+    <entry file="file://$PROJECT_DIR$/../cnblog/cnblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        <state relative-caret-position="404">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/sokect_server.py">
+    <entry file="file://$PROJECT_DIR$/../cnblog/cnblog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="110" column="45" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="61" />
+        <state relative-caret-position="3600">
+          <caret line="120" column="12" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpclient/ftpclient.py">
+    <entry file="file://$PROJECT_DIR$/../cnblog/blog/templatetags/my_tags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="77" column="36" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="36" />
+        <state relative-caret-position="630">
+          <caret line="23" column="89" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/value的用法.py">
+    <entry file="file://$PROJECT_DIR$/../cnblog/templates/article_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="3150">
+          <caret line="105" column="15" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/Array的用法.py">
+    <entry file="file://$PROJECT_DIR$/../cnblog/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="9900">
+          <caret line="343" selection-start-line="343" selection-end-line="343" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/01 多进程/07 生产者消费者模型.py">
+    <entry file="file://D:/mybbs/blog/templatetags/my_tags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1203" />
+        <state relative-caret-position="-630" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/01 多进程/05 互斥锁.py">
+    <entry file="file://D:/mybbs/orm_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2745" />
+        <state relative-caret-position="-465" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/02 多线程/09 进程池与线程池.py">
+    <entry file="file://D:/mybbs/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="-2703" />
+      </provider>
+    </entry>
+    <entry file="file://D:/mybbs/blog/migrations/0003_auto_20180613_0808.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3" />
+      </provider>
+    </entry>
+    <entry file="file://D:/mybbs/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4590">
+          <caret line="159" column="82" selection-start-line="159" selection-start-column="82" selection-end-line="159" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/01 多进程/练习题/02 多进程实现并发的套接字通信/server.py">
+    <entry file="file://D:/mybbs/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87" />
+        <state relative-caret-position="-3033" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/socketserver/client.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/myblog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="237">
+          <caret line="72" lean-forward="true" selection-end-line="166" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/socketserver/server.py">
+    <entry file="file://D:/mybbs/mybbs/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="1200">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/bin/server_start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/01 多进程/06 队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/02 多线程/练习题/01 多线程实现并发的套接字通信/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1305" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令/ssh_client.py">
+    <entry file="file://D:/mybbs/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一/server.py">
+    <entry file="file://D:/mybbs/mybbs/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="237">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#639#680#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版一/client.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="930">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版/client.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="5790">
+          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/普通青年版/server.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/css/dcalendar.picker.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="330">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/02 循环收发数据/client.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/css/zzsc.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/02 循环收发数据/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/01 简单的套接字/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/01 简单远程执行命令/ssh_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="-2220">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpclient/ftpclient.py">
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/js/dcalendar.picker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="77" column="36" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="36" />
+        <state relative-caret-position="171">
+          <caret line="253" column="33" selection-start-line="253" selection-start-column="33" selection-end-line="253" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/server.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/dcalendar.picker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/calend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="30" selection-start-line="30" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/home_site.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/theme/test1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/bookms/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
+          <caret line="39" column="57" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/templates/books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="43" column="103" lean-forward="true" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/templates/addbook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="e#850#868#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6e6b09bb-7d20-4d2b-8209-f577fd0d2ff8/schema/main/table/blog_article">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1977">
+          <caret line="118" column="82" lean-forward="true" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/templates/changebook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="79" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3090">
+          <caret line="134" column="17" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/templates/editpublish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/templates/editauthor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1057" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="43" column="78" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/edit_article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="28" column="72" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="72" />
+          <folding>
+            <element signature="e#532#550#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4901">
+          <caret line="311" column="15" selection-start-line="311" selection-start-column="15" selection-end-line="311" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/myblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/classification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第三模块/第六章-网络编程/粘包现象与解决方案/粘包的解决/文艺青年版二/client.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/home_site.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="250">
+          <caret line="148" column="89" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/sokect_server.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="-60">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第七次作业/FTP/ftpserver/modules/auth_user.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/backend.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/add_article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="330">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/core/Log.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="630">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/modules/auth_user.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/ftpclient/ftpclient.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/article_detail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/conf/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/core/ftpserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/bin/server_start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/ftpserver/modules/sokect_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5220">
-          <caret line="185" column="24" selection-start-line="185" selection-start-column="24" selection-end-line="185" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/log/ftpserver.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="86">
-          <caret line="1532" lean-forward="true" selection-start-line="1532" selection-end-line="1532" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第八次作业/FTP/bin/client_start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/03 表操作/01 表的增删改查.py" />
-    <entry file="file://$PROJECT_DIR$/作业/第九次作业/第九次作业.txt" />
-    <entry file="file://$PROJECT_DIR$/作业/第九次作业/第九次作业">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33270">
-          <caret line="1109" column="6" selection-start-line="1109" selection-start-column="6" selection-end-line="1109" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第九次作业/第九次作业">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6328">
-          <caret line="1109" column="6" selection-start-line="1109" selection-start-column="6" selection-end-line="1109" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/pymysel模块.py">
-<<<<<<< HEAD
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="116" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/获取最后一条数据的id.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/执行存储过程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-=======
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="116" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="116" />
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/增删改.py">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state>
-=======
-        <state relative-caret-position="144">
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="30">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="221" />
-=======
-        <state relative-caret-position="264">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/05 pymysql 模块/查.py">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-1">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/本章总结.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-=======
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/执行存储过程.py" />
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第八章-数据库开发/本章练习">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第四模块/第七章-网络编程进阶/本章练习/练习题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1289">
-          <caret line="271" column="113" selection-start-line="271" selection-start-column="113" selection-end-line="271" selection-end-column="113" />
->>>>>>> 0b04aee3c1961087917fbbfddb5977b89821e838
+        <state relative-caret-position="-570">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>

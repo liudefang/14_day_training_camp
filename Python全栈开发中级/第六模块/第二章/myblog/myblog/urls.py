@@ -28,6 +28,8 @@ urlpatterns = [
     url(r'^get_validCode_img/$', views.get_valid_code_img),
     url(r'^index/$', views.index),
     url(r'^upload/$', views.upload),
+    url(r'^calend/$', views.calend),
+
     # media配置:
     re_path(r"media/(?P<path>.*)$", serve, {"document_root": settings.MEDIA_ROOT}),
 

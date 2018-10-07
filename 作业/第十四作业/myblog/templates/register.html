@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../static/bootstrap-3.3.7/css/bootstrap.css">
+    <script src="/static/blog/js/jquery-3.3.1.js"></script>
+    <style>
+        #avatar_img {
+            margin-left: 20px;
+            width: 60px;
+            height: 60px;
+        }
+        #avatar {
+            display: none;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-lg-offset-3">
+
+            <form id="form">
+                {% csrf_token %}
+
+                {% for reg_obj in form %}
+                <div class="form-group">
+                    <label form="{{ reg_obj.auto_id }}">{{ reg_obj.label }}</label>
+                           {{ reg_obj }}<span class="error pull-right"></span>
+                </div>
+                {% endfor %}
+
+            <div class="form-group">
+                <label for="avatar">
+                    头像
+                    <img id="avatar_img" src="/static/blog/img/default.png" alt="上传头像">
+                </label>
+                <input type="file" id="avatar" name="avatar">
+            </div>
+
+            <input type="button" class="btn btn-default reg_btn" value="注册"><span class="error"></span>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // 头像预览
+    $("#avatar").change(function () {
+
+        // 获取用户选中的文件对象
+        var file_obj = $(this)[0].files[0];
+        // 获取文件对象的路径
+        var reader = new FileReader();
+        reader.readAsDataURL(file_obj);
+        // 修改img的src属性, src=文件对象的路径
+        reader.onload = function () {
+            $("#avatar_img").attr("src", reader.result)
+
+        };
+
+    });
+
+    // 基于ajax提交数据
+    $(".reg_btn").click(function () {
+
+        var formdata = new FormData();
+        var request_data = $("#form").serializeArray();
+        $.each(request_data, function (index, data) {
+            formdata.append(data.name, data.value)
+
+        });
+
+        formdata.append("avatar", $("#avatar")[0].files[0]);
+
+        $.ajax({
+            url: "",
+            type: "post",
+            contentType: false,
+            processData: false,
+            data: formdata,
+            success: function (data) {
+
+                if (data.username){
+                    // 注册成功
+                    location.href="/login/"
+                }
+                else {
+                    // 注册失败
+                    $("span.error").html("");
+                    $(".form-group").removeClass("has-error");
+
+                    // 展示此次提交的错误信息
+                    $.each(data.msg, function (reg_obj, error_list) {
+                        console.log(reg_obj, error_list);
+                        if (reg_obj=="__all__"){
+                            $("#id_re_password").next().html(error_list[0]).parent().addClass("has-error");
+
+                        }
+                        $("#id_" + reg_obj).next().html(error_list[0]);
+                        $("#id_" + reg_obj).parent().addClass("has-error");
+                        setTimeout(function () {
+                            $(".error").text("")
+
+                        }, 5000)
+
+                    })
+                }
+
+            }
+        })
+
+    })
+</script>
+</body>
+</html>
