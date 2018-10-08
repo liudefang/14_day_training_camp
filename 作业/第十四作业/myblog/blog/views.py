@@ -58,6 +58,7 @@ def register(request):
     form = RegForm()
     return render(request, "register.html", {"form": form})
 
+
 def login(request):
     """
     登录视图函数：
@@ -321,8 +322,14 @@ def edit_article(request, pid, option):
     article_obj = models.Article.objects.filter(pk=pid).first()
     print("article_obj:", article_obj)
     if article_obj and option == "delete":
-        article_obj.delete()
-        return redirect("/cn_backend")
+        try:
+            article_obj.delete()
+            reg = {'status': 0, 'msg': '删除成功!'}
+        except Exception as e:
+            reg = {'status': 1, 'msg': '删除失败'}
+
+        return HttpResponse(json.dumps(reg))
+
     elif article_obj and option == "edit":
         if request.method == "POST":
             title = request.POST.get("title")
@@ -346,7 +353,7 @@ def edit_article(request, pid, option):
 
         return render(request, "backend/edit_article.html", {"article_obj": article_obj})
     else:
-        return request(request, "not_found.html")
+        return render(request, "not_found.html")
 
 
 def upload(request):

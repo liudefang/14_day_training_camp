@@ -17,10 +17,11 @@
                     <td>{{ article.comment_count }}</td>
                     <td>{{ article.up_count }}</td>
                     <td><a href="/article/{{ article.pk }}/edit"><button class="btn btn-info">编辑</button></a> </td>
-                    <td><a href="/article/{{ article.pk }}/delete"><button class="btn btn-danger">删除</button></a></td>
+                    <td><a href="/article/{{ article.pk }}/delete"><button class="btn btn-danger btn_delete">删除</button></a></td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
 {% endblock %}
+

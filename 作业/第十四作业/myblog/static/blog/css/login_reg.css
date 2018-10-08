@@ -1,0 +1,14 @@
+#avatar_img {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+#avatar {
+    display: none;
+}
+
+
+.error {
+    color: red;
+    margin-left: 10px;
+}
