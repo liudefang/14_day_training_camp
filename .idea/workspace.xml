@@ -2,328 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f6d3fc5-3b7f-4c2f-a477-0e16ca85fd08" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/css/dcalendar.picker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/css/zzsc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/js/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/js/dcalendar.picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/article_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/calend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/myblog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/my_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/VaildCodeImg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/validCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/media/add_article_img/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/article_detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/backend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/dcalendar.picker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/home_site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/zzsc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/dogg3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/dogg4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/dogg5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/dogge2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/hashiqi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/hashiqi2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/linhaifeng.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/logo_small.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/lufei.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/meinv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/meinv2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/meinv3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/img/namei.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/dcalendar.picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/bin/LitJSON.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/demo.aspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/file_manager_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp.net/upload_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/JSON_2.0.4.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/UpLoad_Class.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/demo.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/file_manager_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/asp/upload_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/demo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/file_manager_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/lib/commons-io-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/lib/json_simple-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/jsp/upload_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/kindeditor-all-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/kindeditor-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/lang/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/php/JSON.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/php/demo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/php/file_manager_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/php/upload_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/anchor/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/baidumap/baidumap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/baidumap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/baidumap/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/clearhtml/clearhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/code/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/code/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/code/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/emoticons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/107.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/108.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/109.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/110.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/112.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/113.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/114.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/115.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/116.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/117.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/118.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/119.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/120.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/121.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/122.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/123.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/124.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/125.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/126.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/127.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/128.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/129.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/130.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/131.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/132.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/133.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/134.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/emoticons/images/static.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/file-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/file-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/folder-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/folder-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/filemanager/images/go-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/fixtoolbar/fixtoolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/flash/flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/images/align_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/images/align_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/images/align_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/image/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/lineheight/lineheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/link/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/media/media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/images/select-files-en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/images/select-files-zh-CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/images/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/pagebreak/pagebreak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/preview/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/table/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/template/html/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/template/html/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/template/html/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/flash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/media.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/common/rm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/default/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/default/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/qq/editor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/qq/qq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/kindeditor/themes/simple/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/bootstrap-3.3.7/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/KumoFont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/downdown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/icon_form.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/font/upup.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/add_article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/edit_article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/classification.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/home_site.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/not_found.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c24ebc41-c81c-4fda-b7cc-fafe5f209cc7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c24ebc41-c81c-4fda-b7cc-fafe5f209cc7/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e15898e7-33d6-4549-8673-06f5636528c2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e15898e7-33d6-4549-8673-06f5636528c2/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/init_ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/web框架开发：blog项目开发.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/templatetags/my_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/templatetags/my_tags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/static/js/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/classification.html" beforeDir="false" afterPath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/classification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/my_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/my_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第十四作业/myblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/sweetalert.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/sweetalert.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -374,8 +64,8 @@
       <file leaf-file-name="add_article.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/add_article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="534">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -383,24 +73,10 @@
       <file leaf-file-name="article_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="210">
+              <caret line="133" column="48" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="48" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article_detail.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/article_detail.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-570">
-              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backend.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/backend.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="home_site.html" pinned="false" current-in-tab="false">
@@ -408,38 +84,50 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/index.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="148" column="89" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="89" />
+            <state relative-caret-position="218">
+              <caret line="281" column="13" selection-start-line="281" selection-start-column="13" selection-end-line="281" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backend.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="306">
+              <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/base.html">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            <state relative-caret-position="150">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html">
+      <file leaf-file-name="web框架开发：blog项目开发.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/web框架开发：blog项目开发.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+            <state relative-caret-position="-2167">
+              <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_tags.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/my_tags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -449,6 +137,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/myblog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="42" column="64" selection-start-line="40" selection-start-column="3" selection-end-line="42" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -469,6 +166,8 @@
       <find>日</find>
       <find>months</find>
       <find>today:</find>
+      <find>ok</find>
+      <find>inline-block</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -477,9 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/Automated_Test_Platform/automated/test_platform/models.py" />
-        <option value="D:/Automated_Test_Platform/automated/test_platform/admin.py" />
-        <option value="D:/Automated_Test_Platform/automated/automated/settings.py" />
         <option value="D:/Automated_Test_Platform/automated/templates/register.html" />
         <option value="D:/Automated_Test_Platform/automated/test_platform/views.py" />
         <option value="D:/Automated_Test_Platform/automated/automated/urls.py" />
@@ -491,7 +187,6 @@
         <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/myblog/settings.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/templatetags/my_tags.py" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/register.html" />
-        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/forms.py" />
         <option value="$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/blog/utils/validCode.py" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/utlis/VaildCodeImg.py" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/login.html" />
@@ -499,12 +194,10 @@
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/admin.py" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags.py" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/home_site.html" />
-        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/my_tags.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6e6b09bb-7d20-4d2b-8209-f577fd0d2ff8/console_1.sql" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/not_found1.html" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/not_found.html" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend.html" />
-        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/models.py" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/myblog/__init__.py" />
         <option value="$PROJECT_DIR$/../cnblog/cnblog/settings.py" />
         <option value="$PROJECT_DIR$/../cnblog/blog/templatetags/my_tags.py" />
@@ -523,11 +216,17 @@
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/myblog/urls.py" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/edit_article.html" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/add_article.html" />
-        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/views.py" />
-        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html" />
-        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html" />
-        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html" />
         <option value="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/article_detail.css" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/init_ajax.js" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/sweetalert.min.js" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/my_tags.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/views.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/models.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/blog/forms.py" />
+        <option value="$PROJECT_DIR$/作业/第十四作业/myblog/web框架开发：blog项目开发.md" />
       </list>
     </option>
   </component>
@@ -565,49 +264,7 @@
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
               <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="Python全栈开发中级" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
               <item name="作业" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="作业" type="462c0819:PsiDirectoryNode" />
-              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="作业" type="462c0819:PsiDirectoryNode" />
-              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
-              <item name="bookms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="作业" type="462c0819:PsiDirectoryNode" />
-              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
-              <item name="bookms" type="462c0819:PsiDirectoryNode" />
-              <item name="app01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="作业" type="462c0819:PsiDirectoryNode" />
-              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
-              <item name="bookms" type="462c0819:PsiDirectoryNode" />
-              <item name="bookms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="14_day_training_camp" type="462c0819:PsiDirectoryNode" />
-              <item name="作业" type="462c0819:PsiDirectoryNode" />
-              <item name="第十三次作业" type="462c0819:PsiDirectoryNode" />
-              <item name="bookms" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
@@ -680,7 +337,7 @@
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="14_day_training_camp" type="b2602c69:ProjectViewProjectNode" />
@@ -732,19 +389,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\js" />
-      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\blog\css" />
-      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第六模块\第二章\myblog\static\js" />
-      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第六模块\第二章\myblog\static\css" />
-      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\blog" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\blog" />
       <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第六模块\第二章\myblog\static\js" />
       <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\templates\backend" />
       <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\js" />
       <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog" />
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\js" />
+      <recent name="D:\Python\14_day_training_camp\作业\第十四作业\myblog\static\blog\css" />
+      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第六模块\第二章\myblog\static\js" />
+      <recent name="D:\Python\14_day_training_camp\Python全栈开发中级\第六模块\第二章\myblog\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1007,7 +664,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1015,8 +672,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23138602" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32352942" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23143165" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32832617" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.35866013" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -1052,25 +709,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../cnblog/blog/Myforms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-813" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/myblog/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cnblog/cnblog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../cnblog/cnblog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3600">
@@ -1197,9 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/dcalendar.picker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/calend.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -1207,19 +842,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第二章/myblog/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/home_site.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/theme/test1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/theme/test1.css" />
     <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/nav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1234,20 +857,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/templates/books.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="43" column="103" lean-forward="true" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/templates/addbook.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="e#850#868#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,13 +868,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1977">
-          <caret line="118" column="82" lean-forward="true" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -1276,9 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3090">
           <caret line="134" column="17" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1292,13 +895,6 @@
         <state relative-caret-position="-1057" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="43" column="78" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/edit_article.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -1309,20 +905,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/views.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4901">
-          <caret line="311" column="15" selection-start-line="311" selection-start-column="15" selection-end-line="311" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4440">
+          <caret line="148" column="89" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/myblog/urls.py">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state relative-caret-position="180">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/article_detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三次作业/bookms/templates/books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="78" selection-start-line="53" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1500">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/not_found.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/init_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/js/sweetalert.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret column="689" selection-start-column="689" selection-end-column="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/templatetags/my_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -1336,55 +995,55 @@
     <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/home_site.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="148" column="89" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="89" />
+        <state relative-caret-position="210">
+          <caret line="133" column="48" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/backend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/backend.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/add_article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="534">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/article_detail.html">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/myblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="400">
+          <caret line="42" column="64" selection-start-line="40" selection-start-column="3" selection-end-line="42" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/backend/base.html">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+        <state relative-caret-position="218">
+          <caret line="281" column="13" selection-start-line="281" selection-start-column="13" selection-end-line="281" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        <state relative-caret-position="306">
+          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/static/blog/css/article_detail.css">
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="150">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十四作业/myblog/web框架开发：blog项目开发.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2167">
+          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
         </state>
       </provider>
     </entry>
