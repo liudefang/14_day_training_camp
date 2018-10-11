@@ -32,7 +32,7 @@ def query(request):
     # authordetail_obj = models.AuthorDetail.objects.create(birthday="2012-08-12", telephone="15912245678",addr="北京")
     # print(authordetail_obj)
     # author_obj = models.Author.objects.create(name="jacke", age=30, authorDetail_id=3)
-    # print(author_obj)
+    #     # print(author_obj)
     # pub_obj=models.Publish.objects.filter(name="机械工业出版社").first()
     # book_obj = models.Book.objects.create(title="人类简史",publishDate="2008-10-8", price="122", publish=pub_obj)
     # # 通过作者的名字django默认找到id

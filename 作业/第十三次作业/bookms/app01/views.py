@@ -255,3 +255,31 @@ def editpublish(request, id):
 def delpublish(request, id):
     models.Publish.objects.filter(id=id).delete()
     return redirect("/publishs/")
+
+
+# 修改密码
+@login_required
+def set_password(request):
+    user = request.user
+    state = None
+    if request.method == "POST":
+        old_password = request.POST.get('old_password')
+        new_password = request.POST.get('new_password')
+        repeat_password = request.POST.get('repeat_password')
+        if user.check_password(old_password):
+            if not new_password:
+                state = '新密码不能为空!'
+            elif new_password != repeat_password:
+                state = '两次密码不一致!'
+            else:
+                user.set_password(new_password)
+                user.save()
+                return redirect("/login/")
+        else:
+            state = '原密码错误'
+
+    content = {
+        'user': user,
+        'state': state,
+    }
+    return render(request, 'set_password.html', content)

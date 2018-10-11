@@ -11,6 +11,7 @@
     <orderEntry type="module" module-name="myblog" />
     <orderEntry type="module" module-name="cnblog" />
     <orderEntry type="module" module-name="mybbs" />
+    <orderEntry type="module" module-name="pageDemo" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
@@ -21,7 +22,7 @@
     </option>
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="pytest" />
+    <option name="projectConfiguration" value="py.test" />
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>
