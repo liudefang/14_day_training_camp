@@ -1,0 +1,141 @@
+列举Http请求中常见的请求方式
+
+谈谈你对HTTP协议的认识。1.1 长连接
+
+简述MVC模式和MVT模式
+
+简述Django请求生命周期
+
+简述什么是FBV和CBV
+
+谈一谈你对ORM的理解
+
+rest_framework 认证组件的流程
+
+什么是中间件并简述其作用
+
+django中怎么写原生SQL
+
+F和Q的作用
+
+values和value_list区别
+
+如何使用django orm批量创建数据
+
+Django中的请求生命周期
+
+http访问流程
+
+命令migrate 和makemigrations的差别
+
+视图函数中，接收的请求对象常用方法和属性有哪些
+
+常用视图响应的方式是什么？
+
+HTTP响应常见状态码分类
+
+路由匹配原则是什么？
+
+缓存系统类型有哪些
+
+解决跨域的常用方式是什么？
+
+信号的作用是什么？
+
+Django的Model的继承有几种形式，分别是什么
+
+Django中查询queryset时什么情况下用Q
+
+Django中想验证表单提交是否格式正确需要用到Form中的哪个函数
+
+orm如何取消级联
+
+Django中如何读取和保存session，整个session的运行机制是什么
+
+简述Django对http请求的执行流程
+
+Django中当用户登录到A服务器进入登陆状态，下次被nginx代理到B服务器会出现什么影响
+
+跨域请求Django是如何处理的
+
+查询集的两大特性？什么是惰性执行
+
+查询集返回的列表过滤器有哪些
+
+如何获取django urlpatterns里面注册的所有url?
+
+django路由系统中include是干嘛用的？
+
+django2.0中的path与django1.xx里面的url有什么区别？
+
+urlpatterns中的name与namespace有什么作用？你是如何使用的？
+
+如何根据urlpatterns中的name反向生成url,这样反向生成url的方式有几种？
+
+如何给一个字段设置一个主键？
+
+blank=True与null=True有什么区别？
+
+如何设置一个带有枚举值的字典？
+
+DateTimeField类型中的auto_now与auto_now_add有什么区别
+
+values()与values_list()有什么区别？
+
+selected_related与prefetch_related有什么区别？
+
+当删除一个外键的时候，如何把与其关联的对应关系删除
+
+class Meta中的元信息字段有哪些
+
+多对多关联的表，如何插入数据？如何删除数据？如何更新数据？
+
+django的M2M关系，如何手动生成第三张表？
+
+如何使用原生mysql？
+
+在Django中，服务端给客户端响应信息有几种方式？分别是什么？
+
+在视图函数中，常用的验证装饰器有哪些？
+
+如何给一个视图函数加上缓存？
+
+web框架的本质是什么？
+
+什么是MVC、什么是MTV？
+
+创建Django工程、Django app、以及运行的命令
+
+Django App的目录结构
+
+简述一下Django声明周期
+
+Django 获取用户前端请求数据的几种方式
+
+描述下 自定义simple_tag
+
+什么是Cookie、如何获取、设置Cookie
+
+什么是session，与cookie的对比、设置、获取、清空session
+
+什么是CSRF，及防范方式
+
+django 中间件生命周期
+
+get请求和post请求的区别
+
+图书管理系统的表结构是怎么设计的？
+
+图书管理系统路由系统你用到了name了吗？ 为什么要使用呢？
+
+图书管理系统的模板你是怎么用的？ 重复的代码怎么解决？
+
+MVC和MTV分别是什么？
+
+WSGI / uwsgi/ uWSGI区分
+
+如何使用django加密
+
+解释blank和null
+
+QueryDict和dict区别
