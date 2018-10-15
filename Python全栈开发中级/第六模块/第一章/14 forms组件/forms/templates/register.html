@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/res.css">
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+</head>
+<body>
+{#导航条#}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container pull-left">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">博客园</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active c1"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                <li class="active c1"><a href="#">登录</a></li>
+                <li class="active c1"><a href="#">注册</a></li>
+                <li class="active c1"><a href="#">帮助</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<h2>注册新用户</h2>
+<hr>
+<div class="container">
+    <div class="row left">
+        <div class="col-md-6 col-md-offset-1">
+            <form action="/register/" method="post" novalidate enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="username" class="control-label">用户名：</label>
+                    <div>{{ form.username }}<span></span></div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="control-label">密码：</label>
+                    <div>{{ form.password }}<span></span></div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="control-label">确认密码：</label>
+                    <div>{{ form.password_again }}<span></span></div>
+                </div>
+                <div class="form-group">
+                    <label for="Email" class="control-label">邮箱：</label>
+                    <div>{{ form.email }}<span></span></div>
+                </div>
+                <div class="form-group">
+                    <label for="tel" class="control-label">手机号码：</label>
+                    <div>{{ form.tel }}<span></span></div>
+                </div>
+                <div class="form-group">
+                    <label for="avatar" class="control-label">头像：</label>
+                    <img src="/static/image/default.png" alt="" class="avatar_img">
+                    <input type="file" id="avatar" name="avatar_file" class="avatar_file">
+                </div>
+                <button type="button" class="btn btn-primary registr_btn">注册</button><span class="XXX"></span>
+            </form>
+        </div>
+    </div>
+    <div class="right">
+{#        <img src="/static/image/lufei.jpg" alt="">#}
+    </div>
+
+</div>
+<script>
+    $(function () {
+        // 给注册按钮添加事件
+        $(".registr_btn").click(function () {
+            var formData = new FormData();
+            formData.append("username", $("#id_username").val());
+            formData.append("email", $("#id_email").val());
+            formData.append("tel", $("#id_tel").val());
+            formData.append("password", $("#id_password").val());
+            formData.append("password_again", $("#id_password_again").val());
+            formData.append("avatar_img", $("#avatar")[0].files[0]);
+
+
+            // 先清除错误信息
+            $(".pull-right").html("");
+            $(".pull-right").parent().removeClass("has-error");
+            $.ajax({
+                url:"/register/",
+                type: "post",
+                headers: {"X-CSRFToken": $.cookie('csrftoken')},
+                data:formData,
+                contentType:false,
+                processData:false,
+                success:function (data) {
+                    console.log(data);
+                    var data = JSON.parse(data);
+                    if (data["user"]){
+                        $(".XXX").html("注册成功")
+                        window.location.href="/login/";
+
+                    }
+                    else {
+                        console.log(data.msg_errors);   // 拿到的是所有的错误信息
+                        $.each(data.msg_errors, function (i, v) {
+                            console.log(i, v);
+                            $span = $("<span>");        // 创建一个span标签，方便提示错误信息的时候用
+                            $span.addClass("pull-right").css("color", "red")
+
+                            $span.html(v[0]);    # 设置span里面的字体
+                            $("#id_"+i).after($span).parent().addClass("has-error");    // 把pan标签放到每个input的后面显示并且让他的父亲变红，增加一个has-error的类
+
+                            if (i=="__all__"){
+                                $("#id_password_again").after($span)
+                            }
+
+                        });
+                    }
+
+                }
+            })
+        });
+
+        // 头像预览
+        $(".avatar_file").change(function () {
+            var ele_file = $(this)[0].files[0];     // 当前选中的文件
+            var reader = new FileReader();
+            reader.readAsDataURL(ele_file);     # 对应找到打开的url
+
+            reader.onload = function () {
+                {# 方式一 #}
+                $(".avatar_img").attr("src", this.result);  // this.result上上面找到的url
+                {#  方式二 #}
+                {#                 $(".avatar_img")[0].src=this.result; //设置图片属性#}
+
+            }
+
+        })
+
+
+
+    })
+</script>
+</body>
+</html>

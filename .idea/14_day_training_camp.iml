@@ -13,6 +13,7 @@
     <orderEntry type="module" module-name="mybbs" />
     <orderEntry type="module" module-name="pageDemo" />
     <orderEntry type="module" module-name="middlewareDemo" />
+    <orderEntry type="module" module-name="forms" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
