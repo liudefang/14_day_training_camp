@@ -156,18 +156,18 @@ codename</ColNames>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="49" parent="9" name="object_id">
+    <column id="49" parent="9" name="action_time">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
-    </column>
-    <column id="50" parent="9" name="object_repr">
-      <Position>3</Position>
-      <DataType>varchar(200)|0s</DataType>
+      <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="51" parent="9" name="action_flag">
+    <column id="50" parent="9" name="object_id">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="51" parent="9" name="object_repr">
       <Position>4</Position>
-      <DataType>smallint unsigned|0s</DataType>
+      <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="52" parent="9" name="change_message">
@@ -184,9 +184,9 @@ codename</ColNames>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="55" parent="9" name="action_time">
+    <column id="55" parent="9" name="action_flag">
       <Position>8</Position>
-      <DataType>datetime|0s</DataType>
+      <DataType>smallint unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <index id="56" parent="9" name="django_admin_log_content_type_id_c4bce8eb">

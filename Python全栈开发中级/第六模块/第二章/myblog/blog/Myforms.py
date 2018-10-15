@@ -31,6 +31,7 @@ class UserForm(forms.Form):
                              label="邮箱",
                              widget=widgets.EmailInput(attrs={"class": "form-control"},)
                              )
+
     # 局部钩子
     def clean_user(self):
         val = self.cleaned_data.get("user")
