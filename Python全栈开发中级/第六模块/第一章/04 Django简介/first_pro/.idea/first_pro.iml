@@ -17,6 +17,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="14_day_training_camp" />
     <orderEntry type="module" module-name="Automated_Test_Platform" />
+    <orderEntry type="module" module-name="14_day_training_camp" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

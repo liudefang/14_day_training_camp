@@ -21,19 +21,20 @@ h2 {
     margin-left: 200px;
 }
 .avatar{
-    position: relative;
-    width: 70px;
-    height: 70px;
+    display: none;
 }
 .avatar_img,.avatar_file{
     position: absolute;
-    width: 70px;
-    height: 70px;
-    top: 0;
-    left: 46px;
+    width: 60px;
+    height: 60px;
+
+    left: 60px;
 }
 .avatar_file{
     opacity: 0;
 }
 
-reg.css
+.error {
+    color: red;
+    margin-left: 10px;
+}

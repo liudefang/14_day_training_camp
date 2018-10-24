@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
     <title>Title</title>
-    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.css">
+     <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.css">
     <link rel="stylesheet" href="/static/css/res.css">
     <script src="/static/js/jquery-3.3.1.js"></script>
     <script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
-
 </head>
 <body>
 {#导航条#}
@@ -44,8 +45,8 @@
         <div class="col-md-6 col-md-offset-1">
             <form action="/register/" method="post" novalidate enctype="multipart/form-data">
                 {% csrf_token %}
-                <div class="form-group">
-                    <label for="username" class="control-label">用户名：</label>
+                 <div class="form-group">
+                    <label for="password" class="control-label">用户名：</label>
                     <div>{{ form.username }}<span></span></div>
                 </div>
                 <div class="form-group">
@@ -57,113 +58,91 @@
                     <div>{{ form.password_again }}<span></span></div>
                 </div>
                 <div class="form-group">
-                    <label for="Email" class="control-label">邮箱：</label>
+                    <label for="email" class="control-label">邮箱：</label>
                     <div>{{ form.email }}<span></span></div>
                 </div>
                 <div class="form-group">
-                    <label for="tel" class="control-label">手机号码：</label>
+                    <label for="tel" class="control-label">手机号：</label>
                     <div>{{ form.tel }}<span></span></div>
                 </div>
-                <div class="form-group">
-                    <label for="avatar" class="control-label">头像：</label>
+                <div class="form-group avatar">
+                    <label for="avatar">头像：</label>
                     <img src="/static/image/default.png" alt="" class="avatar_img">
                     <input type="file" id="avatar" name="avatar_file" class="avatar_file">
                 </div>
-                <button type="button" class="btn btn-primary registr_btn">注册</button><span class="error"></span>
+                <button type="button" class="btn btn-primary registr_btn">注册</button><span class="xxx"></span>
             </form>
         </div>
     </div>
     <div class="right">
-{#        <img src="/static/image/lufei.jpg" alt="">#}
+        <img src="/static/image/rigth.png" alt="">
     </div>
-
 </div>
+
+
 <script>
     $(function () {
-        // 给注册按钮添加事件
+        //给注册按钮增加事件
         $(".registr_btn").click(function () {
-            var formData = new FormData();
-            formData.append("username", $("#id_username").val());
-            formData.append("email", $("#id_email").val());
-            formData.append("tel", $("#id_tel").val());
-            formData.append("password", $("#id_password").val());
-            formData.append("password_again", $("#id_password_again").val());
-            formData.append("avatar_img", $("#avatar")[0].files[0]);
+             var formData=new FormData();
+            formData.append("username",$("#id_username").val());
+            formData.append("email",$("#id_email").val());
+            formData.append("tel",$("#id_tel").val());
+            formData.append("password",$("#id_password").val());
+            formData.append("password_again",$("#id_password_again").val());
+            formData.append("avatar_img",$("#avatar")[0].files[0]);
+            console.log("=========",formData);
 
-
+            //先清除错误信息
             $(".pull-right").html("");
             $(".pull-right").parent().removeClass("has-error");
             $.ajax({
                 url:"/register/",
-                type: "post",
+                type:"POST",
                 headers: {"X-CSRFToken": $.cookie('csrftoken')},
                 data:formData,
                 contentType:false,
                 processData:false,
                 success:function (data) {
-
+{#                    console.log(data);#}
                     var data = JSON.parse(data);
-                    if (data["user"]){
-                        $(".error").html("注册成功")
+                    if(data["user"]){  //或者也可以用data.user
+                        $(".xxx").html("注册成功");
                         window.location.href="/login/";
-
                     }
                     else {
-                        // 先清除错误信息
+                        console.log(data.msg_errors);  //拿到的是所有的错误信息
+                        $.each(data.msg_errors,function (i,v) {
+                            console.log(i,v);
+                            $span = $("<span>");//创建一个span标签，方便提示错误信息的时候用
+                            $span.addClass("pull-right").css("color","red");  //设置样式居右并且字体颜色为红色
+                            $span.html(v[0]);//设置span里面的字体
+                              $("#id_"+i).after($span).parent().addClass("has-error");//吧span标签放到每个input的后面显示并且让他的父亲变红，增加一个has-error的类
 
-                        console.log(data.msg_errors);   // 拿到的是所有的错误信息
-                        $.each(data.msg_errors, function (field, error_list) {
-                            console.log(field, error_list);
-                            $span = $("<span>");
-                            $span.addClass("pull-right").css("color", "red");
-
-                            $span.html(error_list[0]);
-                                $("#id_" + field).after($span).parent().addClass("has-error");
-                                 // 错误信息5秒消失
-                                setTimeout(function () {
-                                    $(".pull-right").text("")
-
-                                }, 5000);
-
-                            if (field=="__all__"){
-                                $("#id_password_again").after($span);
-                            }
-
-
-
-
-
-
-
-
+                             if (i=="__all__"){
+                                 $("#id_password_again").after($span)
+                             }
                         });
                     }
-
                 }
             })
         });
 
-        // 头像预览
-        $("#avatar").change(function () {
-            var ele_file = $(this)[0].files[0];     // 当前选中的文件
-            // 获取文件对象的路径
+        //头像预览
+        $(".avatar_file").change(function () {
+            var ele_file = $(this)[0].files[0]; //当前选中的文件
             var reader = new FileReader();
-            reader.readAsDataURL(ele_file);     // 对应找到打开的url
-            console.log(ele_file)
-            // 修改img的src属性，src=文件对象的路径
-            reader.onload = function () {
-                {# 方式一 #}
-                $(".avatar_img").attr("src", this.result);  // this.result上上面找到的url
-                {#  方式二 #}
-                {#                 $(".avatar_img")[0].src=this.result; //设置图片属性#}
-
+            reader.readAsDataURL(ele_file); //对应找到打开的url
+            reader.onload=function () {
+{#                方式一#}
+                $(".avatar_img").attr("src",this.result) ; //this.result是上面找到的url
+{#                方式二#}
+{#                 $(".avatar_img")[0].src=this.result; //设置图片属性#}
             }
-
         })
-
-
-
     })
 </script>
 </body>
 </html>
+
+register.html

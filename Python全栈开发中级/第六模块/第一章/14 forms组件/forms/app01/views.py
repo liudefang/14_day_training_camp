@@ -11,16 +11,23 @@ from django.urls import reverse
 from app01 import models
 from app01.forms import RegisterForm
 
+# if request.method == "POST":
+"""
+两个return是一样的，用url反向解析就相当于下面的路径在urls里面
+协商别名name="index",但在模板中还是要用{%url"index"%}
+"""
+
+
+# return redirect(reverse(index))
+#     return redirect("index.html")   # 跳转到个人主页
+# return render(request, "hh.html")
 
 def index(request):
-    if request.method == "POST":
-        """
-        两个return是一样的，用url反向解析就相当于下面的路径在urls里面
-        协商别名name="index",但在模板中还是要用{%url"index"%}
-        """
-       # return redirect(reverse(index))
-        return redirect("index.html")   # 跳转到个人主页
-    return render(request, "hh.html")
+
+    models.UserInfo.objects.create(username="test", password="123456", email="test@qq.com", ut_id="1")
+    return HttpResponse("OK")
+
+
 
 
 # 1、创建规则
@@ -72,6 +79,7 @@ def register(request):
     if request.method == "GET":
         form = RegisterForm()
         return render(request, "register.html", {"form": form})
+        # return render(request, "reg.html", {"form": form})
     else:
         form = RegisterForm(data = request.POST)
         regresponse = {"user": None, 'msg_errors': None}

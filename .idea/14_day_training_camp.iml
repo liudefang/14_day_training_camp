@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第二章/myblog" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/作业/第十四作业/myblog" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/14 forms组件/forms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/15 中介模型/test_mid" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -20,11 +22,12 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/作业/第十三次作业/bookms/templates" />
+        <option value="$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/14 forms组件/forms/templates" />
       </list>
     </option>
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="py.test" />
+    <option name="projectConfiguration" value="pytest" />
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>
