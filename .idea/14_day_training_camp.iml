@@ -6,8 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/作业/第十四作业/myblog" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/14 forms组件/forms" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/15 中介模型/test_mid" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第七模块/rbac" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Automated_Test_Platform" />
     <orderEntry type="module" module-name="myblog" />
@@ -16,6 +18,8 @@
     <orderEntry type="module" module-name="pageDemo" />
     <orderEntry type="module" module-name="middlewareDemo" />
     <orderEntry type="module" module-name="forms" />
+    <orderEntry type="module" module-name="zkb_api" />
+    <orderEntry type="module" module-name="Automated_Test_Platform" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
