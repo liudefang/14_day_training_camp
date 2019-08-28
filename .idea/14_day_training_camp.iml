@@ -20,6 +20,8 @@
     <orderEntry type="module" module-name="forms" />
     <orderEntry type="module" module-name="zkb_api" />
     <orderEntry type="module" module-name="Automated_Test_Platform" />
+    <orderEntry type="module" module-name="lcsmp" />
+    <orderEntry type="module" module-name="Automated_Test_Api" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />

@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/14_day_training_camp.iml" filepath="$PROJECT_DIR$/.idea/14_day_training_camp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../python/Automated_Test_Api/.idea/Automated_Test_Api.iml" filepath="$PROJECT_DIR$/../../python/Automated_Test_Api/.idea/Automated_Test_Api.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Automated_Test_Platform/.idea/Automated_Test_Platform.iml" filepath="$PROJECT_DIR$/../../Automated_Test_Platform/.idea/Automated_Test_Platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/14 forms组件/forms/.idea/forms.iml" filepath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/14 forms组件/forms/.idea/forms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../python/lcsmp/.idea/lcsmp.iml" filepath="$PROJECT_DIR$/../../python/lcsmp/.idea/lcsmp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/13 中间件/middlewareDemo/.idea/middlewareDemo.iml" filepath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/13 中间件/middlewareDemo/.idea/middlewareDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/12 分页器/pageDemo/.idea/pageDemo.iml" filepath="$PROJECT_DIR$/Python全栈开发中级/第六模块/第一章/12 分页器/pageDemo/.idea/pageDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../python/zkb_api/.idea/zkb_api.iml" filepath="$PROJECT_DIR$/../../python/zkb_api/.idea/zkb_api.iml" />
