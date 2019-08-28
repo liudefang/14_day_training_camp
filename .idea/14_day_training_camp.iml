@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/14 forms组件/forms" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/15 中介模型/test_mid" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第七模块/rbac" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/10 bookms2" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
