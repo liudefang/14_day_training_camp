@@ -26,10 +26,40 @@
                 sendAjax(){
                     // 发送get请求
                     axios.get('http://127.0.0.1:8800')
-                        .then
+                        .then(res=>{
+                            console.log(res.data);
+                            console.log(typeof res.data);
+                            this.msg = res.data;
+                        })
+                        .catch(err=>{
+                            console.log(err);
+                        })
+                },
+                sendAjaxByPost(){
+                    var params = new URLSearchParams();
+                    params.append('name', 'alex');
+                    axios.post('http://127.0.0.1:8800/create', params).then(function (res) {
+                        console.log(res);
+
+
+                    }).catch(err=>{
+                        console.log(err);
+                    })
                 }
             }
         }
+        new Vue({
+            el:'#app',
+            data(){
+                return {
+
+                }
+            },
+            components:{
+                App
+            },
+            template: `<App />`
+        })
     </script>
 </body>
 </html>
