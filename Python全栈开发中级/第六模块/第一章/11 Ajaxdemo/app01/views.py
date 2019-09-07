@@ -18,7 +18,7 @@ def index(request):
     if not request.user.is_authenticated():
         return redirect("/login/")
     else:
-        return render(request, "index.html")
+        return render(request, "01-module.html")
 
 
 def log_out(request):

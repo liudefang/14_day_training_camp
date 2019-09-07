@@ -23,6 +23,8 @@
     <orderEntry type="module" module-name="Automated_Test_Platform" />
     <orderEntry type="module" module-name="lcsmp" />
     <orderEntry type="module" module-name="Automated_Test_Api" />
+    <orderEntry type="module" module-name="vue-project" />
+    <orderEntry type="module" module-name="my-project" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />

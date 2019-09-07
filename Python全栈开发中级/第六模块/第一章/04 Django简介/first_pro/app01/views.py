@@ -29,7 +29,7 @@ def index(request):
     now = datetime.datetime.now()
     ctime = now.strftime("%Y-%m-%d %X")
 
-    return render(request, "index.html", {"ctime": ctime})
+    return render(request, "01-module.html", {"ctime": ctime})
 
 def path_year(request, year):
     print(year)
@@ -53,7 +53,7 @@ def login(request):
     print(request.method)
 
     if request.method=="GET":
-        return render(request, "index.html")
+        return render(request, "01-module.html")
     else:
         print(request.GET)
         print(request.POST)

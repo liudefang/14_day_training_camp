@@ -109,7 +109,7 @@ def index(request):
     :return:
     """
     article_list = models.Article.objects.all()
-    return render(request, "index.html", {"article_list": article_list})
+    return render(request, "01-module.html", {"article_list": article_list})
 
 
 def home_site(request, username, **kwargs):

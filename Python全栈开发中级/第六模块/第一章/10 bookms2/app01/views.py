@@ -10,7 +10,7 @@ from app01 import models
 
 
 def index(request):
-    return render(request, "index.html")
+    return render(request, "01-module.html")
 
 
 # 注册
@@ -58,12 +58,12 @@ def login(request):
             response = HttpResponseRedirect("/books/")
             return response
         elif user is None:
-            return render(request, "index.html", {"s1": "用户名不存在!"})
+            return render(request, "01-module.html", {"s1": "用户名不存在!"})
         else:
             s = "用户名或密码错误"
-            return render(request, "index.html", {"s": s})
+            return render(request, "01-module.html", {"s": s})
 
-    return render(request, "index.html")
+    return render(request, "01-module.html")
 
 
 @login_required
