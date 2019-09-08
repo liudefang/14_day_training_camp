@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/15 中介模型/test_mid" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第七模块/rbac" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第六模块/第一章/10 bookms2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第九模块/vue-lesson/06-vue-cli脚手架的使用/02-webpack_project/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python全栈开发中级/第九模块/vue-lesson/07-luffy_project" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
@@ -23,6 +25,9 @@
     <orderEntry type="module" module-name="Automated_Test_Platform" />
     <orderEntry type="module" module-name="lcsmp" />
     <orderEntry type="module" module-name="Automated_Test_Api" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />

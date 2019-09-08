@@ -1,6 +1,6 @@
 <template>
   <!-- element-ui -->
- <el-container>
+  <el-container>
       <el-header height = '80px' >
             <div class="header">
                 <div class="nav-left">
@@ -15,10 +15,10 @@
                   		</li>
                   	</ul>
                 </div>
-                
+
                 <!-- <el-dropdown> -->
 
-               <div class="nav-right " v-if = 'userInfo.access_token' @mouseenter = 'enterHandler' @mouseleave ='leaveHandler'>
+               <!--<div class="nav-right " v-if = 'userInfo.access_token' @mouseenter = 'enterHandler' @mouseleave ='leaveHandler'>
                   <span class = 'el-dropdown-link'>学习中心</span>
                  	<span class="user">{{userInfo.username}}</span>
                  	<img :src="userInfo.avatar" alt="">
@@ -48,9 +48,9 @@
                         <i>></i>
                       </li>
                   </ul>
-                </div> 
+                </div>-->
               <!-- </el-dropdown> -->
-                <div class="nav-right" v-else>
+                <div class="nav-right">
                   <span>登录</span>
                   &nbsp;| &nbsp;
                   <span>注册</span>
@@ -61,10 +61,13 @@
     </el-container>
 
 
+
+
 </template>
 
+
 <script>
-  export default {
+export default {
   name: 'LuffyHeader',
   data(){
     return {
@@ -74,30 +77,11 @@
       {id:'3',name:'LightCourse',title:'轻课'},
       {id:'4',name:'Micro',title:'学位课程'}
     ],
-    isShow:false
+
  
     }
-  },
-  methods:{
-    shopCartInfo(){
-        this.$router.push({
-            name:'purchase.shop'
-        })
-    },
-    enterHandler(){
-      this.isShow = true;
-    },
-    leaveHandler(){
-      this.isShow = false;
-    }
-
-  },
-  computed:{
-    userInfo(){
-      console.log(this.$store.state.userInfo);
-      return this.$store.state.userInfo;
-    }
   }
+
 };
 </script>
 
@@ -119,7 +103,7 @@
 .nav-center{
   float: left;
   margin-left: 100px;
-  width: 
+  width:
 }
 .nav-center ul{
 	overflow: hidden;
