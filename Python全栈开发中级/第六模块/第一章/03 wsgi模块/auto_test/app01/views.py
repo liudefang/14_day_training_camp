@@ -11,13 +11,13 @@ from urllib.parse import parse_qs
 
 def login(environ):
 
-    with open("templates/index.html", "rb") as f:
+    with open("templates/01-module.html", "rb") as f:
         data = f.read()
     return data
 
 def index(environ):
 
-    with open("templates/index.html", "rb") as f:
+    with open("templates/01-module.html", "rb") as f:
         data = f.read()
     return data
 

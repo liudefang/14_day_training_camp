@@ -1,6 +1,6 @@
 //自带nodejs环境  cmd规范
 // module.exports = {}
-// var a = require('./webpack.config.js')
+// var a = require('./webpack.dev.config.js')
 
 // nodejs中内容模块
 var path = require('path');
@@ -36,7 +36,7 @@ module.exports = {
 	// 插件
 	plugins:[
 		new HtmlWebpackPlugin({
-			template:'./index.html',//参照物
+			template:'./01-module.html',//参照物
 		})
 	]
 

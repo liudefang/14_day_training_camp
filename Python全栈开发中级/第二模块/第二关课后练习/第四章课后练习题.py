@@ -53,10 +53,10 @@ logger.error("account [1234] too many login attempts")
 #
 # '''
 # Linux当前目录/usr/local/nginx/html/
-# 文件名：index.html
+# 文件名：01-module.html
 # '''
 # import os
-# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(index.html)))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(01-module.html)))
 # print(BASE_DIR)
 # 打印的内容是什么？
 # os.path.dirname和os.path.abspath含义是什么？

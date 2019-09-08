@@ -45,8 +45,8 @@ def index(request):
     link = "<a href=''>click</a>"
     ########### 标签
     user = "mike"
-    # return render(request, "index.html", {"l": l, "dic": dic, "date": date, "person_list": person_list})
-    return render(request, "index.html", locals())
+    # return render(request, "01-module.html", {"l": l, "dic": dic, "date": date, "person_list": person_list})
+    return render(request, "01-module.html", locals())
 
 
 def login(request):
@@ -54,7 +54,7 @@ def login(request):
     if request.method=="POST":
         return HttpResponse("OK")
 
-    return render(request, "index.html")
+    return render(request, "01-module.html")
 
 
 def orders(request):

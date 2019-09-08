@@ -11,7 +11,7 @@ from app01 import models
 #     book_list = models.Book.objects.all()
 #     print(book_list)
 #
-#     return render(request, "index.html", {"book_list": book_list})
+#     return render(request, "01-module.html", {"book_list": book_list})
 
 
 # -------------添加记录-------------
@@ -110,4 +110,4 @@ def db_index(request):
     #return render(request, "db_index.html")
 
 def index(request):
-    return render(request, "index.html")
+    return render(request, "01-module.html")

@@ -184,7 +184,7 @@ vue这个框架 将 做减法的事情都给咱们做了(难的部分)
 
    ```javascript
 
-var App = {
+var Appjs = {
     tempalte:`
       <div class='app'></div>`
 };
@@ -194,9 +194,9 @@ var App = {
 new Vue({
     el:"#app",
     //用子	
-    template:<App />
+    template:<Appjs />
     components:{
-       App
+       Appjs
     }
 
 })

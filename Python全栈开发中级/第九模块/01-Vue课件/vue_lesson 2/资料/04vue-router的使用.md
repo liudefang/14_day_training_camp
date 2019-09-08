@@ -52,7 +52,7 @@
 	
 	4.路由对象挂载到vue实例化对象中
 	
-	var App = {
+	var Appjs = {
 			template:`
 				<div>
 					<!--router-link默认会被渲染成a标签 to属性默认会被渲染成href属性-->
@@ -70,11 +70,11 @@
 		new Vue({
 			el:'#app',
 			components:{
-				App
+				Appjs
 			},
 			//挂载
 			router,
-			template:`<App />`
+			template:`<Appjs />`
 		});
 
 #### 命名路由 

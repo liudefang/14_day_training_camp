@@ -18,11 +18,11 @@ def application(environ, start_response):
     start_response('200 OK', [])
 
     if path=="/login":
-        with open("index.html","rb") as f:
+        with open("01-module.html","rb") as f:
 
             data=f.read()
     elif path=="/index":
-        with open("index.html","rb") as f:
+        with open("01-module.html","rb") as f:
             data=f.read()
 
     return data

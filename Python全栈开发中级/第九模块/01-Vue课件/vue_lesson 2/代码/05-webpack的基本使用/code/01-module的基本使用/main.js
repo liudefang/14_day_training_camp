@@ -4,10 +4,10 @@
 import Vue from './vue.js'
 
 //再导入
-// import App from './App.js'
+// import App.js from './App.js.js'
 
 // 对象的解构
-// import {num,num2,add} from './App.js'
+// import {num,num2,add} from './App.js.js'
 
 
 import * as  object from './App.js'
